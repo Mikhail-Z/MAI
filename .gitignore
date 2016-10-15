@@ -1,0 +1,15 @@
+*.pro*
+
+*.pri
+
+*.txt
+
+*.doc*
+
+*.jpeg
+
+*.png
+
+*.obj
+
+*.exe
