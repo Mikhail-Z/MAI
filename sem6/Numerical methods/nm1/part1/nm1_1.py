@@ -26,7 +26,7 @@ for i in range(size):
     np.append(M, [[0 for i in range(size)]])
 
 L = np.ones((size, size))
-L.fill(1)
+
 
 def error():
     print()
@@ -46,10 +46,12 @@ for k in range(size-1):
         for j in range(size):
             if i == j:
                 M[i, j] = 1
-            elif i != j and j == k:
+            elif j == k and i > k:
                 M[i, j] = -coefficients[i, k]/coefficients[k, k]
             else:
                 M[i, j] = 0
+    print(M)
     coefficients = M*coefficients
-    L = L*M
+    # L = L*M
+
 print(coefficients)
