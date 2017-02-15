@@ -20,13 +20,11 @@ def permutation_if_rows(coefficients, start, finish=len(coefficients)):
     return False
 
 
-M = np.ones((size, size))
+M = np.matrix(np.zeros((size, size)))
+#for i in range(size):
+#    np.append(M, [[0 for i in range(size)]])
 
-for i in range(size):
-    np.append(M, [[0 for i in range(size)]])
-
-L = np.ones((size, size))
-
+L = np.matrix(np.identity(size))
 
 def error():
     print()
@@ -41,17 +39,24 @@ def preprocessing(coefficients):
 
 
 preprocessing(coefficients)
+reverse_M = np.matrix(np.zeros((size, size)))
+
 for k in range(size-1):
     for i in range(size):
         for j in range(size):
             if i == j:
                 M[i, j] = 1
+                reverse_M[i, j] = 1
             elif j == k and i > k:
                 M[i, j] = -coefficients[i, k]/coefficients[k, k]
+                reverse_M[i, j] = coefficients[i, k]/coefficients[k, k]
             else:
                 M[i, j] = 0
-    print(M)
+                reverse_M[i, j] = 0
+
     coefficients = M*coefficients
-    # L = L*M
+    L = L*reverse_M
 
 print(coefficients)
+print(L)
+print(L*coefficients)
