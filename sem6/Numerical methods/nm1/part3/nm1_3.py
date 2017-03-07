@@ -5,7 +5,7 @@ import sys
 
 logging.basicConfig(format=u'%(message)s', level=logging.DEBUG, filename=u'mylog.log', filemode='w')
 
-EPS = 0.001
+EPS = 0.01
 
 
 def load_data(filepath):
@@ -68,3 +68,28 @@ if __name__ == "__main__":
             logging.info("delta: {0}\n".format(delta))
             print("lambda: {0}\n".format(delta))
             k += 1
+
+        x.clear()
+        x.append(np.matrix(np.zeros((size, 1))))
+        alpha = np.zeros((size, size))
+        beta = np.matrix(np.zeros((size, 1)))
+        delta = EPS + 1
+        k = 0
+        while True:
+            for i in range(size):
+                for j in range(size):
+                    if i != j:
+                        alpha[i, j] = -a[i][j]/a[i][i]
+                        logging.info("alpha[{i}][{j}]: {a}\n".format(i=i, j=j, a=alpha[i, j]))
+                beta[i, 0] = b[i]/a[i][i]
+            print("-"*10)
+            x.append(beta + alpha * x[len(x)-1])
+
+            # delta = max([np.sum([abs(alpha[i, :]) for i in range(size)])])
+            k += 1
+            delta = max(list(map(lambda a, b: abs(a - b), x[k], x[k - 1])))
+            if delta < EPS:
+                break
+
+            print(x[len(x) - 1])
+            print("k: ", k)
