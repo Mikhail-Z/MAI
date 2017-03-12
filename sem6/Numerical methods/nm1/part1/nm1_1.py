@@ -5,8 +5,6 @@ import sys
 
 logging.basicConfig(format=u'%(funcName)s %(message)s', level=logging.DEBUG, filename=u'mylog.log', filemode='w')
 
-num_of_permutations = 0
-
 
 def load_data(filepath):
     list_of_coefficients = []
@@ -24,30 +22,14 @@ def load_data(filepath):
         return None
 
 
-def permutation_of_rows(coefficients, free_coefficients, start, finish):
+def permutation_of_rows(coefficients, start, finish):
     for i in range(start, finish):
         if coefficients[i, i] != 0:
             tmp_row = coefficients[start]
-            tmp_free_member = free_coefficients[start]
             coefficients[start] = coefficients[i]
             coefficients[i] = tmp_row
-            free_coefficients[start] = free_coefficients[i]
-            free_coefficients[i] = tmp_free_member
             return i
     return None
-
-
-def preprocessing(coefficients, free_coefficients):
-    global num_of_permutations
-    size = len(coefficients)
-    for i in range(len(coefficients)-1):
-        if coefficients[i, i] == 0:
-            permutation_row = permutation_of_rows(coefficients, size, free_coefficients, i)
-            if permutation_row is None:
-                print("Can't get bearing element")
-                logging.error("Can't get bearing element\n")
-            else:
-                num_of_permutations += 1
 
 
 def linear_system_solution(L, U, b):
@@ -71,33 +53,56 @@ def linear_system_solution(L, U, b):
 
 
 def get_inverse_matrix(matr):
-    determinant = find_determinant(coefficients)
-    logging.info("Determinant:{0}\n".format(determinant))
-    transposed_matr = get_transposition_matr(matr)
-    logging.info("Transposed matrix:\n{0}\n".format(transposed_matr))
-    inverse_matr = transposed_matr/determinant
-    logging.info("Inverse matrix:\n{0}\n".format(transposed_matr))
-    return inverse_matr
+    print(matr)
+    size = len(matr)
+    matr = np.concatenate((matr, np.eye(size)), axis=1)
+    for i in range(size):
+        if matr[i, i] == 0:
+            index = find_i_of_max_elem(matr[:, i], i, size)
+            permutation_of_rows(matr, i, index)
+        for j in range(i+1, size):
+            print(matr[j])
+            matr[j] -= matr[j, i]* matr[i]/matr[i, i]
+            print(matr[j])
+            print("-"*10)
+    print(matr)
+    x = np.zeros((size, size))
+    for i in range(size):
+        x[size-1, i] = matr[size-1, size+i]/matr[size-1, size-1]
+        for j in range(size-2, -1, -1):
+            print("sum:",np.sum(list(map(lambda a, b: a*b, x[j+1:size, i], matr[j, j+1:size])))/matr[j, j])
+            print(x[j+1:size, i], matr[j, j+1:size])
+            x[j, i] = (matr[j, size + i] - np.sum(list(map(lambda a, b: a*b, x[j+1:size, i], matr[j, j+1:size]))))/matr[j, j]
+    print(x)
+    return x
 
 
 def get_transposition_matr(matr):
     new_matr = np.copy(matr)
     size = len(matr)
-    row = [None]*size
-    for i in range(size-1, -1, -1):
+    print(type(matr))
+    row = np.array((size, 1))
+    for i in range(size):
+        row = matr[:, i]
+        print("ROW:")
+        print(row)
+        print(new_matr[i, :])
         for j in range(size):
-            row[j] = matr[j, i]
-        new_matr[size-i-1] = row
+            new_matr[i, j] = row[j, 0]
     return new_matr
 
 
-def find_determinant(U):
-    k = (-1)**(num_of_permutations)
-    determinant = 1
-    for i in range(size):
-        determinant *= U[i, i]
-    return k*determinant
-
+def find_i_of_max_elem(row, start, finish):
+    max_elem = 0
+    i_max = start
+    for i in range(start, finish):
+        if abs(row[i]) > max_elem:
+            max_elem = abs(row[i])
+            i_max = i
+    if max_elem != 0:
+        return i_max
+    else:
+        return None
 
 if __name__ == "__main__":
     if (len(sys.argv)== 2):
@@ -113,7 +118,6 @@ if __name__ == "__main__":
         logging.error("No input file")
         sys.exit(1)
     logging.info("Coefficients in equations:\n{0}\n".format(coefficients))
-    preprocessing(coefficients, free_members)
     size = len(coefficients)
     M = np.matrix(np.zeros((size, size)))
     L = np.matrix(np.identity(size))
@@ -127,6 +131,16 @@ if __name__ == "__main__":
                     M[i, j] = 1
                     reverse_M[i, j] = 1
                 elif j == k and i > k:
+                    if coefficients[k, k] == 0:
+                        i_max = find_i_of_max_elem(coefficients[:, k], i+1, size)
+                        if i_max is None:
+                            print("Error")
+                            sys.exit()
+                        else:
+                            print("NULL")
+                            print(coefficients)
+                            permutation_of_rows(coefficients, free_members, i, i_max)
+                            print(coefficients)
                     M[i, j] = round(-coefficients[i, k] / coefficients[k, k], 3)
                     reverse_M[i, j] = round(coefficients[i, k] / coefficients[k, k], 3)
                 else:
@@ -145,4 +159,5 @@ if __name__ == "__main__":
     coefficients = L*coefficients  # снова получаем исходную матрицу
     logging.info("Coefficients check (L*U):\n{0}\n".format(coefficients))
     reverse_matrix = get_inverse_matrix(coefficients)
+    print("reversed matrix:")
     print(reverse_matrix)
