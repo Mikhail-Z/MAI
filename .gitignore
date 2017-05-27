@@ -17,3 +17,7 @@
 *.dat
 
 *.bin
+
+*.idea
+
+*.egg
