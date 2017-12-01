@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Поликлиника №14. Добро пожаловать!</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+{% if user.is_authenticated %}
+<div class="container">
+    <div class="row text-center">
+        <a href="{% url 'hospitalapp:logout' %}">
+            <button class="btn alert-danger">Выйти из системы</button>
+        </a>
+    </div>
+</div>
+{% endif %}
+<div class="text-center" style="margin-top: 10%">
+    <h3>Кто вы?</h3>
+</div>
+<div class="row text-center" style="margin-top: 4%">
+    <a href="./patient/">
+        <button class="btn btn-lg">
+            Я пациент
+        </button>
+    </a>
+</div>
+<div class="row text-center" style="margin-top: 2%">
+    <a href="./doctor/">
+        <button class="btn btn-lg">
+            Я работник этой поликлиники
+        </button>
+    </a>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

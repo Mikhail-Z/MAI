@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Мои записи к врачам</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+{% if user.is_authenticated %}
+<div class="container">
+    <div class="row text-center">
+        <a href="{% url 'hospitalapp:logout' %}">
+            <button class="btn alert-danger" id="logout_btn">Выйти из системы</button>
+        </a>
+    </div>
+</div>
+{% endif %}
+
+<div class="container text-center">
+    <h2>Ваши активные записи к врачам</h2>
+    <table class="table table-stripped">
+        <thead>
+        <tr>
+            <th>Специализация врача</th>
+            <th>Фамилия</th>
+            <th>Имя</th>
+            <th>Отчество</th>
+            <th>Дата и время приёма</th>
+        </tr>
+        </thead>
+        <tbody>
+            {% for appointment in appointments %}
+                <tr>
+                    <th>{{ appointment.0 }}</th>
+                    <th>{{ appointment.1 }}</th>
+                    <th>{{ appointment.2 }}</th>
+                    <th>{{ appointment.3 }}</th>
+                    <th>{{ appointment.4 }}</th>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<div class="container text-center">
+{% if appointments.has_other_pages %}
+    <ul class="pagination">
+        {% if appoinments.has_previous %}
+            <li><a href="?page={{ appointments.previous_page_number }}">&laquo;</a></li>
+        {% else %}
+            <li class="disabled"><span>&laquo;</span></li>
+        {% endif %}
+
+        {% for i in appointments.paginator.page_range %}
+            {% if appointments.number == i %}
+                <li class="active"><span>{{i}}<span class="sr-only">(current)</span></span></li>
+            {% else %}
+                <li ><a href="?page={{i}}">{{i}}</a></li>
+            {% endif %}
+        {% endfor %}
+        {% if appointments.has_next %}
+            <li><a href="?page={{appointments.next_page_number}}">&raquo;</a></li>
+        {% else %}
+            <li class="disabled"><span>&raquo;</span></li>
+        {% endif %}
+    </ul>
+{% endif %}
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

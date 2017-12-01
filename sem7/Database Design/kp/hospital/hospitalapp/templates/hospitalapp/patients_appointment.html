@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Запись пациентов</title>
+</head>
+<body>
+<table style="width: 80%; align-content: center">
+    <tr>{% for col_name in col_names %}
+        <th>
+            {{ col_name }}
+        </th>
+        {% endfor %}
+    </tr>
+    <tr>{% for appointment in appointments %}
+        <td>
+            {{ appointment.0 }}
+        </td>
+        <td>
+            {{ appointment.1 }}
+        </td>
+        <td>
+            {{ appointment.2 }}
+        </td>
+        {% endfor %}
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Пациент не найден в базе</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+{% if user.is_authenticated %}
+<div class="container">
+    <div class="row text-center">
+        <a href="{% url 'hospitalapp:logout' %}">
+            <button class="btn alert-danger" id="logout_btn">Выйти из системы</button>
+        </a>
+    </div>
+</div>
+{% endif %}
+<div class="row" style="margin-top: 8%">
+    <div class="col-md-8 col-md-offset-2">
+        <p>
+            В системе нет пациента с таким логином/паролем. Это могло произойти по следующим причинам:
+            <ol>
+                <li>
+                    Вы неправильно ввели свой логин/пароль. Попробуйте ещё раз.
+                </li>
+                <li>
+                    Вас не успели внести в базу данных пациентов поликлиники. Обратитесь в регистратуру за разъяснениями.
+                </li>
+            </ol>
+        </p>
+    </div>
+</div>
+<div class="row text-center">
+    <a href="{% url 'hospitalapp:index' %}"><button class="btn btn-lg btn-success">
+        Перейти на главную страницу
+    </button>
+    </a>
+    <a href="{% url 'hospitalapp:patient_login' %}"><button class="btn btn-lg btn-primary">
+        Перейти обратно к вводу паролю
+    </button>
+    </a>
+</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Запись к врачу</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+{% if user.is_authenticated %}
+<div class="container">
+    <div class="row text-center">
+        <a href="{% url 'hospitalapp:logout' %}">
+            <button class="btn alert-danger" id="logout_btn">Выйти из системы</button>
+        </a>
+    </div>
+</div>
+{% endif %}
+<div class="row" id="main">
+    <div class="col-md-4 text-center" id="specialization_col">
+        <h2>
+            Выбор профиля специалиста
+        </h2>
+        {% for spec in doctor_specializations %}
+        <button class="btn btn-default" value={{ spec.specialization_id }}>
+            {{ spec.specialization_name }}
+        </button>
+        {% endfor %}
+    </div>
+    <div class="col-md-4 text-center" id="time_choosing_col">
+        <h2>
+            Выбор времени приёма
+        </h2>
+    </div>
+    <div class="col-md-4 text-center" id="doctor_choosing_col">
+        <h2>
+            Выбор врача
+        </h2>
+    </div>
+</div>
+<div class="row text-center">
+    <a href="{% url 'hospitalapp:appointment' %}">
+        <button type="button" class="btn btn-primary disabled" id="submit_btn">Записаться</button>
+    </a>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../../static/appointment.js"></script>
+</body>
+</html>

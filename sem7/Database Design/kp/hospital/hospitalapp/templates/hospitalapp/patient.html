@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Мои записи к врачам</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+{% if user.is_authenticated %}
+<div class="container">
+    <div class="row text-center">
+        <a href="{% url 'hospitalapp:logout' %}">
+            <button class="btn alert-danger" id="logout_btn">Выйти из системы</button>
+        </a>
+    </div>
+</div>
+{% endif %}
+
+<div class="row text-center" style="margin-top: 10%">
+    <h2>Вы хотите</h2>
+</div>
+<div class="row text-center">
+    <a href="{% url 'hospitalapp:appointment' %}">
+        <button class="btn btn-lg btn-success">Записаться к врачу</button>
+    </a>
+    <a href="{{ my_appointments_url }}">
+        <button class="btn btn-lg btn-primary">Посмотреть свои текущие записи</button>
+    </a>
+</div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
