@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Мои записи к врачам</title>
-    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="../../static/css/bootstrap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
 {% if user.is_authenticated %}
-<div class="container">
+<div class="container" style="margin-top: 5px">
     <div class="row text-center">
         <a href="{% url 'hospitalapp:logout' %}">
             <button class="btn alert-danger" id="logout_btn">Выйти из системы</button>
@@ -17,15 +17,15 @@
 </div>
 {% endif %}
 
-<div class="row text-center" style="margin-top: 10%">
+<div class="text-center" style="margin-top: 10%; margin-bottom: 10%">
     <h2>Вы хотите</h2>
 </div>
 <div class="row text-center">
-    <a href="{% url 'hospitalapp:appointment' %}">
-        <button class="btn btn-lg btn-success">Записаться к врачу</button>
+    <a style="color: white" href="{% url 'hospitalapp:appointment' %}">
+        <button style="width: 300px; margin-right: 10px" class="btn btn-lg btn-success">Записаться к врачу</button>
     </a>
     <a href="{{ my_appointments_url }}">
-        <button class="btn btn-lg btn-primary">Посмотреть свои текущие записи</button>
+        <button style="width: 300px; margin-left: 10px" class="btn btn-lg btn-primary">Посмотреть свои текущие записи</button>
     </a>
 </div>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

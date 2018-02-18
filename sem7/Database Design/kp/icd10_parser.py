@@ -1,102 +1,136 @@
 import urllib.request
-import requests
 from bs4 import BeautifulSoup
 import os
-from sys import argv
 import csv
-
-URL = 'http://mkb-10.com/'
-
-
-def get_icd10_classes(soup):
-    classes_raw_content = soup.find('div', class_='content').find_all('a')
-    icd10_class_names_and_links = [[raw_icd10_class['href'], raw_icd10_class['title']] for raw_icd10_class in classes_raw_content]
-    return icd10_class_names_and_links
+from collections import namedtuple
+import argparse
 
 
-def get_icd10_subclasses(soup):
-    subclasses_raw_content = soup.find('div', class_='content').find_all('div', class_='h2')
-    icd10_subclass_names_and_links = [[raw_icd10_subclass.find('a')['href'], raw_icd10_subclass.find('a').contents[0]] for raw_icd10_subclass in subclasses_raw_content]
-    return icd10_subclass_names_and_links
+URL = 'http://mkb-10.com'
+DEFAULT_FILENAME_TO_SAVE = 'icd10_base.csv'
+counter = 0
 
 
-def get_subclass_group(soup):
-    groups_raw_content = soup.find('div', class_='content').find_all('div', class_='h2')
-    group_names_and_links = []
-    for raw_group in groups_raw_content:
-        if raw_group.find('a'):
-            group_names_and_links.append([raw_group.find('a')['href'], raw_group.find('a').contents[0]])
-        else:
-            group_names_and_links.append([None, raw_group.find('div', class_=None).find('b').contents[0]])
-    return group_names_and_links
+Illness = namedtuple('Illness', ['doctor_id', 'parent_id', 'url', 'level', 'code', 'name'])
 
 
-def get_subclass_subgroup(soup):
-    subgroups_raw_content = soup.find('div', class_='content').find_all('div', class_='h2')
-    illnesses_or_subgroups = []
-
-    for raw_subgroup in subgroups_raw_content:
-        if raw_subgroup.find('a'):
-            illnesses_or_subgroups.append([raw_subgroup.find('a')['href'], raw_subgroup.find('a').contents[0]])
-        else:
-            illnesses_or_subgroups.append([None, raw_subgroup.find('div', class_=None).find('b').contents[0]])
-    return illnesses_or_subgroups
-
-
-def get_illness(soup):
-    illnesses_raw_content = soup.find('div', class_='content').find_all('div', class_='h2')
+def get_classes(soup):
+    global counter
+    raw_classes_info = soup.find('main', id='cnt')
+    raw_classes_names = raw_classes_info.find_all('a')
+    raw_classes_codes = raw_classes_info.find_all('b')
     illnesses = []
-    for raw_illness in illnesses_raw_content:
-        if raw_illness.find('div', class_=None).find('b') is None:
-            print(raw_illness)
-        else:
-            illnesses.append(raw_illness.find('div', class_=None).find('b').contents[0])
+    for raw_class_name, raw_class_code in zip(raw_classes_names, raw_classes_codes):
+        counter += 1
+        illness = Illness(
+            id=counter,
+            parent_id=None,
+            url=raw_class_name['href'],
+            level=1,
+            code=raw_class_code.contents[0],
+            name=raw_class_name.contents[0]
+        )
+        illnesses.append(illness)
+    for illness in illnesses.copy():
+        print(illness.code)
+        page = urllib.request.urlopen('{}{}'.format(URL, illness.url))
+        soup = BeautifulSoup(page, "table_row.parser")
+        illnesses += get_subclasses(soup, illness.id, illness.level+1)
+
     return illnesses
 
 
-if __name__=="__main__":
-    if len(argv) == 1:
-        print("Enter filename to save: ")
-        filename = input()
-    else:
-        filename = argv[1]
-    page = urllib.request.urlopen(URL)
-    soup = BeautifulSoup(page, "html.parser")
-    icd10_class_names_and_links = get_icd10_classes(soup)
-    for idx, link_to_class in enumerate([icd_10_class_and_link[0] for icd_10_class_and_link in icd10_class_names_and_links]):
-        if link_to_class is None:
-            continue
-        full_url = URL[:-1] + link_to_class
-        page = urllib.request.urlopen(full_url)
-        soup = BeautifulSoup(page, "html.parser")
-        icd10_subclass_names_and_links = get_icd10_subclasses(soup)
-        icd10_class_names_and_links[idx].append(icd10_subclass_names_and_links)
-        for jdx, link_to_subclass in enumerate([icd10_subclass_and_link[0] for icd10_subclass_and_link in icd10_subclass_names_and_links]):
-            if link_to_subclass is None:
-                continue
-            full_url = URL[:-1] + link_to_subclass
-            page = urllib.request.urlopen(full_url)
-            soup = BeautifulSoup(page, "html.parser")
-            #a = icd10_subclass_names_and_links[jdx][1]
-            group_names_and_links = get_subclass_group(soup)
-            icd10_class_names_and_links[idx][2][jdx].append(group_names_and_links)
-            for kdx, link_to_subclass in enumerate(
-                [group_and_link[0] for group_and_link in group_names_and_links]):
-                if link_to_subclass is None:
-                    continue
-                full_url = URL[:-1] + link_to_subclass
-                page = urllib.request.urlopen(full_url)
-                soup = BeautifulSoup(page, "html.parser")
-                #b = [group_and_link1[1] for group_and_link1 in group_names_and_links if group_and_link1[0] is not None][kdx]
-                illnesses = get_subclass_subgroup(soup)
-                icd10_class_names_and_links[idx][2][jdx][2][kdx].append(illnesses)
-                for ldx, link_to_illness in enumerate([illness[0] for illness in illnesses]):
-                    if link_to_illness is None:
-                        continue
-                    full_url = URL[:-1] + link_to_illness
-                    page = urllib.request.urlopen(full_url)
-                    soup = BeautifulSoup(page, "html.parser")
-                    illnesses2 = get_illness(soup)
-                    icd10_class_names_and_links[idx][2][jdx][2][kdx][2][ldx].append(illnesses2)
+def get_subclasses(soup, parent_id, level):
+    global counter
+    raw_classes_names = []
+    for raw_info in soup.find('main', id='cnt').find_all('div', class_='h2'):
+        if raw_info.find('a'):
+            raw_classes_names.append(raw_info.find('a'))
+        else:
+            raw_classes_names.append(raw_info.find('div', attrs={'class': None}).find('b'))
+    raw_classes_codes = [
+        raw_info.find('div', class_='code').find('b') for raw_info in
+        soup.find('main', id='cnt').find_all('div', class_='h2')
+    ]
+    illnesses = []
+    for raw_class_name, raw_class_code in zip(raw_classes_names,
+                                              raw_classes_codes):
+        counter += 1
+        try:
+            url = raw_class_name['href']
+        except KeyError:
+            url = None
+        illness = Illness(
+            id=counter,
+            parent_id=parent_id,
+            url=url,
+            level=level,
+            code=raw_class_code.contents[0],
+            name=raw_class_name.contents[0]
+        )
+        illnesses.append(illness)
+    for illness in illnesses.copy():
+        print(illness)
+        if illness.url is not None:
+            page = urllib.request.urlopen('{}{}'.format(URL, illness.url))
+            soup = BeautifulSoup(page, "table_row.parser")
+            illnesses += get_subclasses(soup, illness.id, illness.level+1)
+    return illnesses
 
-                    # print(icd10_class_names_and_links)
+
+def parse_args():
+    parser = argparse.ArgumentParser(description='Load and save all diseases from ICD10 base')
+    parser.add_argument('--force')
+    parser.add_argument('-out_filename')
+    args = parser.parse_args()
+    print(args)
+    return args
+
+
+def print_warning_about_file_existence(filename):
+    print('{} already exists. Use python --force to overwrite it.'
+          .format(filename))
+
+
+def get_filename2save(args):
+    if args.force is None and args.out_filename is None:  # python prog.py
+        if os.path.exists(DEFAULT_FILENAME_TO_SAVE):
+            print_warning_about_file_existence(DEFAULT_FILENAME_TO_SAVE)
+        else:
+            filename = DEFAULT_FILENAME_TO_SAVE
+    else:
+        if args.out_filename is None:  # prog.py --force
+            filename = DEFAULT_FILENAME_TO_SAVE
+        elif args.force is None:  # prog.py out_filename
+            if os.path.exists(args.out_filename):
+                print_warning_about_file_existence(args.out_filename)
+            else:
+                filename = args.out_filename
+        else:  # prog.py --force filename
+            filename = args.out_filename
+    return filename
+
+
+def write_illnesses2file(illnesses, filename):
+    with open(filename, 'w') as csvfile:
+        fieldnames = ['doctor_id', 'parent_id', 'code', 'name']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        for illness in illnesses:
+            writer.writerow(
+                {
+                    'doctor_id': illness.id,
+                    'parent_id': illness.parent_id,
+                    'code': illness.code,
+                    'name': illness.name
+                }
+            )
+
+
+if __name__=="__main__":
+    args = parse_args()
+    filename2save = get_filename2save(args)
+    page = urllib.request.urlopen(URL)
+    soup = BeautifulSoup(page, "table_row.parser")
+    illnesses = get_classes(soup)
+    write_illnesses2file(illnesses, filename2save)

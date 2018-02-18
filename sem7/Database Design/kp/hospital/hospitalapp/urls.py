@@ -5,11 +5,13 @@ from django.views.generic import RedirectView
 urlpatterns = [
     url(r'^$', views.index, name='index'),
     url('^doctor/$', views.doctor, name='doctor'),
-    url(r'^doctor/login/$', views.doctor_login, name='doctor_login'),
     url(r'^doctor/appointment_records/$', views.appointment_records, name='appointment_records'),
     url(r'^patient/$', views.patient, name='patient'),
-    url(r'^patient/login/$', views.patient_login, name='patient_login'),
-    url(r'^patient/appointment/$', views.appointment, name='appointment'),
+    url(r'^patient/login/$', views.PatientLoginView.as_view(), name='patient_login'),
+    url(r'^patient/login_method$', views.patient_login_method_choice, name='patient_login_method_choice'),
+    url(r'^patient/appointment/$', views.AppointmentView.as_view(), name='appointment'),
+
+    url(r'^patient/appointment/submit/$', views.submit_appointment, name='submit_appointment'),
     url(r'^patient_not_found/$', views.patient_not_found, name='patient_not_found'),
     url(r'^patient/my_appointments/$', views.my_appointments, name='my_appointments'),
     url(r'^check_user/', views.check_user_exists, name='check_user'),

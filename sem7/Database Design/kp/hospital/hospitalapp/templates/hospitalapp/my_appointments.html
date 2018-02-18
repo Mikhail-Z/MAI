@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Мои записи к врачам</title>
-    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="../../static/css/bootstrap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
 {% if user.is_authenticated %}
-<div class="container">
+<div class="container" style="margin-top: 5px">
     <div class="row text-center">
         <a href="{% url 'hospitalapp:logout' %}">
             <button class="btn alert-danger" id="logout_btn">Выйти из системы</button>
@@ -17,28 +17,109 @@
 </div>
 {% endif %}
 
-<div class="container text-center">
+<div id="logout" class="container text-right" style="margin-top: 20px">
+    <div style="margin-rightborder-radius: 50%; display: inline-block; font-size: large; background-color: #1b6d85; color: white; width: 50px; height: 50px; line-height: 50px; text-align: center">
+        ЗМ
+    </div><span style="display: inline-block"><h4>Забелин М. К.</h4></span>
+    <span class="glyphicon glyphicon-log-out" style="margin-left: 20px"></span>
+    <span style="display: inline-block"><a href="#"><h4><b>Выйти</b></h4></a></span>
+</div>
+
+<div class="container text-center" style="margin-top: 2%">
     <h2>Ваши активные записи к врачам</h2>
-    <table class="table table-stripped">
+    <table class="table table-stripped" style="margin-top: 3%">
         <thead>
         <tr>
-            <th>Специализация врача</th>
-            <th>Фамилия</th>
-            <th>Имя</th>
-            <th>Отчество</th>
-            <th>Дата и время приёма</th>
+            <th><h4><b>Специализация врача</b></h4></th>
+            <th><h4><b>Фамилия</b></h4></th>
+            <th><h4><b>Имя</b></h4></th>
+            <th><h4><b>Отчество</b></h4></th>
+            <th><h4><b>Дата и время приёма</b></h4></th>
+            <th><h4><b>Меню</b></h4></th>
         </tr>
         </thead>
         <tbody>
-            {% for appointment in appointments %}
-                <tr>
-                    <th>{{ appointment.0 }}</th>
-                    <th>{{ appointment.1 }}</th>
-                    <th>{{ appointment.2 }}</th>
-                    <th>{{ appointment.3 }}</th>
-                    <th>{{ appointment.4 }}</th>
-                </tr>
-            {% endfor %}
+            <tr>
+                <td>
+                    <b>Врач-кардиолог</b>
+                </td>
+                <td>
+                    <b>Забелина</b>
+                </td>
+                <td>
+                    <b>Елена</b>
+                </td>
+                <td>
+                    <b>Радиевна</b>
+                </td>
+                <td>
+                    <b>25 Января 2017</b>
+                </td>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Действия
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Изменить</a></li>
+                          <li><a href="#">Удалить</a></li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Врач-кардиолог</b>
+                </td>
+                <td>
+                    <b>Забелина</b>
+                </td>
+                <td>
+                    <b>Елена</b>
+                </td>
+                <td>
+                    <b>Радиевна</b>
+                </td>
+                <td>
+                    <b>25 Января 2017</b>
+                </td>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Действия
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Изменить</a></li>
+                          <li><a href="#">Удалить</a></li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Врач-кардиолог</b>
+                </td>
+                <td>
+                    <b>Забелина</b>
+                </td>
+                <td>
+                    <b>Елена</b>
+                </td>
+                <td>
+                    <b>Радиевна</b>
+                </td>
+                <td>
+                    <b>25 Января 2017</b>
+                </td>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Действия
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Изменить</a></li>
+                          <li><a href="#">Удалить</a></li>
+                        </ul>
+                    </div>
+                </td>
+            </tr>
         </tbody>
     </table>
 </div>

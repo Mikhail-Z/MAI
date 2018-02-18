@@ -79,7 +79,7 @@ class AuthUserUserPermissions(models.Model):
 class Dispanserization(models.Model):
     dispanserization_id = models.AutoField(primary_key=True)
     dispanserization_group = models.CharField(max_length=5)
-    icd10_code = models.ForeignKey('Icd10', models.DO_NOTHING, db_column='icd10_code', blank=True, null=True)
+    icd10 = models.ForeignKey('Icd10Vertex', models.DO_NOTHING, blank=True, null=True)
 
     class Meta:
         managed = False
@@ -149,82 +149,22 @@ class Employee(models.Model):
     passport = models.CharField(max_length=20)
     dispanserization_activity = models.IntegerField()
     joining_staff = models.BooleanField()
+    tel_number = models.CharField(max_length=255, blank=True, null=True)
+    user = models.ForeignKey(AuthUser, models.DO_NOTHING, blank=True, null=True)
     specialization = models.ForeignKey(DoctorSpecialization, models.DO_NOTHING, blank=True, null=True)
-    login = models.CharField(unique=True, max_length=255)
-    password = models.CharField(max_length=255)
-    telephone_num = models.CharField(max_length=255, blank=True, null=True)
 
     class Meta:
         managed = False
         db_table = 'employee'
 
 
-class HospitalappDoctor(models.Model):
-    user = models.ForeignKey(AuthUser, models.DO_NOTHING, unique=True)
+class Icd10Vertex(models.Model):
+    value = models.TextField(blank=True, null=True)
+    parent = models.ForeignKey('self', models.DO_NOTHING, blank=True, null=True)
 
     class Meta:
         managed = False
-        db_table = 'hospitalapp_doctor'
-
-
-class HospitalappDoctorsession(models.Model):
-    key = models.CharField(unique=True, max_length=255)
-    expires = models.DateTimeField()
-    user = models.ForeignKey(HospitalappDoctor, models.DO_NOTHING)
-
-    class Meta:
-        managed = False
-        db_table = 'hospitalapp_doctorsession'
-
-
-class HospitalappPatient(models.Model):
-    user = models.ForeignKey(AuthUser, models.DO_NOTHING, unique=True)
-
-    class Meta:
-        managed = False
-        db_table = 'hospitalapp_patient'
-
-
-class HospitalappPatientsadmission(models.Model):
-
-    class Meta:
-        managed = False
-        db_table = 'hospitalapp_patientsadmission'
-
-
-class HospitalappPatientsappointment(models.Model):
-
-    class Meta:
-        managed = False
-        db_table = 'hospitalapp_patientsappointment'
-
-
-class Icd10(models.Model):
-    icd10_code = models.CharField(primary_key=True, max_length=20)
-    subclass = models.ForeignKey('Icd10Subclass', models.DO_NOTHING, db_column='subclass')
-    class_field = models.ForeignKey('Icd10Class', models.DO_NOTHING, db_column='class')  # Field renamed because it was a Python reserved word.
-
-    class Meta:
-        managed = False
-        db_table = 'icd10'
-
-
-class Icd10Class(models.Model):
-    class_field = models.CharField(db_column='class', primary_key=True, max_length=20)  # Field renamed because it was a Python reserved word.
-    class_name = models.CharField(max_length=255, blank=True, null=True)
-
-    class Meta:
-        managed = False
-        db_table = 'icd10_class'
-
-
-class Icd10Subclass(models.Model):
-    subclass = models.CharField(primary_key=True, max_length=20)
-    subclass_name = models.CharField(max_length=255, blank=True, null=True)
-
-    class Meta:
-        managed = False
-        db_table = 'icd10_subclass'
+        db_table = 'icd10_vertex'
 
 
 class Patient(models.Model):
@@ -234,13 +174,11 @@ class Patient(models.Model):
     patronymic = models.CharField(max_length=40, blank=True, null=True)
     date_birth = models.DateField()
     sex = models.CharField(max_length=1)
-    medical_policynum = models.CharField(max_length=30)
     check_out_date = models.DateField(blank=True, null=True)
-    passport = models.CharField(max_length=20)
-    login = models.CharField(unique=True, max_length=255)
-    password = models.CharField(max_length=255)
+    passport = models.CharField(max_length=20, blank=True, null=True)
     tel_number = models.CharField(max_length=20, blank=True, null=True)
     email = models.CharField(max_length=255, blank=True, null=True)
+    user = models.ForeignKey(AuthUser, models.DO_NOTHING, blank=True, null=True)
 
     class Meta:
         managed = False
@@ -248,13 +186,14 @@ class Patient(models.Model):
 
 
 class PatientsAdmission(models.Model):
-    dispanserization = models.ForeignKey(Dispanserization, models.DO_NOTHING, blank=True, null=True)
-    admission_id = models.AutoField(primary_key=True)
-    patient = models.ForeignKey(Patient, models.DO_NOTHING, blank=True, null=True)
-    employee = models.ForeignKey(Employee, models.DO_NOTHING)
+    admission_id = models.IntegerField()
     admission_time = models.DateTimeField()
-    icd10_code = models.ForeignKey(Icd10, models.DO_NOTHING, db_column='icd10_code', blank=True, null=True)
     symtoms = models.TextField(blank=True, null=True)
+    dispanserization = models.ForeignKey(Dispanserization, models.DO_NOTHING, blank=True, null=True)
+    patient = models.ForeignKey(Patient, models.DO_NOTHING, blank=True, null=True)
+    employee = models.ForeignKey(Employee, models.DO_NOTHING, blank=True, null=True)
+    icd10 = models.ForeignKey(Icd10Vertex, models.DO_NOTHING, blank=True, null=True)
+    appointment = models.ForeignKey('PatientsAppointment', models.DO_NOTHING, blank=True, null=True)
 
     class Meta:
         managed = False
@@ -265,7 +204,7 @@ class PatientsAppointment(models.Model):
     appointment_id = models.AutoField(primary_key=True)
     appointment_time = models.DateTimeField()
     free = models.BooleanField()
-    patient = models.ForeignKey(Patient, models.DO_NOTHING)
+    patient = models.ForeignKey(Patient, models.DO_NOTHING, blank=True, null=True)
     employee = models.ForeignKey(Employee, models.DO_NOTHING)
 
     class Meta:
@@ -275,8 +214,8 @@ class PatientsAppointment(models.Model):
 
 class RegistrationOfSickPeople(models.Model):
     registration_id = models.AutoField(primary_key=True)
-    patient = models.ForeignKey(Patient, models.DO_NOTHING)
-    specialization = models.ForeignKey(DoctorSpecialization, models.DO_NOTHING)
+    patient_id = models.IntegerField()
+    specialization = models.ForeignKey(DoctorSpecialization, models.DO_NOTHING, blank=True, null=True)
 
     class Meta:
         managed = False

@@ -25,7 +25,7 @@ SECRET_KEY = '&dki^v5@)y3o0bt()3h-x)(6p7l(etq5va6cl0fa3mxwt8e84z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -53,6 +53,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'hospital.urls'
 
+PROJECT_PATH = os.path.realpath(__name__)
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -68,6 +70,8 @@ TEMPLATES = [
         },
     },
 ]
+
+
 
 WSGI_APPLICATION = 'hospital.wsgi.application'
 

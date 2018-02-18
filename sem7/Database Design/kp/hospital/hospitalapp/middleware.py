@@ -2,8 +2,7 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import reverse
 from django.core.urlresolvers import resolve
 
-
-class AuthRequiredMiddleware(object):
+'''class AuthRequiredMiddleware(object):
     def __init__(self, get_response):
         self.get_response = get_response
 
@@ -15,3 +14,4 @@ class AuthRequiredMiddleware(object):
                 return HttpResponseRedirect(reverse('hospitalapp:index')) # or http response
         response = self.get_response(request)
         return response
+'''

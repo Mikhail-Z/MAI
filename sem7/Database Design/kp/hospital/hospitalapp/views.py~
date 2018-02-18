@@ -6,8 +6,8 @@ from django.utils import timezone
 from django.db import IntegrityError, transaction
 import pytz
 from django.core import serializers
-from .forms import LoginForm
-from .models import *
+from hospitalapp.forms import LoginForm
+
 
 from django.db import connection
 import psycopg2
@@ -15,18 +15,35 @@ from .models import *
 import datetime
 import json
 from django.http import JsonResponse
-from django.views import View
-from django.contrib.auth.decorators import login_required
 
 
 def index(request):
     if request.method == 'GET':
         afterRequest = request.GET.get('afterAction', None)
-        print("after request", afterRequest, request.is_ajax())
+        print(afterRequest)
         if afterRequest:
             return JsonResponse({'redirect': reverse('hospitalapp:index')})
         else:
             return render(request, 'hospitalapp/index.html')
+
+
+def doctor_login(request):
+    if request.method == 'POST':
+        username = request.POST.get('username', '')
+        password = request.POST.get('password', '')
+        #print(username)
+        #print(password)
+        user = authenticate(username=username, password=password)
+        if user is not None:
+            login(request, user)
+            url = 'hospitalapp:appointment_records'
+            return HttpResponseRedirect(reverse(url))
+        else:
+            url = reverse('hospitalapp:doctor')
+            return render(request, 'hospitalapp/employee_not_found.html', {'path': url})
+    else:
+        loginForm = LoginForm()
+    return render(request, 'hospitalapp/login.html', {'form': loginForm})
 
 
 def doctor(request):
@@ -40,7 +57,6 @@ def doctor(request):
 
 def logout(request):
     std_logout(request)
-    print('60', reverse('hospitalapp:index'))
     return HttpResponseRedirect(reverse('hospitalapp:index'))
 
 
@@ -49,32 +65,22 @@ def patient_not_found(request):
     return render(request, "hospitalapp/patient_not_found.html")
 
 
-class PatientLoginView(View):
-
-    def get(self, request, *args, **kwargs):
-        login_method = request.GET.get("method", None)
-        if login_method == "passport_and_polis" or login_method == "login_and_password":
-            return render(request, "hospitalapp/login.html", {"method": login_method})
-        else:
-            pass
-
-    def post(self, request, *args, **kwargs):
+def patient_login(request):
+    if request.method == 'POST':
         username = request.POST.get('login', '')
         password = request.POST.get('password', '')
         user = authenticate(username=username, password=password)
         if user is not None:
             login(request, user)
-            appointment_submit_url = "hispitalapp:appointment_submit"
-            return JsonResponse(
-                {"status": "OK", "redirect": reverse(appointment_submit_url)}
-            )
+            url = 'hospitalapp:patient'
+            return HttpResponseRedirect(reverse(url))
         else:
-            return JsonResponse({"status": "FAIL"})
-
-
-def patient_login_method_choice(request):
-    login_url = "hospitalapp:login"
-    return render(request, login_url, {"login_url": login_url})
+            url = reverse('hospitalapp:patient_not_found')
+            print(url)
+            return HttpResponseRedirect(url)
+    else:
+        url = 'hospitalapp:patient_login'
+        return render(request, 'hospitalapp/login.html', {'target_url': reverse(url)})
 
 
 def check_user_exists(request):
@@ -95,30 +101,31 @@ def check_user_exists(request):
 
 
 def my_appointments(request):
-    # cursor = connection.cursor()
-    # cursor.execute("select DS.specialization_name, E.last_name, E.first_name, E.patronymic, PA.appointment_time"
-    #                " from patients_appointment PA join employee E using(employee_id)"
-    #                " join Doctor_Specialization DS using(specialization_id)"
-    #                " where PA.patient_id = %s and PA.free = 'f'"
-    #                " order by PA.appointment_time desc", [request.user.doctor_id,])
-    # page = request.GET.get('page')
-    # appointments_list = cursor.fetchall()
-    # paginator = Paginator(appointments_list, 5)
-    # try:
-    #     cur_appointments = paginator.page(page)
-    # except PageNotAnInteger:
-    #     cur_appointments = paginator.page(1)
-    #     print(cur_appointments)
-    # except EmptyPage:
-    #     cur_appointments = paginator.page(paginator.num_pages)
-    return render(request, 'hospitalapp/my_appointments.html')
+    cursor = connection.cursor()
+    cursor.execute("select DS.specialization_name, E.last_name, E.first_name, E.patronymic, PA.appointment_time"
+                   " from patients_appointment PA join employee E using(employee_id)"
+                   " join Doctor_Specialization DS using(specialization_id)"
+                   " where PA.patient_id = %s and appointment_time > %s and PA.free = 'f'"
+                   " order by PA.appointment_time desc", [request.user.id, datetime.datetime.now()-datetime.timedelta(days=1)])
+    page = request.GET.get('page')
+    appointments_list = cursor.fetchall()
+    paginator = Paginator(appointments_list, 5)
+    try:
+        cur_appointments = paginator.page(page)
+    except PageNotAnInteger:
+        cur_appointments = paginator.page(1)
+        print(cur_appointments)
+    except EmptyPage:
+        cur_appointments = paginator.page(paginator.num_pages)
+    return render(request, 'hospitalapp/my_appointments.html', {'appointments': cur_appointments})
 
 
 def patient(request):
-    if request.method == "GET":
-        if request.GET.get("afterLogin", None):
-            url = "hospitalapp:patient"
-            return HttpResponseRedirect(reverse(url))
+    if request.user.is_authenticated():
+        #url = 'hospitalapp:appointment'
+        #return render(request, 'hospitalapp:')
+        #url = 'hospitalapp:my_appointments'
+        print('user is authenticated')
         my_appointments_url = reverse('hospitalapp:my_appointments')
         return render(request, 'hospitalapp/patient.html', {'my_appointments_url': my_appointments_url})
     else:
@@ -171,7 +178,7 @@ def show_doctors(request):
             "select PA.appointment_id, E.last_name, E.first_name, E.patronymic from patients_appointment PA "
             "join employee E using (employee_id) where (appointment_time = %s and E.specialization_id = %s);",
             [appointment_time, specialization_id])
-        cols = ('doctor_id', 'last_name', 'first_name', 'patronymic')
+        cols = ('id', 'last_name', 'first_name', 'patronymic')
         doctors = [dict(zip(cols, doctor_info)) for doctor_info in cursor.fetchall()]
         return JsonResponse(doctors, safe=False)
     else:
@@ -204,50 +211,3 @@ def appointment_records(request):
     appointments = cursor.fetchall()
     return render(request, 'hospitalapp/patients_appointment.html', {'appointments': appointments,
                                                                       'col_names': col_names})
-
-
-class AppointmentView(View):
-    template_name = "hospitalapp/appointment.html"
-
-    def get(self, request):
-        if request.GET.get("specialization", None):
-            return self._show_doctors(request)
-        elif request.GET.get("doctor_id", None):
-            return "2"
-        elif request.GET.get("date", None):
-            return self._show_datetime(request)
-        elif request.GET.get("time", None):
-            return "4"
-        else:
-            return self._show_doctor_specialization(request)
-
-    def _show_doctor_specialization(self, request):
-        doctor_specializations = list(
-            DoctorSpecialization.objects.values("specialization__id", "specialization__specialization_name").distinct()
-        )
-        print(doctor_specializations)
-        return render(request, self.template_name,
-                      {'doctor_specializations': doctor_specializations})
-
-    def _show_doctors(self, request):
-        doctor_specialization = request.GET["specialization"]
-        print(234, doctor_specialization)
-        doctors = list(
-            DoctorSpecialization.objects.filter(specialization__specialization_name=doctor_specialization).order_by(
-                "doctor__last_name", "doctor__first_name", "doctor__patronymic"
-            ).values("doctor__last_name", "doctor__first_name", "doctor__patronymic", "doctor__id")
-        )
-        print(doctors[0])
-        return JsonResponse(doctors, safe=False)
-
-    def _show_datetime(self, request):
-        doctor_id = request.GET["doctor_id"]
-        appointment_date = request.GET["datetime"]
-        appointment_datetimes = list(
-
-        )
-
-
-def submit_appointment(request):
-    pass
-
