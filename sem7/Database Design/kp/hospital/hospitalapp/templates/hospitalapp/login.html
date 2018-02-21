@@ -22,7 +22,7 @@
         Представьтесь системе
     </h2>
     <div class="div col-md-4 col-md-offset-4 jumbotron">
-        <form method="post" id="login_form">
+        <form method="post" id="login_form" action="/patient/login/">
             {% csrf_token %}
             <div class="form-group">
                 <label for="login">Логин</label>
@@ -39,6 +39,13 @@
                     </span>
                 </div>
             </div>
+            {% if after_wrong_login %}
+                <div class="row" id="warning_msg">
+                    <span style="color: red">
+                        Неправильно введен логин или пароль.
+                    </span>
+                </div>
+            {% endif %}
             <div id="submit-group" class="btn-group btn-group-lg" style="margin-top: 50px">
                 <input id="submit_btn" type="submit" value="Подтвердить" class="btn btn-sm btn-success" style="color: whitesmoke">
             </div>
@@ -98,8 +105,8 @@
         <button class="btn btn-default btn-lg" id="mBtn">m</button>
     </div>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="../../static/js/login.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/login.js"></script>
 </body>
 </html>

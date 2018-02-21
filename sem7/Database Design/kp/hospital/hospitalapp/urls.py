@@ -8,7 +8,7 @@ urlpatterns = [
     url(r'^doctor/appointment_records/$', views.appointment_records, name='appointment_records'),
     url(r'^patient/$', views.patient, name='patient'),
     url(r'^patient/login/$', views.PatientLoginView.as_view(), name='patient_login'),
-    url(r'^patient/login_method$', views.patient_login_method_choice, name='patient_login_method_choice'),
+    url(r'^patient/login/choice/$', views.patient_login_method_choice, name='patient_login_method_choice'),
     url(r'^patient/appointment/$', views.AppointmentView.as_view(), name='appointment'),
 
     url(r'^patient/appointment/submit/$', views.submit_appointment, name='submit_appointment'),

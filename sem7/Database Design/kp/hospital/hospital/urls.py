@@ -21,6 +21,7 @@ urlpatterns = [
     url(r'^', include('hospitalapp.urls', namespace='hospitalapp')),
     url(r'^patient/', include('hospitalapp.urls', namespace='hospitalapp')),
     url(r'^patient/login/', include('hospitalapp.urls', namespace='hospitalapp')),
+    url(r'^patient/login/choice', include('hospitalapp.urls', namespace='hospitalapp')),
     url(r'^patient/appointment/', include('hospitalapp.urls', namespace='hospitalapp')),
     url(r'^patient/appointment/submit', include('hospitalapp.urls', namespace='hospitalapp')),
     url(r'^patient/my_appointments/', include('hospitalapp.urls', namespace='hospitalapp')),

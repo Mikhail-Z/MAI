@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты записи</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.css">
+</head>
+<body>
+    <div class="container text-center">
+        <h2 style="margin-top: 10%">{{ appointment_result_msg }}</h2>
+        <div class="row" style="margin-top: 5%">
+            <h3 id="message">Переход на начальную страницу через... </h3>
+        </div>
+    </div>
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        var TIMEOUT_IN_SECS = 3
+        var TEMPLATE = '<span class="js-timer-seconds">00</span>'
+
+        function padZero(number){
+          return ("00" + String(number)).slice(-2);
+        }
+
+        class Timer{
+          // IE does not support new style classes yet
+          // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+          constructor(timeout_in_secs){
+            this.isRunning = false;
+            this.timestampOnStart = null
+            this.initial_timeout_in_secs = timeout_in_secs
+            this.timeout_in_secs = this.initial_timeout_in_secs
+          }
+          getTimestampInSecs(){
+            var timestampInMilliseconds = new Date().getTime()
+            return Math.round(timestampInMilliseconds/1000)
+          }
+
+
+          start(){
+            if (this.isRunning)
+              return
+            this.timestampOnStart = this.getTimestampInSecs()
+            this.isRunning = true
+          }
+          stop(){
+            if (!this.isRunning)
+              return
+            this.timeout_in_secs = this.calculateSecsLeft()
+            this.timestampOnStart = null
+            this.isRunning = false
+          }
+          calculateSecsLeft(){
+            if (!this.isRunning)
+              return this.timeout_in_secs
+            var currentTimestamp = this.getTimestampInSecs()
+            var secsGone = currentTimestamp - this.timestampOnStart
+            return Math.max(this.timeout_in_secs - secsGone, 0)
+          }
+        }
+
+        class TimerWidget{
+          // IE does not support new style classes yet
+          // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+          construct(){
+            this.timerContainer = this.seconds_element = null
+          }
+          mount(rootTag){
+            if (this.timerContainer)
+              this.unmount()
+
+            // adds HTML tag to current page
+            this.timerContainer = document.createElement('span')
+            this.timerContainer.innerHTML = TEMPLATE
+            rootTag.appendChild(this.timerContainer)
+
+            this.seconds_element = this.timerContainer.getElementsByClassName('js-timer-seconds')[0]
+          }
+          update(secsLeft){
+            this.seconds_element.innerHTML = padZero(secsLeft)
+          }
+          unmount(){
+            if (!this.timerContainer)
+              return
+            this.timerContainer.remove()
+            this.timerContainer = this.seconds_element = null
+          }
+        }
+
+
+        function main(){
+
+          var timer = new Timer(TIMEOUT_IN_SECS)
+          var timerWiget = new TimerWidget()
+          var intervalId = null
+
+          timerWiget.mount(document.getElementById("message"))
+
+          function handleIntervalTick(){
+            var secsLeft = timer.calculateSecsLeft();
+            if (secsLeft === 0) {
+              window.location.href="/patient/"
+            }
+            timerWiget.update(secsLeft)
+          }
+
+          function handleVisibilityChange(){
+            if (document.hidden) {
+              timer.stop()
+              clearInterval(intervalId)
+              intervalId = null
+            } else {
+              timer.start()
+              intervalId = intervalId || setInterval(handleIntervalTick, 300)
+            }
+          }
+
+          // https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API
+          document.addEventListener("visibilitychange", handleVisibilityChange, false);
+          handleVisibilityChange()
+
+        }
+
+        // initialize timer when page ready for presentation
+        window.addEventListener('load', main)
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Подтвердите запись</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center">Подтвердите, всё ли правильно</h2>
+        <table class="table-bordered">
+            <tbody>
+                <tr>
+                    <td>ФИО</td>
+                    <td>{{ appointment_info.doctor_specialization__doctor__last_name }} {{ appointment_info.doctor_specialization__doctor__first_name }} {{ appointment_info.doctor_specialization__doctor__patronymic }}</td>
+                </tr>
+                <tr>
+                    <td>Специализация</td>
+                    <td>{{ appointment_info.doctor_specialization__specialization__specialization_name }}</td>
+                </tr>
+                <tr>
+                    <td>Дата и время</td>
+                    <td>{{ appointment_info.appointment_datetime }}</td>
+                </tr>
+                <tr>
+                    <td>№ кабинета</td>
+                    <td>{{ appointment_info.cabinet__number }}</td>
+                </tr>
+            </tbody>
+        </table>
+        <form method="POST" action="/patient/appointment/submit/" >
+            {% csrf_token %}
+            <input type="submit" class="btn btn-success btn-lg">
+        </form>
+    </div>
+
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+</body>
+</html>

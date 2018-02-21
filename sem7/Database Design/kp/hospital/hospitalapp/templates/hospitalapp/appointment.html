@@ -33,8 +33,8 @@
                 <table class="table table-striped">
                 <tbody id="specializations_list" style="overflow: hidden; overflow-y: scroll">
                     {% for specialization in doctor_specializations %}
-                        <tr id="{{ specialization['id'] }}" class="doctor-spec-rows">
-                            <td><h3><b>{{ specialization["specialization__specialization_name"] }}</b></h3></td>
+                        <tr id="specialization{{ specialization.specialization__id }}" class="doctor-spec-row">
+                            <td><h3><b>{{ specialization.specialization__specialization_name }}</b></h3></td>
                         </tr>
                     {% endfor %}
                 </tbody>
@@ -53,35 +53,13 @@
                 <div class="pre-scrollable" style="width: 100%; max-height: 450px">
                     <table class="table table-striped">
                         <tbody id="appointment_dates_list" style="overflow: hidden; overflow-y: scroll">
-                            <tr class="doctor-spec-row">
-                                <td><h4><b>27 января, суббота</b></h4></td>
-                            </tr>
-                            <tr class="doctor-spec-row">
-                                <td><h4><b>27 февраля, воскресенье</b></h4></td>
-                            </tr>
-                             <tr class="doctor-spec-row">
-                                <td><h4><b>27 января, суббота</b></h4></td>
-                            </tr>
-                            <tr class="doctor-spec-row">
-                                <td><h4><b>27 февраля, воскресенье</b></h4></td>
-                            </tr>
+
                         </tbody>
                     </table>
                 </div>
             </div>
             <div class="time_appointment" style="display: inline-block">
-                <div class="btn-group-lg" style="margin-bottom: 5px">
-                    <button class="btn btn-info">12:45</button>
-                    <button class="btn disabled">12:15</button>
-                    <button class="btn btn-info">12:45</button>
-                    <button class="btn disabled">12:15</button>
-                </div>
-                <div class="btn-group-lg" style="margin-bottom: 5px">
-                    <button class="btn btn-info">12:45</button>
-                    <button class="btn disabled">12:15</button>
-                    <button class="btn btn-info">12:45</button>
-                    <button class="btn disabled">12:15</button>
-                </div>
+
             </div>
         </div>
     </div>
@@ -103,10 +81,13 @@
         </div>
     </div>-->
 </div>
+
 <div class="row text-center" style="margin-top: 50px">
-    <a href="{% url 'hospitalapp:appointment' %}">
-        <button type="button" class="btn btn-primary btn-lg disabled" id="submit_btn">Записаться</button>
-    </a>
+    <form action="/patient/login/choice/" type="GET">
+        <input type="hidden" name="appointment_id">
+        <input type="submit" class="btn btn-primary btn-lg disabled" id="submit_btn" value="Подтвердить">
+    </form>
+</form>
 </div>
   <script src="/static/js/jquery-3.3.1.min.js"></script>
   <script src="/static/js/bootstrap.min.js"></script>
