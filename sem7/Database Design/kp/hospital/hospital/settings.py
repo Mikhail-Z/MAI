@@ -49,6 +49,13 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+        'TIMEOUT': 60*10
+    }
+}
 #'hospitalapp.middleware.AuthRequiredMiddleware',
 
 ROOT_URLCONF = 'hospital.urls'

@@ -1,0 +1,370 @@
+
+{% extends "hospitalapp/doctor_base.html" %}
+
+{% block style %}
+    .patient_search_row:hover {
+        background-color: gray;
+    }
+
+{% endblock %}
+
+{% block header %}
+Прием кардиолога
+{% endblock %}
+
+{% block content %}
+        <div id="patient_search">
+            <div class="form-group" id="admission_info">
+                <label for="visit_purpose">Цель посещения</label>
+                <select form="main_form" id="visit_purpose" name="visit_purpose">
+                    <option onclick="SELECTED_ELEMENTS.visit_purpose = false">не выбрано</option>
+                    {% for purpose in visit_purposes %}
+                        <option onclick="SELECTED_ELEMENTS.visit_purpose = true" value="{{ purpose.value }}">{{ purpose.value }}</option>
+                    {% endfor %}
+                </select>
+
+                <label for="admission_type">Тип посещения</label>
+                <select form="main_form" id="admission_type" name="admission_type">
+                    <option onclick="SELECTED_ELEMENTS.admission_type = false">не выбрано</option>
+                    {% for admission_type in admission_types %}
+                        <option onclick="SELECTED_ELEMENTS.admission_type = true" name="admission_type">{{ admission_type.value }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="form-group" id="patient_identification">
+                <nobr>
+                <label for="medical_police_type">Тип мед. полиса</label>
+                <select id="medical_police_type">
+                    <option  id="no_med_police_type">не выбрано</option>
+                    <option data-med_police_type_id="2" id="new_med_police_type">Нового образца</option>
+                    <option data-med_police_type_id="1" id="old_med_police_type">Старого образца</option>
+                </select>
+                </nobr>
+                <nobr>
+                    <label for="med_police_series">Серия мед. полиса</label>
+                    <input autocomplete="off" name="med_police_series" id="med_police_series" size="11" disabled>
+                </nobr>
+                <nobr>
+                    <label for="med_police_number">Номер мед. полиса</label>
+                    <input autocomplete="off" id="med_police_number" name="med_police_number" size="16" disabled>
+                </nobr>
+                <button id="patient_search_btn" class="btn btn-primary" disabled>Поиск</button>
+            </div>
+
+            <table id="patient_search_table" class="table">
+                <thead>
+                    <tr>
+                        <th>Фамилия</th>
+                        <th>Имя</th>
+                        <th>Отчество</th>
+                        <th>Дата рождения</th>
+                        <th>Все верно</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+        <form id="main_form" style="opacity: 0.5; margin-top: 50px" action="/doctor/review/" method="post">
+            {% csrf_token %}
+
+            <input type="hidden" name="icd10_id">
+            <div class="form-group">
+                <label for="complaints_input"><b>Жалобы:</b></label>
+                <textarea disabled id="complaints_input" class="form-control" name="complaints" rows=5></textarea>
+            </div>
+            <div class="form-group">
+                <label for="anamnesis_input"><b>Анамнез:</b></label>
+                <textarea disabled id="anamnesis_input" class="form-control" name="anamnesis" rows="3"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="survey_data" class="control-label"><b>Данные объективного обследования</b></label>
+                <textarea  disabled cols="1" id="survey_data" name="survey_data" class="form-control"></textarea>
+            </div>
+
+            <div class="input-group">
+                <input type="hidden" name="general_state">
+                <p class="general_state">
+                    <b>Общее состояние:</b>
+                    <span class="choose_one_state" role="button">Удовлетворительное</span>,
+                    <span class="choose_one_state" role="button">cредней тяжести</span>,
+                    <span class="choose_one_state" role="button">тяжелое</span>,
+                    <span class="choose_one_state" role="button">крайне тяжелое</span>
+                    <div style="display: inline-block">
+                        <label for="body_temperature">Температура тела:</label>
+                        <input autocomplete="off" disabled id="body_temperature" name="body_temperature">
+                    </div>
+                </p>
+            </div>
+
+            <div style="display: inline-block">
+                <label for="BMI">ИМТ</label>
+                <input autocomplete="off" disabled placeholder="в кг/м2" id="BMI" name="BMI">
+            </div>
+
+            <div class="input-group">
+                <input type="hidden" name="consciousness">
+                <p class="consciousness">
+                    <b>Сознание:</b>
+                    <span class="choose_one_state" role="button">ясное</span>
+                    <span class="group">
+                        <span>нарушение до уровня</span>
+                        <input autocomplete="off" disabled class="consciousness">
+                    </span>
+                </p>
+            </div>
+
+            <div class="input-group">
+                <input type="hidden" name="skin_integument">
+                <p class="skin_integument">
+                    <b>Кожные покровы:</b>
+                    <span class="choose_several_states" role="button">обычной окраски</span>,
+                    <span class="choose_several_states" role="button">чистые</span>,
+                    <span class="choose_several_states" role="button">бледные</span>,
+                    <span class="choose_several_states" role="button">желтушные</span>,
+                    <span class="choose_several_states" role="button">цианотичные</span>,
+                    <span class="choose_several_states" role="button">теплые</span>,
+                    <span class="choose_several_states" role="button">холодные</span>,
+                    <span class="choose_several_states" role="button">влажность</span>,
+                    <input autocomplete="off" disabled class="skin_integument">
+                </p>
+            </div>
+            <p>
+                <div class="form-group">
+                    <label for="turgor_reduced" class="control-label"><b>Тургор снижен:</b></label>
+                    <input autocomplete="off" disabled  size="40" id="turgor_reduced" name="turgor_reduced">
+                </div>
+            </p>
+
+
+            <div class="input-group">
+                <input type="hidden" name="visible_mucous">
+                <p class="visible_mucous">
+                    <b>Видимые слизистые:</b>
+                    <span class="choose_several_states" role="button">розовые</span>,
+                    <span class="choose_several_states" role="button">бледные</span>,
+                    <span class="choose_several_states" role="button">гиперемированные</span>,
+                    <span class="choose_several_states" role="button">иктеричные</span>,
+                    <span class="choose_several_states" role="button">чистые</span>,
+                    <span class="group">
+                        <span>сыпь(вид, локализация)</span>
+                        <input autocomplete="off" disabled class="visible_mucous">
+                    </span>
+                </p>
+            </div>
+            <p>
+                <div class="form-group">
+                    <label for="lungs" class="control-label"><b>Легкие:</b></label>
+                    <input autocomplete="off" disabled placeholder="частота дыхания в мин" size="40" id="lungs" name="lungs">
+                </div>
+            </p>
+
+
+            <div class="input-group">
+                <input type="hidden" name="percutary_sound">
+                <p class="percutary_sound">
+                    <b>Перкуторный звук:</b>
+                    <span class="choose_one_state" role="button">ясный</span>,
+                    <span class="choose_one_state" role="button">легочный</span>,
+                    <span class="choose_one_state" role="button">тупость</span>,
+                    <span class="choose_one_state" role="button">абсолютная тупость</span>,
+                    <span class="choose_one_state" role="button">коробочный</span>,
+                    <span class="choose_one_state" role="button">тимпанический</span>,
+                    <input autocomplete="off" disabled class="form-control">
+                </p>
+            </div>
+
+            <div class="input-group">
+                <input type="hidden" name="respiratory_noise">
+                <p class="respiratory_noise">
+                    <b>Дыхательные шумы:</b>
+                    <span class="choose_one_state" role="button">везикулярное</span>,
+                    <span class="choose_one_state" role="button">жесткое</span>,
+                    <span class="choose_one_state" role="button">ослабленное везикулярное</span>
+                </p>
+            </div>
+
+            <div class="input-group">
+                <input type="hidden" name="wheezing">
+                <p class="wheezing">
+                    <b>Хрипы:</b>
+                    <span class="choose_several_states" role="button">сухие</span>,
+                    <span class="choose_several_states" role="button">свистящие</span>,
+                    <span class="choose_several_states" role="button">жужжащие</span>,
+                    <span class="choose_several_states" role="button">влажные</span>,
+                    <span class="choose_several_states" role="button">звонкие</span>,
+                    <span class="choose_several_states" role="button">незвонкие</span>,
+                    <span class="choose_several_states" role="button">мелкопузырчатые</span>,
+                    <span class="choose_several_states" role="button">среднепузырчатые</span>,
+                    <span class="choose_several_states" role="button">крупнопузырчатые</span>,
+                    <span class="choose_several_states" role="button">крепитация</span>,
+                    <input autocomplete="off" disabled class="form-control">
+                </p>
+            </div>
+
+            <div style="display: inline-block" class="form-group">
+                <label for="pulse">Пульс</label>
+                <input autocomplete="off"  disabled name="pulse" id="pulse">
+            </div>
+
+            <div class="input-group" style="display: inline-block">
+                <input type="hidden" name="filling">
+                <p class="filling">
+                    <b>Наполнение:</b>
+                    <span class="choose_one_state" role="button">удовлетворительное</span>,
+                    <span class="choose_one_state" role="button">слабое</span>
+                </p>
+            </div>
+
+            <div class="input-group">
+                <input type="hidden" name="pulse_deficit">
+                <p class="pulse_deficit">
+                    <b>Дефицит пульса</b>
+                    <span class="choose_one_state" role="button">удовлетворительное</span>,
+                    <span class="choose_one_state" role="button">слабое</span>,
+                    <input autocomplete="off" disabled class="pulse_deficit">
+                </p>
+            </div>
+
+            <div class="input-group">
+                <input type="hidden" name="pressure">
+                <p class="pressure">
+                    <b>АД:</b>
+                    <span class="group">
+                        <input autocomplete="off" disabled>
+                        <span>мм рт. ст.</span>
+                    </span>
+                </p>
+            </div>
+
+            <div class="input-group">
+                <input type="hidden" name="obtuse_boundaries">
+                <p class="obtuse_boundaries">
+                    <b>Границы относительной тупости:</b>
+                    <span class="choose_one_state" role="button">не расширены</span>,
+                    <span class="choose_one_state" role="button">расширены влево</span>,
+                    <span class="choose_one_state" role="button">расширены вверх</span>,
+                    <span class="choose_one_state" role="button">расширены вправо</span>,
+                    <input autocomplete="off" disabled style="margin-top: 3px" class="form-control">
+                </p>
+            </div>
+
+            <div class="input-group">
+                <input type="hidden" name="heart_tones">
+                <p class="heart_tones">
+                    <b>Сердце тоны:</b>
+                    <span class="choose_one_state" role="button">ясные</span>,
+                    <span class="choose_one_state" role="button">чистые</span>,
+                    <span class="choose_one_state" role="button">ритмичные</span>,
+                    <span class="choose_one_state" role="button">приглушены</span>,
+                    <span class="choose_one_state" role="button">громкие</span>,
+                    <span class="choose_one_state" role="button">ослабленные</span>,
+                    <span class="choose_one_state" role="button">акцент</span>,
+                    <span class="choose_one_state" role="button">раздвоение (расщепление)</span>,
+                    <span class="choose_one_state" role="button">шумы</span>,
+                    <span class="choose_one_state" role="button">ясные</span>,
+                    <input autocomplete="off" disabled style="margin-top: 3px" class="form-control">
+                </p>
+            </div>
+
+            <div class="input-group">
+                <input type="hidden" name="liver">
+                <p class="liver">
+                    <b>Печень:</b>
+                    <span class="choose_one_state" role="button">не увеличена</span>,
+                    <span class="choose_one_state" role="button">не пальпируется</span>,
+                    <input autocomplete="off" disabled style="margin-top: 3px" class="form-control">
+                </p>
+            </div>
+
+            <div class="input-group">
+                <input type="hidden" name="liver_edge">
+                <p class="liver_edge">
+                    <b>Край:</b>
+                    <span class="choose_several_states" role="button">ровный</span>,
+                    <span class="choose_several_states" role="button">бугристый</span>,
+                    <span>
+                        <span class="group">
+                            <span>выступает из-под реберной дуги справа на</span>
+                            <input autocomplete="off" disabled class="liver_edge-add">
+                            <span>см</span>
+                            <textarea disabled style="margin-top: 3px" rows="1" class="form-control"></textarea>
+                        </span>
+                    </span>
+                </p>
+            </div>
+
+            <div class="input-group">
+                <input type="hidden" name="urination">
+                <p class="urination">
+                    <b>Мочеиспускания:</b>
+                    <span class="choose_one_state" role="button">нормальное</span>,
+                    <span class="choose_one_state" role="button">безболезненное</span>,
+                    <span class="choose_one_state" role="button">учащенное</span>,
+                    <input autocomplete="off" disabled class="urination-add">
+                </p>
+            </div>
+
+            <div class="input-group">
+                <input type="hidden" name="edema">
+                <p class="edema">
+                    <b>Отеки:</b>
+                    <span class="choose_several_states" role="button">нет</span>,
+                    <span class="choose_several_states" role="button">нижних конечностей</span>,
+                    <span class="choose_several_states" role="button">лица</span>,
+                    <span class="choose_several_states" role="button">асцит</span>,
+                    <span class="choose_several_states" role="button">анасарка</span>,
+                    <input autocomplete="off" disabled class="form-control">
+                </p>
+            </div>
+
+            <div class="form-group">
+                <label for="additional_information">Дополнительные данные:</label>
+                <textarea disabled id="additional_information" class="form-control" name="additional_information" rows=5></textarea>
+            </div>
+
+
+            <div class="input-group">
+                <input type="hidden" name="D_group">
+                <p class="D_group">
+                    <b>Группа "Д" наблюдения</b>
+                    <span class="choose_one_state" role="button">Д1</span>
+                    <span class="choose_one_state" role="button">Д2</span>
+                    <span class="choose_one_state" role="button">Д3</span>
+                </p>
+            </div>
+            <div class="form-group">
+                <label for="icd10_input" style="display: inline-block">Диагноз (по МКБ-10)</label>
+                <input autocomplete="off" disabled class="form-control" id="icd10_input" style="display: inline-block">
+            </div>
+            <div class="dropdown">
+                <ul class="dropdown-menu" style="display: none" id="icd10_search_results">
+
+                </ul>
+            </div>
+
+            <div class="form-group">
+                <label for="appointments">Назначения (исследования, консультации)</label>
+                <textarea disabled id="appointments" class="form-control" name="appointments" rows=5></textarea>
+            </div>
+            <div class="form-group">
+                <label for="drugs"><b>Лекарственные препараты, физиотерапия</b></label>
+                <textarea disabled id="drugs" class="form-control" name="drugs" rows=5></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="therapy_finished_chbx">Лечение завершено</label>
+                <input autocomplete="off" id="therapy_finished_chbx" name="therapy_finished" type="checkbox">
+            </div>
+
+
+            <input type="submit" value="Подтвердить" class="btn btn-success">
+        </form>
+
+        <button class="button" id="submit_btn">Подтвердить</button>
+
+
+{% endblock %}

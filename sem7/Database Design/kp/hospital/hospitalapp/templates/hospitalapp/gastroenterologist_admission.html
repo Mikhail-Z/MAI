@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Первичный осмотр. Гастроэнтеролог.</title>
+    <link rel="stylesheet" href="../../static/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container text-left">
+        <h4>
+            Осмотр гастроэнтеролога.
+        </h4>
+        <hr/>
+        <form>
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="complaints_input"><b>Жалобы:</b></label>
+                <textarea id="complaints_input" class="form-control" name="complaints" rows=5></textarea>
+            </div>
+            <div class="form-group">
+                <label for="anamnesis_input"><b>Анамнез:</b></label>
+                <textarea id="anamnesis_input" class="form-control" name="complaints" rows="3"></textarea>
+            </div>
+
+            <div class="input-group">
+                <input type="hidden" name="general_state">
+                <p class="general_state">
+                    <b>Общее состояние:</b>
+                    <span class="choose_one_state" role="button">Удовлетворительное</span>,
+                    <span class="choose_one_state" role="button">cредней тяжести</span>,
+                    <span class="choose_one_state" role="button">тяжелое</span>,
+                    <span class="choose_one_state" role="button">крайне тяжелое</span>
+                </p>
+            </div>
+
+            <div class="input-group">
+                <input type="hidden" name="skin_integument">
+                <p class="skin_integument">
+                    <b>Кожные покровы:</b>
+                    <span class="choose_several_states" role="button">обычной окраски</span>,
+                    <span class="choose_several_states" role="button">чистые</span>,
+                    <span class="choose_several_states" role="button">бледные</span>,
+                    <span class="choose_several_states" role="button">желтушные</span>,
+                    <span class="choose_several_states" role="button">цианотичные</span>,
+                    <span class="choose_several_states" role="button">теплые</span>,
+                    <span class="choose_several_states" role="button">холодные</span>,
+                    <span class="choose_several_states" role="button">влажность повышена</span>,
+                    <span class="choose_several_states" role="button">сухие</span>,
+                    <span class="choose_several_states" role="button">пигментация</span>,
+                    <span class="choose_several_states" role="button">дермографизм</span>,
+                    <span class="choose_several_states" role="button">белый</span>,
+                    <span class="choose_several_states" role="button">красный</span>,
+                    <span class="choose_several_states" role="button">гиперемия</span>,
+                    <span class="choose_several_states" role="button">сыпь</span>
+                </p>
+            </div>
+
+            <div class="form-inline">
+                <label for="localization">Локализация</label>
+                <div class="btn-group">
+                    <input class="form-control" id="localization" name="localization">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <input type="hidden" name="visible_mucous">
+                <p class="visible_mucous">
+                    <b>Видимые слизистые:</b>
+                    <span class="choose_several_states" role="button">розовые</span>,
+                    <span class="choose_several_states" role="button">бледные</span>,
+                    <span class="choose_several_states" role="button">гиперемированные</span>,
+                    <span class="choose_several_states" role="button">иктеричные</span>,
+                    <span class="choose_several_states" role="button">чистые</span>,
+                    <span class="choose_several_states" role="button">сыпь</span>,
+                    <input type="text" class="visible_mucous-add">
+                </p>
+            </div>
+
+            <div class="input-group">
+                <input type="hidden" name="tongue">
+                <p class="tongue">
+                    <b>Язык:</b>
+                    <span class="choose_several_states" role="button">чистый</span>,
+                    <span class="choose_several_states" role="button">влажный</span>,
+                    <span class="choose_several_states" role="button">cухой</span>,
+                    <span class="group">
+                        <span>обложен</span>
+                        <input>
+                        <span>налетом.</span>
+                    </span>
+                </p>
+            </div>
+
+            <div class="input-group">
+                <input type="hidden" name="stomach">
+                <p class="stomach">
+                    <b>Живот при пальпации:</b>
+                    <span class="choose_several_states" role="button">мягкий</span>,
+                    <span class="choose_several_states" role="button">участвует в акте дыхания</span>,
+                    <span class="choose_several_states" role="button">метеоризм</span>,
+                    <span class="choose_several_states" role="button">безболезненный</span>
+                </p>
+            </div>
+
+            <div class="input-group">
+                <input type="hidden" name="pain_place">
+                <p class="pain_place">
+                    <b>Болезненный в:</b>
+                    <span class="choose_several_states" role="button">эпигастральной</span>,
+                    <span class="choose_several_states" role="button">пилородуоденальной</span>,
+                    <span class="choose_several_states" role="button">в правом подреберье</span>,
+                    <span class="choose_several_states" role="button">в левом подреберье</span>,
+                    <span class="choose_several_states" role="button">оходу толстого кишечника</span>,
+                    <span class="choose_several_states" role="button">в правой подвздошной обл.</span>,
+                    <span class="choose_several_states" role="button">в левой подвдошной обл.</span>,
+                    <span class="choose_several_states" role="button">околопупочной обл.</span>.
+                </p>
+            </div>
+
+            <div class="input-group">
+                <input type="hidden" name="liver">
+                <p class="liver">
+                    <b>Печень:</b>
+                    <span class="choose_several_states" role="button">не увеличена</span>,
+                    <span class="choose_several_states" role="button">Край ровный</span>,
+                    <span class="group">
+                        <span>выступает из-по реберной дуги справа на</span>
+                        <input class="liver-add">см.
+                    </span>
+                    <textarea style="margin-top: 5px" class="form-control"></textarea>
+                </p>
+            </div>
+
+            <div class="input-group">
+                <input type="hidden" name="spleen">
+                <p class="spleen">
+                    <b>Селезенка:</b>
+                    <span class="choose_several_states" role="button">не пальпируется</span>,
+                    <span class="group">
+                        <span>выступает из-по реберной дуги справа на</span>
+                        <input class="spleen-add">см.
+                    </span>
+                </p>
+            </div>
+            <div class="input-group">
+                <input type="hidden" name="chair">
+                <p class="chair">
+                    <b>Стул:</b>
+                    <span class="choose_several_states" role="button">регулярный</span>,
+                    <span class="choose_several_states" role="button">оформленный</span>,
+                    <span class="choose_several_states" role="button">учащенный</span>,
+                    <span class="choose_several_states" role="button">кашецеобразный</span>.
+                    <span class="choose_several_states" role="button">Запор</span>,
+                    <span class="group">
+                        <span>cтул через</span>
+                        <input class="chair-add">дней.
+                    </span>
+                    <span class="choose_several_states" role="button">Цвет физиологический</span>,
+                    <span class="choose_several_states" role="button">кровь</span>,
+                    <span class="choose_several_states" role="button">слизь в стуле</span>.
+                </p>
+            </div>
+            <div class="input-group">
+                <input type="hidden" name="edema">
+                <p class="edema">
+                    <b>Отеки:</b>
+                    <span class="choose_several_states" role="button">нет</span>,
+                    <span class="choose_several_states" role="button">нижних конечностей</span>,
+                    <span class="choose_several_states" role="button">лица</span>,
+                    <span class="choose_several_states" role="button">асцит</span>,
+                    <span class="choose_several_states" role="button">Запор</span>,
+                    <input class="edema-add">
+                </p>
+            </div>
+            <br>
+            <div class="input-group">
+                <input type="hidden" name="future_examinations">
+                <p class="future_examinations">
+                    <b>Обследование:</b>
+                    <span class="group">
+                            ОАК, ОАМ, Б/Х анализ крови, копрограмма, кал на я/глист,
+                            кал на дисбактериоз, ПТИ, кровь на HBSAg, HCV, ФГСД + биопсия на HP,
+                            УЗИ органов брюшной полости, а/т на HP, R-скопия желудка, RRS, ирригоскопия,
+                            колоноскопия, амилаза мочи,
+                    </span>
+                    <textarea style="margin-top: 5px" class="form-control"></textarea>
+                </p>
+            </div>
+            <br>
+
+            <div class="form-group">
+                <label for="diagnosis"><b>Диагноз:</b></label>
+                <textarea id="diagnosis" class="form-control" name="diagnosis" rows=5></textarea>
+            </div>
+            <div class="form-group">
+                <label for="appointments"><b>Назначения:</b></label>
+                <textarea id="appointments" class="form-control" name="appointments" rows="3"></textarea>
+            </div>
+        </form>
+    </div>
+    <script src="../../static/js/jquery-3.3.1.min.js"></script>
+    <script src="../../static/js/bootstrap.min.js"></script>
+    <script src="../../static/js/admission_review.js"></script>
+</body>
+</html>

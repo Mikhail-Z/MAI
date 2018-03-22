@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Прием офтальмолога</title>
+    <link rel="stylesheet" href="../../static/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container left">
+    <h4>Прием офтальмолога</h4>
+    <hr/>
+    <form>
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="complaints">Жалобы:</label>
+            <textarea id="complaints" class="form-control" name="complaints" rows=5></textarea>
+        </div>
+
+        <div class="form-group" style="display: inline-block">
+            <label for="VOS_OD">VIS OD</label>
+            <input id="VOS_OD"  class="form-control" name="VOS_OD">
+        </div>
+        <div class="form-group" style="display: inline-block">
+            <label for="VIS_OS"><b>Жалобы:</b></label>
+            <input id="VIS_OS" class="form-control" name="VIS_OS">
+        </div>
+
+        <br>
+
+        <div class="form-group" style="display: inline-block">
+            <label for="intraocular_pressure_left"><b>ВГД OD</b></label>
+            <input id="intraocular_pressure_left" class="form-control" name="intraocular_pressure_left">
+        </div>
+        <div class="form-group" style="display: inline-block">
+            <label for="intraocular_pressure_right"><b>ВГД OS</b></label>
+            <input id="intraocular_pressure_right" class="form-control" name="intraocular_pressure_right">
+        </div>
+
+        <br/>
+
+        <div class="input-group" style="display: inline-block">
+            <input type="hidden" name="left_eye">
+            <p class="left_eye">
+                <b>Глаз OD</b>
+                <span class="choose_one_state" role="button">спокоен</span>,
+                <span class="choose_one_state" role="button">раздражен</span>
+            </p>
+        </div>
+        <div class="input-group" style="display: inline-block">
+            <input type="hidden" name="right_eye">
+            <p class="left_eye">
+                <b>Глаз OS</b>
+                <span class="choose_one_state" role="button">спокоен</span>,
+                <span class="choose_one_state" role="button">раздражен</span>
+            </p>
+        </div>
+        <br/>
+
+        <div class="input-group" style="display: inline-block">
+            <input type="hidden" name="left_cornea">
+            <p class="left_eye">
+                <b>Роговица OD</b>
+                <span class="choose_one_state" role="button">прозрачная</span>,
+                <span class="choose_one_state" role="button">отечная</span>
+            </p>
+        </div>
+        <div class="input-group" style="display: inline-block">
+            <input type="hidden" name="right_cornea">
+            <p class="left_eye">
+                <b>Радужка OS</b>
+                <span class="choose_one_state" role="button">прозрачная</span>,
+                <span class="choose_one_state" role="button">отечная</span>
+            </p>
+        </div>
+        <br/>
+
+        <div class="input-group">
+            <input type="hidden" name="left_cornea">
+            <p class="left_eye">
+                <b>Радужка OD</b>
+                <span class="choose_one_state" role="button">спокойная</span>,
+                <span class="choose_one_state" role="button">структурная</span>,
+                <span class="choose_one_state" role="button">субатрофия стромы</span>
+            </p>
+        </div>
+        <div class="input-group">
+            <input type="hidden" name="right_cornea">
+            <p class="left_eye">
+                <b>Радужка OS</b>
+                <span class="choose_one_state" role="button">спокойная</span>,
+                <span class="choose_one_state" role="button">структурная</span>,
+                <span class="choose_one_state" role="button">субатрофия стромы</span>
+            </p>
+        </div>
+
+        <div class="input-group">
+            <input type="hidden" name="left_eye_lens">
+            <p class="left_eye_lens">
+                <b>Хрусталик OD</b>
+                <span class="choose_one_state" role="button">прозрачный</span>,
+                <span class="choose_one_state" role="button">факосклероз</span>,
+                <span class="choose_one_state" role="button">помутнения</span>,
+                <span class="choose_one_state" role="button">ИОЛ положение</span>,
+                <input class="form-control">
+            </p>
+        </div>
+
+        <div class="input-group">
+            <input type="hidden" name="right_eye_lens">
+            <p class="right_eye_lens">
+                <b>Хрусталик OS</b>
+                <span class="choose_one_state" role="button">прозрачный</span>,
+                <span class="choose_one_state" role="button">факосклероз</span>,
+                <span class="choose_one_state" role="button">помутнения</span>,
+                <span class="choose_one_state" role="button">ИОЛ положение</span>,
+                <input class="form-control">
+            </p>
+        </div>
+
+
+        <div class="input-group">
+            <input type="hidden" name="optical_disk_nerve_left">
+            <p class="optical_disk_nerve_left">
+                <b>ДЗН OD</b>
+                <span class="choose_one_state">бледно-розовый</span>,
+                <span class="choose_one_state">деколорирован</span>
+                <span class="choose_one_state">бледный</span>
+                <span class="choose_one_state">серый</span>
+            </p>
+        </div>
+        <div class="form-group" style="display: inline-block">
+            <label for="arteries_left">Артерии</label>
+            <input id="arteries_left" name="arteries_left">
+        </div>
+        <div class="form-group" style="display: inline-block">
+            <label for="veins_left">Вены</label>
+            <input id="veins_left" name="veins_left">
+        </div>
+
+        <br/>
+
+        <div class="input-group">
+            <input type="hidden" name="optical_disk_nerve_right">
+            <p class="optical_disk_nerve_right">
+                <b>ДЗН OD</b>
+                <span class="choose_one_state">бледно-розовый</span>,
+                <span class="choose_one_state">деколорирован</span>
+                <span class="choose_one_state">бледный</span>
+                <span class="choose_one_state">серый</span>
+            </p>
+        </div>
+        <div class="form-group" style="display: inline-block">
+            <label for="arteries_right">Артерии</label>
+            <input id="arteries_right" name="arteries_right">
+        </div>
+        <div class="form-group" style="display: inline-block">
+            <label for="veins_right">Вены</label>
+            <input id="veins_right" name="veins_right">
+        </div>
+
+        <br/>
+
+        <div class="form-group" style="display: inline-block">
+            <label for="mocular_pressure_left">Макулярная зона OD</label>
+            <input id="mocular_pressure_left" class="form-control" name="mocular_pressure_left">
+        </div>
+        <div class="form-group" style="display: inline-block">
+            <label for="mocular_pressure_right">Макулярная зона OS</label>
+            <input id="mocular_pressure_right" class="form-control" name="mocular_pressure_right">
+        </div>
+
+        <div class="form-group">
+            <label for="diagnosis"><b>Диагноз:</b></label>
+            <textarea id="diagnosis" class="form-control" name="diagnosis" rows=5></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="treatment">Лечение:</label>
+            <textarea id="treatment" rows="3" name="treatment" style="margin-top: 5px" class="form-control"></textarea>
+        </div>
+    </form>
+</div>
+</div>
+
+
+<script src="../../static/js/jquery-3.3.1.min.js"></script>
+<script src="../../static/js/bootstrap.min.js"></script>
+<script src="../../static/js/admission_review.js"></script>
+</body>
+</html>

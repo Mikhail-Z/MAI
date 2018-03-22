@@ -7,22 +7,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
-{% if user.is_authenticated %}
-<div class="container" style="margin-top: 5px">
-    <div class="row text-center">
-        <a href="{% url 'hospitalapp:logout' %}">
-            <button class="btn alert-danger" id="logout_btn">Выйти из системы</button>
-        </a>
-    </div>
-</div>
-{% endif %}
-
 <div id="logout" class="container text-right" style="margin-top: 20px">
-    <div style="margin-rightborder-radius: 50%; display: inline-block; font-size: large; background-color: #1b6d85; color: white; width: 50px; height: 50px; line-height: 50px; text-align: center">
-        ЗМ
-    </div><span style="display: inline-block"><h4>Забелин М. К.</h4></span>
-    <span class="glyphicon glyphicon-log-out" style="margin-left: 20px"></span>
-    <span style="display: inline-block"><a href="#"><h4><b>Выйти</b></h4></a></span>
+    <div style="border-radius: 50%; display: inline-block; font-size: large; background-color: #1b6d85; color: white; width: 50px; height: 50px; line-height: 50px; text-align: center">
+        {{ patient_info.last_name.0 }}{{ patient_info.first_name.0 }}
+    </div><span style="display: inline-block"><h4 style="margin-left: 10px">{{ patient_info.last_name }} {{ patient_info.first_name.0 }}. {{ patient_info.patronymic.0}}.</h4></span>
+    <a href="/patient/logout/">
+        <span class="glyphicon glyphicon-log-out" style="margin-left: 20px"></span>
+        <span style="display: inline-block"><h4><b>Выйти</b></h4></span>
+    </a>
 </div>
 
 <div class="container text-center" style="margin-top: 2%">
@@ -30,98 +22,77 @@
     <table class="table table-stripped" style="margin-top: 3%">
         <thead>
         <tr>
-            <th><h4><b>Специализация врача</b></h4></th>
-            <th><h4><b>Фамилия</b></h4></th>
-            <th><h4><b>Имя</b></h4></th>
-            <th><h4><b>Отчество</b></h4></th>
-            <th><h4><b>Дата и время приёма</b></h4></th>
-            <th><h4><b>Меню</b></h4></th>
+            <th><h3><b>Специализация врача</b></h3></th>
+            <th><h3><b>Фамилия</b></h3></th>
+            <th><h3><b>Имя</b></h3></th>
+            <th><h3><b>Отчество</b></h3></th>
+            <th><h3><b>Дата и время приёма</b></h3></th>
+            <th><h3><b>Меню</b></h3></th>
         </tr>
         </thead>
-        <tbody>
+        <tbody style="font-size: 24px">
+            {% for appointment in appointments %}
             <tr>
                 <td>
-                    <b>Врач-кардиолог</b>
+                    <b>{{ appointment.doctor_specialization }}</b>
                 </td>
                 <td>
-                    <b>Забелина</b>
+                    <b>{{ appointment.doctor_last_name }}</b>
                 </td>
                 <td>
-                    <b>Елена</b>
+                    <b>{{ appointment.doctor_first_name }}</b>
                 </td>
                 <td>
-                    <b>Радиевна</b>
+                    <b>{{ appointment.doctor_patronymic }}</b>
                 </td>
                 <td>
-                    <b>25 Января 2017</b>
+                    <b>{{ appointment.appointment_datetime }}</b>
                 </td>
                 <td>
-                    <div class="dropdown">
-                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Действия
-                        <span class="caret"></span></button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Изменить</a></li>
-                          <li><a href="#">Удалить</a></li>
-                        </ul>
-                    </div>
+                    <button name="deleteAppointment" value="{{ appointment.id }}" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal">
+                        <span class="glyphicon glyphicon-trash"></span>Удалить
+                    </button>
                 </td>
             </tr>
-            <tr>
-                <td>
-                    <b>Врач-кардиолог</b>
-                </td>
-                <td>
-                    <b>Забелина</b>
-                </td>
-                <td>
-                    <b>Елена</b>
-                </td>
-                <td>
-                    <b>Радиевна</b>
-                </td>
-                <td>
-                    <b>25 Января 2017</b>
-                </td>
-                <td>
-                    <div class="dropdown">
-                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Действия
-                        <span class="caret"></span></button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Изменить</a></li>
-                          <li><a href="#">Удалить</a></li>
-                        </ul>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <b>Врач-кардиолог</b>
-                </td>
-                <td>
-                    <b>Забелина</b>
-                </td>
-                <td>
-                    <b>Елена</b>
-                </td>
-                <td>
-                    <b>Радиевна</b>
-                </td>
-                <td>
-                    <b>25 Января 2017</b>
-                </td>
-                <td>
-                    <div class="dropdown">
-                        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Действия
-                        <span class="caret"></span></button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Изменить</a></li>
-                          <li><a href="#">Удалить</a></li>
-                        </ul>
-                    </div>
-                </td>
-            </tr>
+            {% endfor %}
+
         </tbody>
     </table>
+</div>
+
+<div class="container">
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title">Подтвердите действие</h3>
+        </div>
+        <div class="modal-body" style="font-size: large">
+          <p>Вы действительно хотите удалить свою запись?</p>
+        </div>
+        <div class="modal-footer">
+          <div class="row">
+            <div class="form-group col-md-6">
+                <button type="button" class="btn btn-success btn-lg" data-dismiss="modal">Нет, оставить запись</button>
+            </div>
+            <div class="form-group col-md-6">
+              <form action="/patient/my_appointments/delete/" method="POST">
+                  {% csrf_token %}
+                  <input name="appointment_id" type="hidden" style="display: inline-block">
+                  <input type="submit" class="btn btn-danger btn-lg" value="Да, отменить запись" style="display: inline-block">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
 </div>
 
 <div class="container text-center">
@@ -151,5 +122,10 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+    $("button[name='deleteAppointment']").click(function () {
+        $("input[name='appointment_id']").attr("value", $(this).attr("value"));
+    })
+</script>
 </body>
 </html>

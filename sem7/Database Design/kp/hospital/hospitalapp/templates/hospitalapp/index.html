@@ -6,15 +6,6 @@
     <link rel="stylesheet" href="/static/css/bootstrap.css">
 </head>
 <body>
-    {% if user.is_authenticated %}
-    <div class="container" style="margin-top: 5px">
-        <div class="row text-center">
-            <a href="{% url 'hospitalapp:logout' %}">
-                <button class="btn alert-danger">Выйти из системы</button>
-            </a>
-        </div>
-    </div>
-    {% endif %}
     <div class="container text-center" style="margin-top: 10%">
         <h1>Поликлиника №14</h1>
         <h2>Добро пожаловать</h2>
@@ -27,7 +18,7 @@
             </div>
         </div>
     </div>
-      <script src="/static/js/jquery-3.3.1.min.js"></script>
-      <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
 </body>
 </html>

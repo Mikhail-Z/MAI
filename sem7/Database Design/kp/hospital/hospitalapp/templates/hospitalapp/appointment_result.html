@@ -16,7 +16,7 @@
     <script src="/static/js/bootstrap.min.js"></script>
     <script type="text/javascript">
         var TIMEOUT_IN_SECS = 3
-        var TEMPLATE = '<span class="js-timer-seconds">00</span>'
+        var TEMPLATE = '<span class="js-timer-seconds"></span>'
 
         function padZero(number){
           return ("00" + String(number)).slice(-2);
@@ -123,6 +123,7 @@
 
         // initialize timer when page ready for presentation
         window.addEventListener('load', main)
+
 
     </script>
 </body>

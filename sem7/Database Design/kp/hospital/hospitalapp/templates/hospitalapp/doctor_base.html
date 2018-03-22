@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>{% block title %}{% endblock %}</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../../static/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link href="/static/css/doctor_interface.css" rel="stylesheet">
+    <link href="/static/css/datepicker.css" rel="stylesheet">
+    <style>{% block style %}{% endblock %}</style>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-right" style="position: relative">
+                <div style="border-radius: 50%;vertical-align: middle; display: inline-block; font-size: large; background-color: #1b6d85; color: white; width: 35px; height: 35px; line-height: 35px; text-align: center">
+                    {{ first_name.0 }}{{ patronymic.0 }}
+                </div>
+                <span style="vertical-align: middle; display: inline-block">
+                    <h4 style="margin-left: 10px; color: whitesmoke">{{ last_name }} {{ first_name.0 }}. {{ patronymic.0 }}.</h4>
+                </span>
+
+                <span class="glyphicon glyphicon-log-out" style="margin-left: 20px; color: whitesmoke"></span>
+                <a href="/patient/logout/">
+                    <span style="display: inline-block; color: whitesmoke"><h4><b>Выйти</b></h4></span>
+                </a>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container" id="page-content">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="list-group" style="margin-top: 50px">
+                    {% if action == "review" %}
+                        <a href="/doctor/review/" class="list-group-item active">Осмотр пациента</a>
+                    {% else %}
+                        <a href="/doctor/review/" class="list-group-item">Осмотр пациента</a>
+                    {% endif %}
+
+                    {% if action == "history" %}
+                        <a href="/doctor/issues_history/" class="list-group-item active">Просмотр истории посещений пациента</a>
+                    {% else %}
+                        <a href="/doctor/issues_history/" class="list-group-item">Просмотр истории посещений пациента</a>
+                    {% endif %}
+
+                    {% if action == "appointment" %}
+                        <a href="/doctor/appointment/" class="list-group-item active">Запись пациента к специалисту</a>
+                    {% else %}
+                        <a href="/doctor/appointment/" class="list-group-item">Запись пациента к специалисту</a>
+                    {% endif %}
+
+                    {% if action == "dispanserization" %}
+                        <a href="/doctor/dispanserization/" class="list-group-item active">Просмотр статуса пациентов, подлежащих диспансеризации</a>
+                    {% else %}
+                        <a href="/doctor/dispanserization/" class="list-group-item">Просмотр статуса пациентов, подлежащих диспансеризации</a>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="text-left">
+                    <h4>{% block header %}{% endblock %}</h4>
+                    <hr/>
+                    {% block content %}
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>ГБУ РО &laquo;Поликлиника №14&raquo;</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+    <div class="container">
+        {% block temp-content %}
+        {% endblock %}
+    </div>
+    <!-- jQuery -->
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/admission_review.js"></script>
+    <script src="/static/js/bootstrap-datepicker.js"></script>
+    <script src="/static/js/patient_search_from_review.js"></script>
+
+    <script src="/static/js/date_parser.js"></script>
+    {% block script %}{% endblock %}
+
+</body>
+
+</html>

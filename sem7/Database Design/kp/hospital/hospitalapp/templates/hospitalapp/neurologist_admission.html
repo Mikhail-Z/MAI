@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Прием невролога</title>
+    <link rel="stylesheet" href="../../static/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container text-left">
+    <h4>
+        Осмотр неврологом
+    </h4>
+    <hr/>
+    <form>
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="complaints_input"><b>Жалобы:</b></label>
+            <textarea id="complaints_input" class="form-control" name="complaints" rows=5></textarea>
+        </div>
+        <div class="form-group">
+            <label for="anamnesis_input"><b>Анамнез:</b></label>
+            <textarea id="anamnesis_input" class="form-control" name="complaints" rows="3"></textarea>
+        </div>
+        <div class="form-group" style="display: inline-block">
+            <label for="pressure">АД</label>
+            <input id="pressure" name="pressure">
+        </div>
+        <div class="form-group" style="display: inline-block">
+            <label for="heart_rate">ЧСС</label>
+            <input id="heart_rate" name="heart_rate">
+        </div>
+
+        <div class="input-group">
+            <input type="hidden" name="general_state">
+            <p class="general_state">
+                <b>Общее состояние:</b>
+                <span class="choose_one_state" role="button">Удовлетворительное</span>,
+                <span class="choose_one_state" role="button">cредней тяжести</span>,
+                <span class="choose_one_state" role="button">тяжелое</span>,
+                <span class="choose_one_state" role="button">крайне тяжелое</span>
+            </p>
+        </div>
+
+        <div class="input-group" style="display: inline-block">
+            <input type="hidden" name="nistagm">
+            <p class="nistagm">
+                <b>Нистагм:</b>
+                <span class="choose_several_states" role="button">установочный</span>,
+                <span class="choose_several_states" role="button">вертикальный</span>,
+                <span class="choose_several_states" role="button">горизонтальный</span>,
+                <span class="choose_several_states" role="button">ротаторный</span>
+            </p>
+        </div>
+        <div class="input-group" style="display: inline-block">
+            <input type="hidden" name="photoreactions">
+            <p class="photoreactions">
+                <b>Фотореакции:</b>
+                <span class="choose_one_state" role="button">сохранены</span>,
+                <span class="choose_one_state" role="button">не сохранены</span>
+            </p>
+        </div>
+
+        <div class="input-group">
+            <input type="hidden" name="eyeballs">
+            <p class="eyeballs">
+                <b>Зрачки:</b>
+                <span>D</span>
+                <input size="1">
+                <span>S</span>
+            </p>
+        </div>
+
+        <div class="input-group" style="display: inline-block">
+            <input type="hidden" name="eyeball_movements">
+            <p class="eyeball_movements">
+                <b>Движения глазных яблок:</b>
+                <span class="choose_several_states" role="button">безболезненны</span>,
+                <span class="choose_several_states" role="button">болезненны</span>,
+                <span class="choose_several_states" role="button">в полном объеме</span>,
+                <span class="choose_several_states" role="button">ограничены</span>,
+                <input class="form-control">
+            </p>
+        </div>
+
+        <div class="input-group" style="display: inline-block">
+            <input type="hidden" name="palpation_of_eyeballs">
+            <p class="palpation_of_eyeballs">
+                <b>Пальпация глазных яблок:</b>
+                <span class="choose_one_state" role="button">болезненна</span>,
+                <span class="choose_one_state" role="button">безболезненна</span>
+            </p>
+        </div>
+
+        <div class="input-group" style="display: inline-block">
+            <input type="hidden" name="convergence">
+            <p class="convergence">
+                <b>Конвергенция:</b>
+                <span class="choose_one_state" role="button">сохранена</span>,
+                <span class="choose_one_state" role="button">ослаблена</span>
+            </p>
+        </div>
+
+        <div class="input-group" style="display: inline-block">
+            <input type="hidden" name="nasolabial_folds">
+            <p class="nasolabial_folds">
+                <b>Конвергенция:</b>
+                <span class="choose_one_state" role="button">симметричны</span>,
+                <span class="choose_one_state" role="button">сглажены</span>,
+                <span class="choose_one_state" role="button">асимметричны:</span>
+                <span class="group">
+                    <span>D</span><input size="1" maxlength="1"><span>S</span>
+                </span>
+            </p>
+        </div>
+
+        <div class="input-group">
+            <input type="hidden" name="tongue">
+            <p class="tongue">
+                <b>Язык:</b>
+                <span class="choose_several_states" role="button">по средней линии</span>,
+                <span class="choose_several_states" role="button">девиирует</span>,
+                <span class="choose_several_states" role="button">вправо</span>,
+                <span class="choose_several_states" role="button">влево</span>,
+            </p>
+        </div>
+
+        <div class="input-group">
+            <input type="hidden" name="pathological_reflexes">
+            <p class="pathological_reflexes">
+                <b>Патологические рефлексы:</b>
+                <span class="choose_several_states" role="button">Маринеску-Радовичи</span>,
+                <span class="choose_several_states" role="button">хоботковый</span>
+            </p>
+        </div>
+
+        <div class="input-group">
+            <input type="hidden" name="tendon_reflexes_arms">
+            <b>В позе Ромберга:</b>
+            <p class="tendon_reflexes_arms">
+                <b>с рук</b>
+                <span class="group">
+                    <span>D</span><input size="1" maxlength="1"><span>S</span>
+                </span>
+                <span class="choose_one_state" role="button">живые</span>,
+                <span class="choose_one_state" role="button">снижены</span>,
+                <span class="choose_one_state" role="button">угнетены</span>,
+                <span class="choose_one_state" role="button">оживлены</span>
+            </p>
+        </div>
+        <div class="input-group">
+            <input type="hidden" name="tendon_reflexes_legs">
+            <p class="tendon_reflexes_legs">
+                <b>с ног</b>
+                <span class="group">
+                    <span>D</span><input size="1" maxlength="1"><span>S</span>
+                </span>
+                <span class="choose_one_state" role="button">живые</span>,
+                <span class="choose_one_state" role="button">снижены</span>,
+                <span class="choose_one_state" role="button">угнетены</span>,
+                <span class="choose_one_state" role="button">оживлены</span>
+            </p>
+        </div>
+
+        <div class="input-group">
+            <input type="hidden" name="romberg_pose">
+            <p class="romberg_pose">
+                <b>В позе Ромберга:</b>
+                <span class="choose_one_state" role="button">устойчив</span>,
+                <span class="choose_one_state" role="button">пошатование</span>,
+                <span class="choose_one_state" role="button">шаткость</span>,
+                <span class="choose_one_state" role="button">не стоит</span>
+            </p>
+        </div>
+
+        <div class="input-group">
+            <input type="hidden" name="finger-nose_test">
+            <p class="finger-nose_test">
+                <b>В позе Ромберга:</b>
+                <span class="choose_several_states" role="button">удовлетворительно</span>,
+                <span class="choose_several_states" role="button">неточно</span>,
+                <span class="choose_several_states" role="button">с мимопопаданием</span>,
+                <span class="choose_several_states" role="button">справа</span>,
+                <span class="choose_several_states" role="button">слева</span>,
+                <span class="choose_several_states" role="button">с интенционным дрожанием</span>
+            </p>
+        </div>
+        <div class="form-group">
+            <label for="muscular_tone" style="display: inline-block">Мышечный тонус</label>
+            <textarea class="form-control" style="display: inline-block" id="muscular_tone" name="muscular_tone"></textarea>
+        </div>
+
+        <div class="input-group">
+            <input type="hidden" name="paresis">
+            <p class="paresis">
+                <b>Парезы:</b>
+                <span class="choose_several_states" role="button">нет</span>,
+                <span class="choose_several_states" role="button">есть</span>,
+                <span class="choose_several_states" role="button">гемипарез</span>,
+                <span class="choose_several_states" role="button">справа</span>,
+                <span class="choose_several_states" role="button">слева</span>,
+                <input>
+            </p>
+        </div>
+
+        <div class="input-group">
+            <input type="hidden" name="barre_test">
+            <p class="barre_test">
+                <b>Проба Баре:</b>
+                <span class="choose_several_states" role="button">конечности удерживает</span>,
+                <span class="choose_several_states" role="button">конечности не удерживает</span>,
+                <span class="choose_several_states" role="button">справа</span>,
+                <span class="choose_several_states" role="button">слева</span>,
+                <span class="choose_several_states" role="button">для ног</span>,
+                <span class="choose_several_states" role="button">для рук</span>
+            </p>
+        </div>
+
+        <div class="input-group">
+            <input type="hidden" name="babensky_sindrom">
+            <p class="babensky_sindrom">
+                <b>Проба Баре:</b>
+                <span class="choose_ons_state" role="button">справа</span>,
+                <span class="choose_one_state" role="button">слева</span>,
+                <span class="choose_one_state" role="button">с двух сторон</span>
+            </p>
+        </div>
+
+        <div class="form-group">
+            <label for="additional_info">Дополнение:</label>
+            <textarea id="additional_info" rows="3" class="form-control"></textarea>
+        </div>
+
+        <div class="input-group">
+            <input type="hidden" name="future_examinations">
+            <p class="future_examinations">
+                <b>Обследование:</b>
+                <span class="choose_several_states">отдела позвоночника</span>,
+                <span class="choose_several_states">Rg-шейного отдела</span>,
+                <span class="choose_several_states">брахиоцефальных артерий</span>,
+                <span class="choose_several_states">ЭЭГ</span>,
+                <span class="choose_several_states">МРТ головного мозга</span>,
+                <span class="choose_several_states">МРТ позвоночника</span>,
+                <span class="choose_several_states">КТ головного мозга</span>,
+                <span class="choose_several_states">КТ позвоночника</span>.
+            </p>
+        </div>
+
+        <div class="form-group">
+            <label for="treatment">Лечение:</label>
+            <textarea id="treatment" name="treatment" style="margin-top: 5px" class="form-control"></textarea>
+        </div>
+
+    </form>
+</div>
+<script src="../../static/js/jquery-3.3.1.min.js"></script>
+<script src="../../static/js/bootstrap.min.js"></script>
+<script src="../../static/js/admission_review.js"></script>
+</body>
+</html>

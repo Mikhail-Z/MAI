@@ -21,15 +21,22 @@ urlpatterns = [
     url(r'^', include('hospitalapp.urls', namespace='hospitalapp')),
     url(r'^patient/', include('hospitalapp.urls', namespace='hospitalapp')),
     url(r'^patient/login/', include('hospitalapp.urls', namespace='hospitalapp')),
-    url(r'^patient/login/choice', include('hospitalapp.urls', namespace='hospitalapp')),
+    url(r'^patient/logout/', include('hospitalapp.urls', namespace='hospitalapp')),
     url(r'^patient/appointment/', include('hospitalapp.urls', namespace='hospitalapp')),
     url(r'^patient/appointment/submit', include('hospitalapp.urls', namespace='hospitalapp')),
     url(r'^patient/my_appointments/', include('hospitalapp.urls', namespace='hospitalapp')),
     url('r^patient/my_appointments/delete/', include('hospitalapp.urls', namespace='hospitalapp')),
-    url('r^patient/my_appointments/change/', include('hospitalapp.urls', namespace='hospitalapp')),
-
+    url('r^doctor/login/', include('hospitalapp.urls', namespace='hospitalapp')),
 
     url(r'^doctor/', include('hospitalapp.urls', namespace='hospitalapp')),
+    url(r'^doctor/review/', include('hospitalapp.urls', namespace='hospitalapp')),
+    url(r'^doctor/review/', include('hospitalapp.urls', namespace='hospitalapp')),
+    url(r'^doctor/review/patient_search/', include('hospitalapp.urls', namespace='hospitalapp')),
+    url(r'^doctor/issues_history/', include('hospitalapp.urls', namespace='hospitalapp')),
+    url(r'^doctor/appointment/', include('hospitalapp.urls', namespace='hospitalapp')),
+    url(r'^doctor/dispanserization/', include('hospitalapp.urls', namespace='hospitalapp')),
+
+
     url(r'^doctor/employees_not_found_error/', include('hospitalapp.urls', namespace='hospitalapp')),
     url(r'^doctor/appointment_records/', include('hospitalapp.urls', namespace='hospitalapp')),
     url(r'^check_user/', include('hospitalapp.urls', namespace='hospitalapp')),
@@ -39,15 +46,3 @@ urlpatterns = [
     url(r'^show_appointment_time/', include('hospitalapp.urls', namespace='hospitalapp')),
     url(r'^show_doctors/', include('hospitalapp.urls', namespace='hospitalapp')),
 ]
-
-'''
-   url('^$', include('hospitalapp.urls')),
-   url('^doctor/$', include('hospitalapp.urls')),
-   url('^patient/$', include('hospitalapp.urls')),
-   url('^doctor/signin$', include('hospitalapp.urls')),
-   # url('^doctor/signup$', views.doctor_signup, name='doctor_signup'),
-   url('^patient/signin$', include('hospitalapp.urls')),
-   url('^patient/signup$', include('hospitalapp.urls')),
-   url('^patient/admission$', include('hospitalapp.urls')),
-   url('^patient/appointment$', include('hospitalapp.urls')),
-   '''

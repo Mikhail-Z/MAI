@@ -53,7 +53,7 @@ $(document).ready(function () {
         go2appointment_datetime = $("<a href='#down'><button style='vertical-align: middle' class='btn btn-default btn-lg' doctor_id='go2appointment_datetime_btn'>Далее</button></a>");
         $(".bodies").append(go2appointment_datetime);
 
-        moved_header = $("<a name='down' style='color: black;'><div class='row' style='margin-top: 60%%' doctor_id='moved_header'></div></a>");
+        moved_header = $("<a name='down' style='color: black;'><div class='search_row' style='margin-top: 60%%' doctor_id='moved_header'></div></a>");
         moved_header.append(datetime_appointment_header);
 
         moved_body = $("<div class='moved_body'></div>");
@@ -105,7 +105,7 @@ $("#specializations_list").children().click(function (event) {
 
 $("#doctors_list").click(function (event) { //почему-то не реагирует на children()
     if (CURRENT_APPOINTMENT_ID !== null)
-        setSubmitBtnDisabled()
+        setSubmitBtnDisabled();
     if (CURRENT_APPOINTMENT_DATE !== null)
         deleteAppointmentTimeFromPage();
     if (CURRENT_DOCTOR_ID !== null) {
@@ -123,7 +123,7 @@ $("#doctors_list").click(function (event) { //почему-то не реаги�
         success: function (dates_and_weekdays) {
             for (i in dates_and_weekdays) {
                 innerText = $.grep([dates_and_weekdays[i]["date"], dates_and_weekdays[i]["weekday"]], Boolean).join(", ");
-                table_row = $("<tr class='doctor-spec-row'><td><h4><b>"+innerText+"</b></h4></td></tr>");
+                table_row = $("<tr class='doctor-spec-search_row'><td><h4><b>"+innerText+"</b></h4></td></tr>");
                 $("#appointment_dates_list").append(table_row);
             }
         }

@@ -1,0 +1,262 @@
+{% extends "hospitalapp/doctor_base.html" %}
+
+{% block title %}Запись пациента к специалисту{% endblock %}
+
+{% block content %}
+<div class="text-left">
+    <h3>Запись пациента к специалисту</h3>
+    <hr/>
+    <div>
+        <div class="form-group" id="patient_identification">
+            <label for="full_name_input">ФИО</label>
+            <input id="full_name_input" class="form-control">
+        </div>
+        <div class="pre-scrollable" style="height: 200px">
+            <table id="patient_search_table" class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Фамилия</th>
+                        <th>Имя</th>
+                        <th>Отчество</th>
+                        <th>Дата рождения</th>
+                        <th>Номер полиса</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="doctor_appointment" style="margin-bottom: 250px">
+        <div class="form-group" id="admissions_filter">
+            <label for="specialization_select">Специализация:</label>
+            <select id="specialization_select">
+                <option disabled selected value>Не выбрано</option>
+                {% for specialization in specializations %}
+                    <option data-specialization_id="{{specialization.id}}">{{specialization.specialization_name}}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="form-group" id="datetime_and_doctor_chooser">
+            <label for="appointment_date">Дата посещения:</label>
+            <input id="appointment_date" disabled class="datepicker" name="appointment_date" style="display: inline-block">
+        </div>
+        <form method="post" id="appointment_submit">
+            {% csrf_token %}
+        </form>
+    </div>
+    <div id="appointment_status_modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Статус записи к врачу</h4>
+          </div>
+          <div class="modal-body">
+            <p id="appointment_status_msg"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+{% endblock %}
+
+{% block script %}
+<script type="text/javascript">
+    function div(val, by){
+        return (val - val % by) / by;
+    }
+
+    $(".datepicker").datepicker({"weekStart": 1});
+
+    $("#full_name_input").on("input", function () {
+    cur_text = $(this).val();
+    patient_search_table = $("#patient_search_table");
+    patient_search_table.find("tbody").html("");
+    $("#patient_not_found_msg").remove();
+    if (cur_text.length >= 3) {
+        $.ajax({
+            url: "/doctor/appointment/",
+            type: "GET",
+            data: {
+                "full_name": cur_text
+            },
+            success: function (patient_info) {
+                if (patient_info.length === 0) {
+                    elem = "<b id='patient_not_found_msg'>Пациент не найден.</b>"
+                    patient_search_table.after(elem)
+                } else {
+                    for (i in patient_info) {
+                        last_name = "<td>" + patient_info[i]["last_name"] + "</td>";
+                        first_name = "<td>" + patient_info[i]["first_name"] + "</td>";
+                        patronymic = "<td>" + patient_info[i]["patronymic"] + "</td>";
+                        birthday = "<td>" + patient_info[i]["date_birth"] + "</td>";
+                        medical_police_number = "<td>" + patient_info[i]["medical_police_number"] + "</td>";
+                        search_row ="<tr data-patient="+patient_info[i]['id']+" role='button' class='patient_search'></tr>";
+                        search_row = $(search_row);
+
+                        col_values = $.grep([last_name, first_name, patronymic, birthday, medical_police_number], Boolean).join("\n")
+                        search_row.html(col_values);
+                        patient_search_table.find("tbody").append(search_row);
+                    }
+                }
+            }
+        })
+    }
+});
+
+
+    $("#specialization_select").change(function () {
+        if ($("option:selected[disabled=false]"))
+            $("#appointment_date").prop("disabled", false);
+    });
+    $("input#appointment_date.datepicker").on("change", function () {
+        specialization_id = $("#specialization_select option:selected").data("specialization_id");
+        appointment_date = $(this).val();
+        $.ajax({
+            url: "/doctor/appointment/",
+            type: "GET",
+            data: {
+                "specialization_id": specialization_id,
+                "appointment_date": appointment_date
+            },
+            success: function(doctors) {
+                $("#doctor_choose_dropdown").remove();
+                $("#time_choose_dropdown").remove();
+                elem = $("<div class='dropdown' id='doctor_choose_dropdown' style='display: inline-block; margin-left: 40px; bottom: -10px; min-width: max-content; width: 200px'></div>");
+                inner_elem = $("<div class='dropdown-menu' style='display: inline-block; padding: 5px; width: max-content'></div>");
+                if (doctors.length === 0) {
+                    no_results_msg = "<h4>Не найдено</h4>";
+                    inner_elem.append(no_results_msg)
+                } else {
+                    n = doctors.length;
+                    for (i = 0; i < n; i++) {
+                        buttonGroup = $("<div class='btn-group-lg' style='margin-bottom: 5px'></div>");
+                        emptyButton = $("<button data-doctor_id="+doctors[i]["doctor_id"]+" class='btn btn-default'></button>");
+                        emptyButton.text(doctors[i]["doctor_last_name"]+" "+doctors[i]["doctor_first_name"][0]+". "+doctors[i]["doctor_patronymic"][0]+".");
+                        buttonGroup.html(emptyButton)
+                    }
+                    inner_elem.append(buttonGroup);
+                }
+                elem.append(inner_elem);
+                $("#datetime_and_doctor_chooser").append(elem);
+            }
+        })
+    });
+    $(document).on("click", "button[data-doctor_id]", function () {
+        doctor_id = $(this).data("doctor_id");
+        $.ajax({
+            url: "/doctor/appointment/",
+            type: "GET",
+            data: {
+                "doctor_id": doctor_id
+            },
+            success: function (appointments_info) {
+                $("#time_choose_dropdown").remove();
+                elem = $("<div class='dropdown' id='time_choose_dropdown' style='display: inline-block; margin-left:550px; bottom: 17px; min-width: max-content; width: 250px'></div>");
+                n = appointments_info.length;
+                inner_elem = $("<div class='dropdown-menu' style='display: inline-block; padding: 5px; min-width: max-content; width: 250px'>");
+                buttonsInRowCount = 4;
+                for (i = 0; i < div(n, buttonsInRowCount); i++) {
+                    buttonGroup = $("<div class='btn-group-md' style='margin-top: 5px'></div>");
+                    for (j = 0; j < buttonsInRowCount; j++) {
+                        idx = i * buttonsInRowCount + j;
+                        if (appointments_info[idx]["free"] === true)
+                            emptyButton = $("<button class='btn btn-success'></button>");
+                        else
+                            emptyButton = $("<button class='btn disabled'></button>");
+                        emptyButton.attr("data-appointment_id", appointments_info[idx]["id"]);
+                        emptyButton.text(appointments_info[idx]["time"]);
+                        buttonGroup.append(emptyButton)
+                    }
+                    inner_elem.append(buttonGroup);
+                }
+                buttonGroup = $("<div class='btn-group-md' style='margin-top: 5px'></div>");
+                for (j = 0; j < n % 4; j++) {
+                    idx = div(n, buttonsInRowCount) + j;
+                    console.log(appointments_info[idx]["free"]);
+                    if (appointments_info[idx]["free"] === true)
+                        emptyButton = $("<button type='submit' form='appointment_submit' class='btn btn-success'></button>");
+                    else
+                        emptyButton = $("<button class='btn disabled'></button>");
+                    emptyButton.attr("data-appointment_id", appointments_info[idx]["id"]);
+                    emptyButton.text(appointments_info[idx]["time"]);
+                    buttonGroup.append(emptyButton)
+                }
+                inner_elem.append(buttonGroup);
+                elem.append(inner_elem);
+                $("#datetime_and_doctor_chooser").append(elem);
+            }
+        })
+    });
+
+    $(document).on("click", "button[data-appointment_id]", function(e){
+        e.preventDefault();
+        appointment_id = $(this).data("appointment_id");
+        csrfmiddlewaretoken = $("input[name='csrfmiddlewaretoken']").val();
+        $.ajax({
+            url: "/doctor/appointment/",
+            type: "POST",
+            data: {
+                "appointment_id": appointment_id,
+                "csrfmiddlewaretoken": csrfmiddlewaretoken
+            },
+            success: function (response) {
+                if (response["status"] === "OK") {
+                    $("#appointment_status_msg").html("Запись прошла успешно.");
+                } else if (response["status"] === "FAIL") {
+                    $("#appointment_status_msg").html("Не удалось записаться на это время. Возможно, это время уже занято.");
+                }
+                $("#appointment_status_modal").data("status", response["status"]);
+                $("#time_choose_dropdown").remove();
+                $("#doctor_choose_dropdown").remove();
+                $("#appointment_status_modal").modal("show");
+            }
+        })
+    });
+    $(document).on("click", ".patient_search", function () {
+        table_row = $(this);
+        patient_id = table_row.data("patient");
+
+        $.ajax({
+            url: "/doctor/appointment/",
+            type: "GET",
+            data: {
+                "patient_id": patient_id
+            }
+        });
+    });
+
+$(document).on("click", function (e) {
+    if ($(e.target).closest(".dropdown").length == 0) {
+        console.log("outside dropdown");
+        $("#doctor_choose_dropdown").remove();
+        $("#time_choose_dropdown").remove();
+    }
+});
+
+
+$(document).on("click", ".patient_search", function () {
+    table_row = $(this);
+    patient_id = table_row.data("patient");
+
+    $.ajax({
+        url: "/doctor/appointment/",
+        type: "GET",
+        data: {
+            "patient_id": patient_id
+        },
+        success: function () {
+            table_row.attr("class", "alert alert-success");
+        }
+    })
+});
+
+</script>
+
+{% endblock %}
