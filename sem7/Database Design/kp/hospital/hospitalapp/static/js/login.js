@@ -42,3 +42,8 @@ $("#keyboard").children().click(function () {
     }
 
 });
+
+
+$("#backwardBtn").click(function () {
+    window.history.go(-1);
+});

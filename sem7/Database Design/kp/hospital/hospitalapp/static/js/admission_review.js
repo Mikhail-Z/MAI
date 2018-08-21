@@ -48,7 +48,7 @@ $(document).on("click", ".choose_one_state", function () {
 
     makeClassActiveAndUnderlineOrBackward($(this), newClassName, false);
 
-    newValue = capitalize($(this).text());
+    newValue = $(this).text();
 
     jsonInputData[inputName].clickedElements.clear();
     jsonInputData[inputName].clickedElements.add(newValue);
@@ -114,3 +114,56 @@ $("#submit_btn").click(function (e) {
         console.log($(this).prop("name"), $(this).prop("value"));
     });
 });
+
+
+$(document).on("submit", "#main_form", function (e) {
+        e.preventDefault();
+        $.ajax({
+            url: "/doctor/review/",
+            type: "POST",
+            data: $("#main_form").serialize(),
+            success: function (new_admission) {
+                $("#myModal").modal("toggle");
+                admission_blank_print_url = "/doctor/review/" + new_admission.id + "/?print=true";
+                $("#print_cur_blank_btn").parent("a").attr("href", admission_blank_print_url);
+                $("#not_print_cur_blank_btn").parent("a").attr("href", window.location.href);
+            }
+        });
+    });
+    $(document).on("click", "#print_cur_blank, #not_print_cur_blank", function () {
+        $("#myModal").modal("close");
+       window.open($(this).parent("a").href());
+    });
+    $(document).on("click", "#not_print_cur_blank", function () {
+        $("#myModal").modal("close");
+       window.location.href = $(this).parent("a").href();
+    });
+    $("#weight").on("input", function () {
+        var height = $("#height").val();
+        var weight = $("#weight").val();
+        if (height !== "") {
+            if (isNaN(height) || isNaN(weight))
+                return;
+            var bmi_val = Math.round($(this).val()/((height/100) ** 2)*100)/100;
+            $("#bmi").prop("value", bmi_val);
+        }
+    });
+    $("#height").on("input", function () {
+        var weight = $("#weight").val();
+        var height = $("#height").val();
+        if (weight !== "") {
+            if (isNaN(height) || isNaN(weight))
+                return;
+            var bmi_val = Math.round($(this).val()/((height/100) ** 2)*100)/100;
+            $("#bmi").prop("value", bmi_val);
+        }
+    });
+    $(".dispanserization_stage").click(function (e) {
+        if (e.target.innerText == "1") {
+            $(".dispanserization_only").find(".first_stage_only").css("display", "inline");
+            $(".dispanserization_only").find(".second_stage_only").css("display", "none");
+        } else if (e.target.innerText == "2") {
+            $(".dispanserization_only").find(".first_stage_only").css("display", "none");
+            $(".dispanserization_only").find(".second_stage_only").css("display", "inline");
+        }
+    });

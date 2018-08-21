@@ -45,4 +45,7 @@ urlpatterns = [
     url(r'^show_specializations/', include('hospitalapp.urls', namespace='hospitalapp')),
     url(r'^show_appointment_time/', include('hospitalapp.urls', namespace='hospitalapp')),
     url(r'^show_doctors/', include('hospitalapp.urls', namespace='hospitalapp')),
+
+    url(r'^find_icd10/', include('hospitalapp.urls', namespace='hospitalapp')),
+
 ]

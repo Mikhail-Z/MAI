@@ -57,13 +57,16 @@
 </div>
 
 <div class="row text-center" style="margin-top: 50px">
-    <form action="/patient/appointment/submit/" method="GET">
-        <input type="hidden" name="appointment_id">
-        <input type="submit" class="btn btn-primary btn-lg disabled" id="submit_btn" value="Подтвердить">
-    </form>
+    <div class="col-md-6"><button id="backwardBtn" class="btn btn-default btn-lg">Назад</button></div>
+    <div class="col-md-6">
+        <form action="/patient/appointment/submit/" method="GET">
+            <input type="hidden" name="appointment_id">
+            <input type="submit" class="btn btn-primary btn-lg disabled" id="submit_btn" value="Подтвердить">
+        </form>
+    </div>
 </div>
   <script src="/static/js/jquery-3.3.1.min.js"></script>
   <script src="/static/js/bootstrap.min.js"></script>
-  <script src="../../static/js/appointment.js"></script>
+  <script src="/static/js/appointment.js"></script>
 </body>
 </html>

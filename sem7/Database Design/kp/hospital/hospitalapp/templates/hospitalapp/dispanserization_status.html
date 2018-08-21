@@ -1,38 +1,293 @@
-{% extends "hospitalapp/doctor_base.html" %}
 
-{% block title %}
-Просмотр статуса пациентов, подлежащих диспансеризации
-{% endblock %}
+            {% extends "hospitalapp/doctor_base.html" %}
 
-{% block header %}
-Просмотр статуса пациентов, подлежащих диспансеризации
-{% endblock %}
+        {% block title %}
+        Просмотр статуса пациентов, подлежащих диспансеризации
+        {% endblock %}
 
-{% block content %}
-    <div>
-        <div class="form-group" id="patient_identification">
-            <label for="full_name_input">ФИО</label>
-            <input id="full_name_input" class="form-control">
-        </div>
-        <div class="pre-scrollable" style="height: 200px">
-            <table id="patient_search_table" class="table table-hover">
-                <thead>
-                    <tr>
-                        <th>Фамилия</th>
-                        <th>Имя</th>
-                        <th>Отчество</th>
-                        <th>Дата рождения</th>
-                        <th>Номер полиса</th>
-                    </tr>
-                </thead>
-                <tbody>
+        {% block header %}
+            Просмотр статуса пациентов, подлежащих диспансеризации
+        {% endblock %}
 
-                </tbody>
-            </table>
-        </div>
-    </div>
+        {% block content %}
+            Найдено: <span id="search_count">{{patients_for_dispanserization_count}}</span>
+            <hr/>
+            <div id="dispanserization_filter">
+                <div class="form-grgoup" style="display: inline-block; margin-right: 5%">
+                    <label for="dispansery_status">Диспансерный учет</label>
+                    <select id="dispansery_status">
+                        <option data-dispansery_status="">Любой</option>
+                        {% for status in dispansery_statuses %}
+                            <option data-dispansery_status="{{status.id}}">{{status.name}}</option>
+                        {% endfor %}
+                    </select>
+                </div>
 
-    <div class="filter_block">
-        <div cla
-    </div>
+                <div class="form-group" style="display: inline-block;margin-right: 5%">
+                    <label for="health_group">Группа здоровья</label>
+                    <select id="health_group">
+                        <option data-health_group="">Любая</option>
+                        <option data-health_group="1">1</option>
+                        <option data-health_group="2">2</option>
+                        <option data-health_group="3">3</option>
+                    </select>
+                </div>
+
+                <div class="row">
+
+                    <div class="input-group">
+                        <div class="form-group col-xs-4">
+                            <label for="dispanserization_begin_date">Дата начала диспансеризации</label>
+                            <input class="form-control" placeholder="ДД.ММ" id="dispanserization_begin_date">
+                        </div>
+
+                        <div class="form-group col-xs-4">
+                            <label for="dispanserization_end_date">Дата конца диспансеризации</label>
+                            <input class="form-control" placeholder="ДД.ММ" id="dispanserization_end_date">
+                        </div>
+
+                        <div class="form-group col-xs-1">
+                            <label for="dispanserization_year">Год</label>
+                            <select id="dispanserization_year">
+                                {% for dispanserization_year in dispanserization_years %}
+                                    <option data-dispanserization_year="{{dispanserization_year.year}}">{{dispanserization_year.year}}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group col-xs-2">
+                        <label for="sex">Пол</label>
+                        <select id="sex">
+                            <option data-sex="">Не выбрано</option>
+                            <option data-sex="m">Мужской</option>
+                            <option data-sex="f">Женский</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-xs-1"  style="vertical-align: middle;"><b>Возраст:</b></div>
+                    <div class="form-group col-xs-2">
+                        <label for="age_from">от</label>
+                        <input class="form-control" id="age_from" type="number">
+                    </div>
+                    <div class="form-group col-xs-2">
+                        <label for="age_to">до</label>
+                        <input class="form-control" id="age_to" type="number">
+                    </div>
+
+                </div>
+                <br/>
+                <div class="form-group" style="display: inline-block; margin-right: 5%">
+                    <label for="dispanserization_stage_finished">Статус диспансеризации</label>
+                    <select id="dispanserization_stage_finished">
+                        <option data-dispanserization_stage="">Любой</option>
+                        <option data-dispanserization_stage="-1">Не начата</option>
+                        <option data-dispanserization_stage="0">Начата</option>
+                        <option data-dispanserization_stage="01">На 1-ом этапе</option>
+                        <option data-dispanserization_stage="1">Окончена на 1-ом этапе</option>
+                        <option data-dispanserization_stage="12">Отправлен на 2-ой этап</option>
+                        <option data-dispanserization_stage="2">Окончена на 2-ом этапе</option>
+                    </select>
+                </div>
+                <div class="form-group" style="display: inline-block; margin-right: 5%">
+                    <label for="insurance_medical_organization">Страховая компания</label>
+                    <select id="insurance_medical_organization">
+                        <option data-organization="">Любая</option>
+                        {% for organization in insurance_medical_organizations %}
+                            <option data-organization="{{organization.id}}">{{organization.name}}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+
+
+
+                <div class="row">
+                    <div class="input-group">
+                    <div class="form-group col-xs-5" style="display: inline-block; float: none; vertical-align: middle;">
+                        <label for="icd10_input">Выявленное заболевание</label>
+                        <input autocomplete="off" id="icd10_input" class="form-control" style="max-width:300px; display: inline-block">
+                    </div>
+                    <div class="form-group col-xs-5" style="display: inline-block; float: none; vertical-align: middle;">
+                        <label for="search_by_name_input">ФИО</label>
+                        <input autocomplete="off" id="search_by_name_input" onkeyup="myFunction()" class="form-control" style="max-width: 300px">
+                    </div>
+                    <div class="col-xs-2" style="display: inline-block; float: none; vertical-align: middle;">
+                        <button class="btn btn-primary" id="search_btn">Показать</button>
+                    </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <ul class="dropdown-menu" style="display: none" id="icd10_search_results">
+
+                    </ul>
+                </div>
+
+            <div>
+                <table class="table table-striped" id="admissions_table">
+                    <thead>
+                        <tr>
+                            <th>№</th>
+                            <th>Фамилия</th>
+                            <th>Имя</th>
+                            <th>Отчество</th>
+                            <th>Дата рождения</th>
+                            <th>Отправить приглашение</th>
+                        </tr>
+                    </thead>
+                    <tbody id="admissions_tbody">
+                        <tr>
+                            <td>1</td>
+                            <td>Аверин</td>
+                            <td>Никита</td>
+                            <td>Георгиевич</td>
+                            <td>1994-04-08</td>
+                            <td><input type="checkbox" disabled></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Майоров</td>
+                            <td>Дмитрий</td>
+                            <td>Николаевич</td>
+                            <td>1997-08-29</td>
+                            <td><input type="checkbox" disabled></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Носова</td>
+                            <td>Анна</td>
+                            <td>Александровна</td>
+                            <td>1994-02-21</td>
+                            <td><input type="checkbox" disabled></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Турова</td>
+                            <td>Екатерина</td>
+                            <td>Валерьевна</td>
+                            <td>1988-10-14</td>
+                            <td><input type="checkbox" disabled></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Ясинский</td>
+                            <td>Владислав</td>
+                            <td>Ростиславович</td>
+                            <td>1991-05-01</td>
+                            <td><input type="checkbox" disabled></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        {% endblock %}
+
+{% block script %}
+<script>
+    $("#search_btn").click(function () {
+        //dispansery_status = $("#dispansery_status option:selected").data("dispansery_status");
+        //health_group = $("#health_group option:selected").data("health_group");
+        //insurance_medical_organization = $("#insurance_medical_organization option:selected").data("organization");
+        //current_dispanserization_stage = $("#dispanserization_stage_finished option:selected").data("dispanserization_stage");
+        //dispanserization_year = $("#dispanserization_year:selected").data("dispanserization_year");
+        //icd10_id = $("#icd10_input").data("icd10_id");
+        var sex = $("#sex").val()
+        if (sex === "Мужской")
+            sex = "m"
+        else if (sex === "Женский")
+            sex = "f"
+        var age_from = $("#age_from").val()
+        var age_to = $("#age_to").val()
+        console.log(age_from)
+        $.ajax({
+            url: "/doctor/dispanserization/",
+            method: "GET",
+            data: {
+                "age_from": age_from,
+                "age_to": age_to,
+                "sex": sex
+            },
+            success: function (patients_found) {
+                var tbody = $("#admissions_tbody");
+                tbody.html("");
+                for (var i = 0; i < patients_found.length; i++) {
+                    var tr = $("<tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>");
+                    tr.data("patient_id", patients_found[i].patient_id);
+                    tr.find(":nth-child(1)").html(i + 1);
+                    tr.find(":nth-child(2)").html(patients_found[i].patient_last_name);
+                    tr.find(":nth-child(3)").html(patients_found[i].patient_first_name);
+                    tr.find(":nth-child(4)").html(patients_found[i].patient_patronymic);
+                    tr.find(":nth-child(5)").html(patients_found[i].patient_datebirth);
+                    if (patients_found[i].finished)
+                        tr.find(":nth-child(6)").html("<input type='checkbox' disabled>");
+                    else
+                        tr.find(":nth-child(6)").html("<input type='checkbox'>");
+                    tbody.append(tr);
+                }
+            }
+        });
+    });
+
+    function myFunction() {
+      var input, filter, table, tr, td, i;
+      input = document.getElementById("search_by_name_input");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("admissions_table");
+      tr = table.getElementsByTagName("tr");
+      for (i = 1; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[1].innerHTML
+            + " " + tr[i].getElementsByTagName("td")[2].innerHTML
+            + " " + tr[i].getElementsByTagName("td")[3].innerHTML;
+        console.log(td);
+        if (td) {
+          if (td.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
+        }
+      }
+      var search_count = document.getElementById("search_count");
+      search_count.innerHTML = $("#admissions_tbody").find("tr:visible").length
+    }
+
+
+    $("#icd10_input").on("input", function () {
+       if ($(this).val().length >= 3) {
+           $("#icd10_search_results").css("display", "inline-block");
+           $.ajax({
+               url: "/find_icd10/",
+               type: "GET",
+               data: {
+                   "icd10_text": $(this).val()
+               },
+               success: function (patients) {
+                   $("#icd10_search_results").html("");
+                   console.log(patients.length)
+                   for (i in patients) {
+                       code = patients[i][1];
+                       name = patients[i][2];
+                       search_row = "<span data-icd10_id=" + patients[i][0] + " " + "role='button' class='icd10_search_row'><li onmouseover="+"this.style.backgroundColor='lightgrey'" + " " + "onmouseout="+"this.style.backgroundColor='white'"+">" +
+                           "<b>" + code + "</b>" + " " + name + "</li></span>";
+                       $("#icd10_search_results").append(search_row);
+                   }
+               }
+           });
+       } else
+           $("#icd10_search_results").css("display", "none");
+
+    });
+
+
+$(document).on("click", function (event) {
+    if ($(event.target).closest($(".icd10_search_row")).length) {
+        icd10_id = $(event.target).closest($(".icd10_search_row")).data()["icd10_id"];
+        $("input[name=icd10_id]").val(icd10_id);
+        $("#icd10_input").val($(event.target).closest($(".icd10_search_row")).text())
+        $("#icd10_input").data("icd10_id", icd10_id)
+    }
+    $("#icd10_search_results").css("display", "none");
+});
+</script>
 {% endblock %}

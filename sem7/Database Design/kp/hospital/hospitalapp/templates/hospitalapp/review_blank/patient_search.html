@@ -1,0 +1,58 @@
+<div id="patient_search">
+    <div class="form-group" id="admission_info">
+        <label for="visit_purpose">Цель посещения</label>
+        <select form="main_form" id="visit_purpose" name="visit_purpose">
+            <option disabled selected onclick="SELECTED_ELEMENTS.visit_purpose = false">не выбрано</option>
+            {% for purpose in visit_purposes %}
+                <option onclick="SELECTED_ELEMENTS.visit_purpose = true" value="{{ purpose.value }}">{{ purpose.value }}</option>
+            {% endfor %}
+        </select>
+
+        <label for="admission_type">Тип посещения</label>
+        <select form="main_form" id="admission_type" name="admission_type">
+            <option selected onclick="SELECTED_ELEMENTS.admission_type = false" value="">не выбрано</option>
+            {% for admission_type in admission_types %}
+                <option onclick="SELECTED_ELEMENTS.admission_type = true" value="{{ admission_type.value }}">{{ admission_type.value }}</option>
+            {% endfor %}
+        </select>
+        </nobr>
+        <label for="ticket_number">Номер талона</label>
+        <input size="6" id="ticket_number">
+        <button id="patient_search_by_ticket_btn" class="btn btn-primary" disabled>Поиск</button>
+    </div>
+
+    <div class="form-group" id="patient_identification">
+        <nobr>
+        <label for="medical_police_type">Тип мед. полиса</label>
+        <select id="medical_police_type">
+            <option  id="no_med_police_type">не выбрано</option>
+            <option data-med_police_type_id="2" id="new_med_police_type">Нового образца</option>
+            <option data-med_police_type_id="1" id="old_med_police_type">Старого образца</option>
+        </select>
+        </nobr>
+        <nobr>
+            <label for="med_police_series">Серия мед. полиса</label>
+            <input autocomplete="off" name="med_police_series" id="med_police_series" size="11" disabled>
+        </nobr>
+        <nobr>
+            <label for="med_police_number">Номер мед. полиса</label>
+            <input autocomplete="off" id="med_police_number" name="med_police_number" size="16" disabled>
+        </nobr>
+        <button id="patient_search_btn" class="btn btn-primary" disabled>Поиск</button>
+    </div>
+
+    <table id="patient_search_table" class="table">
+        <thead>
+            <tr>
+                <th>Фамилия</th>
+                <th>Имя</th>
+                <th>Отчество</th>
+                <th>Дата рождения</th>
+                <th>Все верно</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</div>

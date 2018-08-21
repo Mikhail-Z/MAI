@@ -1,0 +1,75 @@
+{% extends "hospitalapp/review_blank/doctor_base.html" %}
+
+{% block title %}
+    Бланк осмотра каридолога
+{% endblock %}
+
+{% block content %}
+<div>
+    <div style="margin-bottom: 50px; margin-top: 30px">
+        <b>Дата и время приема</b>: {{admission_datetime}}
+        <b>ФИО</b>: {{patient.last_name}} {{patient.first_name}} {{patient.patronymic}}
+    </div>
+
+    <b>Жалобы:</b><p>{{complaints}}</p>
+    <b>Анамнезис:</b><p>{{anamnesis}}</p>
+
+    <b>Данные объективного обследования:</b><p>{{survey_data}}</p>
+
+    <b>Общее состояние:</b><p>{{general_state}}</p>
+
+    <b>Температура тела:</b><p>{{body_temperature}}</p>
+
+    <b>Рост:</b><p>{{height}}</p>
+
+    <b>Вес:</b><p>{{weight}}</p>
+
+    <b>БМИ:</b><p>{{BMI}}</p>
+
+    <b>Сознание:</b><p>{{consciousness}}</p>
+
+    <b>Кожные покровы:</b><p>{{skin_integument}}</p>
+
+    <b>Тургор снижен:</b><p>{{turgor_reduced}}</p>
+
+    <b>Видимые слизистые:</b><p>{{visible_mucous}}</p>
+
+    <b>Легкие</b><p>{{lungs}}</p>
+
+    <b>Перкуторный звук:</b><p>{{percutary_sound}}</p>
+
+    <b>Дыхательные шумы:</b><p>{{espiratory_noise}}</p>
+
+    <b>Хрипы:</b><p>{{wheezing}}</p>
+
+    <b>Пульс:</b><p>{{pulse}}</p>
+
+    <b>Наполнение:</b><p>{{filling}}</p>
+
+    <b>Дефицит пульса:</b><p>{{pulse_deficit}}</p>
+
+    <b>Давление:</b><p>{{pressure}}</p>
+
+    <b>Границы относительной тупости:</b><p>{{obtuse_boundaries}}</p>
+
+    <b>Сердце тоны:</b><p>{{heart_tones}}</p>
+
+    <b>Печень:</b><p>{{liver}}</p>
+
+    <b>Крац печени:</b><p>{{liver_edge}}</p>
+
+    <b>Мочеиспускание:</b><p>{{urination}}</p>
+
+    <b>Отеки:</b><p>{{edema}}</p>
+
+    <b>Дополнительные данные:</b><p>{{additional_information}}</p>
+
+    <b>МКБ-10:</b><p>{{icd10_value}}</p>
+
+    <b>Назначения</b><p>{{appointments}}</p>
+
+    <b>Лекарственные препараты, физиотерапия:</b><p>{{drugs}}</p>
+
+    <b>Лечение завершено:</b><p>{{therapy_finished}}</p>
+</div>
+{% endblock %}

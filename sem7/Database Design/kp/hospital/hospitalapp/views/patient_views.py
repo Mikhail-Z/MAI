@@ -2,6 +2,7 @@ from django.shortcuts import render, reverse, redirect
 from django.http import HttpResponse, HttpResponseRedirect
 from django.contrib.auth import authenticate, login, logout
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from django.core.exceptions import ObjectDoesNotExist, MultipleObjectsReturned
 
 from ..models import *
 from django.db import connection
@@ -12,52 +13,31 @@ import datetime
 from django.http import JsonResponse
 from django.views import View
 from django.contrib.auth.decorators import login_required
+from .help_functions import *
 
 
-class LoginView(View):
+class PatientLoginView(View):
 
-    def get(self, request, *args, **kwargs):
+    def get(self, request):
         request.session["redirect_url"] = request.GET.get("next")
-        print(request.session["redirect_url"])
-        return render(request, "hospitalapp/login.html")
+        return render(request, "hospitalapp/patient_login.html")
 
-    def post(self, request, *args, **kwargs):
+    def post(self, request):
         username = request.POST.get('login', '')
         password = request.POST.get('password', '')
         user = authenticate(username=username, password=password)
         if user is not None:
             login(request, user)
             redirect_url = request.session.pop("redirect_url")
+            if redirect_url is None:
+                redirect_url = "/patient/"
             return HttpResponseRedirect(redirect_url)
         else:
-            return render(request, "hospitalapp/login.html", context={"after_wrong_login": True})
-
-
-def check_user_exists(request):
-    login = request.GET.get('login')
-    password = request.GET.get('password')
-    user = authenticate(username=login, password=password)
-    if user is not None:
-        login(request, user)
-        url = 'hospitalapp:appointment'
-        return JsonResponse({
-            'success': True,
-            'url': reverse(url)
-        })
-    else:
-        return JsonResponse({'success': False})
+            return render(request, "hospitalapp/patient_login.html", context={"after_wrong_login": True})
 
 
 def patient(request):
-    if request.method == "GET":
-        if request.GET.get("afterLogin", None):
-            url = "hospitalapp:patient"
-            return HttpResponseRedirect(reverse(url))
-        my_appointments_url = reverse('hospitalapp:my_appointments')
-        return render(request, 'hospitalapp/patient.html', {'my_appointments_url': my_appointments_url})
-    else:
-        url = 'hospitalapp:patient_login'
-        return HttpResponseRedirect(reverse(url))
+    return render(request, 'hospitalapp/patient.html')
 
 
 class MyFutureAppointmentsView(View):
@@ -67,7 +47,8 @@ class MyFutureAppointmentsView(View):
         cur_patient_info = self._get_current_patient_info(request)[0]
         future_appointments = self._get_future_appointments(cur_patient_info["id"])
         page = request.GET.get('page')
-        paginator = Paginator(future_appointments, 5)
+        appointments_per_page = 5
+        paginator = Paginator(future_appointments, appointments_per_page)
         try:
             appointments_on_cur_page = paginator.page(page)
         except PageNotAnInteger:
@@ -101,24 +82,30 @@ class MyFutureAppointmentsView(View):
         cursor.execute(query, [patient_id])
         return dictfetchall(cursor)
 
+
+@login_required(login_url="/patient/login/")
 def delete_appointment(request):
-    print(request.method)
     if request.method == "POST":
         appointment_id = request.POST.get("appointment_id", None)
         if appointment_id:
-            update_rows_num = PatientsAppointmentToDoctors.objects.filter(id=appointment_id).update(free='f', patient_id=None)
+            update_rows_num = PatientsAppointmentToDoctors.objects.\
+                filter(id=appointment_id).update(free='f', patient_id=None)
             return redirect("hospitalapp:my_appointments")
+    else:
+        return HttpResponse(
+            content={"message": "only POST method is allowed"},
+            status=405
+        )
 
 
 @login_required(login_url="/patient/login/")
 def submit_appointment(request):
     if request.method == "POST":
         appointment_id = request.session.get("appointment_id", None)
-        patient_id = list(Patient.objects.filter(user_id=request.user.id).values_list("id"))[0][0]
+        patient_id = Patient.objects.get(user_id=int(request.user.id)).id
         if appointment_id:
             updates_rows_num = PatientsAppointmentToDoctors.objects.\
                 filter(id=appointment_id, free='t').update(free='f', patient_id=patient_id)
-            print("logout")
             logout(request)
             if updates_rows_num:
                 return render(
@@ -135,9 +122,21 @@ def submit_appointment(request):
                     })
     else:
         appointment_id = request.GET.get("appointment_id", None)
+        print("appintment id:", appointment_id)
         if appointment_id:
             request.session["appointment_id"] = appointment_id
-        return render(request, "hospitalapp/submit_appointment.html")
+        query = """select d.last_name as doctor_last_name, d.first_name as doctor_first_name, d.patronymic as doctor_patronymic,
+                  pa.appointment_datetime as appointment_datetime, c.number as cabinet_number, s.specialization_name as specialization_name from 
+                  patients_appointment_to_doctors pa JOIN
+                  doctor_specialization ds  on (ds.id = pa.doctor_specialization_id) join
+                  specialization s on (s.id= ds.specialization_id) join
+                  cabinet c on (c.id = pa.cabinet_id) JOIN 
+                  doctor d on (d.id = ds.doctor_id)
+                  where (pa.id = %s)"""
+        cursor = connection.cursor()
+        cursor.execute(query, [int(appointment_id)])
+        future_appointment_info = dictfetchall(cursor)[0]
+        return render(request, "hospitalapp/submit_appointment.html", context={"appointment_info": future_appointment_info})
 
 
 class AppointmentView(View):
@@ -158,7 +157,7 @@ class AppointmentView(View):
 
     def _show_specializations(self, request):
         doctor_specializations = list(
-            DoctorSpecialization.objects.values("specialization__id", "specialization__specialization_name").distinct()
+            DoctorSpecialization.objects.values("specialization__id", "specialization__specialization_name").filter(specialization__is_hidden=False)
         )
         print(doctor_specializations)
         return render(request, self.template_name,
@@ -195,11 +194,12 @@ class AppointmentView(View):
         date = datetime.datetime.strptime(date_str, "%d.%m.%Y")
 
         cursor = connection.cursor()
-        query = "select pa.id, pa.free, to_char(pa.appointment_datetime, 'HH:MI')" \
+        query = "select pa.id, pa.free, to_char(pa.appointment_datetime, 'HH24:MI')" \
                 " from patients_appointment_to_doctors pa"  \
                 " join doctor_specialization ds on (pa.doctor_specialization_id = ds.id)" \
                 " where (ds.doctor_id = %s and ds.specialization_id = %s and" \
-                " pa.appointment_datetime::date = %s and pa.appointment_datetime > now());"
+                " pa.appointment_datetime::date = %s and pa.appointment_datetime > now())" \
+                " ORDER by to_char(pa.appointment_datetime, 'HH24:MI')"
         cursor.execute(query, [doctor_id, specialization_id, date])
         appointments_info = cursor.fetchall()
         print(appointments_info)

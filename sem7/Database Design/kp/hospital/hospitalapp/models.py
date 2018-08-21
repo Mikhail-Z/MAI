@@ -94,7 +94,7 @@ class Cabinet(models.Model):
         db_table = 'cabinet'
 
 
-class CardiologistAdmissionReview(models.Model):
+class CardiologistAdmissionDispanserization(models.Model):
     id = models.BigAutoField(primary_key=True)
     admission = models.ForeignKey('PatientsAdmissionToDoctors', models.DO_NOTHING, blank=True, null=True)
     icd10 = models.ForeignKey('Icd10', models.DO_NOTHING, blank=True, null=True)
@@ -103,7 +103,9 @@ class CardiologistAdmissionReview(models.Model):
     survey_data = models.TextField(blank=True, null=True)
     general_state = models.TextField(blank=True, null=True)
     body_temperature = models.TextField(blank=True, null=True)
-    bmi = models.TextField(blank=True, null=True)
+    weight = models.FloatField(blank=True, null=True)
+    height = models.FloatField(blank=True, null=True)
+    bmi = models.FloatField(blank=True, null=True)
     consciousness = models.TextField(blank=True, null=True)
     skin_integument = models.TextField(blank=True, null=True)
     turgor_reduced = models.TextField(blank=True, null=True)
@@ -123,23 +125,68 @@ class CardiologistAdmissionReview(models.Model):
     urination = models.TextField(blank=True, null=True)
     edema = models.TextField(blank=True, null=True)
     additional_information = models.TextField(blank=True, null=True)
-    d_group = models.CharField(max_length=3, blank=True, null=True)
+    health_group = models.CharField(max_length=3, blank=True, null=True)
+    dispansery_status = models.ForeignKey('DispanseryStatus', models.DO_NOTHING, blank=True, null=True)
+    appointments = models.TextField(blank=True, null=True)
+    drugs = models.TextField(blank=True, null=True)
+
+    class Meta:
+        managed = False
+        db_table = 'cardiologist_admission_dispanserization'
+
+
+class CardiologistAdmissionReview(models.Model):
+    id = models.BigAutoField(primary_key=True)
+    admission = models.ForeignKey('PatientsAdmissionToDoctors', models.DO_NOTHING, blank=True, null=True)
+    icd10 = models.ForeignKey('Icd10', models.DO_NOTHING, blank=True, null=True)
+    complaints = models.TextField(blank=True, null=True)
+    anamnesis = models.TextField(blank=True, null=True)
+    survey_data = models.TextField(blank=True, null=True)
+    general_state = models.TextField(blank=True, null=True)
+    body_temperature = models.TextField(blank=True, null=True)
+    consciousness = models.TextField(blank=True, null=True)
+    skin_integument = models.TextField(blank=True, null=True)
+    turgor_reduced = models.TextField(blank=True, null=True)
+    visible_mucous = models.TextField(blank=True, null=True)
+    lungs = models.TextField(blank=True, null=True)
+    percutary_sound = models.TextField(blank=True, null=True)
+    respiratory_noise = models.TextField(blank=True, null=True)
+    wheezing = models.TextField(blank=True, null=True)
+    pulse = models.TextField(blank=True, null=True)
+    filling = models.TextField(blank=True, null=True)
+    pulse_deficit = models.TextField(blank=True, null=True)
+    pressure = models.TextField(blank=True, null=True)
+    obtuse_boundaries = models.TextField(blank=True, null=True)
+    heart_tones = models.TextField(blank=True, null=True)
+    liver = models.TextField(blank=True, null=True)
+    liver_edge = models.TextField(blank=True, null=True)
+    urination = models.TextField(blank=True, null=True)
+    edema = models.TextField(blank=True, null=True)
+    additional_information = models.TextField(blank=True, null=True)
     appointments = models.TextField(blank=True, null=True)
     drugs = models.TextField(blank=True, null=True)
     therapy_finished = models.NullBooleanField()
+    bmi = models.FloatField(blank=True, null=True)
 
     class Meta:
         managed = False
         db_table = 'cardiologist_admission_review'
 
 
-class Dispanserization(models.Model):
-    dispanserization_group = models.CharField(max_length=5)
-    icd10 = models.ForeignKey('Icd10', models.DO_NOTHING, blank=True, null=True)
+class DispanserizationStatus(models.Model):
+    patient = models.ForeignKey('Patient', models.DO_NOTHING, blank=True, null=True)
+    health_group = models.CharField(max_length=3, blank=True, null=True)
+    cur_stage = models.IntegerField(blank=True, null=True)
+    finished = models.NullBooleanField()
+    sent_to_2nd_stage = models.NullBooleanField()
+    dispansery_status = models.ForeignKey('DispanseryStatus', models.DO_NOTHING, blank=True, null=True)
+    last_visit_datetime = models.DateTimeField()
+    icd10_ids = models.TextField(blank=True, null=True)  # This field type is a guess.
+    first_visit_datetime = models.DateTimeField(blank=True, null=True)
 
     class Meta:
         managed = False
-        db_table = 'dispanserization'
+        db_table = 'dispanserization_status'
 
 
 class DispanseryRegistration(models.Model):
@@ -214,8 +261,6 @@ class Doctor(models.Model):
     joining_staff = models.BooleanField()
     tel_number = models.CharField(max_length=255, blank=True, null=True)
     user = models.ForeignKey(AuthUser, models.DO_NOTHING, blank=True, null=True)
-    specialization = models.ForeignKey('Specialization', models.DO_NOTHING, blank=True, null=True)
-    qualification = models.CharField(max_length=3, blank=True, null=True)
 
     class Meta:
         managed = False
@@ -255,6 +300,20 @@ class ExaminationByGastroenterologist(models.Model):
         db_table = 'examination_by_gastroenterologist'
 
 
+class GeneralPreventionDispanserizationBlank(models.Model):
+    admission = models.ForeignKey('PatientsAdmissionToDoctors', models.DO_NOTHING, blank=True, null=True)
+    dispanserization_stage = models.IntegerField(blank=True, null=True)
+    weight = models.FloatField(blank=True, null=True)
+    height = models.FloatField(blank=True, null=True)
+    bmi = models.FloatField(blank=True, null=True)
+    arterial_pressure = models.TextField(blank=True, null=True)
+    eye_pressure = models.TextField(blank=True, null=True)
+
+    class Meta:
+        managed = False
+        db_table = 'general_prevention_dispanserization_blank'
+
+
 class Icd10(models.Model):
     code = models.TextField()
     parent = models.ForeignKey('self', models.DO_NOTHING, blank=True, null=True)
@@ -272,6 +331,30 @@ class InsuranceMedicalOrganization(models.Model):
     class Meta:
         managed = False
         db_table = 'insurance_medical_organization'
+
+
+class MedicalExamination(models.Model):
+    id = models.BigAutoField(primary_key=True)
+    admission = models.ForeignKey('PatientsAdmissionToDoctors', models.DO_NOTHING, blank=True, null=True)
+    complaints = models.TextField(blank=True, null=True)
+    anamnesis = models.TextField(blank=True, null=True)
+    general_state = models.CharField(max_length=30, blank=True, null=True)
+    skin_integument = models.TextField(blank=True, null=True)
+    localization = models.TextField(blank=True, null=True)
+    visible_mucous = models.TextField(blank=True, null=True)
+    tongue = models.TextField(blank=True, null=True)
+    stomach = models.TextField(blank=True, null=True)
+    liver = models.TextField(blank=True, null=True)
+    spleen = models.TextField(blank=True, null=True)
+    chair = models.TextField(blank=True, null=True)
+    edema = models.TextField(blank=True, null=True)
+    future_examinations = models.TextField(blank=True, null=True)
+    diagnosis = models.TextField(blank=True, null=True)
+    appointments = models.TextField(blank=True, null=True)
+
+    class Meta:
+        managed = False
+        db_table = 'medical_examination'
 
 
 class Patient(models.Model):
@@ -330,34 +413,46 @@ class PatientsAppointmentToDoctors(models.Model):
     appointment_datetime = models.DateTimeField()
     free = models.BooleanField()
     patient = models.ForeignKey(Patient, models.DO_NOTHING, blank=True, null=True)
-    visit_purpose = models.ForeignKey('VisitPurpose', models.DO_NOTHING)
-    doctor_sender = models.ForeignKey(Doctor, models.DO_NOTHING)
-    payment_type = models.ForeignKey('PaymentType', models.DO_NOTHING, blank=True, null=True)
-    cabinet = models.ForeignKey(Cabinet, models.DO_NOTHING)
+    doctor_sender = models.ForeignKey(Doctor, models.DO_NOTHING, blank=True, null=True)
+    cabinet = models.ForeignKey(Cabinet, models.DO_NOTHING, blank=True, null=True)
     doctor_specialization = models.ForeignKey(DoctorSpecialization, models.DO_NOTHING, blank=True, null=True)
-    ticket = models.TextField(blank=True, null=True)  # This field type is a guess.
+    dispanserization_only = models.NullBooleanField()
+    ticket = models.CharField(max_length=20, blank=True, null=True)
 
     class Meta:
         managed = False
         db_table = 'patients_appointment_to_doctors'
 
 
-class PaymentType(models.Model):
-    id = models.IntegerField(primary_key=True)
-    value = models.CharField(max_length=40)
+class Research(models.Model):
+    name = models.TextField(blank=True, null=True)
+    sex = models.CharField(max_length=2, blank=True, null=True)
+    age_begin = models.SmallIntegerField(blank=True, null=True)
+    age_end = models.SmallIntegerField(blank=True, null=True)
+    stage = models.SmallIntegerField(blank=True, null=True)
 
     class Meta:
         managed = False
-        db_table = 'payment_type'
+        db_table = 'research'
 
 
 class Specialization(models.Model):
     specialization_name = models.CharField(max_length=100)
     used_in_dispanserization = models.NullBooleanField()
+    is_hidden = models.NullBooleanField()
 
     class Meta:
         managed = False
         db_table = 'specialization'
+
+
+class SpecializationsForDispanserization(models.Model):
+    specialization = models.ForeignKey(Specialization, models.DO_NOTHING, blank=True, null=True)
+    stage = models.SmallIntegerField(blank=True, null=True)
+
+    class Meta:
+        managed = False
+        db_table = 'specializations_for_dispanserization'
 
 
 class TherapistAdmissionDispanserization(models.Model):
@@ -388,7 +483,7 @@ class TherapistAdmissionDispanserization(models.Model):
     urination = models.TextField(blank=True, null=True)
     chair = models.TextField(blank=True, null=True)
     joints_movement = models.TextField(blank=True, null=True)
-    instrumental_examinations = models.TextField(blank=True, null=True)
+    assigned_analyzes = models.TextField(blank=True, null=True)
     medical_therapy = models.TextField(blank=True, null=True)
     consultation = models.TextField(blank=True, null=True)
     dispanserization_stage = models.SmallIntegerField(blank=True, null=True)
@@ -400,6 +495,11 @@ class TherapistAdmissionDispanserization(models.Model):
     dispansery_status = models.ForeignKey(DispanseryStatus, models.DO_NOTHING, blank=True, null=True)
     cardiovascular_risk = models.TextField(blank=True, null=True)
     heart_noise = models.TextField(blank=True, null=True)
+    dispanserization_finished = models.NullBooleanField()
+    weight = models.FloatField(blank=True, null=True)
+    height = models.FloatField(blank=True, null=True)
+    additional_details = models.TextField(blank=True, null=True)
+    bmi = models.FloatField(blank=True, null=True)
 
     class Meta:
         managed = False
@@ -433,12 +533,15 @@ class TherapistAdmissionReview(models.Model):
     urination = models.TextField(blank=True, null=True)
     chair = models.TextField(blank=True, null=True)
     joints_movement = models.TextField(blank=True, null=True)
-    instrumental_examinations = models.TextField(blank=True, null=True)
     medical_therapy = models.TextField(blank=True, null=True)
     consultation = models.TextField(blank=True, null=True)
     assigned_analyzes = models.TextField(blank=True, null=True)
     therapy_finished = models.NullBooleanField()
     heart_noise = models.TextField(blank=True, null=True)
+    weight = models.FloatField(blank=True, null=True)
+    height = models.FloatField(blank=True, null=True)
+    additional_details = models.TextField(blank=True, null=True)
+    bmi = models.FloatField(blank=True, null=True)
 
     class Meta:
         managed = False

@@ -1,0 +1,21 @@
+{% extends "hospitalapp/review_blank/doctor_base.html" %}
+
+{% block title %}
+    Бланк осмотра врача кабинет медицинской профилактики
+{% endblock %}
+
+{% block content %}
+<div>
+    <div style="margin-bottom: 50px; margin-top: 30px">
+        <b>Дата и время приема</b>: {{admission_datetime}}
+        <b>ФИО</b>: {{patient.last_name}} {{patient.first_name}} {{patient.patronymic}}
+    </div>
+
+    <b>Рост:</b><p>{{height}}</p>
+    <b>Вес:</b><p>{{weight}}</p>
+    <b>БМИ:</b><p>{{bmi}}</p>
+    <b>Артериальное давление:</b><p>{{arterial_pressure}}</p>
+    <b>Глазное давление:</b><p>{{eye_pressure}}</p>
+
+</div>
+{% endblock %}

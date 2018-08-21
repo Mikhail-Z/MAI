@@ -88,6 +88,8 @@
                 <div class="text-left">
                     <h4>{% block header %}{% endblock %}</h4>
                     <hr/>
+                    {% block patient_search %}{% endblock %}
+                    <hr/>
                     {% block content %}
                     {% endblock %}
                 </div>
@@ -114,6 +116,9 @@
     <div class="container">
         {% block temp-content %}
         {% endblock %}
+
+        {% block modal %}
+        {% endblock %}
     </div>
     <!-- jQuery -->
     <script src="/static/js/jquery-3.3.1.min.js"></script>
@@ -122,7 +127,6 @@
     <script src="/static/js/bootstrap.min.js"></script>
     <script src="/static/js/admission_review.js"></script>
     <script src="/static/js/bootstrap-datepicker.js"></script>
-    <script src="/static/js/patient_search_from_review.js"></script>
 
     <script src="/static/js/date_parser.js"></script>
     {% block script %}{% endblock %}

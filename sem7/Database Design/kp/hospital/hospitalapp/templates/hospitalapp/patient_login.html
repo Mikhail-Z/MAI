@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Запись к врачу</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.css">
+</head>
+<body>
+    <div class="container text-center">
+        <h2>
+            Представьтесь системе
+        </h2>
+        <div class="div col-md-4 col-md-offset-4 jumbotron" style="padding-top: 30px">
+            <div class="row" style="margin-bottom: 20px">
+                <div class="col-md-6" style="font-size: 14px; text-decoration: underline; text-decoration-color: #2e6da4; display: inline-block; background-color: skyblue; border-radius: 2px;">
+                    <b>Логин и пароль</b>
+                </div>
+                <div class="col-md-6" style="font-size: 14px; text-decoration: underline; text-decoration-color: #2e6da4;"><b>Полис ОМС</b></div>
+            </div>
+            <form method="post" id="login_form" action="{% url 'hospitalapp:patient_login' %}">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="login">Логин</label>
+                    <input type="text" autocomplete="off" name="login" class="form-control" id="login">
+                </div>
+                <div class="form-group">
+                    <label for="password">Пароль</label>
+                    <div class="input-group">
+                        <input type="password" autocomplete="off" name="password" class="form-control" id="password">
+                        <span class="input-group-btn">
+                            <button id="showOrHidePasswordBtn" type="button" class="btn btn-default" aria-label="Показать пароль">
+                                <span class="text-muted glyphicon glyphicon-eye-open"></span>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+
+                {% if after_wrong_login %}
+                    <div class="row" id="warning_msg">
+                        <span style="color: red">
+                            Неправильно введены данные паспорта.
+                        </span>
+                    </div>
+                {% endif %}
+                <div class="row text-right">
+                    <div class="col-sm-5"><button id="backwardBtn" class="btn btn-default btn-lg">Назад</button></div>
+                    <div id="submit-group" class="btn-group btn-group-lg col-sm-7">
+                        <input id="submit_btn" type="submit" value="Подтвердить" class="btn btn-sm btn-success" style="color: whitesmoke">
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <div class="container" id="keyboard">
+        <div class="row text-center">
+            <button class="btn btn-default btn-lg" id="1Btn">1</button>
+            <button class="btn btn-default btn-lg" id="2Btn">2</button>
+            <button class="btn btn-default btn-lg" id="3Btn">3</button>
+            <button class="btn btn-default btn-lg" id="4Btn">4</button>
+            <button class="btn btn-default btn-lg" id="5Btn">5</button>
+            <button class="btn btn-default btn-lg" id="6Btn">6</button>
+            <button class="btn btn-default btn-lg" id="7Btn">7</button>
+            <button class="btn btn-default btn-lg" id="8Btn">8</button>
+            <button class="btn btn-default btn-lg" id="9Btn">9</button>
+            <button class="btn btn-default btn-lg" id="0Btn">0</button>
+            <button class="btn btn-default btn-lg" id="backSpaceBtn">
+                <span class="glyphicon glyphicon-arrow-left"></span>
+            </button>
+        </div>
+        <div class="row text-center">
+            <button class="btn btn-default btn-lg" id="qBtn">q</button>
+            <button class="btn btn-default btn-lg" id="wBtn">w</button>
+            <button class="btn btn-default btn-lg" id="eBtn">e</button>
+            <button class="btn btn-default btn-lg" id="rBtn">r</button>
+            <button class="btn btn-default btn-lg" id="tBtn">t</button>
+            <button class="btn btn-default btn-lg" id="yBtn">y</button>
+            <button class="btn btn-default btn-lg" id="uBtn">u</button>
+            <button class="btn btn-default btn-lg" id="iBtn">i</button>
+            <button class="btn btn-default btn-lg" id="oBtn">o</button>
+            <button class="btn btn-default btn-lg" id="pBtn">p</button>
+            <button class="btn btn-default btn-lg" id="underlineBtn">_</button>
+        </div>
+        <div class="row text-center">
+            <button class="btn btn-default btn-lg" id="aBtn">a</button>
+            <button class="btn btn-default btn-lg" id="sBtn">s</button>
+            <button class="btn btn-default btn-lg" id="dBtn">d</button>
+            <button class="btn btn-default btn-lg" id="fBtn">f</button>
+            <button class="btn btn-default btn-lg" id="gBtn">g</button>
+            <button class="btn btn-default btn-lg" id="hBtn">h</button>
+            <button class="btn btn-default btn-lg" id="jBtn">j</button>
+            <button class="btn btn-default btn-lg" id="kBtn">k</button>
+            <button class="btn btn-default btn-lg" id="lBtn">l</button>
+            <button class="btn btn-default btn-lg" id="dotBtn">.</button>
+            <button class="btn btn-default btn-lg" id="dogBtn">@</button>
+        </div>
+        <div class="row text-center">
+            <button class="btn btn-default btn-lg" id="zBtn">z</button>
+            <button class="btn btn-default btn-lg" id="xBtn">x</button>
+            <button class="btn btn-default btn-lg" id="cBtn">c</button>
+            <button class="btn btn-default btn-lg" id="vBtn">v</button>
+            <button class="btn btn-default btn-lg" id="bBtn">b</button>
+            <button class="btn btn-default btn-lg" id="nBtn">n</button>
+            <button class="btn btn-default btn-lg" id="mBtn">m</button>
+        </div>
+    </div>
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/login.js"></script>
+</body>
+</html>

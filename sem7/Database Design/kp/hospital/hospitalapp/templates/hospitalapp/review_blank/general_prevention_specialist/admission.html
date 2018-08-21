@@ -1,0 +1,103 @@
+
+{% extends "hospitalapp/doctor_base.html" %}
+
+{% block style %}
+    .patient_search_row:hover {
+        background-color: gray;
+    }
+
+{% endblock %}
+
+{% block header %}
+Прием врача медицинской профилактики
+{% endblock %}
+
+{% block patient_search %}
+    {% include "hospitalapp/review_blank/patient_search.html" %}
+{% endblock %}
+
+{% block content %}
+<div>
+    <form id="main_form" method="post" style="opacity: 0.5; margin-top: 50px" action="/doctor/review/">
+        {% csrf_token %}
+        <span class="dispanserization_only" style="display: none">
+            <div class="input-group">
+                <input type="hidden" name="dispanserization_stage" disabled>
+                <p class="dispanserization_stage">
+                    <b>Этап диспансеризации</b>
+                    <span class="choose_one_state" role="button">1</span>,
+                    <span class="choose_one_state" role="button">2</span>
+                </p>
+            </div>
+        <span class="first_stage_only" style="display: none">
+        <div style="display: inline-block">
+            <label for="height">Рост</label>
+            <input autocomplete="off" placeholder="в см" id="height" name="height">
+        </div>
+        <div style="display: inline-block">
+            <label for="weight">Вес</label>
+            <input autocomplete="off"  id="weight" placeholder="в кг" name="weight">
+        </div>
+        <div style="display: inline-block">
+            <label for="bmi">ИМТ</label>
+            <input autocomplete="off" name="bmi" id="bmi">
+        </div>
+        <br/>
+
+        <div class="input-group" style="display: inline-block; margin-top: 10px">
+            <input type="hidden" name="arterial_pressure">
+            <p class="arterial_pressure">
+                <b>АД:</b>
+                <span class="group">
+                    <input autocomplete="off">
+                    <span>мм рт. ст.</span>
+                </span>
+            </p>
+        </div>
+
+        <div class="input-group" style="display: inline-block; margin-top: 10px">
+            <input type="hidden" name="eye_pressure">
+            <p class="eye_pressure">
+                <b>ГД:</b>
+                <span class="group">
+                    <input autocomplete="off">
+                    <span>мм рт. ст.</span>
+                </span>
+            </p>
+        </div>
+        <br/>
+        <div class="input-group">
+            <input type="hidden" name="assigned_analyzes" disabled>
+            <b>Обследование:</b>
+            <p class="assigned_analyzes">
+                <span id="first_stage_procedures">
+
+                    <input class="form-control">
+                </span>
+            </p>
+        </div>
+
+        <div class="input-group">
+            <input type="hidden" name="consultation" disabled>
+            <b>Консультация:</b>
+            <p class="consultation">
+                <span id="first_stage_specializations">
+
+                    <input class="form-control">
+                </span>
+            </p>
+        </div></span>
+
+        </span>
+        <input type="submit" class="btn btn-success" disabled value="Подтвердить" style="margin-top: 20px">
+    </form>
+</div>
+{% endblock %}
+
+{% block modal %}
+    {% include "hospitalapp/review_blank/admission_modal.html" %}
+{% endblock %}
+
+{% block script %}
+    <script src="/static/js/patient_search_from_review.js"></script>
+{% endblock %}

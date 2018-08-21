@@ -109,6 +109,7 @@ $("#patient_search_btn").click(function () {
                 patient_search_table.after(elem)
             } else {
                 for (i in patient_info) {
+                    console.log(patient_info[i]["last_name"], patient_info[i]);
                     last_name = "<td>" + patient_info[i]["last_name"] + "</td>";
                     first_name = "<td>" + patient_info[i]["first_name"] + "</td>";
                     patronymic = "<td>" + patient_info[i]["patronymic"] + "</td>";
@@ -146,6 +147,58 @@ $(document).on("change", ".right_patient_chbx", function () {
             type: "GET",
             data: {
                 "cur_reviewed_patient_id": patient_id
+            },
+            success: function (resp) {
+                first_stage_specializations = resp["first_stage_specializations"];
+                first_stage_procedures = resp["first_stage_procedures"];
+                first_stage_specializations_elem = $("#first_stage_specializations");
+                first_stage_procedures_elem = $("#first_stage_procedures");
+                console.log(first_stage_specializations);
+                for (i = 0; i < first_stage_specializations.length - 1; i++) {
+                    specialization = first_stage_specializations[i]["specialization__specialization_name"];
+                    console.log(specialization);
+                    specialization_elem = $("<span class='choose_several_states' role='button'>" + specialization + ", " + "</span> ");
+                    first_stage_specializations_elem.prepend(specialization_elem);
+                }
+                specialization = first_stage_specializations[first_stage_specializations.length - 1]["specialization__specialization_name"];
+                specialization_elem = $("<span class='choose_several_states' role='button'>" + specialization + "</span> ");
+                first_stage_specializations_elem.prepend(specialization_elem);
+
+                for (i = 0; i < first_stage_procedures.length - 1; i++) {
+                    procedure = first_stage_procedures[i]["name"];
+                    console.log(procedure);
+                    procedure_elem = $("<span class='choose_several_states' role='button'>" + procedure + ", " + "</span> ");
+                    first_stage_procedures_elem.prepend(procedure_elem);
+                }
+                procedure = first_stage_procedures[first_stage_procedures.length - 1]["name"];
+                procedure_elem = $("<span class='choose_several_states' role='button'>" + procedure + "</span> ");
+                first_stage_procedures_elem.prepend(procedure_elem);
+
+                second_stage_specializations = resp["second_stage_specializations"];
+                second_stage_procedures = resp["second_stage_procedures"];
+                second_stage_specializations_elem = $("#second_stage_specializations");
+                second_stage_procedures_elem = $("#second_stage_procedures");
+
+                for (i = 0; i < second_stage_specializations.length - 1; i++) {
+                    specialization = second_stage_specializations[i]["specialization__specialization_name"];
+                    console.log(specialization);
+                    specialization_elem = $("<span class='choose_several_states' role='button'>" + specialization + ", " + "</span> ");
+                    second_stage_specializations_elem.prepend(specialization_elem);
+                }
+                specialization = second_stage_specializations[second_stage_specializations.length - 1]["specialization__specialization_name"];
+                specialization_elem = $("<span class='choose_several_states' role='button'>" + specialization + "</span> ");
+                second_stage_specializations_elem.prepend(specialization_elem);
+
+                for (i = 0; i < second_stage_procedures.length - 1; i++) {
+                    procedure = second_stage_procedures[i]["name"];
+                    console.log(procedure);
+                    procedure_elem = $("<span class='choose_several_states' role='button'>" + procedure + ", " + "</span> ");
+                    second_stage_procedures_elem.prepend(procedure_elem);
+                }
+                procedure = second_stage_procedures[second_stage_procedures.length - 1]["name"];
+                procedure_elem = $("<span class='choose_several_states' role='button'>" + procedure + "</span> ");
+                second_stage_procedures_elem.prepend(procedure_elem);
+
             }
         })
     } else {
@@ -175,4 +228,49 @@ $("#visit_purpose").on("change", function () {
         hideSpecificInputs(dispanserization_only_blocks);
         showSpecificInputs(review_only_blocks);
     }
+});
+
+
+$("#ticket_number").on("input", function () {
+    var ticket_number_len = 6;
+    if ($("#ticket_number").val().length === ticket_number_len) {
+        $("#patient_search_by_ticket_btn").attr("disabled", false);
+    }
+});
+
+function showSpecializationsAndProcedures() {
+    $("")
+}
+
+$("#patient_search_by_ticket_btn").click(function () {
+    ticket_number = $("#ticket_number").val();
+
+    patient_search_table = $("#patient_search_table");
+    patient_search_table.find("tbody").html("");
+    $("#patient_not_found_msg").remove();
+    $.ajax({
+        url: "/doctor/review/patient_search/",
+        type: "GET",
+        data: {
+            "ticket_number": ticket_number
+        },
+        success: function (patient_info) {
+            if (patient_info.length === 0) {
+                elem = "<b id='patient_not_found_msg'>Пациент не найден.</b>"
+                patient_search_table.after(elem)
+            } else {
+                for (i in patient_info) {
+                    last_name = "<td>" + patient_info[i]["last_name"] + "</td>";
+                    first_name = "<td>" + patient_info[i]["first_name"] + "</td>";
+                    patronymic = "<td>" + patient_info[i]["patronymic"] + "</td>";
+                    birthday = "<td>" + patient_info[i]["date_birth"] + "</td>";
+                    all_right = "<td><input data-patient="+patient_info[i]["id"]+" "+"class='right_patient_chbx' type='checkbox'></td>";
+                    search_row = $("<tr></tr>");
+                    col_values = $.grep([last_name, first_name, patronymic, birthday, all_right], Boolean).join("\n")
+                    search_row.html(col_values);
+                    patient_search_table.find("tbody").append(search_row)
+                }
+            }
+        }
+    })
 });

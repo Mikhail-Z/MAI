@@ -8,15 +8,15 @@
 <body>
     <div class="container text-center">
         <h2>Подтвердите, всё ли правильно</h2>
-        <table class="table-bordered">
-            <tbody style="font-size: large">
+        <table class="table-bordered col-md-offset-4" style="margin-top: 50px">
+            <tbody style="font-size: 20px">
                 <tr>
                     <td>ФИО</td>
-                    <td>{{ appointment_info.doctor_specialization__doctor__last_name }} {{ appointment_info.doctor_specialization__doctor__first_name }} {{ appointment_info.doctor_specialization__doctor__patronymic }}</td>
+                    <td>{{ appointment_info.doctor_last_name}} {{ appointment_info.doctor_first_name.0  }}. {{ appointment_info.doctor_patronymic.0 }}.</td>
                 </tr>
                 <tr>
                     <td>Специализация</td>
-                    <td>{{ appointment_info.doctor_specialization__specialization__specialization_name }}</td>
+                    <td>{{ appointment_info.specialization_name }}</td>
                 </tr>
                 <tr>
                     <td>Дата и время</td>
@@ -24,14 +24,19 @@
                 </tr>
                 <tr>
                     <td>№ кабинета</td>
-                    <td>{{ appointment_info.cabinet__number }}</td>
+                    <td>{{ appointment_info.cabinet_number }}</td>
                 </tr>
             </tbody>
         </table>
-        <form method="POST" action="/patient/appointment/submit/" >
-            {% csrf_token %}
-            <input type="submit" class="btn btn-success btn-lg">
-        </form>
+            <div style="display: inline-block">
+                <a href="{% url 'hospitalapp:patient' %}" id="backwardBtn" class="btn btn-default btn-lg">Назад</a>
+            </div>
+            <div style="display: inline-block">
+                <form method="POST" action="/patient/appointment/submit/" style="margin-top: 50px">
+                    {% csrf_token %}
+                    <input type="submit" class="btn btn-success btn-lg" value="Подтвердить">
+                </form>
+            </div>
     </div>
 
     <script src="/static/js/jquery-3.3.1.min.js"></script>

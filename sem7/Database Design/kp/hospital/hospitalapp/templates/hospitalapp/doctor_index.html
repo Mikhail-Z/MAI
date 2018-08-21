@@ -32,7 +32,8 @@
 {% block script %}
     <script type="text/javascript">
         var specialization_name, specialization_id;
-        $("#specialization_choose_block").find("button").click(function () {
+        $("#specialization_choose_block").find("button").click(function ()
+        {
             specialization_id = $(this).data("specialization_id");
             specialization_name = $(this).data("specialization_name");
             $.ajax({

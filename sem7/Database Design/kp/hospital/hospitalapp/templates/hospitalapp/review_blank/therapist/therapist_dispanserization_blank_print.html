@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Бланк осмотра терапевта</title>
+    <link href="../../../../static/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></head>
+<body>
+<div class="content">
+    <div class="col-md-8 col-md-offset-4">
+     <div style="margin-bottom: 50px; margin-top: 30px">
+        <b>Дата и время приема</b>: {{admission_datetime}}
+        <b>ФИО</b>: {{patient.last_name}} {{patient.first_name}} {{patient.patronymic}}
+    </div>
+    <b>Этап диспансеризации</b><p>{{dispanserization_stage}}</p>
+    <b>Жалобы:</b><p>{{complaints}}</p>
+    <b>Анамнез:</b><p>{{anamnesis}}</p>
+    <b>Общее состояние</b><p>{{general_state}}</p>
+    <b>Температура тела:</b><p>{{body_temperature}}</p>
+    <b>Рост:</b><p>{{height}}</p>
+    <b>Вес:</b><p>{{weight}}</p>
+    <b>ИМТ:</b><p>{{bmi}}</p>
+    <b>Высыпания, образования:</b><p>{{rashes}}</p>
+    <b>Влажность:</b><p>{{humidity}}</p>
+    <b>Периферические лимфоузлы</b><p>{{peripheral_lymph_nodes}}</p>
+    <b>Пастозность:</b><p>{{pastosity}}</p>
+    <b>Дыхание через нос:</b><p>{{nose_breath}}</p>
+    <b>ЧДД в мин:</b><p>{{respiratory_rate}}</p>
+    <b>Дыхание в легких:</b><p>{{lungs_breathe}}</p>
+    <b>Хрипы:</b><p>{{wheezing}}</p>
+    <b>Тоны сердца:</b><p>{{heart_tones}}</p>
+    <b>Шумы сердца:</b><p>{{heart_noise}}</p>
+    <b>ЧСС:</b><p>{{heart_rate}}</p>
+    <b>АД:</b><p>{{pressure}}</p>
+    <b>Язык:</b><p>{{tongue}}</p>
+    <b>Зев:</b><p>{{yawn}}</p>
+    <b>Живот:</b><p>{{stomach}}</p>
+    <b>Печень:</b><p>{{liver}}</p>
+    <b>Селезенка:</b><p>{{spleen}}</p>
+    <b>Лимфоузлы:</b><p>{{amygdala}}</p>
+    <b>Мочеиспускание:</b><p>{{urination}}</p>
+    <b>Стул:</b><p>{{chair}}</p>
+    <b>Движение в суставах:</b><p>{{joints_movement}}</p>
+    <b>МКБ-10:</b><p>{{icd10_value}}</p>
+    <b>Диспансерный учет:</b><p>{{dispansery_status}}</p>
+    <b>Группа здоровья:</b><p>{{health_group}}</p>
+    <b>Инструментальные обследования:</b><p>{{instrumental_examinations}}</p>
+    <b>Профилактическое консультирование:</b><p>{{preventive_counseling}}</p>
+    <b>Рекомендации:</b><p>{{recommendations}}</p>
+    <b>Санаторно-курортное лечение</b><p>{{spa_treatment}}</p>
+    <b>Консультация:</b><p>{{consultation}}</p>
+    <b>Медикаментозная терапия, выписанные рецепты</b><p>{{medical_therapy}}</p>
+    <b>Диспансерный учет:</b><p>{{dispansery_status}}</p>
+    <b>Группа здоровья:</b><p>{{health_group}}</p>
+    <b>Диспансеризация завершена</b><p>{{dispanserization_finished}}</p></div>
+</div>
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        window.onload = function() {
+            window.print()
+        };
+    </script>
+</body>
+</html>

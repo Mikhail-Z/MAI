@@ -178,7 +178,7 @@
                 }
                 buttonGroup = $("<div class='btn-group-md' style='margin-top: 5px'></div>");
                 for (j = 0; j < n % 4; j++) {
-                    idx = div(n, buttonsInRowCount) + j;
+                    idx = div(n, buttonsInRowCount)*buttonsInRowCount + j;
                     console.log(appointments_info[idx]["free"]);
                     if (appointments_info[idx]["free"] === true)
                         emptyButton = $("<button type='submit' form='appointment_submit' class='btn btn-success'></button>");

@@ -80,7 +80,7 @@ $("#specializations_list").children().click(function (event) {
     }
     if (CURRENT_SPECIALIZATION_ID !== null)
         deleteDoctorsFromPage();
-    n = "specialization".length;
+    var n = "specialization".length;
     CURRENT_SPECIALIZATION_ID = $(this).attr("id").slice(n);
     $.ajax({
         type: "GET",
@@ -152,7 +152,7 @@ $("#appointment_dates_list").click(function (event) {
                 for (j = 0; j < buttonsInRowCount; j++) {
                     idx = i*buttonsInRowCount+j;
                     if (appointments_info[idx]["free"] === true)
-                        emptyButton = $("<button class='btn btn-info'></button>");
+                        emptyButton = $("<button class='btn btn-success'></button>");
                     else
                         emptyButton = $("<button class='btn disabled'></button>");
                     emptyButton.attr("id", appointments_info[idx]["id"]);
@@ -164,9 +164,9 @@ $("#appointment_dates_list").click(function (event) {
             buttonGroup = $("<div class='btn-group-lg' style='margin-bottom: 5px'></div>");
             for (j = 0; j < n % 4; j++) {
                 console.log(i);
-                idx = div(n, buttonsInRowCount) + j;
+                idx = div(n, buttonsInRowCount)*buttonsInRowCount + j;
                 if (appointments_info[idx]["free"] === true)
-                    emptyButton = $("<button class='btn btn-info time-btn'></button>");
+                    emptyButton = $("<button class='btn btn-success time-btn'></button>");
                 else
                     emptyButton = $("<button class='btn disabled time-btn'></button>");
                 emptyButton.attr("id", appointments_info[idx]["id"]);
@@ -190,4 +190,8 @@ $(".time_appointment").on("click", "button", function () {
 
 $("#submit_btn").click(function () {
     $("input[name='appointment_id']").val(CURRENT_APPOINTMENT_ID);
+});
+
+$("#backwardBtn").click(function () {
+    window.history.back();
 });
