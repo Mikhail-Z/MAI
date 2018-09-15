@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html onclick="if (numberIsDec) translateDecToBin()"  ondblclick="if (!numberIsDec) translateBinToDec()">
+	<head>
+		<meta charset="utf-8" />
+      	<title>Лабораторная 2 (Забелин М. К. вариант 6)</title>
+      	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+     </head>
+     <body>
+     	<div class="text-center">
+	     	<h2>Лабораторная #2</h2>
+	     	<h3>Автор - Забелин Михаил Константинович</h3>
+	     	<p>
+	     		Вариант 6<br/>
+	     		В окне 1 элемент для ввода текста. Вводится число. По нажатию кнопки мыши отображается двоичное представление. При двойном щелчке - исходное число
+	     	<p>
+	     	<div class="content">
+	     		<form>
+	     			<label id="inputNumberLbl" for="inputNumber">Число (десятичное)</label>
+	     			<input type="text" name="inputNumber" placeholder="Введите число в десятичной системе счисления">
+	     		</form>
+	     	</div>
+     	</div>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     	<script type="text/javascript">
+     		var numberIsDec = true;
+     		var translateDecToBin = function() {
+     			var inputElem = $("input[name=inputNumber]");
+     			var curText = inputElem.val();
+                    console.log(curText);
+     			if (!curText.length)
+     				return;
+     			var curNumber = parseInt(curText);
+     			var binNumber = curNumber.toString(2);
+     			inputElem.val(binNumber);
+				var inputNumberLbl = $("#inputNumberLbl")
+     			inputNumberLbl.text(inputNumberLbl.text().replace("десятичное", "двоичное"));
+     			numberIsDec = false;
+     		}
+
+     		var translateBinToDec = function() {
+     			var inputElem = $('input[name=inputNumber]');
+				var curText = inputElem.val();
+				if (!curText.length)
+     				return;
+     			var curNumber = parseInt(curText);
+     			var decNumber = parseInt(curNumber, 2);
+     			inputElem.val(decNumber);
+				var inputNumberLbl = $("#inputNumberLbl")
+     			inputNumberLbl.text(inputNumberLbl.text().replace("двоичное", "десятичное"));
+     			numberIsDec = true;
+     		}
+     	</script>
+     	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+     </body>
+
+</html>
