@@ -41,6 +41,76 @@
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script>
+			//Пример 1
+			//Часть 1
+			var dist = 100;
+			$(".point").mousedown(function() {
+				let time = 1000;
+				$(".point").css("background-color", "red")
+				setTimeout(function() {
+					$(".point").css("background-color", "black")
+				}, time);
+				dist = "100px";
+				
+				$(".point")
+					.queue("testQ1", function() {
+						var newTopOffset = parseInt($(".point").css("top"))+dist;
+						$(this)
+						.animate({"top": "+="+dist}, "slow")
+						.queue("testQ1", function() {
+							var newTopOffset = parseInt($(".point").css("top"))-dist;
+							$(this)
+							.animate({"top": "-="+dist}, "slow")
+							.dequeue("testQ1")
+						})
+						.dequeue("testQ1")
+					})
+					.queue("testQ1", function() {
+						var newLeftOffset =  parseInt($(".point").css("left")) + dist;
+						$(this)
+						.animate({"left": "+="+dist}, "slow")
+						.queue("testQ1", function() {
+							var newLeftOffset = parseInt($(".point").css("left"))-dist;
+							$(this)
+							.animate({"left": "-="+dist}, "slow")
+							.dequeue("testQ1")
+						})
+						.dequeue("testQ1")
+					})
+					.dequeue("testQ1")
+				 })
+
+			var width = $(".elem4Stretch").width();
+			var innerWidth = $(".elem4Stretch").innerWidth();
+			var outerWidth = $(".elem4Stretch").outerWidth();
+
+			var widthPattern = `<h2>${width}</h2><h3>${innerWidth}</h3><h3>${outerWidth}</h3>`
+
+			$(".elem4Stretch").html(widthPattern)
+			$(".elem4Stretch").mousedown(function(event) {
+				var width;
+				switch(event.which) {
+					case 3:
+						width = $(this).width();
+						$(this).width(width*=2)
+						innerWidth = $(this).innerWidth();
+						outerWidth = $(this).outerWidth();
+						widthPattern = `<h2>${width}</h2><h3>${innerWidth}</h3><h3>${outerWidth}</h3>`
+						$(".elem4Stretch").html(widthPattern)
+				}	
+			})
+
+			$("#changeScrollLeft").on("click", function() {
+				var scrollLeftOffset = $(document).scrollLeft();
+				$(document).scrollLeft(scrollLeftOffset += 100);
+				$(this).prevUntil($(".example1")).css("background-color", "yellow");
+			})
+
+			$(":input").val("I'm input");
+			$("input").focusin(function() {
+				$(this).prop("disabled", "true")
+			})
+
 			
 
 		</script>
