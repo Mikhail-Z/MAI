@@ -121,12 +121,38 @@
 				$(this).prevUntil($(".example1")).css("background-color", "yellow");
 			})
 
-			$(":input").val("I'm input");
-			$("input").focusin(function() {
+			$("input:text").focusin(function() {
 				$(this).prop("disabled", "true")
 			})
 
-			
+			//Пример 2
+			var clicksCount = 0;
+			var formSubmitsCount = 0;
+			$("#agree").click(function() {
+				let checked = $("input:checked").length;
+				if (checked) {
+					$("[name=submit]").prop("disabled", false);
+					clicksCount++;
+					var clicksCountTemplate = `Вы кликнули уже ${clicksCount} раз.`
+					var newString = $("<h3></h3>");
+					newString.text(clicksCountTemplate).css("color", "red")
+					$(".container").append(newString);
+				} else {
+					$("[name=submit]").prop("disabled", true)
+				}
+			})
+			$("form").one("submit", function(event) {
+				event.preventDefault();
+				let formSubmitsCountElem = $("form").next()
+				newFormSubmitsCountElem = formSubmitsCountElem.text().replace(/[0-9]+/, ++formSubmitsCount);
+				formSubmitsCountElem.text(newFormSubmitsCountElem);
+			})
+			$("#showHideFlag").change(function() {
+				if ($(this).prop("checked"))
+					$("form").hide();
+				else
+					$("form").show();
+			})
 
 
 		</script>
