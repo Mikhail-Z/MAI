@@ -1,0 +1,32 @@
+{
+	"playlist": [
+		 {
+				"title": "Born To Die",
+				"genre": "Поп",
+				"singer": "Lana Del Ray",
+				"year": 2012,
+				"url": "http://ru.drivemusic.cc/dl/fOMUaJFyBFtMoqBx8C8mDQ/1537595994/download_music/2012/01/lana-del-rey-born-to-die.mp3"
+		 },
+		 {
+				"title": "Ordinary Love",
+				"genre": "Рок",
+				"singer": "U2",
+				"year": 2013,
+				"url": "http://ru.drivemusic.cc/dl/4DUJYJzvV_c-VH-or49xTQ/1537597801/download_music/2013/11/u2-ordinary-love.mp3"
+		},
+		{
+				"title": "Titanium",
+				"genre": "Поп",
+				"singer": "David Guetta feat Sia",
+				"year": 2012,
+				"url": "http://ru.drivemusic.cc/dl/RBzLYKyzJ5jdz3kp7cZgbQ/1537598116/download_music/2011/08/david-guetta-feat.-sia-titanium.mp3"
+		},
+		{
+				"title": "Shake that",
+				"genre": "Электроника",
+				"singer": "Scooter",
+				"year": 2005,
+				"url": "http://ru.drivemusic.cc/dl/wdG6lQn7QIROGhxDKnKcqw/1537597906/download_music/2013/12/scooter-shake-that.mp3"
+		}
+	]
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="container">
+		<table class="table table-bordered">
+			<thead>
+				<td>
+					Название
+				</td>
+				<td>
+					Жанр
+				</td>
+				<td>
+					Исполнитель
+				</td>
+				<td>
+					Год
+				</td>
+				<td>
+					Трек
+				</td>
+			</thead>
+			<tbody>
+            {% for song in playlist %}
+				<tr data-std_sort_order="{{ loop.index }}">
+					<td>
+						{{ song.title }}
+					</td>
+					<td>
+						{{ song.genre }}
+					</td>
+					<td>
+						{{ song.singer }}
+					</td>
+					<td>
+						{{ song.year }}
+					</td>
+					<td>
+						<audio controls>
+							<source src="{{ song.url }}" type="audio/mpeg">
+						</audio>
+					</td>
+				</tr>
+            {% endfor %}
+			</tbody>
+			<form>
+				<label for="sort_chbx">Сортировать по имени</label>
+				<input id="sort_chbx" type="checkbox">
+			</form>
+		</table>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			$("#sort_chbx").click(function() {
+				if ($(this).prop("checked")){
+					$("tbody > tr").sort(function(a, b) {
+						return a.innerText > b.innerText
+					}).appendTo("tbody")
+				} else {
+					$("tbody > tr").sort(function(a, b) {
+						return a.dataset.std_sort_order > b.dataset.std_sort_order
+					}).appendTo("tbody")
+				}
+			})
+		</script>
+	</body>
+</html>
