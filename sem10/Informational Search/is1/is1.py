@@ -51,9 +51,6 @@ def get_reviews_rubrics(soup):
     return soup.find_all("div", "phonelist")
 
 
-num = 0
-
-
 def write_text_to_file(folder, filename, text):
     global num
     num += 1
@@ -87,4 +84,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    print(num)
