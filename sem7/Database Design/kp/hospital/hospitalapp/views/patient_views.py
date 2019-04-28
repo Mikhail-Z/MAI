@@ -142,7 +142,7 @@ def submit_appointment(request):
 class AppointmentView(View):
     template_name = "hospitalapp/appointment.html"
 
-    def get(self, request):
+    def get(self, request) -> JsonResponse:
         if request.GET.get("date", None):
             request.session["date"] = request.GET["date"]
             return self._show_times(request)

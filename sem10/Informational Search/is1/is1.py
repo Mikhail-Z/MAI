@@ -52,8 +52,6 @@ def get_reviews_rubrics(soup):
 
 
 def write_text_to_file(folder, filename, text):
-    global num
-    num += 1
     with open(os.path.join(folder, filename), "w+") as f:
         f.write(text)
 
@@ -65,21 +63,19 @@ def remove_blank_lines(text):
 def main():
     main_page = get_main_review_page()
     reviews_urls = get_reviews_urls(main_page)
-    i = 0
     for reviews_category, urls in reviews_urls:
         folder = os.path.join(default_folder, reviews_category)
         if not os.path.exists(os.path.join(default_folder, reviews_category)):
             os.makedirs(folder)
 
         for url in urls:
-            page = get_page(get_full_url(url))
             try:
+                page = get_page(get_full_url(url))
                 title, text = get_review_text(page)
                 text = remove_blank_lines(text)
                 write_text_to_file(folder, title, text)
             except:
                 pass
-        i+=1
 
 
 if __name__ == "__main__":
