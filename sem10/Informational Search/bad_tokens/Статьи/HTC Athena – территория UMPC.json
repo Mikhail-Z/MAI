@@ -1,4838 +1,4838 @@
 [
-    {
-        "token": "HTC",
-        "freq": 24
-    },
-    {
-        "token": "Athena",
-        "freq": 7
-    },
-    {
-        "token": "–",
-        "freq": 19
-    },
-    {
-        "token": "территория",
-        "freq": 1
-    },
-    {
-        "token": "UMPC",
-        "freq": 4
-    },
-    {
-        "token": "Модель",
-        "freq": 3
-    },
-    {
-        "token": "под",
-        "freq": 2
-    },
-    {
-        "token": "кодовым",
-        "freq": 1
-    },
-    {
-        "token": "именем",
-        "freq": 1
-    },
-    {
-        "token": "(",
-        "freq": 61
-    },
-    {
-        "token": "в",
-        "freq": 23
-    },
-    {
-        "token": "переводе",
-        "freq": 1
-    },
-    {
-        "token": "Афина",
-        "freq": 1
-    },
-    {
-        "token": ")",
-        "freq": 62
-    },
-    {
-        "token": "по",
-        "freq": 3
-    },
-    {
-        "token": "планам",
-        "freq": 1
-    },
-    {
-        "token": "компании",
-        "freq": 2
-    },
-    {
-        "token": "должна",
-        "freq": 1
-    },
-    {
-        "token": "появиться",
-        "freq": 1
-    },
-    {
-        "token": "продаже",
-        "freq": 1
-    },
-    {
-        "token": "первом",
-        "freq": 1
-    },
-    {
-        "token": "квартале",
-        "freq": 1
-    },
-    {
-        "token": "2007",
-        "freq": 1
-    },
-    {
-        "token": "года",
-        "freq": 2
-    },
-    {
-        "token": ".",
-        "freq": 54
-    },
-    {
-        "token": "принципиально",
-        "freq": 2
-    },
-    {
-        "token": "отличается",
-        "freq": 1
-    },
-    {
-        "token": "от",
-        "freq": 1
-    },
-    {
-        "token": "других",
-        "freq": 2
-    },
-    {
-        "token": "коммуникаторов",
-        "freq": 1
-    },
-    {
-        "token": ",",
-        "freq": 127
-    },
-    {
-        "token": "имеющихся",
-        "freq": 1
-    },
-    {
-        "token": "данный",
-        "freq": 2
-    },
-    {
-        "token": "момент",
-        "freq": 2
-    },
-    {
-        "token": "на",
-        "freq": 14
-    },
-    {
-        "token": "рынке",
-        "freq": 1
-    },
-    {
-        "token": "Именно",
-        "freq": 1
-    },
-    {
-        "token": "начиная",
-        "freq": 1
-    },
-    {
-        "token": "с",
-        "freq": 7
-    },
-    {
-        "token": "этой",
-        "freq": 1
-    },
-    {
-        "token": "модели",
-        "freq": 2
-    },
-    {
-        "token": "тайваньская",
-        "freq": 1
-    },
-    {
-        "token": "компания",
-        "freq": 4
-    },
-    {
-        "token": "вводит",
-        "freq": 1
-    },
-    {
-        "token": "новый",
-        "freq": 1
-    },
-    {
-        "token": "индекс",
-        "freq": 1
-    },
-    {
-        "token": "наименования",
-        "freq": 1
-    },
-    {
-        "token": "продуктов",
-        "freq": 1
-    },
-    {
-        "token": "прилавках",
-        "freq": 1
-    },
-    {
-        "token": "устройство",
-        "freq": 3
-    },
-    {
-        "token": "будет",
-        "freq": 4
-    },
-    {
-        "token": "представлено",
-        "freq": 1
-    },
-    {
-        "token": "как",
-        "freq": 3
-    },
-    {
-        "token": "X7500",
-        "freq": 5
-    },
-    {
-        "token": "Польский",
-        "freq": 1
-    },
-    {
-        "token": "ресурс",
-        "freq": 1
-    },
-    {
-        "token": "pdaclub.pl",
-        "freq": 1
-    },
-    {
-        "token": "опубликовал",
-        "freq": 1
-    },
-    {
-        "token": "несколько",
-        "freq": 1
-    },
-    {
-        "token": "живых",
-        "freq": 1
-    },
-    {
-        "token": "фотографий",
-        "freq": 1
-    },
-    {
-        "token": "устройства",
-        "freq": 4
-    },
-    {
-        "token": "свою",
-        "freq": 1
-    },
-    {
-        "token": "очередь",
-        "freq": 1
-    },
-    {
-        "token": "Mobile-review.com",
-        "freq": 1
-    },
-    {
-        "token": "публикует",
-        "freq": 1
-    },
-    {
-        "token": "подробное",
-        "freq": 1
-    },
-    {
-        "token": "описание",
-        "freq": 2
-    },
-    {
-        "token": "новинки",
-        "freq": 1
-    },
-    {
-        "token": "и",
-        "freq": 16
-    },
-    {
-        "token": "его",
-        "freq": 2
-    },
-    {
-        "token": "полные",
-        "freq": 1
-    },
-    {
-        "token": "спецификации",
-        "freq": 1
-    },
-    {
-        "token": "Ошибочно",
-        "freq": 1
-    },
-    {
-        "token": "считать",
-        "freq": 1
-    },
-    {
-        "token": "преемником",
-        "freq": 1
-    },
-    {
-        "token": "планшетного",
-        "freq": 2
-    },
-    {
-        "token": "коммуникатора",
-        "freq": 2
-    },
-    {
-        "token": "Universal",
-        "freq": 4
-    },
-    {
-        "token": "Реального",
-        "freq": 1
-    },
-    {
-        "token": "приемника",
-        "freq": 1
-    },
-    {
-        "token": "мы",
-        "freq": 2
-    },
-    {
-        "token": "еще",
-        "freq": 3
-    },
-    {
-        "token": "увидим",
-        "freq": 1
-    },
-    {
-        "token": "будущем",
-        "freq": 1
-    },
-    {
-        "token": "а",
-        "freq": 2
-    },
-    {
-        "token": "это",
-        "freq": 9
-    },
-    {
-        "token": "иного",
-        "freq": 1
-    },
-    {
-        "token": "класса",
-        "freq": 1
-    },
-    {
-        "token": "По",
-        "freq": 2
-    },
-    {
-        "token": "форм-фактору",
-        "freq": 1
-    },
-    {
-        "token": "модель",
-        "freq": 2
-    },
-    {
-        "token": "уже",
-        "freq": 3
-    },
-    {
-        "token": "не",
-        "freq": 13
-    },
-    {
-        "token": "коммуникатор",
-        "freq": 4
-    },
-    {
-        "token": "который",
-        "freq": 1
-    },
-    {
-        "token": "удобно",
-        "freq": 1
-    },
-    {
-        "token": "приложить",
-        "freq": 1
-    },
-    {
-        "token": "к",
-        "freq": 2
-    },
-    {
-        "token": "уху",
-        "freq": 1
-    },
-    {
-        "token": "но",
-        "freq": 3
-    },
-    {
-        "token": "планшетный",
-        "freq": 1
-    },
-    {
-        "token": "компьютер",
-        "freq": 1
-    },
-    {
-        "token": "даже",
-        "freq": 3
-    },
-    {
-        "token": "UMPC/Origami",
-        "freq": 1
-    },
-    {
-        "token": "Давайте",
-        "freq": 1
-    },
-    {
-        "token": "взглянем",
-        "freq": 1
-    },
-    {
-        "token": "размеры",
-        "freq": 1
-    },
-    {
-        "token": "вес",
-        "freq": 3
-    },
-    {
-        "token": "Габариты",
-        "freq": 1
-    },
-    {
-        "token": "133.1x97x20",
-        "freq": 2
-    },
-    {
-        "token": "мм",
-        "freq": 4
-    },
-    {
-        "token": "около",
-        "freq": 1
-    },
-    {
-        "token": "350",
-        "freq": 1
-    },
-    {
-        "token": "г.",
-        "freq": 2
-    },
-    {
-        "token": "Для",
-        "freq": 2
-    },
-    {
-        "token": "сравнения",
-        "freq": 1
-    },
-    {
-        "token": ":",
-        "freq": 43
-    },
-    {
-        "token": "для",
-        "freq": 10
-    },
-    {
-        "token": "аналогичные",
-        "freq": 1
-    },
-    {
-        "token": "параметры",
-        "freq": 1
-    },
-    {
-        "token": "составляют",
-        "freq": 1
-    },
-    {
-        "token": "127.7x81x25",
-        "freq": 1
-    },
-    {
-        "token": "285",
-        "freq": 1
-    },
-    {
-        "token": "Несмотря",
-        "freq": 1
-    },
-    {
-        "token": "то",
-        "freq": 1
-    },
-    {
-        "token": "что",
-        "freq": 6
-    },
-    {
-        "token": "считает",
-        "freq": 1
-    },
-    {
-        "token": "«",
-        "freq": 2
-    },
-    {
-        "token": "все",
-        "freq": 1
-    },
-    {
-        "token": "карманным",
-        "freq": 1
-    },
-    {
-        "token": "»",
-        "freq": 2
-    },
-    {
-        "token": "удобством",
-        "freq": 1
-    },
-    {
-        "token": "носить",
-        "freq": 1
-    },
-    {
-        "token": "себе",
-        "freq": 2
-    },
-    {
-        "token": "получится",
-        "freq": 1
-    },
-    {
-        "token": "габаритам",
-        "freq": 1
-    },
-    {
-        "token": "новая",
-        "freq": 1
-    },
-    {
-        "token": "сопоставима",
-        "freq": 1
-    },
-    {
-        "token": "UMPC-компьютерами",
-        "freq": 1
-    },
-    {
-        "token": "второго",
-        "freq": 1
-    },
-    {
-        "token": "третьего",
-        "freq": 1
-    },
-    {
-        "token": "поколения",
-        "freq": 1
-    },
-    {
-        "token": "сейчас",
-        "freq": 1
-    },
-    {
-        "token": "она",
-        "freq": 1
-    },
-    {
-        "token": "функционалу",
-        "freq": 1
-    },
-    {
-        "token": "размерам",
-        "freq": 1
-    },
-    {
-        "token": "занимает",
-        "freq": 1
-    },
-    {
-        "token": "промежуточное",
-        "freq": 1
-    },
-    {
-        "token": "положение",
-        "freq": 1
-    },
-    {
-        "token": "между",
-        "freq": 1
-    },
-    {
-        "token": "Pocket",
-        "freq": 4
-    },
-    {
-        "token": "PC",
-        "freq": 4
-    },
-    {
-        "token": "Возникает",
-        "freq": 1
-    },
-    {
-        "token": "резонный",
-        "freq": 1
-    },
-    {
-        "token": "вопрос",
-        "freq": 1
-    },
-    {
-        "token": "нужно",
-        "freq": 1
-    },
-    {
-        "token": "ли",
-        "freq": 1
-    },
-    {
-        "token": "такое",
-        "freq": 1
-    },
-    {
-        "token": "решение",
-        "freq": 2
-    },
-    {
-        "token": "покупателям",
-        "freq": 1
-    },
-    {
-        "token": "где",
-        "freq": 1
-    },
-    {
-        "token": "оно",
-        "freq": 1
-    },
-    {
-        "token": "использоваться",
-        "freq": 2
-    },
-    {
-        "token": "?",
-        "freq": 2
-    },
-    {
-        "token": "Устройство",
-        "freq": 2
-    },
-    {
-        "token": "имеет",
-        "freq": 2
-    },
-    {
-        "token": "горизонтальную",
-        "freq": 1
-    },
-    {
-        "token": "ориентацию",
-        "freq": 1
-    },
-    {
-        "token": "моноблочную",
-        "freq": 1
-    },
-    {
-        "token": "форму",
-        "freq": 1
-    },
-    {
-        "token": "предусмотрена",
-        "freq": 1
-    },
-    {
-        "token": "подключаемая",
-        "freq": 1
-    },
-    {
-        "token": "QWERTY-клавиатура",
-        "freq": 1
-    },
-    {
-        "token": "ее",
-        "freq": 2
-    },
-    {
-        "token": "толщина",
-        "freq": 1
-    },
-    {
-        "token": "4",
-        "freq": 5
-    },
-    {
-        "token": "Подобный",
-        "freq": 1
-    },
-    {
-        "token": "форм-фактор",
-        "freq": 1
-    },
-    {
-        "token": "иногда",
-        "freq": 1
-    },
-    {
-        "token": "можно",
-        "freq": 5
-    },
-    {
-        "token": "встретить",
-        "freq": 1
-    },
-    {
-        "token": "планшетных",
-        "freq": 1
-    },
-    {
-        "token": "компьютерах",
-        "freq": 1
-    },
-    {
-        "token": "Экран",
-        "freq": 1
-    },
-    {
-        "token": "одна",
-        "freq": 1
-    },
-    {
-        "token": "из",
-        "freq": 3
-    },
-    {
-        "token": "интересных",
-        "freq": 1
-    },
-    {
-        "token": "особенностей",
-        "freq": 1
-    },
-    {
-        "token": "Использована",
-        "freq": 1
-    },
-    {
-        "token": "5",
-        "freq": 3
-    },
-    {
-        "token": "”",
-        "freq": 2
-    },
-    {
-        "token": "матрица",
-        "freq": 2
-    },
-    {
-        "token": "Samsung",
-        "freq": 1
-    },
-    {
-        "token": "разрешением",
-        "freq": 1
-    },
-    {
-        "token": "VGA",
-        "freq": 10
-    },
-    {
-        "token": "сенсорным",
-        "freq": 1
-    },
-    {
-        "token": "вводом",
-        "freq": 1
-    },
-    {
-        "token": "Безусловно",
-        "freq": 1
-    },
-    {
-        "token": "ноутбука",
-        "freq": 1
-    },
-    {
-        "token": "или",
-        "freq": 3
-    },
-    {
-        "token": "компьютера",
-        "freq": 1
-    },
-    {
-        "token": "ахти",
-        "freq": 1
-    },
-    {
-        "token": "Тем",
-        "freq": 1
-    },
-    {
-        "token": "менее",
-        "freq": 1
-    },
-    {
-        "token": "самая",
-        "freq": 1
-    },
-    {
-        "token": "большая",
-        "freq": 1
-    },
-    {
-        "token": "когда-либо",
-        "freq": 1
-    },
-    {
-        "token": "применявшаяся",
-        "freq": 1
-    },
-    {
-        "token": "коммуникаторах",
-        "freq": 1
-    },
-    {
-        "token": "Уникальной",
-        "freq": 1
-    },
-    {
-        "token": "особенностью",
-        "freq": 1
-    },
-    {
-        "token": "является",
-        "freq": 1
-    },
-    {
-        "token": "наличие",
-        "freq": 1
-    },
-    {
-        "token": "встроенного",
-        "freq": 2
-    },
-    {
-        "token": "VGA/TV-выхода",
-        "freq": 1
-    },
-    {
-        "token": "подключение",
-        "freq": 1
-    },
-    {
-        "token": "через",
-        "freq": 1
-    },
-    {
-        "token": "переходник",
-        "freq": 2
-    },
-    {
-        "token": "док-станцию",
-        "freq": 1
-    },
-    {
-        "token": "К",
-        "freq": 2
-    },
-    {
-        "token": "фирменному",
-        "freq": 1
-    },
-    {
-        "token": "разъему",
-        "freq": 1
-    },
-    {
-        "token": "Ext",
-        "freq": 2
-    },
-    {
-        "token": "USB",
-        "freq": 9
-    },
-    {
-        "token": "подключить",
-        "freq": 3
-    },
-    {
-        "token": "VGA-переходник",
-        "freq": 1
-    },
-    {
-        "token": "выхода",
-        "freq": 1
-    },
-    {
-        "token": "телевизор",
-        "freq": 1
-    },
-    {
-        "token": "предусмотрен",
-        "freq": 1
-    },
-    {
-        "token": "Composite/S-Video",
-        "freq": 1
-    },
-    {
-        "token": "Кстати",
-        "freq": 1
-    },
-    {
-        "token": "разъем",
-        "freq": 1
-    },
-    {
-        "token": "поддерживает",
-        "freq": 1
-    },
-    {
-        "token": "только",
-        "freq": 1
-    },
-    {
-        "token": "USB-клиент",
-        "freq": 1
-    },
-    {
-        "token": "хост",
-        "freq": 1
-    },
-    {
-        "token": "То",
-        "freq": 1
-    },
-    {
-        "token": "есть",
-        "freq": 1
-    },
-    {
-        "token": "различные",
-        "freq": 1
-    },
-    {
-        "token": "периферийные",
-        "freq": 1
-    },
-    {
-        "token": "например",
-        "freq": 1
-    },
-    {
-        "token": "мышку",
-        "freq": 1
-    },
-    {
-        "token": "клавиатуру",
-        "freq": 1
-    },
-    {
-        "token": "внешний",
-        "freq": 1
-    },
-    {
-        "token": "накопитель",
-        "freq": 1
-    },
-    {
-        "token": "Интересно",
-        "freq": 1
-    },
-    {
-        "token": "впервые",
-        "freq": 1
-    },
-    {
-        "token": "использует",
-        "freq": 1
-    },
-    {
-        "token": "проводной",
-        "freq": 1
-    },
-    {
-        "token": "пульт",
-        "freq": 1
-    },
-    {
-        "token": "управления",
-        "freq": 1
-    },
-    {
-        "token": "воспроизведением",
-        "freq": 1
-    },
-    {
-        "token": "музыки",
-        "freq": 1
-    },
-    {
-        "token": "пульту",
-        "freq": 1
-    },
-    {
-        "token": "любые",
-        "freq": 1
-    },
-    {
-        "token": "наушники",
-        "freq": 1
-    },
-    {
-        "token": "со",
-        "freq": 1
-    },
-    {
-        "token": "штекером",
-        "freq": 1
-    },
-    {
-        "token": "3.5",
-        "freq": 4
-    },
-    {
-        "token": "Коммуникатор",
-        "freq": 1
-    },
-    {
-        "token": "строился",
-        "freq": 1
-    },
-    {
-        "token": "нуля",
-        "freq": 1
-    },
-    {
-        "token": "практически",
-        "freq": 1
-    },
-    {
-        "token": "используются",
-        "freq": 1
-    },
-    {
-        "token": "старые",
-        "freq": 1
-    },
-    {
-        "token": "решения",
-        "freq": 2
-    },
-    {
-        "token": "Начинка",
-        "freq": 1
-    },
-    {
-        "token": "интересна",
-        "freq": 1
-    },
-    {
-        "token": "инновационной",
-        "freq": 1
-    },
-    {
-        "token": "назвать",
-        "freq": 1
-    },
-    {
-        "token": "нельзя",
-        "freq": 1
-    },
-    {
-        "token": "Процессор",
-        "freq": 1
-    },
-    {
-        "token": "относительно",
-        "freq": 1
-    },
-    {
-        "token": "старый",
-        "freq": 1
-    },
-    {
-        "token": "XScale",
-        "freq": 1
-    },
-    {
-        "token": "PXA270",
-        "freq": 1
-    },
-    {
-        "token": "624",
-        "freq": 2
-    },
-    {
-        "token": "МГц",
-        "freq": 2
-    },
-    {
-        "token": "за",
-        "freq": 1
-    },
-    {
-        "token": "телефонную",
-        "freq": 1
-    },
-    {
-        "token": "часть",
-        "freq": 1
-    },
-    {
-        "token": "отвечает",
-        "freq": 1
-    },
-    {
-        "token": "чип",
-        "freq": 1
-    },
-    {
-        "token": "Qualcomm",
-        "freq": 2
-    },
-    {
-        "token": "MSM6275",
-        "freq": 1
-    },
-    {
-        "token": "поддержка",
-        "freq": 1
-    },
-    {
-        "token": "четырех",
-        "freq": 1
-    },
-    {
-        "token": "диапазонов",
-        "freq": 1
-    },
-    {
-        "token": "GSM",
-        "freq": 4
-    },
-    {
-        "token": "UMTS",
-        "freq": 7
-    },
-    {
-        "token": "850/1900/2100",
-        "freq": 1
-    },
-    {
-        "token": "GPRS",
-        "freq": 2
-    },
-    {
-        "token": "EDGE",
-        "freq": 2
-    },
-    {
-        "token": "HSDPA",
-        "freq": 4
-    },
-    {
-        "token": "Имеется",
-        "freq": 2
-    },
-    {
-        "token": "встроенный",
-        "freq": 5
-    },
-    {
-        "token": "графический",
-        "freq": 1
-    },
-    {
-        "token": "ускоритель",
-        "freq": 1
-    },
-    {
-        "token": "ATI",
-        "freq": 1
-    },
-    {
-        "token": "Imageon",
-        "freq": 1
-    },
-    {
-        "token": "2282",
-        "freq": 2
-    },
-    {
-        "token": "Самое",
-        "freq": 1
-    },
-    {
-        "token": "значительное",
-        "freq": 1
-    },
-    {
-        "token": "нововведение",
-        "freq": 1
-    },
-    {
-        "token": "появление",
-        "freq": 1
-    },
-    {
-        "token": "жесткого",
-        "freq": 1
-    },
-    {
-        "token": "диска",
-        "freq": 1
-    },
-    {
-        "token": "объемом",
-        "freq": 1
-    },
-    {
-        "token": "10",
-        "freq": 2
-    },
-    {
-        "token": "Гб",
-        "freq": 1
-    },
-    {
-        "token": "датчик",
-        "freq": 1
-    },
-    {
-        "token": "ускорения",
-        "freq": 1
-    },
-    {
-        "token": "во",
-        "freq": 2
-    },
-    {
-        "token": "избежание",
-        "freq": 1
-    },
-    {
-        "token": "повреждения",
-        "freq": 1
-    },
-    {
-        "token": "при",
-        "freq": 1
-    },
-    {
-        "token": "падении",
-        "freq": 1
-    },
-    {
-        "token": "диск",
-        "freq": 2
-    },
-    {
-        "token": "заранее",
-        "freq": 1
-    },
-    {
-        "token": "переходит",
-        "freq": 1
-    },
-    {
-        "token": "безопасный",
-        "freq": 1
-    },
-    {
-        "token": "режим",
-        "freq": 1
-    },
-    {
-        "token": "считывающая",
-        "freq": 1
-    },
-    {
-        "token": "головка",
-        "freq": 1
-    },
-    {
-        "token": "паркуется",
-        "freq": 1
-    },
-    {
-        "token": "Дополнительно",
-        "freq": 2
-    },
-    {
-        "token": "память",
-        "freq": 1
-    },
-    {
-        "token": "расширить",
-        "freq": 1
-    },
-    {
-        "token": "помощью",
-        "freq": 1
-    },
-    {
-        "token": "карт",
-        "freq": 1
-    },
-    {
-        "token": "памяти",
-        "freq": 1
-    },
-    {
-        "token": "стандарта",
-        "freq": 1
-    },
-    {
-        "token": "miniSD",
-        "freq": 1
-    },
-    {
-        "token": "Про",
-        "freq": 1
-    },
-    {
-        "token": "такие",
-        "freq": 1
-    },
-    {
-        "token": "вещи",
-        "freq": 1
-    },
-    {
-        "token": "встроенные",
-        "freq": 1
-    },
-    {
-        "token": "модули",
-        "freq": 1
-    },
-    {
-        "token": "Wi-Fi",
-        "freq": 1
-    },
-    {
-        "token": "Bluetooth",
-        "freq": 3
-    },
-    {
-        "token": "говорить",
-        "freq": 1
-    },
-    {
-        "token": "стоит",
-        "freq": 3
-    },
-    {
-        "token": "Как",
-        "freq": 1
-    },
-    {
-        "token": "большинстве",
-        "freq": 1
-    },
-    {
-        "token": "новых",
-        "freq": 1
-    },
-    {
-        "token": "устройств",
-        "freq": 1
-    },
-    {
-        "token": "имеется",
-        "freq": 1
-    },
-    {
-        "token": "GPS-модуль",
-        "freq": 1
-    },
-    {
-        "token": "спутниковой",
-        "freq": 1
-    },
-    {
-        "token": "навигации",
-        "freq": 1
-    },
-    {
-        "token": "Производитель",
-        "freq": 1
-    },
-    {
-        "token": "рассчитывает",
-        "freq": 1
-    },
-    {
-        "token": "применение",
-        "freq": 1
-    },
-    {
-        "token": "машине",
-        "freq": 2
-    },
-    {
-        "token": "станет",
-        "freq": 2
-    },
-    {
-        "token": "одним",
-        "freq": 1
-    },
-    {
-        "token": "ключевых",
-        "freq": 1
-    },
-    {
-        "token": "хочется",
-        "freq": 1
-    },
-    {
-        "token": "отметить",
-        "freq": 1
-    },
-    {
-        "token": "следующие",
-        "freq": 1
-    },
-    {
-        "token": "моменты",
-        "freq": 1
-    },
-    {
-        "token": "Наличие",
-        "freq": 1
-    },
-    {
-        "token": "стереодинамиков",
-        "freq": 1
-    },
-    {
-        "token": "окружающий",
-        "freq": 1
-    },
-    {
-        "token": "3D-звук",
-        "freq": 1
-    },
-    {
-        "token": "типичная",
-        "freq": 1
-    },
-    {
-        "token": "камера",
-        "freq": 1
-    },
-    {
-        "token": "2",
-        "freq": 7
-    },
-    {
-        "token": "Мп",
-        "freq": 1
-    },
-    {
-        "token": "батарея",
-        "freq": 1
-    },
-    {
-        "token": "емкостью",
-        "freq": 1
-    },
-    {
-        "token": "2100",
-        "freq": 2
-    },
-    {
-        "token": "мАч",
-        "freq": 1
-    },
-    {
-        "token": "работает",
-        "freq": 1
-    },
-    {
-        "token": "управлением",
-        "freq": 1
-    },
-    {
-        "token": "операционной",
-        "freq": 1
-    },
-    {
-        "token": "системы",
-        "freq": 1
-    },
-    {
-        "token": "Windows",
-        "freq": 5
-    },
-    {
-        "token": "Mobile",
-        "freq": 5
-    },
-    {
-        "token": "5.0",
-        "freq": 1
-    },
-    {
-        "token": "for",
-        "freq": 28
-    },
-    {
-        "token": "высока",
-        "freq": 1
-    },
-    {
-        "token": "вероятность",
-        "freq": 1
-    },
-    {
-        "token": "появления",
-        "freq": 1
-    },
-    {
-        "token": "дальнейшем",
-        "freq": 2
-    },
-    {
-        "token": "обновления",
-        "freq": 1
-    },
-    {
-        "token": "до",
-        "freq": 1
-    },
-    {
-        "token": "6.0",
-        "freq": 1
-    },
-    {
-        "token": "Подведем",
-        "freq": 1
-    },
-    {
-        "token": "краткие",
-        "freq": 1
-    },
-    {
-        "token": "итоги",
-        "freq": 1
-    },
-    {
-        "token": "Это",
-        "freq": 2
-    },
-    {
-        "token": "самый",
-        "freq": 1
-    },
-    {
-        "token": "функциональный",
-        "freq": 2
-    },
-    {
-        "token": "текущий",
-        "freq": 1
-    },
-    {
-        "token": "таковым",
-        "freq": 1
-    },
-    {
-        "token": "он",
-        "freq": 1
-    },
-    {
-        "token": "останется",
-        "freq": 1
-    },
-    {
-        "token": "весь",
-        "freq": 1
-    },
-    {
-        "token": "будущий",
-        "freq": 1
-    },
-    {
-        "token": "год",
-        "freq": 1
-    },
-    {
-        "token": "инновационным",
-        "freq": 1
-    },
-    {
-        "token": "моментам",
-        "freq": 1
-    },
-    {
-        "token": "которые",
-        "freq": 2
-    },
-    {
-        "token": "последующем",
-        "freq": 1
-    },
-    {
-        "token": "встретим",
-        "freq": 1
-    },
-    {
-        "token": "многих",
-        "freq": 1
-    },
-    {
-        "token": "моделях",
-        "freq": 1
-    },
-    {
-        "token": "относятся",
-        "freq": 1
-    },
-    {
-        "token": "жесткий",
-        "freq": 1
-    },
-    {
-        "token": "VGA/TV-выход",
-        "freq": 1
-    },
-    {
-        "token": "Исходя",
-        "freq": 1
-    },
-    {
-        "token": "обычной",
-        "freq": 1
-    },
-    {
-        "token": "структуры",
-        "freq": 1
-    },
-    {
-        "token": "ценообразования",
-        "freq": 1
-    },
-    {
-        "token": "высокой",
-        "freq": 1
-    },
-    {
-        "token": "себестоимости",
-        "freq": 1
-    },
-    {
-        "token": "затрат",
-        "freq": 1
-    },
-    {
-        "token": "разработку",
-        "freq": 1
-    },
-    {
-        "token": "ожидать",
-        "freq": 1
-    },
-    {
-        "token": "розничной",
-        "freq": 1
-    },
-    {
-        "token": "цены",
-        "freq": 1
-    },
-    {
-        "token": "ценовом",
-        "freq": 1
-    },
-    {
-        "token": "коридоре",
-        "freq": 1
-    },
-    {
-        "token": "1500-2000",
-        "freq": 1
-    },
-    {
-        "token": "долларов",
-        "freq": 1
-    },
-    {
-        "token": "США",
-        "freq": 1
-    },
-    {
-        "token": "первое",
-        "freq": 1
-    },
-    {
-        "token": "время",
-        "freq": 1
-    },
-    {
-        "token": "массовым",
-        "freq": 1
-    },
-    {
-        "token": "если",
-        "freq": 2
-    },
-    {
-        "token": "цена",
-        "freq": 1
-    },
-    {
-        "token": "него",
-        "freq": 1
-    },
-    {
-        "token": "два",
-        "freq": 1
-    },
-    {
-        "token": "раза",
-        "freq": 1
-    },
-    {
-        "token": "ниже",
-        "freq": 1
-    },
-    {
-        "token": "направлено",
-        "freq": 1
-    },
-    {
-        "token": "очень",
-        "freq": 1
-    },
-    {
-        "token": "узкую",
-        "freq": 2
-    },
-    {
-        "token": "группу",
-        "freq": 1
-    },
-    {
-        "token": "покупателей",
-        "freq": 1
-    },
-    {
-        "token": "гораздо",
-        "freq": 1
-    },
-    {
-        "token": "более",
-        "freq": 2
-    },
-    {
-        "token": "чем",
-        "freq": 1
-    },
-    {
-        "token": "Типичный",
-        "freq": 1
-    },
-    {
-        "token": "современный",
-        "freq": 1
-    },
-    {
-        "token": "бизнес-пользователь",
-        "freq": 1
-    },
-    {
-        "token": "своем",
-        "freq": 1
-    },
-    {
-        "token": "распоряжении",
-        "freq": 1
-    },
-    {
-        "token": "небольшой",
-        "freq": 1
-    },
-    {
-        "token": "ноутбук",
-        "freq": 2
-    },
-    {
-        "token": "необходимо",
-        "freq": 1
-    },
-    {
-        "token": "использования",
-        "freq": 1
-    },
-    {
-        "token": "тогда",
-        "freq": 1
-    },
-    {
-        "token": "когда",
-        "freq": 1
-    },
-    {
-        "token": "неудобно",
-        "freq": 1
-    },
-    {
-        "token": "использовать",
-        "freq": 1
-    },
-    {
-        "token": "Единственный",
-        "freq": 1
-    },
-    {
-        "token": "проблеск",
-        "freq": 1
-    },
-    {
-        "token": "надежды",
-        "freq": 1
-    },
-    {
-        "token": "автомобилисты",
-        "freq": 1
-    },
-    {
-        "token": "деловые",
-        "freq": 1
-    },
-    {
-        "token": "люди",
-        "freq": 2
-    },
-    {
-        "token": "много",
-        "freq": 1
-    },
-    {
-        "token": "времени",
-        "freq": 1
-    },
-    {
-        "token": "проводящие",
-        "freq": 1
-    },
-    {
-        "token": "Однако",
-        "freq": 1
-    },
-    {
-        "token": "далеко",
-        "freq": 1
-    },
-    {
-        "token": "факт",
-        "freq": 1
-    },
-    {
-        "token": "они",
-        "freq": 2
-    },
-    {
-        "token": "выберут",
-        "freq": 1
-    },
-    {
-        "token": "доступный",
-        "freq": 1
-    },
-    {
-        "token": "цене",
-        "freq": 1
-    },
-    {
-        "token": "этих",
-        "freq": 1
-    },
-    {
-        "token": "целей",
-        "freq": 1
-    },
-    {
-        "token": "Не",
-        "freq": 1
-    },
-    {
-        "token": "думать",
-        "freq": 1
-    },
-    {
-        "token": "работают",
-        "freq": 1
-    },
-    {
-        "token": "глупые",
-        "freq": 1
-    },
-    {
-        "token": "понимают",
-        "freq": 1
-    },
-    {
-        "token": "коммерческой",
-        "freq": 1
-    },
-    {
-        "token": "бесперспективности",
-        "freq": 1
-    },
-    {
-        "token": "проект",
-        "freq": 1
-    },
-    {
-        "token": "разрабатываемый",
-        "freq": 1
-    },
-    {
-        "token": "начала",
-        "freq": 1
-    },
-    {
-        "token": "2005",
-        "freq": 1
-    },
-    {
-        "token": "возможность",
-        "freq": 2
-    },
-    {
-        "token": "обкатать",
-        "freq": 1
-    },
-    {
-        "token": "будут",
-        "freq": 1
-    },
-    {
-        "token": "устройствах",
-        "freq": 1
-    },
-    {
-        "token": "Помимо",
-        "freq": 1
-    },
-    {
-        "token": "прочего",
-        "freq": 1
-    },
-    {
-        "token": "лишний",
-        "freq": 1
-    },
-    {
-        "token": "раз",
-        "freq": 1
-    },
-    {
-        "token": "заявить",
-        "freq": 1
-    },
-    {
-        "token": "о",
-        "freq": 2
-    },
-    {
-        "token": "лидере",
-        "freq": 1
-    },
-    {
-        "token": "области",
-        "freq": 1
-    },
-    {
-        "token": "Может",
-        "freq": 1
-    },
-    {
-        "token": "быть",
-        "freq": 1
-    },
-    {
-        "token": "выпустит",
-        "freq": 1
-    },
-    {
-        "token": "следующий",
-        "freq": 1
-    },
-    {
-        "token": "серии",
-        "freq": 1
-    },
-    {
-        "token": "X",
-        "freq": 1
-    },
-    {
-        "token": "базе",
-        "freq": 1
-    },
-    {
-        "token": "Vista",
-        "freq": 1
-    },
-    {
-        "token": "Предварительное",
-        "freq": 1
-    },
-    {
-        "token": "Platform",
-        "freq": 1
-    },
-    {
-        "token": "Power",
-        "freq": 5
-    },
-    {
-        "token": "Pad",
-        "freq": 1
-    },
-    {
-        "token": "with",
-        "freq": 18
-    },
-    {
-        "token": "detachable",
-        "freq": 1
-    },
-    {
-        "token": "&",
-        "freq": 17
-    },
-    {
-        "token": "thin",
-        "freq": 1
-    },
-    {
-        "token": "QWERTY",
-        "freq": 2
-    },
-    {
-        "token": "keyboard",
-        "freq": 2
-    },
-    {
-        "token": "Microsoft",
-        "freq": 2
-    },
-    {
-        "token": "Phone",
-        "freq": 1
-    },
-    {
-        "token": "Edition",
-        "freq": 1
-    },
-    {
-        "token": "Dimension",
-        "freq": 1
-    },
-    {
-        "token": "mm",
-        "freq": 4
-    },
-    {
-        "token": "4mm",
-        "freq": 1
-    },
-    {
-        "token": "KB",
-        "freq": 1
-    },
-    {
-        "token": "Less",
-        "freq": 1
-    },
-    {
-        "token": "than",
-        "freq": 2
-    },
-    {
-        "token": "350g",
-        "freq": 1
-    },
-    {
-        "token": "battery",
-        "freq": 2
-    },
-    {
-        "token": "Processor/Chipset",
-        "freq": 1
-    },
-    {
-        "token": "MSM",
-        "freq": 1
-    },
-    {
-        "token": "6275",
-        "freq": 1
-    },
-    {
-        "token": "Intel",
-        "freq": 1
-    },
-    {
-        "token": "Bulverde",
-        "freq": 1
-    },
-    {
-        "token": "520",
-        "freq": 1
-    },
-    {
-        "token": "/",
-        "freq": 14
-    },
-    {
-        "token": "MHz",
-        "freq": 1
-    },
-    {
-        "token": "ATi",
-        "freq": 1
-    },
-    {
-        "token": "Graphic",
-        "freq": 1
-    },
-    {
-        "token": "Chip",
-        "freq": 1
-    },
-    {
-        "token": "Memory",
-        "freq": 2
-    },
-    {
-        "token": "ROM",
-        "freq": 1
-    },
-    {
-        "token": "128",
-        "freq": 1
-    },
-    {
-        "token": "256",
-        "freq": 1
-    },
-    {
-        "token": "MB",
-        "freq": 2
-    },
-    {
-        "token": "RAM",
-        "freq": 1
-    },
-    {
-        "token": "64",
-        "freq": 1
-    },
-    {
-        "token": "/128",
-        "freq": 1
-    },
-    {
-        "token": "SDRAM",
-        "freq": 1
-    },
-    {
-        "token": "HDD",
-        "freq": 1
-    },
-    {
-        "token": "8~10",
-        "freq": 1
-    },
-    {
-        "token": "GB",
-        "freq": 1
-    },
-    {
-        "token": "G",
-        "freq": 2
-    },
-    {
-        "token": "sensor",
-        "freq": 1
-    },
-    {
-        "token": "LCD",
-        "freq": 3
-    },
-    {
-        "token": "Module",
-        "freq": 1
-    },
-    {
-        "token": "480x640",
-        "freq": 1
-    },
-    {
-        "token": "resolution",
-        "freq": 1
-    },
-    {
-        "token": "262K-color",
-        "freq": 1
-    },
-    {
-        "token": "TFT",
-        "freq": 1
-    },
-    {
-        "token": "LED",
-        "freq": 6
-    },
-    {
-        "token": "backlight",
-        "freq": 1
-    },
-    {
-        "token": "Sensitive",
-        "freq": 1
-    },
-    {
-        "token": "Touch",
-        "freq": 1
-    },
-    {
-        "token": "Screen",
-        "freq": 1
-    },
-    {
-        "token": "UMTS/HSDPA/GSM/EDGE",
-        "freq": 1
-    },
-    {
-        "token": "Function",
-        "freq": 2
-    },
-    {
-        "token": "Internal",
-        "freq": 3
-    },
-    {
-        "token": "antenna",
-        "freq": 3
-    },
-    {
-        "token": "HSDPA/UMTS",
-        "freq": 2
-    },
-    {
-        "token": "Tri-mode",
-        "freq": 1
-    },
-    {
-        "token": "2100MHz",
-        "freq": 1
-    },
-    {
-        "token": "Europe",
-        "freq": 1
-    },
-    {
-        "token": "and",
-        "freq": 25
-    },
-    {
-        "token": "850/1900MHz",
-        "freq": 1
-    },
-    {
-        "token": "USA",
-        "freq": 2
-    },
-    {
-        "token": "GSM/GPRS/EDGE",
-        "freq": 1
-    },
-    {
-        "token": "quad",
-        "freq": 1
-    },
-    {
-        "token": "band",
-        "freq": 2
-    },
-    {
-        "token": "850/900/1800/1900",
-        "freq": 1
-    },
-    {
-        "token": "850",
-        "freq": 2
-    },
-    {
-        "token": "824-849",
-        "freq": 2
-    },
-    {
-        "token": "869-894MHz",
-        "freq": 2
-    },
-    {
-        "token": "1900",
-        "freq": 2
-    },
-    {
-        "token": "1850-1910MHz",
-        "freq": 1
-    },
-    {
-        "token": "1930-1990MHz",
-        "freq": 2
-    },
-    {
-        "token": "1920-1980MHz",
-        "freq": 1
-    },
-    {
-        "token": "2110-2170MHz",
-        "freq": 1
-    },
-    {
-        "token": "GPRS/EDGE",
-        "freq": 1
-    },
-    {
-        "token": "900",
-        "freq": 1
-    },
-    {
-        "token": "880-915",
-        "freq": 1
-    },
-    {
-        "token": "925-960MHz",
-        "freq": 1
-    },
-    {
-        "token": "1800",
-        "freq": 1
-    },
-    {
-        "token": "1710-1785",
-        "freq": 1
-    },
-    {
-        "token": "1805-1880MHz",
-        "freq": 1
-    },
-    {
-        "token": "1850-1910",
-        "freq": 1
-    },
-    {
-        "token": "3GPP",
-        "freq": 3
-    },
-    {
-        "token": "Release",
-        "freq": 2
-    },
-    {
-        "token": "99",
-        "freq": 2
-    },
-    {
-        "token": "compliant",
-        "freq": 3
-    },
-    {
-        "token": "UE",
-        "freq": 1
-    },
-    {
-        "token": "category",
-        "freq": 1
-    },
-    {
-        "token": "12",
-        "freq": 3
-    },
-    {
-        "token": "QPSK",
-        "freq": 1
-    },
-    {
-        "token": "1.8Mbps",
-        "freq": 2
-    },
-    {
-        "token": "peak",
-        "freq": 1
-    },
-    {
-        "token": "rate",
-        "freq": 3
-    },
-    {
-        "token": "DL",
-        "freq": 1
-    },
-    {
-        "token": "up",
-        "freq": 4
-    },
-    {
-        "token": "to",
-        "freq": 9
-    },
-    {
-        "token": "UL",
-        "freq": 1
-    },
-    {
-        "token": "384Kbps",
-        "freq": 1
-    },
-    {
-        "token": "PS",
-        "freq": 1
-    },
-    {
-        "token": "RAB",
-        "freq": 1
-    },
-    {
-        "token": "on",
-        "freq": 4
-    },
-    {
-        "token": "channel",
-        "freq": 3
-    },
-    {
-        "token": "CS",
-        "freq": 1
-    },
-    {
-        "token": "data",
-        "freq": 1
-    },
-    {
-        "token": "call",
-        "freq": 2
-    },
-    {
-        "token": "VT",
-        "freq": 1
-    },
-    {
-        "token": "simultaneously",
-        "freq": 1
-    },
-    {
-        "token": "will",
-        "freq": 1
-    },
-    {
-        "token": "be",
-        "freq": 2
-    },
-    {
-        "token": "supported",
-        "freq": 3
-    },
-    {
-        "token": "Global",
-        "freq": 1
-    },
-    {
-        "token": "roaming",
-        "freq": 1
-    },
-    {
-        "token": "Auto",
-        "freq": 1
-    },
-    {
-        "token": "switching",
-        "freq": 1
-    },
-    {
-        "token": "Handover",
-        "freq": 1
-    },
-    {
-        "token": "cell",
-        "freq": 1
-    },
-    {
-        "token": "selection",
-        "freq": 2
-    },
-    {
-        "token": "between",
-        "freq": 2
-    },
-    {
-        "token": "GSM/EDGE",
-        "freq": 1
-    },
-    {
-        "token": "Generic",
-        "freq": 1
-    },
-    {
-        "token": "Services",
-        "freq": 1
-    },
-    {
-        "token": "Call",
-        "freq": 2
-    },
-    {
-        "token": "Holding",
-        "freq": 1
-    },
-    {
-        "token": "Waiting",
-        "freq": 1
-    },
-    {
-        "token": "Forwarding",
-        "freq": 1
-    },
-    {
-        "token": "Barring",
-        "freq": 1
-    },
-    {
-        "token": "CLI",
-        "freq": 1
-    },
-    {
-        "token": "Calling",
-        "freq": 1
-    },
-    {
-        "token": "Line",
-        "freq": 1
-    },
-    {
-        "token": "Identity",
-        "freq": 1
-    },
-    {
-        "token": "SMS",
-        "freq": 3
-    },
-    {
-        "token": "Short",
-        "freq": 3
-    },
-    {
-        "token": "Message",
-        "freq": 2
-    },
-    {
-        "token": "Service",
-        "freq": 3
-    },
-    {
-        "token": "SMSMT",
-        "freq": 1
-    },
-    {
-        "token": "SMSMO",
-        "freq": 1
-    },
-    {
-        "token": "SM",
-        "freq": 3
-    },
-    {
-        "token": "Reply",
-        "freq": 1
-    },
-    {
-        "token": "Replace",
-        "freq": 1
-    },
-    {
-        "token": "Acknowledgement",
-        "freq": 1
-    },
-    {
-        "token": "8",
-        "freq": 3
-    },
-    {
-        "token": "Bits",
-        "freq": 1
-    },
-    {
-        "token": "Data",
-        "freq": 2
-    },
-    {
-        "token": "Concatenated",
-        "freq": 1
-    },
-    {
-        "token": "messages",
-        "freq": 1
-    },
-    {
-        "token": "640",
-        "freq": 1
-    },
-    {
-        "token": "characters",
-        "freq": 1
-    },
-    {
-        "token": "Display",
-        "freq": 1
-    },
-    {
-        "token": "own",
-        "freq": 1
-    },
-    {
-        "token": "number",
-        "freq": 2
-    },
-    {
-        "token": "telephone",
-        "freq": 1
-    },
-    {
-        "token": "storage",
-        "freq": 1
-    },
-    {
-        "token": "capability",
-        "freq": 2
-    },
-    {
-        "token": "in",
-        "freq": 4
-    },
-    {
-        "token": "terminal",
-        "freq": 2
-    },
-    {
-        "token": "SIM",
-        "freq": 4
-    },
-    {
-        "token": "card",
-        "freq": 3
-    },
-    {
-        "token": "Network",
-        "freq": 2
-    },
-    {
-        "token": "Cell",
-        "freq": 1
-    },
-    {
-        "token": "broadcast",
-        "freq": 1
-    },
-    {
-        "token": "Multi-party",
-        "freq": 1
-    },
-    {
-        "token": "conference",
-        "freq": 1
-    },
-    {
-        "token": "Phase",
-        "freq": 1
-    },
-    {
-        "token": "Unstructured",
-        "freq": 1
-    },
-    {
-        "token": "Supplementary",
-        "freq": 1
-    },
-    {
-        "token": "Audio",
-        "freq": 7
-    },
-    {
-        "token": "Codec",
-        "freq": 1
-    },
-    {
-        "token": "AMR/EFR/FR/HR",
-        "freq": 1
-    },
-    {
-        "token": "Lock",
-        "freq": 2
-    },
-    {
-        "token": "CPHS",
-        "freq": 1
-    },
-    {
-        "token": "E-GPRS",
-        "freq": 1
-    },
-    {
-        "token": "EGPRS",
-        "freq": 1
-    },
-    {
-        "token": "class",
-        "freq": 3
-    },
-    {
-        "token": "B",
-        "freq": 1
-    },
-    {
-        "token": "Multi-slot",
-        "freq": 1
-    },
-    {
-        "token": "standard",
-        "freq": 1
-    },
-    {
-        "token": "MO/MT",
-        "freq": 1
-    },
-    {
-        "token": "over",
-        "freq": 1
-    },
-    {
-        "token": "PBCCH",
-        "freq": 1
-    },
-    {
-        "token": "USIM/SIM",
-        "freq": 2
-    },
-    {
-        "token": "1.8",
-        "freq": 2
-    },
-    {
-        "token": "3V",
-        "freq": 1
-    },
-    {
-        "token": "of",
-        "freq": 5
-    },
-    {
-        "token": "UICC",
-        "freq": 1
-    },
-    {
-        "token": "MegaSIM",
-        "freq": 1
-    },
-    {
-        "token": "USIM",
-        "freq": 1
-    },
-    {
-        "token": "Application",
-        "freq": 3
-    },
-    {
-        "token": "at",
-        "freq": 1
-    },
-    {
-        "token": "least",
-        "freq": 1
-    },
-    {
-        "token": "according",
-        "freq": 1
-    },
-    {
-        "token": "TS",
-        "freq": 1
-    },
-    {
-        "token": "31.102",
-        "freq": 1
-    },
-    {
-        "token": "Tool",
-        "freq": 2
-    },
-    {
-        "token": "Kit",
-        "freq": 2
-    },
-    {
-        "token": "release",
-        "freq": 1
-    },
-    {
-        "token": "96",
-        "freq": 1
-    },
-    {
-        "token": "98",
-        "freq": 1
-    },
-    {
-        "token": "3",
-        "freq": 3
-    },
-    {
-        "token": "Over",
-        "freq": 1
-    },
-    {
-        "token": "the",
-        "freq": 6
-    },
-    {
-        "token": "Air",
-        "freq": 1
-    },
-    {
-        "token": "OTA",
-        "freq": 2
-    },
-    {
-        "token": "programming",
-        "freq": 1
-    },
-    {
-        "token": "Fixed",
-        "freq": 1
-    },
-    {
-        "token": "Dialing",
-        "freq": 2
-    },
-    {
-        "token": "Number",
-        "freq": 2
-    },
-    {
-        "token": "FDN",
-        "freq": 1
-    },
-    {
-        "token": "Abbreviation",
-        "freq": 1
-    },
-    {
-        "token": "Dial",
-        "freq": 2
-    },
-    {
-        "token": "ADN",
-        "freq": 1
-    },
-    {
-        "token": "Security",
-        "freq": 2
-    },
-    {
-        "token": "Pin",
-        "freq": 2
-    },
-    {
-        "token": "1",
-        "freq": 3
-    },
-    {
-        "token": "control",
-        "freq": 6
-    },
-    {
-        "token": "Standalone",
-        "freq": 1
-    },
-    {
-        "token": "GPS",
-        "freq": 5
-    },
-    {
-        "token": "[",
-        "freq": 7
-    },
-    {
-        "token": "MFG",
-        "freq": 1
-    },
-    {
-        "token": "Option",
-        "freq": 2
-    },
-    {
-        "token": "]",
-        "freq": 7
-    },
-    {
-        "token": "Support",
-        "freq": 4
-    },
-    {
-        "token": "NMEA",
-        "freq": 1
-    },
-    {
-        "token": "0183",
-        "freq": 1
-    },
-    {
-        "token": "version",
-        "freq": 1
-    },
-    {
-        "token": "3.0",
-        "freq": 1
-    },
-    {
-        "token": "or",
-        "freq": 2
-    },
-    {
-        "token": "above",
-        "freq": 1
-    },
-    {
-        "token": "parallel",
-        "freq": 1
-    },
-    {
-        "token": "receiver",
-        "freq": 1
-    },
-    {
-        "token": "Acquisition",
-        "freq": 1
-    },
-    {
-        "token": "time",
-        "freq": 7
-    },
-    {
-        "token": "Hot",
-        "freq": 1
-    },
-    {
-        "token": "start",
-        "freq": 4
-    },
-    {
-        "token": "seconds",
-        "freq": 3
-    },
-    {
-        "token": "typical",
-        "freq": 4
-    },
-    {
-        "token": "TTFF",
-        "freq": 3
-    },
-    {
-        "token": "Warm",
-        "freq": 1
-    },
-    {
-        "token": "35",
-        "freq": 1
-    },
-    {
-        "token": "Cold",
-        "freq": 1
-    },
-    {
-        "token": "45",
-        "freq": 1
-    },
-    {
-        "token": "Update",
-        "freq": 1
-    },
-    {
-        "token": "user",
-        "freq": 1
-    },
-    {
-        "token": "configurable",
-        "freq": 1
-    },
-    {
-        "token": "once/1sec",
-        "freq": 1
-    },
-    {
-        "token": "once/10sec",
-        "freq": 1
-    },
-    {
-        "token": "once/30sec",
-        "freq": 1
-    },
-    {
-        "token": "continuous",
-        "freq": 1
-    },
-    {
-        "token": "Accuracy",
-        "freq": 1
-    },
-    {
-        "token": "Position",
-        "freq": 1
-    },
-    {
-        "token": "<",
-        "freq": 1
-    },
-    {
-        "token": "15",
-        "freq": 1
-    },
-    {
-        "token": "meters",
-        "freq": 1
-    },
-    {
-        "token": "95",
-        "freq": 1
-    },
-    {
-        "token": "%",
-        "freq": 1
-    },
-    {
-        "token": "Velocity",
-        "freq": 1
-    },
-    {
-        "token": "0.05",
-        "freq": 1
-    },
-    {
-        "token": "meter/sec",
-        "freq": 1
-    },
-    {
-        "token": "steady",
-        "freq": 1
-    },
-    {
-        "token": "state",
-        "freq": 1
-    },
-    {
-        "token": "Digital",
-        "freq": 1
-    },
-    {
-        "token": "Camera",
-        "freq": 3
-    },
-    {
-        "token": "Manufacture",
-        "freq": 1
-    },
-    {
-        "token": "Main",
-        "freq": 1
-    },
-    {
-        "token": "Color",
-        "freq": 2
-    },
-    {
-        "token": "CMOS",
-        "freq": 2
-    },
-    {
-        "token": "Mega",
-        "freq": 1
-    },
-    {
-        "token": "pixel",
-        "freq": 1
-    },
-    {
-        "token": "fixed",
-        "freq": 1
-    },
-    {
-        "token": "lenses",
-        "freq": 1
-    },
-    {
-        "token": "2nd",
-        "freq": 4
-    },
-    {
-        "token": "camera",
-        "freq": 3
-    },
-    {
-        "token": "High",
-        "freq": 1
-    },
-    {
-        "token": "flash",
-        "freq": 1
-    },
-    {
-        "token": "Keyboard/Button/Switch",
-        "freq": 1
-    },
-    {
-        "token": "POWER",
-        "freq": 1
-    },
-    {
-        "token": "button",
-        "freq": 5
-    },
-    {
-        "token": "Side",
-        "freq": 3
-    },
-    {
-        "token": "Press",
-        "freq": 3
-    },
-    {
-        "token": "On/Off",
-        "freq": 1
-    },
-    {
-        "token": "Long",
-        "freq": 1
-    },
-    {
-        "token": "Turn",
-        "freq": 1
-    },
-    {
-        "token": "off",
-        "freq": 1
-    },
-    {
-        "token": "system",
-        "freq": 1
-    },
-    {
-        "token": "power",
-        "freq": 6
-    },
-    {
-        "token": "totally",
-        "freq": 1
-    },
-    {
-        "token": "Comm",
-        "freq": 2
-    },
-    {
-        "token": "Manager",
-        "freq": 3
-    },
-    {
-        "token": "Voice",
-        "freq": 2
-    },
-    {
-        "token": "Recorder",
-        "freq": 1
-    },
-    {
-        "token": "capture",
-        "freq": 1
-    },
-    {
-        "token": "Volume",
-        "freq": 1
-    },
-    {
-        "token": "Up",
-        "freq": 1
-    },
-    {
-        "token": "Down",
-        "freq": 1
-    },
-    {
-        "token": "5-way",
-        "freq": 1
-    },
-    {
-        "token": "Navigation",
-        "freq": 2
-    },
-    {
-        "token": "Left",
-        "freq": 1
-    },
-    {
-        "token": "front",
-        "freq": 1
-    },
-    {
-        "token": "landscape",
-        "freq": 1
-    },
-    {
-        "token": "key",
-        "freq": 1
-    },
-    {
-        "token": "orientation",
-        "freq": 1
-    },
-    {
-        "token": "shall",
-        "freq": 1
-    },
-    {
-        "token": "adjusted",
-        "freq": 1
-    },
-    {
-        "token": "after",
-        "freq": 1
-    },
-    {
-        "token": "view",
-        "freq": 1
-    },
-    {
-        "token": "changed",
-        "freq": 1
-    },
-    {
-        "token": "Send",
-        "freq": 1
-    },
-    {
-        "token": "Hands-free",
-        "freq": 1
-    },
-    {
-        "token": "End",
-        "freq": 1
-    },
-    {
-        "token": "Key",
-        "freq": 4
-    },
-    {
-        "token": "Video",
-        "freq": 9
-    },
-    {
-        "token": "Telephony",
-        "freq": 2
-    },
-    {
-        "token": "Portal",
-        "freq": 1
-    },
-    {
-        "token": "Launch",
-        "freq": 1
-    },
-    {
-        "token": "IE",
-        "freq": 1
-    },
-    {
-        "token": "keys",
-        "freq": 1
-    },
-    {
-        "token": "RESET",
-        "freq": 1
-    },
-    {
-        "token": "switch",
-        "freq": 1
-    },
-    {
-        "token": "Back",
-        "freq": 1
-    },
-    {
-        "token": "Notification",
-        "freq": 2
-    },
-    {
-        "token": "1st",
-        "freq": 1
-    },
-    {
-        "token": "lens",
-        "freq": 4
-    },
-    {
-        "token": "-",
-        "freq": 6
-    },
-    {
-        "token": "one-color",
-        "freq": 1
-    },
-    {
-        "token": "amber",
-        "freq": 1
-    },
-    {
-        "token": "new",
-        "freq": 1
-    },
-    {
-        "token": "message",
-        "freq": 2
-    },
-    {
-        "token": "notification",
-        "freq": 2
-    },
-    {
-        "token": "bi-color",
-        "freq": 2
-    },
-    {
-        "token": "green",
-        "freq": 3
-    },
-    {
-        "token": "blue",
-        "freq": 1
-    },
-    {
-        "token": "WiFi",
-        "freq": 3
-    },
-    {
-        "token": "bluetooth",
-        "freq": 3
-    },
-    {
-        "token": "3rd",
-        "freq": 1
-    },
-    {
-        "token": "–bi-color",
-        "freq": 1
-    },
-    {
-        "token": "red",
-        "freq": 2
-    },
-    {
-        "token": "3G",
-        "freq": 1
-    },
-    {
-        "token": "2G",
-        "freq": 1
-    },
-    {
-        "token": "network",
-        "freq": 1
-    },
-    {
-        "token": "status",
-        "freq": 2
-    },
-    {
-        "token": "4th",
-        "freq": 1
-    },
-    {
-        "token": "charging",
-        "freq": 4
-    },
-    {
-        "token": "low",
-        "freq": 2
-    },
-    {
-        "token": "indicator",
-        "freq": 1
-    },
-    {
-        "token": "by",
-        "freq": 1
-    },
-    {
-        "token": "Sound",
-        "freq": 2
-    },
-    {
-        "token": "display",
-        "freq": 2
-    },
-    {
-        "token": "Built-in",
-        "freq": 1
-    },
-    {
-        "token": "Microphone",
-        "freq": 1
-    },
-    {
-        "token": "Dual",
-        "freq": 1
-    },
-    {
-        "token": "speakers",
-        "freq": 1
-    },
-    {
-        "token": "3D",
-        "freq": 2
-    },
-    {
-        "token": "surround",
-        "freq": 1
-    },
-    {
-        "token": "sound",
-        "freq": 1
-    },
-    {
-        "token": "Loud",
-        "freq": 1
-    },
-    {
-        "token": "speaker",
-        "freq": 1
-    },
-    {
-        "token": "Hands-Free",
-        "freq": 1
-    },
-    {
-        "token": "sampling",
-        "freq": 1
-    },
-    {
-        "token": "16-bits",
-        "freq": 1
-    },
-    {
-        "token": "8KHz",
-        "freq": 1
-    },
-    {
-        "token": "11KHz",
-        "freq": 1
-    },
-    {
-        "token": "22KHz",
-        "freq": 1
-    },
-    {
-        "token": "44.1KHz",
-        "freq": 1
-    },
-    {
-        "token": "AMR/AAC/WAV/WMA/MP3",
-        "freq": 1
-    },
-    {
-        "token": "codec",
-        "freq": 1
-    },
-    {
-        "token": "Connectivity",
-        "freq": 1
-    },
-    {
-        "token": "Interface",
-        "freq": 1
-    },
-    {
-        "token": "Compliant",
-        "freq": 2
-    },
-    {
-        "token": "v2.0",
-        "freq": 1
-    },
-    {
-        "token": "without",
-        "freq": 1
-    },
-    {
-        "token": "EDR",
-        "freq": 1
-    },
-    {
-        "token": "Class",
-        "freq": 1
-    },
-    {
-        "token": "transmit",
-        "freq": 1
-    },
-    {
-        "token": "Supported",
-        "freq": 1
-    },
-    {
-        "token": "profiles",
-        "freq": 1
-    },
-    {
-        "token": "GAP",
-        "freq": 1
-    },
-    {
-        "token": "generic",
-        "freq": 2
-    },
-    {
-        "token": "access",
-        "freq": 1
-    },
-    {
-        "token": "profile",
-        "freq": 9
-    },
-    {
-        "token": "SPP",
-        "freq": 2
-    },
-    {
-        "token": "serial",
-        "freq": 1
-    },
-    {
-        "token": "port",
-        "freq": 9
-    },
-    {
-        "token": "OPP",
-        "freq": 1
-    },
-    {
-        "token": "object",
-        "freq": 2
-    },
-    {
-        "token": "push",
-        "freq": 1
-    },
-    {
-        "token": "DUN",
-        "freq": 1
-    },
-    {
-        "token": "dial-up",
-        "freq": 1
-    },
-    {
-        "token": "networking",
-        "freq": 1
-    },
-    {
-        "token": "GOEP",
-        "freq": 1
-    },
-    {
-        "token": "exchange",
-        "freq": 1
-    },
-    {
-        "token": "ActiveSync",
-        "freq": 1
-    },
-    {
-        "token": "legacy",
-        "freq": 1
-    },
-    {
-        "token": "application",
-        "freq": 2
-    },
-    {
-        "token": "via",
-        "freq": 2
-    },
-    {
-        "token": "HSP",
-        "freq": 1
-    },
-    {
-        "token": "headset",
-        "freq": 5
-    },
-    {
-        "token": "HFP",
-        "freq": 1
-    },
-    {
-        "token": "handsfree",
-        "freq": 1
-    },
-    {
-        "token": "A2DP",
-        "freq": 1
-    },
-    {
-        "token": "Advanced",
-        "freq": 1
-    },
-    {
-        "token": "Distribution",
-        "freq": 1
-    },
-    {
-        "token": "AVRCP",
-        "freq": 1
-    },
-    {
-        "token": "Audio/Video",
-        "freq": 1
-    },
-    {
-        "token": "Remote",
-        "freq": 1
-    },
-    {
-        "token": "Profile",
-        "freq": 3
-    },
-    {
-        "token": "Discovery",
-        "freq": 1
-    },
-    {
-        "token": "Access",
-        "freq": 1
-    },
-    {
-        "token": "HID",
-        "freq": 1
-    },
-    {
-        "token": "Human",
-        "freq": 1
-    },
-    {
-        "token": "interface",
-        "freq": 1
-    },
-    {
-        "token": "device",
-        "freq": 2
-    },
-    {
-        "token": "Co-exist",
-        "freq": 1
-    },
-    {
-        "token": "manufacture",
-        "freq": 1
-    },
-    {
-        "token": "option",
-        "freq": 1
-    },
-    {
-        "token": "IEEE",
-        "freq": 1
-    },
-    {
-        "token": "802.11b/g",
-        "freq": 1
-    },
-    {
-        "token": "WLAN",
-        "freq": 2
-    },
-    {
-        "token": "11",
-        "freq": 1
-    },
-    {
-        "token": "5.5",
-        "freq": 1
-    },
-    {
-        "token": "Mbps",
-        "freq": 1
-    },
-    {
-        "token": "per",
-        "freq": 1
-    },
-    {
-        "token": "auto",
-        "freq": 1
-    },
-    {
-        "token": "fallback",
-        "freq": 1
-    },
-    {
-        "token": "extended",
-        "freq": 1
-    },
-    {
-        "token": "range",
-        "freq": 1
-    },
-    {
-        "token": "ELP",
-        "freq": 1
-    },
-    {
-        "token": "mode",
-        "freq": 1
-    },
-    {
-        "token": "802.11i",
-        "freq": 1
-    },
-    {
-        "token": "AES",
-        "freq": 1
-    },
-    {
-        "token": "OS",
-        "freq": 1
-    },
-    {
-        "token": "not",
-        "freq": 1
-    },
-    {
-        "token": "yet",
-        "freq": 1
-    },
-    {
-        "token": "WPA",
-        "freq": 2
-    },
-    {
-        "token": "authentication",
-        "freq": 1
-    },
-    {
-        "token": "WEP",
-        "freq": 1
-    },
-    {
-        "token": "PSK",
-        "freq": 1
-    },
-    {
-        "token": "EAPTLS",
-        "freq": 1
-    },
-    {
-        "token": "PEAP",
-        "freq": 1
-    },
-    {
-        "token": "LEAP",
-        "freq": 1
-    },
-    {
-        "token": "Signaling",
-        "freq": 1
-    },
-    {
-        "token": "interfaces",
-        "freq": 1
-    },
-    {
-        "token": "servers",
-        "freq": 1
-    },
-    {
-        "token": "mutually",
-        "freq": 1
-    },
-    {
-        "token": "authenticated",
-        "freq": 1
-    },
-    {
-        "token": "encrypted",
-        "freq": 1
-    },
-    {
-        "token": "utilizing",
-        "freq": 1
-    },
-    {
-        "token": "TLS",
-        "freq": 1
-    },
-    {
-        "token": "RFC",
-        "freq": 1
-    },
-    {
-        "token": "2246",
-        "freq": 1
-    },
-    {
-        "token": "RC4",
-        "freq": 1
-    },
-    {
-        "token": "encryption",
-        "freq": 1
-    },
-    {
-        "token": "SGA1",
-        "freq": 1
-    },
-    {
-        "token": "used",
-        "freq": 1
-    },
-    {
-        "token": "as",
-        "freq": 1
-    },
-    {
-        "token": "integrity",
-        "freq": 1
-    },
-    {
-        "token": "check",
-        "freq": 1
-    },
-    {
-        "token": "QoS",
-        "freq": 2
-    },
-    {
-        "token": "802.11",
-        "freq": 1
-    },
-    {
-        "token": "WME",
-        "freq": 1
-    },
-    {
-        "token": "802.11e",
-        "freq": 1
-    },
-    {
-        "token": "Fast",
-        "freq": 1
-    },
-    {
-        "token": "AP",
-        "freq": 2
-    },
-    {
-        "token": "handover",
-        "freq": 1
-    },
-    {
-        "token": "11-pin",
-        "freq": 1
-    },
-    {
-        "token": "mini-USB",
-        "freq": 2
-    },
-    {
-        "token": "audio",
-        "freq": 3
-    },
-    {
-        "token": "jack",
-        "freq": 3
-    },
-    {
-        "token": "one",
-        "freq": 2
-    },
-    {
-        "token": "2.0",
-        "freq": 2
-    },
-    {
-        "token": "client",
-        "freq": 1
-    },
-    {
-        "token": "mini",
-        "freq": 1
-    },
-    {
-        "token": "SD",
-        "freq": 1
-    },
-    {
-        "token": "slot",
-        "freq": 3
-    },
-    {
-        "token": "hotswap",
-        "freq": 1
-    },
-    {
-        "token": "feature",
-        "freq": 1
-    },
-    {
-        "token": "External",
-        "freq": 2
-    },
-    {
-        "token": "Antenna",
-        "freq": 1
-    },
-    {
-        "token": "UMTS/GSM/CDMA",
-        "freq": 1
-    },
-    {
-        "token": "Connector",
-        "freq": 1
-    },
-    {
-        "token": "V",
-        "freq": 1
-    },
-    {
-        "token": "Proprietary",
-        "freq": 2
-    },
-    {
-        "token": "16",
-        "freq": 2
-    },
-    {
-        "token": "Port",
-        "freq": 1
-    },
-    {
-        "token": "1.1",
-        "freq": 1
-    },
-    {
-        "token": "host",
-        "freq": 1
-    },
-    {
-        "token": "Thumb",
-        "freq": 1
-    },
-    {
-        "token": "Card",
-        "freq": 1
-    },
-    {
-        "token": "Reader",
-        "freq": 1
-    },
-    {
-        "token": "Keyboard",
-        "freq": 2
-    },
-    {
-        "token": "Mouse",
-        "freq": 1
-    },
-    {
-        "token": "Out",
-        "freq": 6
-    },
-    {
-        "token": "TV",
-        "freq": 2
-    },
-    {
-        "token": "Composite",
-        "freq": 2
-    },
-    {
-        "token": "S-Video",
-        "freq": 3
-    },
-    {
-        "token": "pin",
-        "freq": 4
-    },
-    {
-        "token": "stereo",
-        "freq": 2
-    },
-    {
-        "token": "mic",
-        "freq": 1
-    },
-    {
-        "token": "Battery",
-        "freq": 5
-    },
-    {
-        "token": "Removable",
-        "freq": 1
-    },
-    {
-        "token": "chargeable",
-        "freq": 1
-    },
-    {
-        "token": "Lithium",
-        "freq": 1
-    },
-    {
-        "token": "ion",
-        "freq": 1
-    },
-    {
-        "token": "polymer",
-        "freq": 1
-    },
-    {
-        "token": "2100mAh",
-        "freq": 1
-    },
-    {
-        "token": "Charging",
-        "freq": 1
-    },
-    {
-        "token": "less",
-        "freq": 1
-    },
-    {
-        "token": "hours",
-        "freq": 5
-    },
-    {
-        "token": "life",
-        "freq": 1
-    },
-    {
-        "token": "Playing",
-        "freq": 2
-    },
-    {
-        "token": "WMV",
-        "freq": 3
-    },
-    {
-        "token": "WMA",
-        "freq": 3
-    },
-    {
-        "token": "Talk",
-        "freq": 3
-    },
-    {
-        "token": ">",
-        "freq": 3
-    },
-    {
-        "token": "360",
-        "freq": 1
-    },
-    {
-        "token": "minutes",
-        "freq": 2
-    },
-    {
-        "token": "180",
-        "freq": 1
-    },
-    {
-        "token": "120",
-        "freq": 1
-    },
-    {
-        "token": "min",
-        "freq": 1
-    },
-    {
-        "token": "Standby",
-        "freq": 2
-    },
-    {
-        "token": "300+",
-        "freq": 1
-    },
-    {
-        "token": "300",
-        "freq": 1
-    },
-    {
-        "token": "Stylus",
-        "freq": 1
-    },
-    {
-        "token": "Type",
-        "freq": 1
-    },
-    {
-        "token": "main",
-        "freq": 1
-    },
-    {
-        "token": "unit",
-        "freq": 1
-    },
-    {
-        "token": "Accessories",
-        "freq": 1
-    },
-    {
-        "token": "AC",
-        "freq": 1
-    },
-    {
-        "token": "adapter",
-        "freq": 1
-    },
-    {
-        "token": "w/",
-        "freq": 1
-    },
-    {
-        "token": "plug",
-        "freq": 1
-    },
-    {
-        "token": "Carrying",
-        "freq": 1
-    },
-    {
-        "token": "Case",
-        "freq": 1
-    },
-    {
-        "token": "Sync",
-        "freq": 3
-    },
-    {
-        "token": "Cable",
-        "freq": 1
-    },
-    {
-        "token": "mini-USB/USB",
-        "freq": 1
-    },
-    {
-        "token": "rechargeable",
-        "freq": 1
-    },
-    {
-        "token": "replaceable",
-        "freq": 1
-    },
-    {
-        "token": "Stereo",
-        "freq": 2
-    },
-    {
-        "token": "wired",
-        "freq": 2
-    },
-    {
-        "token": "microphone",
-        "freq": 3
-    },
-    {
-        "token": "voice",
-        "freq": 1
-    },
-    {
-        "token": "command",
-        "freq": 1
-    },
-    {
-        "token": "cable",
-        "freq": 1
-    },
-    {
-        "token": "many",
-        "freq": 1
-    },
-    {
-        "token": "ports",
-        "freq": 1
-    },
-    {
-        "token": "Standard",
-        "freq": 3
-    },
-    {
-        "token": "A",
-        "freq": 2
-    },
-    {
-        "token": "female",
-        "freq": 2
-    },
-    {
-        "token": "15pin",
-        "freq": 2
-    },
-    {
-        "token": "User",
-        "freq": 1
-    },
-    {
-        "token": "manual",
-        "freq": 1
-    },
-    {
-        "token": "Quick",
-        "freq": 1
-    },
-    {
-        "token": "guide",
-        "freq": 1
-    },
-    {
-        "token": "software",
-        "freq": 1
-    },
-    {
-        "token": "CD",
-        "freq": 1
-    },
-    {
-        "token": "Cradle",
-        "freq": 1
-    },
-    {
-        "token": "Speakers",
-        "freq": 1
-    },
-    {
-        "token": "Headset",
-        "freq": 1
-    },
-    {
-        "token": "One",
-        "freq": 2
-    },
-    {
-        "token": "miniUSB",
-        "freq": 2
-    },
-    {
-        "token": "synchronization",
-        "freq": 1
-    },
-    {
-        "token": "x",
-        "freq": 1
-    },
-    {
-        "token": "Host",
-        "freq": 1
-    },
-    {
-        "token": "LEDs",
-        "freq": 1
-    },
-    {
-        "token": "Indicators",
-        "freq": 1
-    },
-    {
-        "token": "Mono",
-        "freq": 1
-    },
-    {
-        "token": "optional",
-        "freq": 6
-    },
-    {
-        "token": "Car",
-        "freq": 3
-    },
-    {
-        "token": "Adapter",
-        "freq": 1
-    },
-    {
-        "token": "Holder",
-        "freq": 1
-    },
-    {
-        "token": "car",
-        "freq": 1
-    },
-    {
-        "token": "mute",
-        "freq": 1
-    },
-    {
-        "token": "function",
-        "freq": 1
-    },
-    {
-        "token": "TTY",
-        "freq": 2
-    },
-    {
-        "token": "adaptor",
-        "freq": 1
-    },
-    {
-        "token": "market",
-        "freq": 1
-    },
-    {
-        "token": "Value",
-        "freq": 1
-    },
-    {
-        "token": "Added",
-        "freq": 1
-    },
-    {
-        "token": "Applications",
-        "freq": 1
-    },
-    {
-        "token": "Ringtone",
-        "freq": 1
-    },
-    {
-        "token": "MIDI",
-        "freq": 3
-    },
-    {
-        "token": "40",
-        "freq": 1
-    },
-    {
-        "token": "polyphonic",
-        "freq": 1
-    },
-    {
-        "token": "format",
-        "freq": 3
-    },
-    {
-        "token": "0",
-        "freq": 1
-    },
-    {
-        "token": "SMF",
-        "freq": 1
-    },
-    {
-        "token": "SP",
-        "freq": 1
-    },
-    {
-        "token": "MP3",
-        "freq": 2
-    },
-    {
-        "token": "AAC",
-        "freq": 2
-    },
-    {
-        "token": "AAC+",
-        "freq": 2
-    },
-    {
-        "token": "eAAC+",
-        "freq": 2
-    },
-    {
-        "token": "WAV",
-        "freq": 2
-    },
-    {
-        "token": "AMRNB/",
-        "freq": 1
-    },
-    {
-        "token": "WB",
-        "freq": 1
-    },
-    {
-        "token": "DirectShow",
-        "freq": 2
-    },
-    {
-        "token": "Filters",
-        "freq": 2
-    },
-    {
-        "token": "WMP",
-        "freq": 2
-    },
-    {
-        "token": "Playback",
-        "freq": 2
-    },
-    {
-        "token": "AMR-NB/WB",
-        "freq": 1
-    },
-    {
-        "token": "H.263",
-        "freq": 3
-    },
-    {
-        "token": "MPEG4",
-        "freq": 3
-    },
-    {
-        "token": "Motion",
-        "freq": 3
-    },
-    {
-        "token": "JPEG",
-        "freq": 3
-    },
-    {
-        "token": "AVI",
-        "freq": 2
-    },
-    {
-        "token": "Min",
-        "freq": 1
-    },
-    {
-        "token": "30",
-        "freq": 1
-    },
-    {
-        "token": "fps",
-        "freq": 1
-    },
-    {
-        "token": "@",
-        "freq": 1
-    },
-    {
-        "token": "decoding",
-        "freq": 1
-    },
-    {
-        "token": "Combined",
-        "freq": 1
-    },
-    {
-        "token": "Bit",
-        "freq": 1
-    },
-    {
-        "token": "Rate",
-        "freq": 1
-    },
-    {
-        "token": "64Kbps",
-        "freq": 1
-    },
-    {
-        "token": "playback",
-        "freq": 1
-    },
-    {
-        "token": "scaling",
-        "freq": 1
-    },
-    {
-        "token": "full",
-        "freq": 1
-    },
-    {
-        "token": "Picture",
-        "freq": 1
-    },
-    {
-        "token": "Enhancement",
-        "freq": 1
-    },
-    {
-        "token": "Pictures",
-        "freq": 2
-    },
-    {
-        "token": "Videos",
-        "freq": 1
-    },
-    {
-        "token": "Graphics",
-        "freq": 1
-    },
-    {
-        "token": "GIF87a",
-        "freq": 1
-    },
-    {
-        "token": "GIF89a",
-        "freq": 1
-    },
-    {
-        "token": "PNG",
-        "freq": 1
-    },
-    {
-        "token": "WBMP",
-        "freq": 1
-    },
-    {
-        "token": "Thumbnail",
-        "freq": 1
-    },
-    {
-        "token": "Preview",
-        "freq": 1
-    },
-    {
-        "token": "3G-324M",
-        "freq": 1
-    },
-    {
-        "token": "ZIP",
-        "freq": 1
-    },
-    {
-        "token": "Smart",
-        "freq": 1
-    },
-    {
-        "token": "Input",
-        "freq": 1
-    },
-    {
-        "token": "Sub-display",
-        "freq": 1
-    },
-    {
-        "token": "UI",
-        "freq": 1
-    },
-    {
-        "token": "when",
-        "freq": 2
-    },
-    {
-        "token": "is",
-        "freq": 1
-    },
-    {
-        "token": "attached",
-        "freq": 1
-    },
-    {
-        "token": "Setting",
-        "freq": 1
-    },
-    {
-        "token": "MMS",
-        "freq": 3
-    },
-    {
-        "token": "Client",
-        "freq": 1
-    },
-    {
-        "token": "1.2",
-        "freq": 1
-    },
-    {
-        "token": "Java",
-        "freq": 1
-    },
-    {
-        "token": "virtual",
-        "freq": 1
-    },
-    {
-        "token": "machine",
-        "freq": 1
-    },
-    {
-        "token": "Command",
-        "freq": 1
-    },
-    {
-        "token": "Speaker",
-        "freq": 1
-    },
-    {
-        "token": "Dependent",
-        "freq": 1
-    },
-    {
-        "token": "Independent",
-        "freq": 1
-    },
-    {
-        "token": "both",
-        "freq": 1
-    },
-    {
-        "token": "Document",
-        "freq": 2
-    },
-    {
-        "token": "Viewer",
-        "freq": 1
-    },
-    {
-        "token": "PDF",
-        "freq": 1
-    },
-    {
-        "token": "DRM",
-        "freq": 3
-    },
-    {
-        "token": "Engine",
-        "freq": 1
-    },
-    {
-        "token": "For",
-        "freq": 1
-    },
-    {
-        "token": "all",
-        "freq": 2
-    },
-    {
-        "token": "types",
-        "freq": 2
-    },
-    {
-        "token": "files",
-        "freq": 1
-    },
-    {
-        "token": "etc",
-        "freq": 2
-    },
-    {
-        "token": "also",
-        "freq": 1
-    },
-    {
-        "token": "delivery",
-        "freq": 1
-    },
-    {
-        "token": "method",
-        "freq": 1
-    },
-    {
-        "token": "email",
-        "freq": 1
-    },
-    {
-        "token": "OMA",
-        "freq": 2
-    },
-    {
-        "token": "1.0",
-        "freq": 1
-    },
-    {
-        "token": "available",
-        "freq": 1
-    },
-    {
-        "token": "Multi-DRM",
-        "freq": 1
-    },
-    {
-        "token": "support",
-        "freq": 1
-    },
-    {
-        "token": "Effect",
-        "freq": 1
-    },
-    {
-        "token": "SRS",
-        "freq": 1
-    },
-    {
-        "token": "WorldMate",
-        "freq": 1
-    },
-    {
-        "token": "World",
-        "freq": 1
-    },
-    {
-        "token": "Clock",
-        "freq": 1
-    },
-    {
-        "token": "Weather",
-        "freq": 1
-    },
-    {
-        "token": "Forecast",
-        "freq": 1
-    },
-    {
-        "token": "Currency",
-        "freq": 1
-    },
-    {
-        "token": "Converter",
-        "freq": 1
-    },
-    {
-        "token": "Unit",
-        "freq": 1
-    },
-    {
-        "token": "Conversion",
-        "freq": 1
-    },
-    {
-        "token": "STK",
-        "freq": 1
-    },
-    {
-        "token": "Photo",
-        "freq": 1
-    },
-    {
-        "token": "Printing",
-        "freq": 1
-    },
-    {
-        "token": "BT",
-        "freq": 1
-    },
-    {
-        "token": "PictBridge",
-        "freq": 1
-    },
-    {
-        "token": "US",
-        "freq": 1
-    },
-    {
-        "token": "Market",
-        "freq": 1
-    },
-    {
-        "token": "FOTA",
-        "freq": 1
-    },
-    {
-        "token": "Firmware",
-        "freq": 1
-    },
-    {
-        "token": "SW",
-        "freq": 1
-    },
-    {
-        "token": "Backup",
-        "freq": 1
-    },
-    {
-        "token": "G-Sensor",
-        "freq": 1
-    },
-    {
-        "token": "Symbol",
-        "freq": 1
-    },
-    {
-        "token": "Table",
-        "freq": 1
-    },
-    {
-        "token": "VoIP",
-        "freq": 1
-    },
-    {
-        "token": "echo",
-        "freq": 1
-    },
-    {
-        "token": "cancellation",
-        "freq": 1
-    },
-    {
-        "token": "Wireless",
-        "freq": 1
-    },
-    {
-        "token": "Modem",
-        "freq": 1
-    }
+    [
+        ",",
+        127
+    ],
+    [
+        ")",
+        62
+    ],
+    [
+        "(",
+        61
+    ],
+    [
+        ".",
+        54
+    ],
+    [
+        ":",
+        43
+    ],
+    [
+        "for",
+        28
+    ],
+    [
+        "and",
+        25
+    ],
+    [
+        "HTC",
+        24
+    ],
+    [
+        "в",
+        23
+    ],
+    [
+        "–",
+        19
+    ],
+    [
+        "with",
+        18
+    ],
+    [
+        "&",
+        17
+    ],
+    [
+        "и",
+        16
+    ],
+    [
+        "на",
+        14
+    ],
+    [
+        "/",
+        14
+    ],
+    [
+        "не",
+        13
+    ],
+    [
+        "для",
+        10
+    ],
+    [
+        "VGA",
+        10
+    ],
+    [
+        "это",
+        9
+    ],
+    [
+        "USB",
+        9
+    ],
+    [
+        "to",
+        9
+    ],
+    [
+        "Video",
+        9
+    ],
+    [
+        "profile",
+        9
+    ],
+    [
+        "port",
+        9
+    ],
+    [
+        "Athena",
+        7
+    ],
+    [
+        "с",
+        7
+    ],
+    [
+        "UMTS",
+        7
+    ],
+    [
+        "2",
+        7
+    ],
+    [
+        "Audio",
+        7
+    ],
+    [
+        "[",
+        7
+    ],
+    [
+        "]",
+        7
+    ],
+    [
+        "time",
+        7
+    ],
+    [
+        "что",
+        6
+    ],
+    [
+        "LED",
+        6
+    ],
+    [
+        "the",
+        6
+    ],
+    [
+        "control",
+        6
+    ],
+    [
+        "power",
+        6
+    ],
+    [
+        "-",
+        6
+    ],
+    [
+        "Out",
+        6
+    ],
+    [
+        "optional",
+        6
+    ],
+    [
+        "X7500",
+        5
+    ],
+    [
+        "4",
+        5
+    ],
+    [
+        "можно",
+        5
+    ],
+    [
+        "встроенный",
+        5
+    ],
+    [
+        "Windows",
+        5
+    ],
+    [
+        "Mobile",
+        5
+    ],
+    [
+        "Power",
+        5
+    ],
+    [
+        "of",
+        5
+    ],
+    [
+        "GPS",
+        5
+    ],
+    [
+        "button",
+        5
+    ],
+    [
+        "headset",
+        5
+    ],
+    [
+        "Battery",
+        5
+    ],
+    [
+        "hours",
+        5
+    ],
+    [
+        "UMPC",
+        4
+    ],
+    [
+        "компания",
+        4
+    ],
+    [
+        "будет",
+        4
+    ],
+    [
+        "устройства",
+        4
+    ],
+    [
+        "Universal",
+        4
+    ],
+    [
+        "коммуникатор",
+        4
+    ],
+    [
+        "мм",
+        4
+    ],
+    [
+        "Pocket",
+        4
+    ],
+    [
+        "PC",
+        4
+    ],
+    [
+        "3.5",
+        4
+    ],
+    [
+        "GSM",
+        4
+    ],
+    [
+        "HSDPA",
+        4
+    ],
+    [
+        "mm",
+        4
+    ],
+    [
+        "up",
+        4
+    ],
+    [
+        "on",
+        4
+    ],
+    [
+        "in",
+        4
+    ],
+    [
+        "SIM",
+        4
+    ],
+    [
+        "Support",
+        4
+    ],
+    [
+        "start",
+        4
+    ],
+    [
+        "typical",
+        4
+    ],
+    [
+        "2nd",
+        4
+    ],
+    [
+        "Key",
+        4
+    ],
+    [
+        "lens",
+        4
+    ],
+    [
+        "charging",
+        4
+    ],
+    [
+        "pin",
+        4
+    ],
+    [
+        "Модель",
+        3
+    ],
+    [
+        "по",
+        3
+    ],
+    [
+        "устройство",
+        3
+    ],
+    [
+        "как",
+        3
+    ],
+    [
+        "еще",
+        3
+    ],
+    [
+        "уже",
+        3
+    ],
+    [
+        "но",
+        3
+    ],
+    [
+        "даже",
+        3
+    ],
+    [
+        "вес",
+        3
+    ],
+    [
+        "из",
+        3
+    ],
+    [
+        "5",
+        3
+    ],
+    [
+        "или",
+        3
+    ],
+    [
+        "подключить",
+        3
+    ],
+    [
+        "Bluetooth",
+        3
+    ],
+    [
+        "стоит",
+        3
+    ],
+    [
+        "LCD",
+        3
+    ],
+    [
+        "Internal",
+        3
+    ],
+    [
+        "antenna",
+        3
+    ],
+    [
+        "3GPP",
+        3
+    ],
+    [
+        "compliant",
+        3
+    ],
+    [
+        "12",
+        3
+    ],
+    [
+        "rate",
+        3
+    ],
+    [
+        "channel",
+        3
+    ],
+    [
+        "supported",
+        3
+    ],
+    [
+        "SMS",
+        3
+    ],
+    [
+        "Short",
+        3
+    ],
+    [
+        "Service",
+        3
+    ],
+    [
+        "SM",
+        3
+    ],
+    [
+        "8",
+        3
+    ],
+    [
+        "card",
+        3
+    ],
+    [
+        "class",
+        3
+    ],
+    [
+        "Application",
+        3
+    ],
+    [
+        "3",
+        3
+    ],
+    [
+        "1",
+        3
+    ],
+    [
+        "seconds",
+        3
+    ],
+    [
+        "TTFF",
+        3
+    ],
+    [
+        "Camera",
+        3
+    ],
+    [
+        "camera",
+        3
+    ],
+    [
+        "Side",
+        3
+    ],
+    [
+        "Press",
+        3
+    ],
+    [
+        "Manager",
+        3
+    ],
+    [
+        "green",
+        3
+    ],
+    [
+        "WiFi",
+        3
+    ],
+    [
+        "bluetooth",
+        3
+    ],
+    [
+        "Profile",
+        3
+    ],
+    [
+        "audio",
+        3
+    ],
+    [
+        "jack",
+        3
+    ],
+    [
+        "slot",
+        3
+    ],
+    [
+        "S-Video",
+        3
+    ],
+    [
+        "WMV",
+        3
+    ],
+    [
+        "WMA",
+        3
+    ],
+    [
+        "Talk",
+        3
+    ],
+    [
+        ">",
+        3
+    ],
+    [
+        "Sync",
+        3
+    ],
+    [
+        "microphone",
+        3
+    ],
+    [
+        "Standard",
+        3
+    ],
+    [
+        "Car",
+        3
+    ],
+    [
+        "MIDI",
+        3
+    ],
+    [
+        "format",
+        3
+    ],
+    [
+        "H.263",
+        3
+    ],
+    [
+        "MPEG4",
+        3
+    ],
+    [
+        "Motion",
+        3
+    ],
+    [
+        "JPEG",
+        3
+    ],
+    [
+        "MMS",
+        3
+    ],
+    [
+        "DRM",
+        3
+    ],
+    [
+        "под",
+        2
+    ],
+    [
+        "компании",
+        2
+    ],
+    [
+        "года",
+        2
+    ],
+    [
+        "принципиально",
+        2
+    ],
+    [
+        "других",
+        2
+    ],
+    [
+        "данный",
+        2
+    ],
+    [
+        "момент",
+        2
+    ],
+    [
+        "модели",
+        2
+    ],
+    [
+        "описание",
+        2
+    ],
+    [
+        "его",
+        2
+    ],
+    [
+        "планшетного",
+        2
+    ],
+    [
+        "коммуникатора",
+        2
+    ],
+    [
+        "мы",
+        2
+    ],
+    [
+        "а",
+        2
+    ],
+    [
+        "По",
+        2
+    ],
+    [
+        "модель",
+        2
+    ],
+    [
+        "к",
+        2
+    ],
+    [
+        "133.1x97x20",
+        2
+    ],
+    [
+        "г.",
+        2
+    ],
+    [
+        "Для",
+        2
+    ],
+    [
+        "«",
+        2
+    ],
+    [
+        "»",
+        2
+    ],
+    [
+        "себе",
+        2
+    ],
+    [
+        "решение",
+        2
+    ],
+    [
+        "использоваться",
+        2
+    ],
+    [
+        "?",
+        2
+    ],
+    [
+        "Устройство",
+        2
+    ],
+    [
+        "имеет",
+        2
+    ],
+    [
+        "ее",
+        2
+    ],
+    [
+        "”",
+        2
+    ],
+    [
+        "матрица",
+        2
+    ],
+    [
+        "встроенного",
+        2
+    ],
+    [
+        "переходник",
+        2
+    ],
+    [
+        "К",
+        2
+    ],
+    [
+        "Ext",
+        2
+    ],
+    [
+        "решения",
+        2
+    ],
+    [
+        "624",
+        2
+    ],
+    [
+        "МГц",
+        2
+    ],
+    [
+        "Qualcomm",
+        2
+    ],
+    [
+        "GPRS",
+        2
+    ],
+    [
+        "EDGE",
+        2
+    ],
+    [
+        "Имеется",
+        2
+    ],
+    [
+        "2282",
+        2
+    ],
+    [
+        "10",
+        2
+    ],
+    [
+        "во",
+        2
+    ],
+    [
+        "диск",
+        2
+    ],
+    [
+        "Дополнительно",
+        2
+    ],
+    [
+        "машине",
+        2
+    ],
+    [
+        "станет",
+        2
+    ],
+    [
+        "2100",
+        2
+    ],
+    [
+        "дальнейшем",
+        2
+    ],
+    [
+        "Это",
+        2
+    ],
+    [
+        "функциональный",
+        2
+    ],
+    [
+        "которые",
+        2
+    ],
+    [
+        "если",
+        2
+    ],
+    [
+        "узкую",
+        2
+    ],
+    [
+        "более",
+        2
+    ],
+    [
+        "ноутбук",
+        2
+    ],
+    [
+        "люди",
+        2
+    ],
+    [
+        "они",
+        2
+    ],
+    [
+        "возможность",
+        2
+    ],
+    [
+        "о",
+        2
+    ],
+    [
+        "QWERTY",
+        2
+    ],
+    [
+        "keyboard",
+        2
+    ],
+    [
+        "Microsoft",
+        2
+    ],
+    [
+        "than",
+        2
+    ],
+    [
+        "battery",
+        2
+    ],
+    [
+        "Memory",
+        2
+    ],
+    [
+        "MB",
+        2
+    ],
+    [
+        "G",
+        2
+    ],
+    [
+        "Function",
+        2
+    ],
+    [
+        "HSDPA/UMTS",
+        2
+    ],
+    [
+        "USA",
+        2
+    ],
+    [
+        "band",
+        2
+    ],
+    [
+        "850",
+        2
+    ],
+    [
+        "824-849",
+        2
+    ],
+    [
+        "869-894MHz",
+        2
+    ],
+    [
+        "1900",
+        2
+    ],
+    [
+        "1930-1990MHz",
+        2
+    ],
+    [
+        "Release",
+        2
+    ],
+    [
+        "99",
+        2
+    ],
+    [
+        "1.8Mbps",
+        2
+    ],
+    [
+        "call",
+        2
+    ],
+    [
+        "be",
+        2
+    ],
+    [
+        "selection",
+        2
+    ],
+    [
+        "between",
+        2
+    ],
+    [
+        "Call",
+        2
+    ],
+    [
+        "Message",
+        2
+    ],
+    [
+        "Data",
+        2
+    ],
+    [
+        "number",
+        2
+    ],
+    [
+        "capability",
+        2
+    ],
+    [
+        "terminal",
+        2
+    ],
+    [
+        "Network",
+        2
+    ],
+    [
+        "Lock",
+        2
+    ],
+    [
+        "USIM/SIM",
+        2
+    ],
+    [
+        "1.8",
+        2
+    ],
+    [
+        "Tool",
+        2
+    ],
+    [
+        "Kit",
+        2
+    ],
+    [
+        "OTA",
+        2
+    ],
+    [
+        "Dialing",
+        2
+    ],
+    [
+        "Number",
+        2
+    ],
+    [
+        "Dial",
+        2
+    ],
+    [
+        "Security",
+        2
+    ],
+    [
+        "Pin",
+        2
+    ],
+    [
+        "Option",
+        2
+    ],
+    [
+        "or",
+        2
+    ],
+    [
+        "Color",
+        2
+    ],
+    [
+        "CMOS",
+        2
+    ],
+    [
+        "Comm",
+        2
+    ],
+    [
+        "Voice",
+        2
+    ],
+    [
+        "Navigation",
+        2
+    ],
+    [
+        "Telephony",
+        2
+    ],
+    [
+        "Notification",
+        2
+    ],
+    [
+        "message",
+        2
+    ],
+    [
+        "notification",
+        2
+    ],
+    [
+        "bi-color",
+        2
+    ],
+    [
+        "red",
+        2
+    ],
+    [
+        "status",
+        2
+    ],
+    [
+        "low",
+        2
+    ],
+    [
+        "Sound",
+        2
+    ],
+    [
+        "display",
+        2
+    ],
+    [
+        "3D",
+        2
+    ],
+    [
+        "Compliant",
+        2
+    ],
+    [
+        "generic",
+        2
+    ],
+    [
+        "SPP",
+        2
+    ],
+    [
+        "object",
+        2
+    ],
+    [
+        "application",
+        2
+    ],
+    [
+        "via",
+        2
+    ],
+    [
+        "device",
+        2
+    ],
+    [
+        "WLAN",
+        2
+    ],
+    [
+        "WPA",
+        2
+    ],
+    [
+        "QoS",
+        2
+    ],
+    [
+        "AP",
+        2
+    ],
+    [
+        "mini-USB",
+        2
+    ],
+    [
+        "one",
+        2
+    ],
+    [
+        "2.0",
+        2
+    ],
+    [
+        "External",
+        2
+    ],
+    [
+        "Proprietary",
+        2
+    ],
+    [
+        "16",
+        2
+    ],
+    [
+        "Keyboard",
+        2
+    ],
+    [
+        "TV",
+        2
+    ],
+    [
+        "Composite",
+        2
+    ],
+    [
+        "stereo",
+        2
+    ],
+    [
+        "Playing",
+        2
+    ],
+    [
+        "minutes",
+        2
+    ],
+    [
+        "Standby",
+        2
+    ],
+    [
+        "Stereo",
+        2
+    ],
+    [
+        "wired",
+        2
+    ],
+    [
+        "A",
+        2
+    ],
+    [
+        "female",
+        2
+    ],
+    [
+        "15pin",
+        2
+    ],
+    [
+        "One",
+        2
+    ],
+    [
+        "miniUSB",
+        2
+    ],
+    [
+        "TTY",
+        2
+    ],
+    [
+        "MP3",
+        2
+    ],
+    [
+        "AAC",
+        2
+    ],
+    [
+        "AAC+",
+        2
+    ],
+    [
+        "eAAC+",
+        2
+    ],
+    [
+        "WAV",
+        2
+    ],
+    [
+        "DirectShow",
+        2
+    ],
+    [
+        "Filters",
+        2
+    ],
+    [
+        "WMP",
+        2
+    ],
+    [
+        "Playback",
+        2
+    ],
+    [
+        "AVI",
+        2
+    ],
+    [
+        "Pictures",
+        2
+    ],
+    [
+        "when",
+        2
+    ],
+    [
+        "Document",
+        2
+    ],
+    [
+        "all",
+        2
+    ],
+    [
+        "types",
+        2
+    ],
+    [
+        "etc",
+        2
+    ],
+    [
+        "OMA",
+        2
+    ],
+    [
+        "территория",
+        1
+    ],
+    [
+        "кодовым",
+        1
+    ],
+    [
+        "именем",
+        1
+    ],
+    [
+        "переводе",
+        1
+    ],
+    [
+        "Афина",
+        1
+    ],
+    [
+        "планам",
+        1
+    ],
+    [
+        "должна",
+        1
+    ],
+    [
+        "появиться",
+        1
+    ],
+    [
+        "продаже",
+        1
+    ],
+    [
+        "первом",
+        1
+    ],
+    [
+        "квартале",
+        1
+    ],
+    [
+        "2007",
+        1
+    ],
+    [
+        "отличается",
+        1
+    ],
+    [
+        "от",
+        1
+    ],
+    [
+        "коммуникаторов",
+        1
+    ],
+    [
+        "имеющихся",
+        1
+    ],
+    [
+        "рынке",
+        1
+    ],
+    [
+        "Именно",
+        1
+    ],
+    [
+        "начиная",
+        1
+    ],
+    [
+        "этой",
+        1
+    ],
+    [
+        "тайваньская",
+        1
+    ],
+    [
+        "вводит",
+        1
+    ],
+    [
+        "новый",
+        1
+    ],
+    [
+        "индекс",
+        1
+    ],
+    [
+        "наименования",
+        1
+    ],
+    [
+        "продуктов",
+        1
+    ],
+    [
+        "прилавках",
+        1
+    ],
+    [
+        "представлено",
+        1
+    ],
+    [
+        "Польский",
+        1
+    ],
+    [
+        "ресурс",
+        1
+    ],
+    [
+        "pdaclub.pl",
+        1
+    ],
+    [
+        "опубликовал",
+        1
+    ],
+    [
+        "несколько",
+        1
+    ],
+    [
+        "живых",
+        1
+    ],
+    [
+        "фотографий",
+        1
+    ],
+    [
+        "свою",
+        1
+    ],
+    [
+        "очередь",
+        1
+    ],
+    [
+        "Mobile-review.com",
+        1
+    ],
+    [
+        "публикует",
+        1
+    ],
+    [
+        "подробное",
+        1
+    ],
+    [
+        "новинки",
+        1
+    ],
+    [
+        "полные",
+        1
+    ],
+    [
+        "спецификации",
+        1
+    ],
+    [
+        "Ошибочно",
+        1
+    ],
+    [
+        "считать",
+        1
+    ],
+    [
+        "преемником",
+        1
+    ],
+    [
+        "Реального",
+        1
+    ],
+    [
+        "приемника",
+        1
+    ],
+    [
+        "увидим",
+        1
+    ],
+    [
+        "будущем",
+        1
+    ],
+    [
+        "иного",
+        1
+    ],
+    [
+        "класса",
+        1
+    ],
+    [
+        "форм-фактору",
+        1
+    ],
+    [
+        "который",
+        1
+    ],
+    [
+        "удобно",
+        1
+    ],
+    [
+        "приложить",
+        1
+    ],
+    [
+        "уху",
+        1
+    ],
+    [
+        "планшетный",
+        1
+    ],
+    [
+        "компьютер",
+        1
+    ],
+    [
+        "UMPC/Origami",
+        1
+    ],
+    [
+        "Давайте",
+        1
+    ],
+    [
+        "взглянем",
+        1
+    ],
+    [
+        "размеры",
+        1
+    ],
+    [
+        "Габариты",
+        1
+    ],
+    [
+        "около",
+        1
+    ],
+    [
+        "350",
+        1
+    ],
+    [
+        "сравнения",
+        1
+    ],
+    [
+        "аналогичные",
+        1
+    ],
+    [
+        "параметры",
+        1
+    ],
+    [
+        "составляют",
+        1
+    ],
+    [
+        "127.7x81x25",
+        1
+    ],
+    [
+        "285",
+        1
+    ],
+    [
+        "Несмотря",
+        1
+    ],
+    [
+        "то",
+        1
+    ],
+    [
+        "считает",
+        1
+    ],
+    [
+        "все",
+        1
+    ],
+    [
+        "карманным",
+        1
+    ],
+    [
+        "удобством",
+        1
+    ],
+    [
+        "носить",
+        1
+    ],
+    [
+        "получится",
+        1
+    ],
+    [
+        "габаритам",
+        1
+    ],
+    [
+        "новая",
+        1
+    ],
+    [
+        "сопоставима",
+        1
+    ],
+    [
+        "UMPC-компьютерами",
+        1
+    ],
+    [
+        "второго",
+        1
+    ],
+    [
+        "третьего",
+        1
+    ],
+    [
+        "поколения",
+        1
+    ],
+    [
+        "сейчас",
+        1
+    ],
+    [
+        "она",
+        1
+    ],
+    [
+        "функционалу",
+        1
+    ],
+    [
+        "размерам",
+        1
+    ],
+    [
+        "занимает",
+        1
+    ],
+    [
+        "промежуточное",
+        1
+    ],
+    [
+        "положение",
+        1
+    ],
+    [
+        "между",
+        1
+    ],
+    [
+        "Возникает",
+        1
+    ],
+    [
+        "резонный",
+        1
+    ],
+    [
+        "вопрос",
+        1
+    ],
+    [
+        "нужно",
+        1
+    ],
+    [
+        "ли",
+        1
+    ],
+    [
+        "такое",
+        1
+    ],
+    [
+        "покупателям",
+        1
+    ],
+    [
+        "где",
+        1
+    ],
+    [
+        "оно",
+        1
+    ],
+    [
+        "горизонтальную",
+        1
+    ],
+    [
+        "ориентацию",
+        1
+    ],
+    [
+        "моноблочную",
+        1
+    ],
+    [
+        "форму",
+        1
+    ],
+    [
+        "предусмотрена",
+        1
+    ],
+    [
+        "подключаемая",
+        1
+    ],
+    [
+        "QWERTY-клавиатура",
+        1
+    ],
+    [
+        "толщина",
+        1
+    ],
+    [
+        "Подобный",
+        1
+    ],
+    [
+        "форм-фактор",
+        1
+    ],
+    [
+        "иногда",
+        1
+    ],
+    [
+        "встретить",
+        1
+    ],
+    [
+        "планшетных",
+        1
+    ],
+    [
+        "компьютерах",
+        1
+    ],
+    [
+        "Экран",
+        1
+    ],
+    [
+        "одна",
+        1
+    ],
+    [
+        "интересных",
+        1
+    ],
+    [
+        "особенностей",
+        1
+    ],
+    [
+        "Использована",
+        1
+    ],
+    [
+        "Samsung",
+        1
+    ],
+    [
+        "разрешением",
+        1
+    ],
+    [
+        "сенсорным",
+        1
+    ],
+    [
+        "вводом",
+        1
+    ],
+    [
+        "Безусловно",
+        1
+    ],
+    [
+        "ноутбука",
+        1
+    ],
+    [
+        "компьютера",
+        1
+    ],
+    [
+        "ахти",
+        1
+    ],
+    [
+        "Тем",
+        1
+    ],
+    [
+        "менее",
+        1
+    ],
+    [
+        "самая",
+        1
+    ],
+    [
+        "большая",
+        1
+    ],
+    [
+        "когда-либо",
+        1
+    ],
+    [
+        "применявшаяся",
+        1
+    ],
+    [
+        "коммуникаторах",
+        1
+    ],
+    [
+        "Уникальной",
+        1
+    ],
+    [
+        "особенностью",
+        1
+    ],
+    [
+        "является",
+        1
+    ],
+    [
+        "наличие",
+        1
+    ],
+    [
+        "VGA/TV-выхода",
+        1
+    ],
+    [
+        "подключение",
+        1
+    ],
+    [
+        "через",
+        1
+    ],
+    [
+        "док-станцию",
+        1
+    ],
+    [
+        "фирменному",
+        1
+    ],
+    [
+        "разъему",
+        1
+    ],
+    [
+        "VGA-переходник",
+        1
+    ],
+    [
+        "выхода",
+        1
+    ],
+    [
+        "телевизор",
+        1
+    ],
+    [
+        "предусмотрен",
+        1
+    ],
+    [
+        "Composite/S-Video",
+        1
+    ],
+    [
+        "Кстати",
+        1
+    ],
+    [
+        "разъем",
+        1
+    ],
+    [
+        "поддерживает",
+        1
+    ],
+    [
+        "только",
+        1
+    ],
+    [
+        "USB-клиент",
+        1
+    ],
+    [
+        "хост",
+        1
+    ],
+    [
+        "То",
+        1
+    ],
+    [
+        "есть",
+        1
+    ],
+    [
+        "различные",
+        1
+    ],
+    [
+        "периферийные",
+        1
+    ],
+    [
+        "например",
+        1
+    ],
+    [
+        "мышку",
+        1
+    ],
+    [
+        "клавиатуру",
+        1
+    ],
+    [
+        "внешний",
+        1
+    ],
+    [
+        "накопитель",
+        1
+    ],
+    [
+        "Интересно",
+        1
+    ],
+    [
+        "впервые",
+        1
+    ],
+    [
+        "использует",
+        1
+    ],
+    [
+        "проводной",
+        1
+    ],
+    [
+        "пульт",
+        1
+    ],
+    [
+        "управления",
+        1
+    ],
+    [
+        "воспроизведением",
+        1
+    ],
+    [
+        "музыки",
+        1
+    ],
+    [
+        "пульту",
+        1
+    ],
+    [
+        "любые",
+        1
+    ],
+    [
+        "наушники",
+        1
+    ],
+    [
+        "со",
+        1
+    ],
+    [
+        "штекером",
+        1
+    ],
+    [
+        "Коммуникатор",
+        1
+    ],
+    [
+        "строился",
+        1
+    ],
+    [
+        "нуля",
+        1
+    ],
+    [
+        "практически",
+        1
+    ],
+    [
+        "используются",
+        1
+    ],
+    [
+        "старые",
+        1
+    ],
+    [
+        "Начинка",
+        1
+    ],
+    [
+        "интересна",
+        1
+    ],
+    [
+        "инновационной",
+        1
+    ],
+    [
+        "назвать",
+        1
+    ],
+    [
+        "нельзя",
+        1
+    ],
+    [
+        "Процессор",
+        1
+    ],
+    [
+        "относительно",
+        1
+    ],
+    [
+        "старый",
+        1
+    ],
+    [
+        "XScale",
+        1
+    ],
+    [
+        "PXA270",
+        1
+    ],
+    [
+        "за",
+        1
+    ],
+    [
+        "телефонную",
+        1
+    ],
+    [
+        "часть",
+        1
+    ],
+    [
+        "отвечает",
+        1
+    ],
+    [
+        "чип",
+        1
+    ],
+    [
+        "MSM6275",
+        1
+    ],
+    [
+        "поддержка",
+        1
+    ],
+    [
+        "четырех",
+        1
+    ],
+    [
+        "диапазонов",
+        1
+    ],
+    [
+        "850/1900/2100",
+        1
+    ],
+    [
+        "графический",
+        1
+    ],
+    [
+        "ускоритель",
+        1
+    ],
+    [
+        "ATI",
+        1
+    ],
+    [
+        "Imageon",
+        1
+    ],
+    [
+        "Самое",
+        1
+    ],
+    [
+        "значительное",
+        1
+    ],
+    [
+        "нововведение",
+        1
+    ],
+    [
+        "появление",
+        1
+    ],
+    [
+        "жесткого",
+        1
+    ],
+    [
+        "диска",
+        1
+    ],
+    [
+        "объемом",
+        1
+    ],
+    [
+        "Гб",
+        1
+    ],
+    [
+        "датчик",
+        1
+    ],
+    [
+        "ускорения",
+        1
+    ],
+    [
+        "избежание",
+        1
+    ],
+    [
+        "повреждения",
+        1
+    ],
+    [
+        "при",
+        1
+    ],
+    [
+        "падении",
+        1
+    ],
+    [
+        "заранее",
+        1
+    ],
+    [
+        "переходит",
+        1
+    ],
+    [
+        "безопасный",
+        1
+    ],
+    [
+        "режим",
+        1
+    ],
+    [
+        "считывающая",
+        1
+    ],
+    [
+        "головка",
+        1
+    ],
+    [
+        "паркуется",
+        1
+    ],
+    [
+        "память",
+        1
+    ],
+    [
+        "расширить",
+        1
+    ],
+    [
+        "помощью",
+        1
+    ],
+    [
+        "карт",
+        1
+    ],
+    [
+        "памяти",
+        1
+    ],
+    [
+        "стандарта",
+        1
+    ],
+    [
+        "miniSD",
+        1
+    ],
+    [
+        "Про",
+        1
+    ],
+    [
+        "такие",
+        1
+    ],
+    [
+        "вещи",
+        1
+    ],
+    [
+        "встроенные",
+        1
+    ],
+    [
+        "модули",
+        1
+    ],
+    [
+        "Wi-Fi",
+        1
+    ],
+    [
+        "говорить",
+        1
+    ],
+    [
+        "Как",
+        1
+    ],
+    [
+        "большинстве",
+        1
+    ],
+    [
+        "новых",
+        1
+    ],
+    [
+        "устройств",
+        1
+    ],
+    [
+        "имеется",
+        1
+    ],
+    [
+        "GPS-модуль",
+        1
+    ],
+    [
+        "спутниковой",
+        1
+    ],
+    [
+        "навигации",
+        1
+    ],
+    [
+        "Производитель",
+        1
+    ],
+    [
+        "рассчитывает",
+        1
+    ],
+    [
+        "применение",
+        1
+    ],
+    [
+        "одним",
+        1
+    ],
+    [
+        "ключевых",
+        1
+    ],
+    [
+        "хочется",
+        1
+    ],
+    [
+        "отметить",
+        1
+    ],
+    [
+        "следующие",
+        1
+    ],
+    [
+        "моменты",
+        1
+    ],
+    [
+        "Наличие",
+        1
+    ],
+    [
+        "стереодинамиков",
+        1
+    ],
+    [
+        "окружающий",
+        1
+    ],
+    [
+        "3D-звук",
+        1
+    ],
+    [
+        "типичная",
+        1
+    ],
+    [
+        "камера",
+        1
+    ],
+    [
+        "Мп",
+        1
+    ],
+    [
+        "батарея",
+        1
+    ],
+    [
+        "емкостью",
+        1
+    ],
+    [
+        "мАч",
+        1
+    ],
+    [
+        "работает",
+        1
+    ],
+    [
+        "управлением",
+        1
+    ],
+    [
+        "операционной",
+        1
+    ],
+    [
+        "системы",
+        1
+    ],
+    [
+        "5.0",
+        1
+    ],
+    [
+        "высока",
+        1
+    ],
+    [
+        "вероятность",
+        1
+    ],
+    [
+        "появления",
+        1
+    ],
+    [
+        "обновления",
+        1
+    ],
+    [
+        "до",
+        1
+    ],
+    [
+        "6.0",
+        1
+    ],
+    [
+        "Подведем",
+        1
+    ],
+    [
+        "краткие",
+        1
+    ],
+    [
+        "итоги",
+        1
+    ],
+    [
+        "самый",
+        1
+    ],
+    [
+        "текущий",
+        1
+    ],
+    [
+        "таковым",
+        1
+    ],
+    [
+        "он",
+        1
+    ],
+    [
+        "останется",
+        1
+    ],
+    [
+        "весь",
+        1
+    ],
+    [
+        "будущий",
+        1
+    ],
+    [
+        "год",
+        1
+    ],
+    [
+        "инновационным",
+        1
+    ],
+    [
+        "моментам",
+        1
+    ],
+    [
+        "последующем",
+        1
+    ],
+    [
+        "встретим",
+        1
+    ],
+    [
+        "многих",
+        1
+    ],
+    [
+        "моделях",
+        1
+    ],
+    [
+        "относятся",
+        1
+    ],
+    [
+        "жесткий",
+        1
+    ],
+    [
+        "VGA/TV-выход",
+        1
+    ],
+    [
+        "Исходя",
+        1
+    ],
+    [
+        "обычной",
+        1
+    ],
+    [
+        "структуры",
+        1
+    ],
+    [
+        "ценообразования",
+        1
+    ],
+    [
+        "высокой",
+        1
+    ],
+    [
+        "себестоимости",
+        1
+    ],
+    [
+        "затрат",
+        1
+    ],
+    [
+        "разработку",
+        1
+    ],
+    [
+        "ожидать",
+        1
+    ],
+    [
+        "розничной",
+        1
+    ],
+    [
+        "цены",
+        1
+    ],
+    [
+        "ценовом",
+        1
+    ],
+    [
+        "коридоре",
+        1
+    ],
+    [
+        "1500-2000",
+        1
+    ],
+    [
+        "долларов",
+        1
+    ],
+    [
+        "США",
+        1
+    ],
+    [
+        "первое",
+        1
+    ],
+    [
+        "время",
+        1
+    ],
+    [
+        "массовым",
+        1
+    ],
+    [
+        "цена",
+        1
+    ],
+    [
+        "него",
+        1
+    ],
+    [
+        "два",
+        1
+    ],
+    [
+        "раза",
+        1
+    ],
+    [
+        "ниже",
+        1
+    ],
+    [
+        "направлено",
+        1
+    ],
+    [
+        "очень",
+        1
+    ],
+    [
+        "группу",
+        1
+    ],
+    [
+        "покупателей",
+        1
+    ],
+    [
+        "гораздо",
+        1
+    ],
+    [
+        "чем",
+        1
+    ],
+    [
+        "Типичный",
+        1
+    ],
+    [
+        "современный",
+        1
+    ],
+    [
+        "бизнес-пользователь",
+        1
+    ],
+    [
+        "своем",
+        1
+    ],
+    [
+        "распоряжении",
+        1
+    ],
+    [
+        "небольшой",
+        1
+    ],
+    [
+        "необходимо",
+        1
+    ],
+    [
+        "использования",
+        1
+    ],
+    [
+        "тогда",
+        1
+    ],
+    [
+        "когда",
+        1
+    ],
+    [
+        "неудобно",
+        1
+    ],
+    [
+        "использовать",
+        1
+    ],
+    [
+        "Единственный",
+        1
+    ],
+    [
+        "проблеск",
+        1
+    ],
+    [
+        "надежды",
+        1
+    ],
+    [
+        "автомобилисты",
+        1
+    ],
+    [
+        "деловые",
+        1
+    ],
+    [
+        "много",
+        1
+    ],
+    [
+        "времени",
+        1
+    ],
+    [
+        "проводящие",
+        1
+    ],
+    [
+        "Однако",
+        1
+    ],
+    [
+        "далеко",
+        1
+    ],
+    [
+        "факт",
+        1
+    ],
+    [
+        "выберут",
+        1
+    ],
+    [
+        "доступный",
+        1
+    ],
+    [
+        "цене",
+        1
+    ],
+    [
+        "этих",
+        1
+    ],
+    [
+        "целей",
+        1
+    ],
+    [
+        "Не",
+        1
+    ],
+    [
+        "думать",
+        1
+    ],
+    [
+        "работают",
+        1
+    ],
+    [
+        "глупые",
+        1
+    ],
+    [
+        "понимают",
+        1
+    ],
+    [
+        "коммерческой",
+        1
+    ],
+    [
+        "бесперспективности",
+        1
+    ],
+    [
+        "проект",
+        1
+    ],
+    [
+        "разрабатываемый",
+        1
+    ],
+    [
+        "начала",
+        1
+    ],
+    [
+        "2005",
+        1
+    ],
+    [
+        "обкатать",
+        1
+    ],
+    [
+        "будут",
+        1
+    ],
+    [
+        "устройствах",
+        1
+    ],
+    [
+        "Помимо",
+        1
+    ],
+    [
+        "прочего",
+        1
+    ],
+    [
+        "лишний",
+        1
+    ],
+    [
+        "раз",
+        1
+    ],
+    [
+        "заявить",
+        1
+    ],
+    [
+        "лидере",
+        1
+    ],
+    [
+        "области",
+        1
+    ],
+    [
+        "Может",
+        1
+    ],
+    [
+        "быть",
+        1
+    ],
+    [
+        "выпустит",
+        1
+    ],
+    [
+        "следующий",
+        1
+    ],
+    [
+        "серии",
+        1
+    ],
+    [
+        "X",
+        1
+    ],
+    [
+        "базе",
+        1
+    ],
+    [
+        "Vista",
+        1
+    ],
+    [
+        "Предварительное",
+        1
+    ],
+    [
+        "Platform",
+        1
+    ],
+    [
+        "Pad",
+        1
+    ],
+    [
+        "detachable",
+        1
+    ],
+    [
+        "thin",
+        1
+    ],
+    [
+        "Phone",
+        1
+    ],
+    [
+        "Edition",
+        1
+    ],
+    [
+        "Dimension",
+        1
+    ],
+    [
+        "4mm",
+        1
+    ],
+    [
+        "KB",
+        1
+    ],
+    [
+        "Less",
+        1
+    ],
+    [
+        "350g",
+        1
+    ],
+    [
+        "Processor/Chipset",
+        1
+    ],
+    [
+        "MSM",
+        1
+    ],
+    [
+        "6275",
+        1
+    ],
+    [
+        "Intel",
+        1
+    ],
+    [
+        "Bulverde",
+        1
+    ],
+    [
+        "520",
+        1
+    ],
+    [
+        "MHz",
+        1
+    ],
+    [
+        "ATi",
+        1
+    ],
+    [
+        "Graphic",
+        1
+    ],
+    [
+        "Chip",
+        1
+    ],
+    [
+        "ROM",
+        1
+    ],
+    [
+        "128",
+        1
+    ],
+    [
+        "256",
+        1
+    ],
+    [
+        "RAM",
+        1
+    ],
+    [
+        "64",
+        1
+    ],
+    [
+        "/128",
+        1
+    ],
+    [
+        "SDRAM",
+        1
+    ],
+    [
+        "HDD",
+        1
+    ],
+    [
+        "8~10",
+        1
+    ],
+    [
+        "GB",
+        1
+    ],
+    [
+        "sensor",
+        1
+    ],
+    [
+        "Module",
+        1
+    ],
+    [
+        "480x640",
+        1
+    ],
+    [
+        "resolution",
+        1
+    ],
+    [
+        "262K-color",
+        1
+    ],
+    [
+        "TFT",
+        1
+    ],
+    [
+        "backlight",
+        1
+    ],
+    [
+        "Sensitive",
+        1
+    ],
+    [
+        "Touch",
+        1
+    ],
+    [
+        "Screen",
+        1
+    ],
+    [
+        "UMTS/HSDPA/GSM/EDGE",
+        1
+    ],
+    [
+        "Tri-mode",
+        1
+    ],
+    [
+        "2100MHz",
+        1
+    ],
+    [
+        "Europe",
+        1
+    ],
+    [
+        "850/1900MHz",
+        1
+    ],
+    [
+        "GSM/GPRS/EDGE",
+        1
+    ],
+    [
+        "quad",
+        1
+    ],
+    [
+        "850/900/1800/1900",
+        1
+    ],
+    [
+        "1850-1910MHz",
+        1
+    ],
+    [
+        "1920-1980MHz",
+        1
+    ],
+    [
+        "2110-2170MHz",
+        1
+    ],
+    [
+        "GPRS/EDGE",
+        1
+    ],
+    [
+        "900",
+        1
+    ],
+    [
+        "880-915",
+        1
+    ],
+    [
+        "925-960MHz",
+        1
+    ],
+    [
+        "1800",
+        1
+    ],
+    [
+        "1710-1785",
+        1
+    ],
+    [
+        "1805-1880MHz",
+        1
+    ],
+    [
+        "1850-1910",
+        1
+    ],
+    [
+        "UE",
+        1
+    ],
+    [
+        "category",
+        1
+    ],
+    [
+        "QPSK",
+        1
+    ],
+    [
+        "peak",
+        1
+    ],
+    [
+        "DL",
+        1
+    ],
+    [
+        "UL",
+        1
+    ],
+    [
+        "384Kbps",
+        1
+    ],
+    [
+        "PS",
+        1
+    ],
+    [
+        "RAB",
+        1
+    ],
+    [
+        "CS",
+        1
+    ],
+    [
+        "data",
+        1
+    ],
+    [
+        "VT",
+        1
+    ],
+    [
+        "simultaneously",
+        1
+    ],
+    [
+        "will",
+        1
+    ],
+    [
+        "Global",
+        1
+    ],
+    [
+        "roaming",
+        1
+    ],
+    [
+        "Auto",
+        1
+    ],
+    [
+        "switching",
+        1
+    ],
+    [
+        "Handover",
+        1
+    ],
+    [
+        "cell",
+        1
+    ],
+    [
+        "GSM/EDGE",
+        1
+    ],
+    [
+        "Generic",
+        1
+    ],
+    [
+        "Services",
+        1
+    ],
+    [
+        "Holding",
+        1
+    ],
+    [
+        "Waiting",
+        1
+    ],
+    [
+        "Forwarding",
+        1
+    ],
+    [
+        "Barring",
+        1
+    ],
+    [
+        "CLI",
+        1
+    ],
+    [
+        "Calling",
+        1
+    ],
+    [
+        "Line",
+        1
+    ],
+    [
+        "Identity",
+        1
+    ],
+    [
+        "SMSMT",
+        1
+    ],
+    [
+        "SMSMO",
+        1
+    ],
+    [
+        "Reply",
+        1
+    ],
+    [
+        "Replace",
+        1
+    ],
+    [
+        "Acknowledgement",
+        1
+    ],
+    [
+        "Bits",
+        1
+    ],
+    [
+        "Concatenated",
+        1
+    ],
+    [
+        "messages",
+        1
+    ],
+    [
+        "640",
+        1
+    ],
+    [
+        "characters",
+        1
+    ],
+    [
+        "Display",
+        1
+    ],
+    [
+        "own",
+        1
+    ],
+    [
+        "telephone",
+        1
+    ],
+    [
+        "storage",
+        1
+    ],
+    [
+        "Cell",
+        1
+    ],
+    [
+        "broadcast",
+        1
+    ],
+    [
+        "Multi-party",
+        1
+    ],
+    [
+        "conference",
+        1
+    ],
+    [
+        "Phase",
+        1
+    ],
+    [
+        "Unstructured",
+        1
+    ],
+    [
+        "Supplementary",
+        1
+    ],
+    [
+        "Codec",
+        1
+    ],
+    [
+        "AMR/EFR/FR/HR",
+        1
+    ],
+    [
+        "CPHS",
+        1
+    ],
+    [
+        "E-GPRS",
+        1
+    ],
+    [
+        "EGPRS",
+        1
+    ],
+    [
+        "B",
+        1
+    ],
+    [
+        "Multi-slot",
+        1
+    ],
+    [
+        "standard",
+        1
+    ],
+    [
+        "MO/MT",
+        1
+    ],
+    [
+        "over",
+        1
+    ],
+    [
+        "PBCCH",
+        1
+    ],
+    [
+        "3V",
+        1
+    ],
+    [
+        "UICC",
+        1
+    ],
+    [
+        "MegaSIM",
+        1
+    ],
+    [
+        "USIM",
+        1
+    ],
+    [
+        "at",
+        1
+    ],
+    [
+        "least",
+        1
+    ],
+    [
+        "according",
+        1
+    ],
+    [
+        "TS",
+        1
+    ],
+    [
+        "31.102",
+        1
+    ],
+    [
+        "release",
+        1
+    ],
+    [
+        "96",
+        1
+    ],
+    [
+        "98",
+        1
+    ],
+    [
+        "Over",
+        1
+    ],
+    [
+        "Air",
+        1
+    ],
+    [
+        "programming",
+        1
+    ],
+    [
+        "Fixed",
+        1
+    ],
+    [
+        "FDN",
+        1
+    ],
+    [
+        "Abbreviation",
+        1
+    ],
+    [
+        "ADN",
+        1
+    ],
+    [
+        "Standalone",
+        1
+    ],
+    [
+        "MFG",
+        1
+    ],
+    [
+        "NMEA",
+        1
+    ],
+    [
+        "0183",
+        1
+    ],
+    [
+        "version",
+        1
+    ],
+    [
+        "3.0",
+        1
+    ],
+    [
+        "above",
+        1
+    ],
+    [
+        "parallel",
+        1
+    ],
+    [
+        "receiver",
+        1
+    ],
+    [
+        "Acquisition",
+        1
+    ],
+    [
+        "Hot",
+        1
+    ],
+    [
+        "Warm",
+        1
+    ],
+    [
+        "35",
+        1
+    ],
+    [
+        "Cold",
+        1
+    ],
+    [
+        "45",
+        1
+    ],
+    [
+        "Update",
+        1
+    ],
+    [
+        "user",
+        1
+    ],
+    [
+        "configurable",
+        1
+    ],
+    [
+        "once/1sec",
+        1
+    ],
+    [
+        "once/10sec",
+        1
+    ],
+    [
+        "once/30sec",
+        1
+    ],
+    [
+        "continuous",
+        1
+    ],
+    [
+        "Accuracy",
+        1
+    ],
+    [
+        "Position",
+        1
+    ],
+    [
+        "<",
+        1
+    ],
+    [
+        "15",
+        1
+    ],
+    [
+        "meters",
+        1
+    ],
+    [
+        "95",
+        1
+    ],
+    [
+        "%",
+        1
+    ],
+    [
+        "Velocity",
+        1
+    ],
+    [
+        "0.05",
+        1
+    ],
+    [
+        "meter/sec",
+        1
+    ],
+    [
+        "steady",
+        1
+    ],
+    [
+        "state",
+        1
+    ],
+    [
+        "Digital",
+        1
+    ],
+    [
+        "Manufacture",
+        1
+    ],
+    [
+        "Main",
+        1
+    ],
+    [
+        "Mega",
+        1
+    ],
+    [
+        "pixel",
+        1
+    ],
+    [
+        "fixed",
+        1
+    ],
+    [
+        "lenses",
+        1
+    ],
+    [
+        "High",
+        1
+    ],
+    [
+        "flash",
+        1
+    ],
+    [
+        "Keyboard/Button/Switch",
+        1
+    ],
+    [
+        "POWER",
+        1
+    ],
+    [
+        "On/Off",
+        1
+    ],
+    [
+        "Long",
+        1
+    ],
+    [
+        "Turn",
+        1
+    ],
+    [
+        "off",
+        1
+    ],
+    [
+        "system",
+        1
+    ],
+    [
+        "totally",
+        1
+    ],
+    [
+        "Recorder",
+        1
+    ],
+    [
+        "capture",
+        1
+    ],
+    [
+        "Volume",
+        1
+    ],
+    [
+        "Up",
+        1
+    ],
+    [
+        "Down",
+        1
+    ],
+    [
+        "5-way",
+        1
+    ],
+    [
+        "Left",
+        1
+    ],
+    [
+        "front",
+        1
+    ],
+    [
+        "landscape",
+        1
+    ],
+    [
+        "key",
+        1
+    ],
+    [
+        "orientation",
+        1
+    ],
+    [
+        "shall",
+        1
+    ],
+    [
+        "adjusted",
+        1
+    ],
+    [
+        "after",
+        1
+    ],
+    [
+        "view",
+        1
+    ],
+    [
+        "changed",
+        1
+    ],
+    [
+        "Send",
+        1
+    ],
+    [
+        "Hands-free",
+        1
+    ],
+    [
+        "End",
+        1
+    ],
+    [
+        "Portal",
+        1
+    ],
+    [
+        "Launch",
+        1
+    ],
+    [
+        "IE",
+        1
+    ],
+    [
+        "keys",
+        1
+    ],
+    [
+        "RESET",
+        1
+    ],
+    [
+        "switch",
+        1
+    ],
+    [
+        "Back",
+        1
+    ],
+    [
+        "1st",
+        1
+    ],
+    [
+        "one-color",
+        1
+    ],
+    [
+        "amber",
+        1
+    ],
+    [
+        "new",
+        1
+    ],
+    [
+        "blue",
+        1
+    ],
+    [
+        "3rd",
+        1
+    ],
+    [
+        "–bi-color",
+        1
+    ],
+    [
+        "3G",
+        1
+    ],
+    [
+        "2G",
+        1
+    ],
+    [
+        "network",
+        1
+    ],
+    [
+        "4th",
+        1
+    ],
+    [
+        "indicator",
+        1
+    ],
+    [
+        "by",
+        1
+    ],
+    [
+        "Built-in",
+        1
+    ],
+    [
+        "Microphone",
+        1
+    ],
+    [
+        "Dual",
+        1
+    ],
+    [
+        "speakers",
+        1
+    ],
+    [
+        "surround",
+        1
+    ],
+    [
+        "sound",
+        1
+    ],
+    [
+        "Loud",
+        1
+    ],
+    [
+        "speaker",
+        1
+    ],
+    [
+        "Hands-Free",
+        1
+    ],
+    [
+        "sampling",
+        1
+    ],
+    [
+        "16-bits",
+        1
+    ],
+    [
+        "8KHz",
+        1
+    ],
+    [
+        "11KHz",
+        1
+    ],
+    [
+        "22KHz",
+        1
+    ],
+    [
+        "44.1KHz",
+        1
+    ],
+    [
+        "AMR/AAC/WAV/WMA/MP3",
+        1
+    ],
+    [
+        "codec",
+        1
+    ],
+    [
+        "Connectivity",
+        1
+    ],
+    [
+        "Interface",
+        1
+    ],
+    [
+        "v2.0",
+        1
+    ],
+    [
+        "without",
+        1
+    ],
+    [
+        "EDR",
+        1
+    ],
+    [
+        "Class",
+        1
+    ],
+    [
+        "transmit",
+        1
+    ],
+    [
+        "Supported",
+        1
+    ],
+    [
+        "profiles",
+        1
+    ],
+    [
+        "GAP",
+        1
+    ],
+    [
+        "access",
+        1
+    ],
+    [
+        "serial",
+        1
+    ],
+    [
+        "OPP",
+        1
+    ],
+    [
+        "push",
+        1
+    ],
+    [
+        "DUN",
+        1
+    ],
+    [
+        "dial-up",
+        1
+    ],
+    [
+        "networking",
+        1
+    ],
+    [
+        "GOEP",
+        1
+    ],
+    [
+        "exchange",
+        1
+    ],
+    [
+        "ActiveSync",
+        1
+    ],
+    [
+        "legacy",
+        1
+    ],
+    [
+        "HSP",
+        1
+    ],
+    [
+        "HFP",
+        1
+    ],
+    [
+        "handsfree",
+        1
+    ],
+    [
+        "A2DP",
+        1
+    ],
+    [
+        "Advanced",
+        1
+    ],
+    [
+        "Distribution",
+        1
+    ],
+    [
+        "AVRCP",
+        1
+    ],
+    [
+        "Audio/Video",
+        1
+    ],
+    [
+        "Remote",
+        1
+    ],
+    [
+        "Discovery",
+        1
+    ],
+    [
+        "Access",
+        1
+    ],
+    [
+        "HID",
+        1
+    ],
+    [
+        "Human",
+        1
+    ],
+    [
+        "interface",
+        1
+    ],
+    [
+        "Co-exist",
+        1
+    ],
+    [
+        "manufacture",
+        1
+    ],
+    [
+        "option",
+        1
+    ],
+    [
+        "IEEE",
+        1
+    ],
+    [
+        "802.11b/g",
+        1
+    ],
+    [
+        "11",
+        1
+    ],
+    [
+        "5.5",
+        1
+    ],
+    [
+        "Mbps",
+        1
+    ],
+    [
+        "per",
+        1
+    ],
+    [
+        "auto",
+        1
+    ],
+    [
+        "fallback",
+        1
+    ],
+    [
+        "extended",
+        1
+    ],
+    [
+        "range",
+        1
+    ],
+    [
+        "ELP",
+        1
+    ],
+    [
+        "mode",
+        1
+    ],
+    [
+        "802.11i",
+        1
+    ],
+    [
+        "AES",
+        1
+    ],
+    [
+        "OS",
+        1
+    ],
+    [
+        "not",
+        1
+    ],
+    [
+        "yet",
+        1
+    ],
+    [
+        "authentication",
+        1
+    ],
+    [
+        "WEP",
+        1
+    ],
+    [
+        "PSK",
+        1
+    ],
+    [
+        "EAPTLS",
+        1
+    ],
+    [
+        "PEAP",
+        1
+    ],
+    [
+        "LEAP",
+        1
+    ],
+    [
+        "Signaling",
+        1
+    ],
+    [
+        "interfaces",
+        1
+    ],
+    [
+        "servers",
+        1
+    ],
+    [
+        "mutually",
+        1
+    ],
+    [
+        "authenticated",
+        1
+    ],
+    [
+        "encrypted",
+        1
+    ],
+    [
+        "utilizing",
+        1
+    ],
+    [
+        "TLS",
+        1
+    ],
+    [
+        "RFC",
+        1
+    ],
+    [
+        "2246",
+        1
+    ],
+    [
+        "RC4",
+        1
+    ],
+    [
+        "encryption",
+        1
+    ],
+    [
+        "SGA1",
+        1
+    ],
+    [
+        "used",
+        1
+    ],
+    [
+        "as",
+        1
+    ],
+    [
+        "integrity",
+        1
+    ],
+    [
+        "check",
+        1
+    ],
+    [
+        "802.11",
+        1
+    ],
+    [
+        "WME",
+        1
+    ],
+    [
+        "802.11e",
+        1
+    ],
+    [
+        "Fast",
+        1
+    ],
+    [
+        "handover",
+        1
+    ],
+    [
+        "11-pin",
+        1
+    ],
+    [
+        "client",
+        1
+    ],
+    [
+        "mini",
+        1
+    ],
+    [
+        "SD",
+        1
+    ],
+    [
+        "hotswap",
+        1
+    ],
+    [
+        "feature",
+        1
+    ],
+    [
+        "Antenna",
+        1
+    ],
+    [
+        "UMTS/GSM/CDMA",
+        1
+    ],
+    [
+        "Connector",
+        1
+    ],
+    [
+        "V",
+        1
+    ],
+    [
+        "Port",
+        1
+    ],
+    [
+        "1.1",
+        1
+    ],
+    [
+        "host",
+        1
+    ],
+    [
+        "Thumb",
+        1
+    ],
+    [
+        "Card",
+        1
+    ],
+    [
+        "Reader",
+        1
+    ],
+    [
+        "Mouse",
+        1
+    ],
+    [
+        "mic",
+        1
+    ],
+    [
+        "Removable",
+        1
+    ],
+    [
+        "chargeable",
+        1
+    ],
+    [
+        "Lithium",
+        1
+    ],
+    [
+        "ion",
+        1
+    ],
+    [
+        "polymer",
+        1
+    ],
+    [
+        "2100mAh",
+        1
+    ],
+    [
+        "Charging",
+        1
+    ],
+    [
+        "less",
+        1
+    ],
+    [
+        "life",
+        1
+    ],
+    [
+        "360",
+        1
+    ],
+    [
+        "180",
+        1
+    ],
+    [
+        "120",
+        1
+    ],
+    [
+        "min",
+        1
+    ],
+    [
+        "300+",
+        1
+    ],
+    [
+        "300",
+        1
+    ],
+    [
+        "Stylus",
+        1
+    ],
+    [
+        "Type",
+        1
+    ],
+    [
+        "main",
+        1
+    ],
+    [
+        "unit",
+        1
+    ],
+    [
+        "Accessories",
+        1
+    ],
+    [
+        "AC",
+        1
+    ],
+    [
+        "adapter",
+        1
+    ],
+    [
+        "w/",
+        1
+    ],
+    [
+        "plug",
+        1
+    ],
+    [
+        "Carrying",
+        1
+    ],
+    [
+        "Case",
+        1
+    ],
+    [
+        "Cable",
+        1
+    ],
+    [
+        "mini-USB/USB",
+        1
+    ],
+    [
+        "rechargeable",
+        1
+    ],
+    [
+        "replaceable",
+        1
+    ],
+    [
+        "voice",
+        1
+    ],
+    [
+        "command",
+        1
+    ],
+    [
+        "cable",
+        1
+    ],
+    [
+        "many",
+        1
+    ],
+    [
+        "ports",
+        1
+    ],
+    [
+        "User",
+        1
+    ],
+    [
+        "manual",
+        1
+    ],
+    [
+        "Quick",
+        1
+    ],
+    [
+        "guide",
+        1
+    ],
+    [
+        "software",
+        1
+    ],
+    [
+        "CD",
+        1
+    ],
+    [
+        "Cradle",
+        1
+    ],
+    [
+        "Speakers",
+        1
+    ],
+    [
+        "Headset",
+        1
+    ],
+    [
+        "synchronization",
+        1
+    ],
+    [
+        "x",
+        1
+    ],
+    [
+        "Host",
+        1
+    ],
+    [
+        "LEDs",
+        1
+    ],
+    [
+        "Indicators",
+        1
+    ],
+    [
+        "Mono",
+        1
+    ],
+    [
+        "Adapter",
+        1
+    ],
+    [
+        "Holder",
+        1
+    ],
+    [
+        "car",
+        1
+    ],
+    [
+        "mute",
+        1
+    ],
+    [
+        "function",
+        1
+    ],
+    [
+        "adaptor",
+        1
+    ],
+    [
+        "market",
+        1
+    ],
+    [
+        "Value",
+        1
+    ],
+    [
+        "Added",
+        1
+    ],
+    [
+        "Applications",
+        1
+    ],
+    [
+        "Ringtone",
+        1
+    ],
+    [
+        "40",
+        1
+    ],
+    [
+        "polyphonic",
+        1
+    ],
+    [
+        "0",
+        1
+    ],
+    [
+        "SMF",
+        1
+    ],
+    [
+        "SP",
+        1
+    ],
+    [
+        "AMRNB/",
+        1
+    ],
+    [
+        "WB",
+        1
+    ],
+    [
+        "AMR-NB/WB",
+        1
+    ],
+    [
+        "Min",
+        1
+    ],
+    [
+        "30",
+        1
+    ],
+    [
+        "fps",
+        1
+    ],
+    [
+        "@",
+        1
+    ],
+    [
+        "decoding",
+        1
+    ],
+    [
+        "Combined",
+        1
+    ],
+    [
+        "Bit",
+        1
+    ],
+    [
+        "Rate",
+        1
+    ],
+    [
+        "64Kbps",
+        1
+    ],
+    [
+        "playback",
+        1
+    ],
+    [
+        "scaling",
+        1
+    ],
+    [
+        "full",
+        1
+    ],
+    [
+        "Picture",
+        1
+    ],
+    [
+        "Enhancement",
+        1
+    ],
+    [
+        "Videos",
+        1
+    ],
+    [
+        "Graphics",
+        1
+    ],
+    [
+        "GIF87a",
+        1
+    ],
+    [
+        "GIF89a",
+        1
+    ],
+    [
+        "PNG",
+        1
+    ],
+    [
+        "WBMP",
+        1
+    ],
+    [
+        "Thumbnail",
+        1
+    ],
+    [
+        "Preview",
+        1
+    ],
+    [
+        "3G-324M",
+        1
+    ],
+    [
+        "ZIP",
+        1
+    ],
+    [
+        "Smart",
+        1
+    ],
+    [
+        "Input",
+        1
+    ],
+    [
+        "Sub-display",
+        1
+    ],
+    [
+        "UI",
+        1
+    ],
+    [
+        "is",
+        1
+    ],
+    [
+        "attached",
+        1
+    ],
+    [
+        "Setting",
+        1
+    ],
+    [
+        "Client",
+        1
+    ],
+    [
+        "1.2",
+        1
+    ],
+    [
+        "Java",
+        1
+    ],
+    [
+        "virtual",
+        1
+    ],
+    [
+        "machine",
+        1
+    ],
+    [
+        "Command",
+        1
+    ],
+    [
+        "Speaker",
+        1
+    ],
+    [
+        "Dependent",
+        1
+    ],
+    [
+        "Independent",
+        1
+    ],
+    [
+        "both",
+        1
+    ],
+    [
+        "Viewer",
+        1
+    ],
+    [
+        "PDF",
+        1
+    ],
+    [
+        "Engine",
+        1
+    ],
+    [
+        "For",
+        1
+    ],
+    [
+        "files",
+        1
+    ],
+    [
+        "also",
+        1
+    ],
+    [
+        "delivery",
+        1
+    ],
+    [
+        "method",
+        1
+    ],
+    [
+        "email",
+        1
+    ],
+    [
+        "1.0",
+        1
+    ],
+    [
+        "available",
+        1
+    ],
+    [
+        "Multi-DRM",
+        1
+    ],
+    [
+        "support",
+        1
+    ],
+    [
+        "Effect",
+        1
+    ],
+    [
+        "SRS",
+        1
+    ],
+    [
+        "WorldMate",
+        1
+    ],
+    [
+        "World",
+        1
+    ],
+    [
+        "Clock",
+        1
+    ],
+    [
+        "Weather",
+        1
+    ],
+    [
+        "Forecast",
+        1
+    ],
+    [
+        "Currency",
+        1
+    ],
+    [
+        "Converter",
+        1
+    ],
+    [
+        "Unit",
+        1
+    ],
+    [
+        "Conversion",
+        1
+    ],
+    [
+        "STK",
+        1
+    ],
+    [
+        "Photo",
+        1
+    ],
+    [
+        "Printing",
+        1
+    ],
+    [
+        "BT",
+        1
+    ],
+    [
+        "PictBridge",
+        1
+    ],
+    [
+        "US",
+        1
+    ],
+    [
+        "Market",
+        1
+    ],
+    [
+        "FOTA",
+        1
+    ],
+    [
+        "Firmware",
+        1
+    ],
+    [
+        "SW",
+        1
+    ],
+    [
+        "Backup",
+        1
+    ],
+    [
+        "G-Sensor",
+        1
+    ],
+    [
+        "Symbol",
+        1
+    ],
+    [
+        "Table",
+        1
+    ],
+    [
+        "VoIP",
+        1
+    ],
+    [
+        "echo",
+        1
+    ],
+    [
+        "cancellation",
+        1
+    ],
+    [
+        "Wireless",
+        1
+    ],
+    [
+        "Modem",
+        1
+    ]
 ]
