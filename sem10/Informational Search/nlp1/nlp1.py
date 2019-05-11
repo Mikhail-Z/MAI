@@ -7,7 +7,7 @@ import json
 articles_root_folder = "/home/mikhail/Documents/InformationSearch"
 root_folder_to_save_good_tokens = "../good_tokens"
 root_folder_to_save_bad_tokens = "../bad_tokens"
-bad_tokens = ["-", ",", "—", "«", "»", ".", "@", "!", "–", ";", "<", ">", "'", "?"]
+bad_tokens = ["-", ",", "—", "«", "»", ".", "@", "!", "–", ";", "<", ">", "'", "?", ")", "("]
 
 all_good_tokens_count = 0
 all_good_tokens_length = 0
@@ -21,8 +21,7 @@ def split_text_in_good_tokens(text):
     global all_good_tokens_length
     all_good_tokens_count += len(l)
     all_good_tokens_length += sum(list(map(len, l)))
-    counter = Counter([x for x in nltk.word_tokenize(text) if x not in bad_tokens])
-    return [{"token": key, "freq": counter[key]} for key in counter]
+    return Counter([x for x in nltk.word_tokenize(text) if x not in bad_tokens]).most_common()
 
 
 def split_text_in_bad_tokens(text):
@@ -31,8 +30,7 @@ def split_text_in_bad_tokens(text):
     global all_bad_tokens_length
     all_bad_tokens_count += len(l)
     all_bad_tokens_length += sum(list(map(len, l)))
-    counter = Counter([x for x in nltk.word_tokenize(text)])
-    return [{"token": key, "freq": counter[key]} for key in counter]
+    return Counter([x for x in nltk.word_tokenize(text)]).most_common()
 
 
 def read_file(filename):
