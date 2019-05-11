@@ -1,0 +1,1438 @@
+[
+    {
+        "token": "Обзор",
+        "freq": 1
+    },
+    {
+        "token": "смартфона",
+        "freq": 2
+    },
+    {
+        "token": "Huawei",
+        "freq": 2
+    },
+    {
+        "token": "Mate",
+        "freq": 2
+    },
+    {
+        "token": "8",
+        "freq": 2
+    },
+    {
+        "token": "Смартфон",
+        "freq": 2
+    },
+    {
+        "token": "впервые",
+        "freq": 1
+    },
+    {
+        "token": "был",
+        "freq": 1
+    },
+    {
+        "token": "представлен",
+        "freq": 1
+    },
+    {
+        "token": "на",
+        "freq": 3
+    },
+    {
+        "token": "CES",
+        "freq": 1
+    },
+    {
+        "token": "2015",
+        "freq": 1
+    },
+    {
+        "token": "у",
+        "freq": 1
+    },
+    {
+        "token": "нас",
+        "freq": 1
+    },
+    {
+        "token": "сайте",
+        "freq": 1
+    },
+    {
+        "token": "есть",
+        "freq": 1
+    },
+    {
+        "token": "первый",
+        "freq": 1
+    },
+    {
+        "token": "взгляд",
+        "freq": 2
+    },
+    {
+        "token": "по",
+        "freq": 1
+    },
+    {
+        "token": "этой",
+        "freq": 1
+    },
+    {
+        "token": "модели",
+        "freq": 1
+    },
+    {
+        "token": "от",
+        "freq": 1
+    },
+    {
+        "token": "Эльдара",
+        "freq": 1
+    },
+    {
+        "token": "Муртазина",
+        "freq": 1
+    },
+    {
+        "token": "Модель",
+        "freq": 1
+    },
+    {
+        "token": "официально",
+        "freq": 1
+    },
+    {
+        "token": "не",
+        "freq": 1
+    },
+    {
+        "token": "будет",
+        "freq": 1
+    },
+    {
+        "token": "продаваться",
+        "freq": 1
+    },
+    {
+        "token": "в",
+        "freq": 4
+    },
+    {
+        "token": "России",
+        "freq": 1
+    },
+    {
+        "token": "но",
+        "freq": 1
+    },
+    {
+        "token": "аппарат",
+        "freq": 1
+    },
+    {
+        "token": "интересный",
+        "freq": 1
+    },
+    {
+        "token": "поэтому",
+        "freq": 1
+    },
+    {
+        "token": "мы",
+        "freq": 1
+    },
+    {
+        "token": "решили",
+        "freq": 1
+    },
+    {
+        "token": "рассказать",
+        "freq": 1
+    },
+    {
+        "token": "о",
+        "freq": 1
+    },
+    {
+        "token": "нём",
+        "freq": 1
+    },
+    {
+        "token": "подробнее",
+        "freq": 1
+    },
+    {
+        "token": "Первый",
+        "freq": 1
+    },
+    {
+        "token": "фаблет",
+        "freq": 1
+    },
+    {
+        "token": "Прежде",
+        "freq": 1
+    },
+    {
+        "token": "всего",
+        "freq": 1
+    },
+    {
+        "token": "хотел",
+        "freq": 1
+    },
+    {
+        "token": "бы",
+        "freq": 1
+    },
+    {
+        "token": "отметить",
+        "freq": 1
+    },
+    {
+        "token": "что",
+        "freq": 1
+    },
+    {
+        "token": "продаже",
+        "freq": 1
+    },
+    {
+        "token": "будут",
+        "freq": 1
+    },
+    {
+        "token": "две",
+        "freq": 1
+    },
+    {
+        "token": "версии",
+        "freq": 1
+    },
+    {
+        "token": "разница",
+        "freq": 1
+    },
+    {
+        "token": "цене",
+        "freq": 1
+    },
+    {
+        "token": "составит",
+        "freq": 1
+    },
+    {
+        "token": "100",
+        "freq": 1
+    },
+    {
+        "token": "евро",
+        "freq": 1
+    },
+    {
+        "token": "а",
+        "freq": 1
+    },
+    {
+        "token": "различия",
+        "freq": 1
+    },
+    {
+        "token": "характеристиках",
+        "freq": 1
+    },
+    {
+        "token": "вы",
+        "freq": 1
+    },
+    {
+        "token": "можете",
+        "freq": 1
+    },
+    {
+        "token": "посмотреть",
+        "freq": 1
+    },
+    {
+        "token": "ниже",
+        "freq": 1
+    },
+    {
+        "token": "Содержание",
+        "freq": 1
+    },
+    {
+        "token": "Технические",
+        "freq": 2
+    },
+    {
+        "token": "характеристики",
+        "freq": 2
+    },
+    {
+        "token": "Комплектация",
+        "freq": 2
+    },
+    {
+        "token": "Внешний",
+        "freq": 1
+    },
+    {
+        "token": "вид",
+        "freq": 1
+    },
+    {
+        "token": "материалы",
+        "freq": 1
+    },
+    {
+        "token": "управляющие",
+        "freq": 1
+    },
+    {
+        "token": "элементы",
+        "freq": 1
+    },
+    {
+        "token": "сборка",
+        "freq": 1
+    },
+    {
+        "token": "Габариты",
+        "freq": 1
+    },
+    {
+        "token": "Экран",
+        "freq": 1
+    },
+    {
+        "token": "Операционная",
+        "freq": 1
+    },
+    {
+        "token": "система",
+        "freq": 1
+    },
+    {
+        "token": "Сканер",
+        "freq": 1
+    },
+    {
+        "token": "отпечатка",
+        "freq": 1
+    },
+    {
+        "token": "пальца",
+        "freq": 1
+    },
+    {
+        "token": "Производительность",
+        "freq": 1
+    },
+    {
+        "token": "Автономная",
+        "freq": 1
+    },
+    {
+        "token": "работа",
+        "freq": 1
+    },
+    {
+        "token": "Камера",
+        "freq": 1
+    },
+    {
+        "token": "Беспроводные",
+        "freq": 1
+    },
+    {
+        "token": "интерфейсы",
+        "freq": 1
+    },
+    {
+        "token": "Заключение",
+        "freq": 1
+    },
+    {
+        "token": "HUAWEI",
+        "freq": 4
+    },
+    {
+        "token": "NXT-L29",
+        "freq": 1
+    },
+    {
+        "token": "NXT-L09",
+        "freq": 1
+    },
+    {
+        "token": "Size",
+        "freq": 1
+    },
+    {
+        "token": "Height",
+        "freq": 2
+    },
+    {
+        "token": ":",
+        "freq": 36
+    },
+    {
+        "token": "157.1mm",
+        "freq": 2
+    },
+    {
+        "token": "Width",
+        "freq": 2
+    },
+    {
+        "token": "80.6mm",
+        "freq": 2
+    },
+    {
+        "token": "Depth",
+        "freq": 2
+    },
+    {
+        "token": "7.9mm",
+        "freq": 2
+    },
+    {
+        "token": "Weight",
+        "freq": 2
+    },
+    {
+        "token": "185g",
+        "freq": 2
+    },
+    {
+        "token": "(",
+        "freq": 25
+    },
+    {
+        "token": "approx",
+        "freq": 2
+    },
+    {
+        "token": ")",
+        "freq": 25
+    },
+    {
+        "token": "Colors",
+        "freq": 2
+    },
+    {
+        "token": "Moonlight",
+        "freq": 2
+    },
+    {
+        "token": "Silver",
+        "freq": 2
+    },
+    {
+        "token": "Space",
+        "freq": 2
+    },
+    {
+        "token": "Gray",
+        "freq": 2
+    },
+    {
+        "token": "Champagne",
+        "freq": 1
+    },
+    {
+        "token": "Gold",
+        "freq": 2
+    },
+    {
+        "token": "Mocha",
+        "freq": 1
+    },
+    {
+        "token": "Display",
+        "freq": 1
+    },
+    {
+        "token": "6",
+        "freq": 2
+    },
+    {
+        "token": "''",
+        "freq": 2
+    },
+    {
+        "token": "FHD",
+        "freq": 2
+    },
+    {
+        "token": "Screen",
+        "freq": 2
+    },
+    {
+        "token": "1080p",
+        "freq": 6
+    },
+    {
+        "token": "1920",
+        "freq": 2
+    },
+    {
+        "token": "x",
+        "freq": 10
+    },
+    {
+        "token": "1080",
+        "freq": 2
+    },
+    {
+        "token": "368ppi",
+        "freq": 2
+    },
+    {
+        "token": "16.7M",
+        "freq": 2
+    },
+    {
+        "token": "colors",
+        "freq": 3
+    },
+    {
+        "token": "color",
+        "freq": 2
+    },
+    {
+        "token": "saturation",
+        "freq": 2
+    },
+    {
+        "token": "NTSC",
+        "freq": 2
+    },
+    {
+        "token": "95",
+        "freq": 2
+    },
+    {
+        "token": "%",
+        "freq": 2
+    },
+    {
+        "token": "High",
+        "freq": 4
+    },
+    {
+        "token": "contrast",
+        "freq": 2
+    },
+    {
+        "token": "1500:1",
+        "freq": 2
+    },
+    {
+        "token": "CPU",
+        "freq": 1
+    },
+    {
+        "token": "Kirin",
+        "freq": 2
+    },
+    {
+        "token": "950",
+        "freq": 2
+    },
+    {
+        "token": "64-bit,16nm",
+        "freq": 2
+    },
+    {
+        "token": "FinFET+",
+        "freq": 2
+    },
+    {
+        "token": "Octa-core",
+        "freq": 2
+    },
+    {
+        "token": "4",
+        "freq": 4
+    },
+    {
+        "token": "2.3",
+        "freq": 2
+    },
+    {
+        "token": "GHz",
+        "freq": 4
+    },
+    {
+        "token": "A72+",
+        "freq": 2
+    },
+    {
+        "token": "1.8",
+        "freq": 2
+    },
+    {
+        "token": "A53",
+        "freq": 2
+    },
+    {
+        "token": "+",
+        "freq": 5
+    },
+    {
+        "token": "i5",
+        "freq": 2
+    },
+    {
+        "token": "co-processor",
+        "freq": 2
+    },
+    {
+        "token": "Operating",
+        "freq": 1
+    },
+    {
+        "token": "System",
+        "freq": 1
+    },
+    {
+        "token": "Android™",
+        "freq": 2
+    },
+    {
+        "token": "Marshmallow",
+        "freq": 2
+    },
+    {
+        "token": "6.0",
+        "freq": 2
+    },
+    {
+        "token": "Memory",
+        "freq": 1
+    },
+    {
+        "token": "3GB",
+        "freq": 2
+    },
+    {
+        "token": "RAM",
+        "freq": 3
+    },
+    {
+        "token": "32GB",
+        "freq": 2
+    },
+    {
+        "token": "ROM",
+        "freq": 3
+    },
+    {
+        "token": "or",
+        "freq": 1
+    },
+    {
+        "token": "4GB",
+        "freq": 1
+    },
+    {
+        "token": "64GB",
+        "freq": 1
+    },
+    {
+        "token": "Network",
+        "freq": 1
+    },
+    {
+        "token": "4G",
+        "freq": 4
+    },
+    {
+        "token": "TDD",
+        "freq": 2
+    },
+    {
+        "token": "LTE",
+        "freq": 4
+    },
+    {
+        "token": "Band38/39/40",
+        "freq": 2
+    },
+    {
+        "token": "FDD",
+        "freq": 2
+    },
+    {
+        "token": "Band1/2/3/4/5/6/7/8/12/17/18/19/20/26",
+        "freq": 1
+    },
+    {
+        "token": "3G",
+        "freq": 2
+    },
+    {
+        "token": "UMTS",
+        "freq": 2
+    },
+    {
+        "token": "800",
+        "freq": 2
+    },
+    {
+        "token": "B6",
+        "freq": 2
+    },
+    {
+        "token": "Japan",
+        "freq": 4
+    },
+    {
+        "token": "/800",
+        "freq": 2
+    },
+    {
+        "token": "B19",
+        "freq": 2
+    },
+    {
+        "token": "/850/900/AWS/1900/2100MHz",
+        "freq": 2
+    },
+    {
+        "token": "Band6/19/5/8/4/2/1",
+        "freq": 2
+    },
+    {
+        "token": "2G",
+        "freq": 2
+    },
+    {
+        "token": "GSM",
+        "freq": 2
+    },
+    {
+        "token": "SIM1:850/900/1800/1900MHz",
+        "freq": 2
+    },
+    {
+        "token": "SIM2:850/900/1800/1900MHz",
+        "freq": 1
+    },
+    {
+        "token": "Band1/2/3/4/5/6/7/8/12/17/18/19/20/26/28",
+        "freq": 1
+    },
+    {
+        "token": "Dual",
+        "freq": 2
+    },
+    {
+        "token": "SIM",
+        "freq": 2
+    },
+    {
+        "token": "Supported",
+        "freq": 1
+    },
+    {
+        "token": "N/A",
+        "freq": 1
+    },
+    {
+        "token": "GPS",
+        "freq": 1
+    },
+    {
+        "token": "GPS/A-GPS/Glonass/BDS",
+        "freq": 2
+    },
+    {
+        "token": "Connectivity",
+        "freq": 1
+    },
+    {
+        "token": "Wi-Fi",
+        "freq": 4
+    },
+    {
+        "token": "2.4G/5G",
+        "freq": 2
+    },
+    {
+        "token": "a/b/g/n/ac",
+        "freq": 2
+    },
+    {
+        "token": "with",
+        "freq": 3
+    },
+    {
+        "token": "Direct",
+        "freq": 2
+    },
+    {
+        "token": "support",
+        "freq": 6
+    },
+    {
+        "token": "BT4.2",
+        "freq": 2
+    },
+    {
+        "token": "BLE",
+        "freq": 2
+    },
+    {
+        "token": "MicroUSB",
+        "freq": 2
+    },
+    {
+        "token": "Speed",
+        "freq": 2
+    },
+    {
+        "token": "USB",
+        "freq": 4
+    },
+    {
+        "token": "Sensors",
+        "freq": 1
+    },
+    {
+        "token": "Fingerprint",
+        "freq": 2
+    },
+    {
+        "token": "Sensor",
+        "freq": 4
+    },
+    {
+        "token": "G-Sensor",
+        "freq": 2
+    },
+    {
+        "token": "Gyroscope",
+        "freq": 2
+    },
+    {
+        "token": "sensor",
+        "freq": 6
+    },
+    {
+        "token": "Compass",
+        "freq": 2
+    },
+    {
+        "token": "Ambient",
+        "freq": 2
+    },
+    {
+        "token": "Light",
+        "freq": 2
+    },
+    {
+        "token": "Proximity",
+        "freq": 2
+    },
+    {
+        "token": "Hall",
+        "freq": 2
+    },
+    {
+        "token": "Barometer",
+        "freq": 2
+    },
+    {
+        "token": "NFC",
+        "freq": 3
+    },
+    {
+        "token": "supported",
+        "freq": 2
+    },
+    {
+        "token": "Camera",
+        "freq": 1
+    },
+    {
+        "token": "Main",
+        "freq": 2
+    },
+    {
+        "token": "camera",
+        "freq": 4
+    },
+    {
+        "token": "16MP",
+        "freq": 2
+    },
+    {
+        "token": "F2.0",
+        "freq": 2
+    },
+    {
+        "token": "OIS",
+        "freq": 2
+    },
+    {
+        "token": "optical",
+        "freq": 2
+    },
+    {
+        "token": "image",
+        "freq": 2
+    },
+    {
+        "token": "stabilization",
+        "freq": 2
+    },
+    {
+        "token": "BSI",
+        "freq": 2
+    },
+    {
+        "token": "CMOS",
+        "freq": 2
+    },
+    {
+        "token": "Dual-tone",
+        "freq": 2
+    },
+    {
+        "token": "flash",
+        "freq": 2
+    },
+    {
+        "token": "PDAF+CAF",
+        "freq": 2
+    },
+    {
+        "token": "auto",
+        "freq": 2
+    },
+    {
+        "token": "focus",
+        "freq": 2
+    },
+    {
+        "token": "Digital",
+        "freq": 2
+    },
+    {
+        "token": "zoom",
+        "freq": 2
+    },
+    {
+        "token": "up",
+        "freq": 2
+    },
+    {
+        "token": "to",
+        "freq": 2
+    },
+    {
+        "token": "4x",
+        "freq": 2
+    },
+    {
+        "token": "Timelapse",
+        "freq": 2
+    },
+    {
+        "token": "recording",
+        "freq": 8
+    },
+    {
+        "token": "Photos",
+        "freq": 4
+    },
+    {
+        "token": "max",
+        "freq": 4
+    },
+    {
+        "token": "4608",
+        "freq": 2
+    },
+    {
+        "token": "3456",
+        "freq": 2
+    },
+    {
+        "token": "pixels",
+        "freq": 4
+    },
+    {
+        "token": "Video",
+        "freq": 9
+    },
+    {
+        "token": "60",
+        "freq": 2
+    },
+    {
+        "token": "fps",
+        "freq": 4
+    },
+    {
+        "token": "720P",
+        "freq": 2
+    },
+    {
+        "token": "120FPS",
+        "freq": 2
+    },
+    {
+        "token": "Slo-Mo",
+        "freq": 2
+    },
+    {
+        "token": "Front",
+        "freq": 2
+    },
+    {
+        "token": "8MP",
+        "freq": 2
+    },
+    {
+        "token": "F2.4",
+        "freq": 2
+    },
+    {
+        "token": "3264",
+        "freq": 2
+    },
+    {
+        "token": "2448",
+        "freq": 2
+    },
+    {
+        "token": "30",
+        "freq": 2
+    },
+    {
+        "token": "Audio",
+        "freq": 5
+    },
+    {
+        "token": "decoding",
+        "freq": 6
+    },
+    {
+        "token": "formats",
+        "freq": 12
+    },
+    {
+        "token": "MP3",
+        "freq": 4
+    },
+    {
+        "token": "MIDI",
+        "freq": 4
+    },
+    {
+        "token": "AMR-NB",
+        "freq": 2
+    },
+    {
+        "token": "AAC",
+        "freq": 4
+    },
+    {
+        "token": "AAC+",
+        "freq": 2
+    },
+    {
+        "token": "eAAC+",
+        "freq": 2
+    },
+    {
+        "token": "AMR-WB",
+        "freq": 2
+    },
+    {
+        "token": "WMA2-9",
+        "freq": 2
+    },
+    {
+        "token": "RA",
+        "freq": 4
+    },
+    {
+        "token": "PCM",
+        "freq": 2
+    },
+    {
+        "token": "OGG",
+        "freq": 4
+    },
+    {
+        "token": "and",
+        "freq": 11
+    },
+    {
+        "token": "FLAC",
+        "freq": 4
+    },
+    {
+        "token": "file",
+        "freq": 6
+    },
+    {
+        "token": "MP4",
+        "freq": 4
+    },
+    {
+        "token": "3GP",
+        "freq": 4
+    },
+    {
+        "token": "WMA",
+        "freq": 2
+    },
+    {
+        "token": "AMR",
+        "freq": 2
+    },
+    {
+        "token": "WAV",
+        "freq": 2
+    },
+    {
+        "token": "4K",
+        "freq": 2
+    },
+    {
+        "token": "video",
+        "freq": 2
+    },
+    {
+        "token": "H.265",
+        "freq": 2
+    },
+    {
+        "token": "H.264",
+        "freq": 2
+    },
+    {
+        "token": "H.263",
+        "freq": 2
+    },
+    {
+        "token": "MPEG-4",
+        "freq": 2
+    },
+    {
+        "token": "MPEG-2",
+        "freq": 2
+    },
+    {
+        "token": "RV7-10",
+        "freq": 2
+    },
+    {
+        "token": "Xvid",
+        "freq": 2
+    },
+    {
+        "token": "VP8",
+        "freq": 2
+    },
+    {
+        "token": "WMV9",
+        "freq": 2
+    },
+    {
+        "token": "WMV",
+        "freq": 2
+    },
+    {
+        "token": "RM",
+        "freq": 2
+    },
+    {
+        "token": "RMVB",
+        "freq": 2
+    },
+    {
+        "token": "ASF",
+        "freq": 2
+    },
+    {
+        "token": "Image",
+        "freq": 5
+    },
+    {
+        "token": "PNG",
+        "freq": 4
+    },
+    {
+        "token": "GIF",
+        "freq": 4
+    },
+    {
+        "token": "static",
+        "freq": 2
+    },
+    {
+        "token": "JPEG",
+        "freq": 4
+    },
+    {
+        "token": "BMP",
+        "freq": 4
+    },
+    {
+        "token": "WEBP",
+        "freq": 4
+    },
+    {
+        "token": "WBMP",
+        "freq": 4
+    },
+    {
+        "token": "Emotion",
+        "freq": 1
+    },
+    {
+        "token": "UI",
+        "freq": 1
+    },
+    {
+        "token": "EMUI",
+        "freq": 2
+    },
+    {
+        "token": "4.0",
+        "freq": 2
+    },
+    {
+        "token": "Battery",
+        "freq": 1
+    },
+    {
+        "token": "4000mAh",
+        "freq": 2
+    },
+    {
+        "token": "typical",
+        "freq": 2
+    },
+    {
+        "token": "value",
+        "freq": 2
+    },
+    {
+        "token": "In",
+        "freq": 1
+    },
+    {
+        "token": "the",
+        "freq": 1
+    },
+    {
+        "token": "box",
+        "freq": 1
+    },
+    {
+        "token": "Handset",
+        "freq": 2
+    },
+    {
+        "token": "Headset",
+        "freq": 2
+    },
+    {
+        "token": "Charger",
+        "freq": 2
+    },
+    {
+        "token": "cable",
+        "freq": 2
+    },
+    {
+        "token": "Quick",
+        "freq": 2
+    },
+    {
+        "token": "Start",
+        "freq": 2
+    },
+    {
+        "token": "Guide",
+        "freq": 2
+    },
+    {
+        "token": "Safety",
+        "freq": 2
+    },
+    {
+        "token": "Information",
+        "freq": 2
+    },
+    {
+        "token": "Disclaimer",
+        "freq": 1
+    },
+    {
+        "token": "Specifications",
+        "freq": 1
+    },
+    {
+        "token": "may",
+        "freq": 3
+    },
+    {
+        "token": "change",
+        "freq": 1
+    },
+    {
+        "token": "without",
+        "freq": 1
+    },
+    {
+        "token": "notice",
+        "freq": 1
+    },
+    {
+        "token": "images",
+        "freq": 1
+    },
+    {
+        "token": "are",
+        "freq": 1
+    },
+    {
+        "token": "for",
+        "freq": 2
+    },
+    {
+        "token": "illustration",
+        "freq": 1
+    },
+    {
+        "token": "purpose",
+        "freq": 1
+    },
+    {
+        "token": "only",
+        "freq": 1
+    },
+    {
+        "token": "vary",
+        "freq": 1
+    },
+    {
+        "token": "features",
+        "freq": 1
+    },
+    {
+        "token": "not",
+        "freq": 1
+    },
+    {
+        "token": "be",
+        "freq": 1
+    },
+    {
+        "token": "available",
+        "freq": 1
+    },
+    {
+        "token": "in",
+        "freq": 1
+    },
+    {
+        "token": "all",
+        "freq": 1
+    },
+    {
+        "token": "markets",
+        "freq": 1
+    },
+    {
+        "token": "please",
+        "freq": 1
+    },
+    {
+        "token": "check",
+        "freq": 1
+    },
+    {
+        "token": "local",
+        "freq": 1
+    },
+    {
+        "token": "retailers",
+        "freq": 1
+    },
+    {
+        "token": "exact",
+        "freq": 1
+    },
+    {
+        "token": "offer",
+        "freq": 1
+    },
+    {
+        "token": "Зарядное",
+        "freq": 1
+    },
+    {
+        "token": "устройство",
+        "freq": 1
+    },
+    {
+        "token": "Кабель",
+        "freq": 1
+    },
+    {
+        "token": "для",
+        "freq": 1
+    },
+    {
+        "token": "подключения",
+        "freq": 1
+    },
+    {
+        "token": "к",
+        "freq": 1
+    },
+    {
+        "token": "ПК",
+        "freq": 1
+    },
+    {
+        "token": "также",
+        "freq": 1
+    },
+    {
+        "token": "является",
+        "freq": 1
+    },
+    {
+        "token": "частью",
+        "freq": 1
+    },
+    {
+        "token": "зарядного",
+        "freq": 1
+    },
+    {
+        "token": "устройства",
+        "freq": 1
+    },
+    {
+        "token": "Проводная",
+        "freq": 1
+    },
+    {
+        "token": "гарнитура",
+        "freq": 1
+    }
+]

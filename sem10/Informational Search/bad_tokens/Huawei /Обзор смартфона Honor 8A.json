@@ -1,0 +1,722 @@
+[
+    {
+        "token": "Обзор",
+        "freq": 1
+    },
+    {
+        "token": "смартфона",
+        "freq": 1
+    },
+    {
+        "token": "Honor",
+        "freq": 1
+    },
+    {
+        "token": "8A",
+        "freq": 1
+    },
+    {
+        "token": "Содержание",
+        "freq": 1
+    },
+    {
+        "token": "Комплект",
+        "freq": 2
+    },
+    {
+        "token": "поставки",
+        "freq": 2
+    },
+    {
+        "token": "Технические",
+        "freq": 2
+    },
+    {
+        "token": "характеристики",
+        "freq": 2
+    },
+    {
+        "token": "Позиционирование",
+        "freq": 2
+    },
+    {
+        "token": "Внешний",
+        "freq": 1
+    },
+    {
+        "token": "вид",
+        "freq": 1
+    },
+    {
+        "token": "Дисплей",
+        "freq": 2
+    },
+    {
+        "token": "Время",
+        "freq": 1
+    },
+    {
+        "token": "работы",
+        "freq": 1
+    },
+    {
+        "token": "Коммуникационные",
+        "freq": 1
+    },
+    {
+        "token": "особенности",
+        "freq": 1
+    },
+    {
+        "token": "Память",
+        "freq": 2
+    },
+    {
+        "token": ",",
+        "freq": 25
+    },
+    {
+        "token": "чипсет",
+        "freq": 1
+    },
+    {
+        "token": "и",
+        "freq": 5
+    },
+    {
+        "token": "производительность",
+        "freq": 1
+    },
+    {
+        "token": "Камеры",
+        "freq": 1
+    },
+    {
+        "token": "Мультимедиа",
+        "freq": 1
+    },
+    {
+        "token": "Впечатления",
+        "freq": 1
+    },
+    {
+        "token": "Конкуренты",
+        "freq": 1
+    },
+    {
+        "token": "Смартфон",
+        "freq": 1
+    },
+    {
+        "token": "Сетевой",
+        "freq": 1
+    },
+    {
+        "token": "адаптер",
+        "freq": 2
+    },
+    {
+        "token": "USB-кабель",
+        "freq": 1
+    },
+    {
+        "token": "Инструмент",
+        "freq": 1
+    },
+    {
+        "token": "для",
+        "freq": 2
+    },
+    {
+        "token": "извлечения",
+        "freq": 1
+    },
+    {
+        "token": "сим-карт",
+        "freq": 1
+    },
+    {
+        "token": "Краткая",
+        "freq": 1
+    },
+    {
+        "token": "инструкция",
+        "freq": 1
+    },
+    {
+        "token": "Гарантийный",
+        "freq": 1
+    },
+    {
+        "token": "талон",
+        "freq": 1
+    },
+    {
+        "token": "Размеры",
+        "freq": 1
+    },
+    {
+        "token": "вес",
+        "freq": 1
+    },
+    {
+        "token": "156,28",
+        "freq": 1
+    },
+    {
+        "token": "×",
+        "freq": 2
+    },
+    {
+        "token": "73,5",
+        "freq": 1
+    },
+    {
+        "token": "8,22",
+        "freq": 1
+    },
+    {
+        "token": "мм",
+        "freq": 3
+    },
+    {
+        "token": "150",
+        "freq": 1
+    },
+    {
+        "token": "граммов",
+        "freq": 1
+    },
+    {
+        "token": "Материалы",
+        "freq": 1
+    },
+    {
+        "token": "корпуса",
+        "freq": 1
+    },
+    {
+        "token": "Стекло",
+        "freq": 1
+    },
+    {
+        "token": "пластик",
+        "freq": 1
+    },
+    {
+        "token": "6.09",
+        "freq": 1
+    },
+    {
+        "token": "дюйма",
+        "freq": 1
+    },
+    {
+        "token": "1560х720",
+        "freq": 1
+    },
+    {
+        "token": "пикселей",
+        "freq": 1
+    },
+    {
+        "token": "(",
+        "freq": 3
+    },
+    {
+        "token": "HD+",
+        "freq": 1
+    },
+    {
+        "token": ")",
+        "freq": 3
+    },
+    {
+        "token": "283",
+        "freq": 1
+    },
+    {
+        "token": "PPI",
+        "freq": 1
+    },
+    {
+        "token": "IPS",
+        "freq": 1
+    },
+    {
+        "token": "соотношение",
+        "freq": 1
+    },
+    {
+        "token": "сторон",
+        "freq": 1
+    },
+    {
+        "token": "19.5:9",
+        "freq": 1
+    },
+    {
+        "token": "Операционная",
+        "freq": 1
+    },
+    {
+        "token": "система",
+        "freq": 1
+    },
+    {
+        "token": "Google",
+        "freq": 1
+    },
+    {
+        "token": "Android",
+        "freq": 1
+    },
+    {
+        "token": "9",
+        "freq": 3
+    },
+    {
+        "token": "фирменная",
+        "freq": 1
+    },
+    {
+        "token": "оболочка",
+        "freq": 1
+    },
+    {
+        "token": "EMUI",
+        "freq": 1
+    },
+    {
+        "token": "Платформа",
+        "freq": 1
+    },
+    {
+        "token": "MediaTek",
+        "freq": 1
+    },
+    {
+        "token": "MT6765",
+        "freq": 1
+    },
+    {
+        "token": "8",
+        "freq": 2
+    },
+    {
+        "token": "ядер",
+        "freq": 1
+    },
+    {
+        "token": "4×A53",
+        "freq": 2
+    },
+    {
+        "token": "2,3",
+        "freq": 1
+    },
+    {
+        "token": "ГГц",
+        "freq": 3
+    },
+    {
+        "token": "+",
+        "freq": 1
+    },
+    {
+        "token": "1,8",
+        "freq": 1
+    },
+    {
+        "token": "техпроцесс",
+        "freq": 1
+    },
+    {
+        "token": "12",
+        "freq": 1
+    },
+    {
+        "token": "нм",
+        "freq": 1
+    },
+    {
+        "token": "PowerVR",
+        "freq": 1
+    },
+    {
+        "token": "GE8320",
+        "freq": 1
+    },
+    {
+        "token": "680",
+        "freq": 1
+    },
+    {
+        "token": "МГц",
+        "freq": 2
+    },
+    {
+        "token": "2",
+        "freq": 1
+    },
+    {
+        "token": "ГБ",
+        "freq": 3
+    },
+    {
+        "token": "ОЗУ",
+        "freq": 1
+    },
+    {
+        "token": "32",
+        "freq": 1
+    },
+    {
+        "token": "встроенной",
+        "freq": 1
+    },
+    {
+        "token": "памяти",
+        "freq": 1
+    },
+    {
+        "token": "eMMC",
+        "freq": 1
+    },
+    {
+        "token": "5.1",
+        "freq": 1
+    },
+    {
+        "token": "microSD",
+        "freq": 1
+    },
+    {
+        "token": "до",
+        "freq": 1
+    },
+    {
+        "token": "512",
+        "freq": 1
+    },
+    {
+        "token": "Беспроводные",
+        "freq": 1
+    },
+    {
+        "token": "интерфейсы",
+        "freq": 1
+    },
+    {
+        "token": "Wi-Fi",
+        "freq": 1
+    },
+    {
+        "token": "b/g/n",
+        "freq": 1
+    },
+    {
+        "token": "только",
+        "freq": 1
+    },
+    {
+        "token": "2.4",
+        "freq": 1
+    },
+    {
+        "token": "Bluetooth",
+        "freq": 1
+    },
+    {
+        "token": "4.2",
+        "freq": 1
+    },
+    {
+        "token": "A2DP",
+        "freq": 1
+    },
+    {
+        "token": "BLE",
+        "freq": 1
+    },
+    {
+        "token": "HWA",
+        "freq": 1
+    },
+    {
+        "token": "LDAC",
+        "freq": 1
+    },
+    {
+        "token": "NFC",
+        "freq": 1
+    },
+    {
+        "token": "Сеть",
+        "freq": 1
+    },
+    {
+        "token": "2G",
+        "freq": 1
+    },
+    {
+        "token": ":",
+        "freq": 2
+    },
+    {
+        "token": "бенды",
+        "freq": 1
+    },
+    {
+        "token": "850/900/1800/1900",
+        "freq": 1
+    },
+    {
+        "token": "4G",
+        "freq": 1
+    },
+    {
+        "token": "CAT",
+        "freq": 1
+    },
+    {
+        "token": "4",
+        "freq": 1
+    },
+    {
+        "token": "1/3/5/7/8/20",
+        "freq": 1
+    },
+    {
+        "token": "Две",
+        "freq": 1
+    },
+    {
+        "token": "SIM-карты",
+        "freq": 1
+    },
+    {
+        "token": "формата",
+        "freq": 1
+    },
+    {
+        "token": "nano",
+        "freq": 1
+    },
+    {
+        "token": "Навигация",
+        "freq": 1
+    },
+    {
+        "token": "GPS/AGPS/ГЛОНАСС",
+        "freq": 1
+    },
+    {
+        "token": "Датчики",
+        "freq": 1
+    },
+    {
+        "token": "разъёмы",
+        "freq": 1
+    },
+    {
+        "token": "Сканер",
+        "freq": 1
+    },
+    {
+        "token": "отпечатков",
+        "freq": 1
+    },
+    {
+        "token": "пальцев",
+        "freq": 1
+    },
+    {
+        "token": "на",
+        "freq": 1
+    },
+    {
+        "token": "тыльной",
+        "freq": 1
+    },
+    {
+        "token": "стороне",
+        "freq": 1
+    },
+    {
+        "token": "microUSB",
+        "freq": 1
+    },
+    {
+        "token": "Основная",
+        "freq": 1
+    },
+    {
+        "token": "камера",
+        "freq": 2
+    },
+    {
+        "token": "13",
+        "freq": 1
+    },
+    {
+        "token": "МП",
+        "freq": 2
+    },
+    {
+        "token": "диафрагмы",
+        "freq": 2
+    },
+    {
+        "token": "f/1,8",
+        "freq": 1
+    },
+    {
+        "token": "фокусное",
+        "freq": 2
+    },
+    {
+        "token": "расстояние",
+        "freq": 2
+    },
+    {
+        "token": "26",
+        "freq": 1
+    },
+    {
+        "token": "Фронтальная",
+        "freq": 1
+    },
+    {
+        "token": "f/2.0",
+        "freq": 1
+    },
+    {
+        "token": "25",
+        "freq": 1
+    },
+    {
+        "token": "Аккумулятор",
+        "freq": 1
+    },
+    {
+        "token": "Li-Pol",
+        "freq": 1
+    },
+    {
+        "token": "3020",
+        "freq": 1
+    },
+    {
+        "token": "мАч",
+        "freq": 1
+    },
+    {
+        "token": "сетевой",
+        "freq": 1
+    },
+    {
+        "token": "5В/1А",
+        "freq": 1
+    },
+    {
+        "token": "100",
+        "freq": 1
+    },
+    {
+        "token": "%",
+        "freq": 1
+    },
+    {
+        "token": "за",
+        "freq": 1
+    },
+    {
+        "token": "3",
+        "freq": 1
+    },
+    {
+        "token": "часа",
+        "freq": 1
+    },
+    {
+        "token": "Аудио",
+        "freq": 1
+    },
+    {
+        "token": "1",
+        "freq": 2
+    },
+    {
+        "token": "динамик",
+        "freq": 2
+    },
+    {
+        "token": "вывода",
+        "freq": 1
+    },
+    {
+        "token": "громкой",
+        "freq": 1
+    },
+    {
+        "token": "связи",
+        "freq": 1
+    },
+    {
+        "token": "речевой",
+        "freq": 1
+    },
+    {
+        "token": ";",
+        "freq": 1
+    },
+    {
+        "token": "FM-радио",
+        "freq": 1
+    },
+    {
+        "token": "работает",
+        "freq": 1
+    },
+    {
+        "token": "с",
+        "freq": 1
+    },
+    {
+        "token": "подключенной",
+        "freq": 1
+    },
+    {
+        "token": "гарнитурой",
+        "freq": 1
+    },
+    {
+        "token": "Цвет",
+        "freq": 1
+    },
+    {
+        "token": "Черный",
+        "freq": 1
+    },
+    {
+        "token": "золотой",
+        "freq": 1
+    },
+    {
+        "token": "синий",
+        "freq": 1
+    },
+    {
+        "token": "Цена",
+        "freq": 1
+    },
+    {
+        "token": "990",
+        "freq": 1
+    },
+    {
+        "token": "рублей",
+        "freq": 1
+    }
+]

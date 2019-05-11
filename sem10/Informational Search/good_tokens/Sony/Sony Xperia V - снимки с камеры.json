@@ -1,0 +1,486 @@
+[
+    {
+        "token": "Sony",
+        "freq": 1
+    },
+    {
+        "token": "Xperia",
+        "freq": 1
+    },
+    {
+        "token": "V",
+        "freq": 3
+    },
+    {
+        "token": "снимки",
+        "freq": 2
+    },
+    {
+        "token": "с",
+        "freq": 5
+    },
+    {
+        "token": "камеры",
+        "freq": 1
+    },
+    {
+        "token": "Здесь",
+        "freq": 1
+    },
+    {
+        "token": "я",
+        "freq": 2
+    },
+    {
+        "token": "бы",
+        "freq": 1
+    },
+    {
+        "token": "просто",
+        "freq": 1
+    },
+    {
+        "token": "хотел",
+        "freq": 1
+    },
+    {
+        "token": "вам",
+        "freq": 2
+    },
+    {
+        "token": "показать",
+        "freq": 1
+    },
+    {
+        "token": "как",
+        "freq": 1
+    },
+    {
+        "token": "работает",
+        "freq": 1
+    },
+    {
+        "token": "камера",
+        "freq": 1
+    },
+    {
+        "token": "в",
+        "freq": 6
+    },
+    {
+        "token": "прототипе",
+        "freq": 2
+    },
+    {
+        "token": "вероятно",
+        "freq": 1
+    },
+    {
+        "token": "появлением",
+        "freq": 1
+    },
+    {
+        "token": "новых",
+        "freq": 1
+    },
+    {
+        "token": "прошивок",
+        "freq": 1
+    },
+    {
+        "token": "качество",
+        "freq": 2
+    },
+    {
+        "token": "изменится",
+        "freq": 1
+    },
+    {
+        "token": "хочу",
+        "freq": 1
+    },
+    {
+        "token": "представить",
+        "freq": 1
+    },
+    {
+        "token": "максимальным",
+        "freq": 1
+    },
+    {
+        "token": "разрешением",
+        "freq": 1
+    },
+    {
+        "token": "снятые",
+        "freq": 1
+    },
+    {
+        "token": "автоматическом",
+        "freq": 1
+    },
+    {
+        "token": "режиме",
+        "freq": 1
+    },
+    {
+        "token": "Аппарат",
+        "freq": 1
+    },
+    {
+        "token": "подбирает",
+        "freq": 1
+    },
+    {
+        "token": "сцену",
+        "freq": 1
+    },
+    {
+        "token": "довольно",
+        "freq": 1
+    },
+    {
+        "token": "шустро",
+        "freq": 1
+    },
+    {
+        "token": "но",
+        "freq": 2
+    },
+    {
+        "token": "единственном",
+        "freq": 1
+    },
+    {
+        "token": "есть",
+        "freq": 1
+    },
+    {
+        "token": "беда",
+        "freq": 1
+    },
+    {
+        "token": "автофокусом",
+        "freq": 1
+    },
+    {
+        "token": "большинство",
+        "freq": 1
+    },
+    {
+        "token": "снимков",
+        "freq": 1
+    },
+    {
+        "token": "получаются",
+        "freq": 1
+    },
+    {
+        "token": "слегка",
+        "freq": 1
+    },
+    {
+        "token": "смазанными",
+        "freq": 1
+    },
+    {
+        "token": "Камеры",
+        "freq": 1
+    },
+    {
+        "token": "у",
+        "freq": 1
+    },
+    {
+        "token": "и",
+        "freq": 1
+    },
+    {
+        "token": "TX",
+        "freq": 1
+    },
+    {
+        "token": "одинаковые",
+        "freq": 1
+    },
+    {
+        "token": "съемка",
+        "freq": 1
+    },
+    {
+        "token": "видео",
+        "freq": 2
+    },
+    {
+        "token": "FullHD",
+        "freq": 1
+    },
+    {
+        "token": "поддерживается",
+        "freq": 1
+    },
+    {
+        "token": "хорошее",
+        "freq": 1
+    },
+    {
+        "token": "Мы",
+        "freq": 2
+    },
+    {
+        "token": "постарались",
+        "freq": 1
+    },
+    {
+        "token": "отобрать",
+        "freq": 1
+    },
+    {
+        "token": "лучшие",
+        "freq": 1
+    },
+    {
+        "token": "кадры",
+        "freq": 1
+    },
+    {
+        "token": "имейте",
+        "freq": 1
+    },
+    {
+        "token": "виду",
+        "freq": 1
+    },
+    {
+        "token": "пока",
+        "freq": 1
+    },
+    {
+        "token": "это",
+        "freq": 1
+    },
+    {
+        "token": "ранний",
+        "freq": 1
+    },
+    {
+        "token": "прототип",
+        "freq": 1
+    },
+    {
+        "token": "очень",
+        "freq": 1
+    },
+    {
+        "token": "интересно",
+        "freq": 1
+    },
+    {
+        "token": "будет",
+        "freq": 1
+    },
+    {
+        "token": "потом",
+        "freq": 1
+    },
+    {
+        "token": "сравнить",
+        "freq": 1
+    },
+    {
+        "token": "коммерческими",
+        "freq": 1
+    },
+    {
+        "token": "образцами",
+        "freq": 1
+    },
+    {
+        "token": "работу",
+        "freq": 1
+    },
+    {
+        "token": "13",
+        "freq": 1
+    },
+    {
+        "token": "Мп",
+        "freq": 1
+    },
+    {
+        "token": "модуля",
+        "freq": 1
+    },
+    {
+        "token": "Сергей",
+        "freq": 1
+    },
+    {
+        "token": "Кузьмин",
+        "freq": 1
+    },
+    {
+        "token": "(",
+        "freq": 2
+    },
+    {
+        "token": "skuzmin",
+        "freq": 1
+    },
+    {
+        "token": "mobile-review.com",
+        "freq": 2
+    },
+    {
+        "token": ")",
+        "freq": 2
+    },
+    {
+        "token": "Twitter",
+        "freq": 2
+    },
+    {
+        "token": "Livejournal",
+        "freq": 1
+    },
+    {
+        "token": "Опубликовано",
+        "freq": 1
+    },
+    {
+        "token": "30",
+        "freq": 1
+    },
+    {
+        "token": "августа",
+        "freq": 1
+    },
+    {
+        "token": "2012",
+        "freq": 1
+    },
+    {
+        "token": "г",
+        "freq": 1
+    },
+    {
+        "token": ".mobile_xlarge",
+        "freq": 1
+    },
+    {
+        "token": "{",
+        "freq": 1
+    },
+    {
+        "token": "transform",
+        "freq": 1
+    },
+    {
+        "token": ":",
+        "freq": 4
+    },
+    {
+        "token": "scale",
+        "freq": 1
+    },
+    {
+        "token": "2.5",
+        "freq": 1
+    },
+    {
+        "token": "margin-left",
+        "freq": 1
+    },
+    {
+        "token": "80px",
+        "freq": 1
+    },
+    {
+        "token": "}",
+        "freq": 1
+    },
+    {
+        "token": "Поделиться",
+        "freq": 1
+    },
+    {
+        "token": "социальных",
+        "freq": 1
+    },
+    {
+        "token": "сетях",
+        "freq": 1
+    },
+    {
+        "token": "ВКонтакте",
+        "freq": 1
+    },
+    {
+        "token": "Facebook",
+        "freq": 1
+    },
+    {
+        "token": "Telegram",
+        "freq": 1
+    },
+    {
+        "token": "Instagram",
+        "freq": 1
+    },
+    {
+        "token": "Пожалуйста",
+        "freq": 1
+    },
+    {
+        "token": "включите",
+        "freq": 1
+    },
+    {
+        "token": "JavaScript",
+        "freq": 1
+    },
+    {
+        "token": "для",
+        "freq": 1
+    },
+    {
+        "token": "отображения",
+        "freq": 1
+    },
+    {
+        "token": "комментариев",
+        "freq": 1
+    },
+    {
+        "token": "к",
+        "freq": 1
+    },
+    {
+        "token": "статье",
+        "freq": 1
+    },
+    {
+        "token": "Есть",
+        "freq": 1
+    },
+    {
+        "token": "что",
+        "freq": 1
+    },
+    {
+        "token": "добавить",
+        "freq": 1
+    },
+    {
+        "token": "Пишите",
+        "freq": 1
+    },
+    {
+        "token": "...",
+        "freq": 1
+    },
+    {
+        "token": "eldar",
+        "freq": 1
+    }
+]

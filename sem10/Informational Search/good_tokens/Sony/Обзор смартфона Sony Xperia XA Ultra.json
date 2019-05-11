@@ -1,0 +1,1842 @@
+[
+    {
+        "token": "Обзор",
+        "freq": 2
+    },
+    {
+        "token": "смартфона",
+        "freq": 2
+    },
+    {
+        "token": "Sony",
+        "freq": 6
+    },
+    {
+        "token": "Xperia",
+        "freq": 5
+    },
+    {
+        "token": "XA",
+        "freq": 7
+    },
+    {
+        "token": "Ultra",
+        "freq": 6
+    },
+    {
+        "token": "Содержание",
+        "freq": 1
+    },
+    {
+        "token": "Характеристики",
+        "freq": 2
+    },
+    {
+        "token": "Комплект",
+        "freq": 2
+    },
+    {
+        "token": "поставки",
+        "freq": 2
+    },
+    {
+        "token": "Дизайн",
+        "freq": 2
+    },
+    {
+        "token": "конструкция",
+        "freq": 2
+    },
+    {
+        "token": "Дисплей",
+        "freq": 2
+    },
+    {
+        "token": "Производительность",
+        "freq": 2
+    },
+    {
+        "token": "и",
+        "freq": 7
+    },
+    {
+        "token": "особенности",
+        "freq": 2
+    },
+    {
+        "token": "Время",
+        "freq": 1
+    },
+    {
+        "token": "работы",
+        "freq": 2
+    },
+    {
+        "token": "Камера",
+        "freq": 2
+    },
+    {
+        "token": "Выводы",
+        "freq": 1
+    },
+    {
+        "token": "Материалы",
+        "freq": 1
+    },
+    {
+        "token": "корпуса",
+        "freq": 1
+    },
+    {
+        "token": ":",
+        "freq": 14
+    },
+    {
+        "token": "металл",
+        "freq": 1
+    },
+    {
+        "token": "стекло",
+        "freq": 1
+    },
+    {
+        "token": "пластик",
+        "freq": 1
+    },
+    {
+        "token": "Операционная",
+        "freq": 1
+    },
+    {
+        "token": "система",
+        "freq": 1
+    },
+    {
+        "token": "Google",
+        "freq": 1
+    },
+    {
+        "token": "Android",
+        "freq": 2
+    },
+    {
+        "token": "6.0",
+        "freq": 1
+    },
+    {
+        "token": "Сеть",
+        "freq": 1
+    },
+    {
+        "token": "GSM/GPRS/EDGE",
+        "freq": 1
+    },
+    {
+        "token": "LTE",
+        "freq": 6
+    },
+    {
+        "token": "CAT",
+        "freq": 1
+    },
+    {
+        "token": "4",
+        "freq": 3
+    },
+    {
+        "token": "две",
+        "freq": 1
+    },
+    {
+        "token": "симкарты",
+        "freq": 1
+    },
+    {
+        "token": "Процессор",
+        "freq": 1
+    },
+    {
+        "token": "8",
+        "freq": 1
+    },
+    {
+        "token": "ядер",
+        "freq": 2
+    },
+    {
+        "token": "64-бит",
+        "freq": 1
+    },
+    {
+        "token": "MediaTek",
+        "freq": 7
+    },
+    {
+        "token": "MT6755",
+        "freq": 3
+    },
+    {
+        "token": "(",
+        "freq": 10
+    },
+    {
+        "token": "Helio",
+        "freq": 5
+    },
+    {
+        "token": "P10",
+        "freq": 3
+    },
+    {
+        "token": ")",
+        "freq": 10
+    },
+    {
+        "token": "Оперативная",
+        "freq": 1
+    },
+    {
+        "token": "память",
+        "freq": 1
+    },
+    {
+        "token": "3",
+        "freq": 1
+    },
+    {
+        "token": "ГБ",
+        "freq": 2
+    },
+    {
+        "token": "Память",
+        "freq": 1
+    },
+    {
+        "token": "для",
+        "freq": 7
+    },
+    {
+        "token": "хранения",
+        "freq": 1
+    },
+    {
+        "token": "данных",
+        "freq": 1
+    },
+    {
+        "token": "16",
+        "freq": 1
+    },
+    {
+        "token": "Экран",
+        "freq": 1
+    },
+    {
+        "token": "емкостный",
+        "freq": 1
+    },
+    {
+        "token": "IPS",
+        "freq": 1
+    },
+    {
+        "token": "OGS",
+        "freq": 1
+    },
+    {
+        "token": "6",
+        "freq": 5
+    },
+    {
+        "token": "''",
+        "freq": 1
+    },
+    {
+        "token": "с",
+        "freq": 6
+    },
+    {
+        "token": "разрешением",
+        "freq": 1
+    },
+    {
+        "token": "1080x1920",
+        "freq": 1
+    },
+    {
+        "token": "точек",
+        "freq": 1
+    },
+    {
+        "token": "21.5/16",
+        "freq": 1
+    },
+    {
+        "token": "МП",
+        "freq": 1
+    },
+    {
+        "token": "вспышка",
+        "freq": 2
+    },
+    {
+        "token": "Навигация",
+        "freq": 1
+    },
+    {
+        "token": "GPS",
+        "freq": 1
+    },
+    {
+        "token": "Батарея",
+        "freq": 1
+    },
+    {
+        "token": "несъемная",
+        "freq": 1
+    },
+    {
+        "token": "емкостью",
+        "freq": 1
+    },
+    {
+        "token": "2700",
+        "freq": 1
+    },
+    {
+        "token": "мАч",
+        "freq": 1
+    },
+    {
+        "token": "Габариты",
+        "freq": 1
+    },
+    {
+        "token": "164x79x8.4",
+        "freq": 1
+    },
+    {
+        "token": "мм",
+        "freq": 3
+    },
+    {
+        "token": "Вес",
+        "freq": 1
+    },
+    {
+        "token": "202",
+        "freq": 2
+    },
+    {
+        "token": "г",
+        "freq": 1
+    },
+    {
+        "token": "Смартфон",
+        "freq": 1
+    },
+    {
+        "token": "Блок",
+        "freq": 1
+    },
+    {
+        "token": "питания",
+        "freq": 1
+    },
+    {
+        "token": "USB-кабель",
+        "freq": 1
+    },
+    {
+        "token": "Документация",
+        "freq": 1
+    },
+    {
+        "token": "Любили",
+        "freq": 1
+    },
+    {
+        "token": "ли",
+        "freq": 1
+    },
+    {
+        "token": "вы",
+        "freq": 1
+    },
+    {
+        "token": "Z",
+        "freq": 2
+    },
+    {
+        "token": "так",
+        "freq": 1
+    },
+    {
+        "token": "как",
+        "freq": 2
+    },
+    {
+        "token": "любил",
+        "freq": 1
+    },
+    {
+        "token": "я",
+        "freq": 2
+    },
+    {
+        "token": "Огромный",
+        "freq": 1
+    },
+    {
+        "token": "хороший",
+        "freq": 1
+    },
+    {
+        "token": "экран",
+        "freq": 1
+    },
+    {
+        "token": "тонкий",
+        "freq": 1
+    },
+    {
+        "token": "корпус",
+        "freq": 1
+    },
+    {
+        "token": "длительное",
+        "freq": 1
+    },
+    {
+        "token": "время",
+        "freq": 2
+    },
+    {
+        "token": "в",
+        "freq": 7
+    },
+    {
+        "token": "самолете",
+        "freq": 1
+    },
+    {
+        "token": "фаблет",
+        "freq": 1
+    },
+    {
+        "token": "помогал",
+        "freq": 1
+    },
+    {
+        "token": "смотреть",
+        "freq": 1
+    },
+    {
+        "token": "кино",
+        "freq": 1
+    },
+    {
+        "token": "обычной",
+        "freq": 1
+    },
+    {
+        "token": "жизни",
+        "freq": 1
+    },
+    {
+        "token": "заменял",
+        "freq": 1
+    },
+    {
+        "token": "смартфон",
+        "freq": 3
+    },
+    {
+        "token": "планшет",
+        "freq": 1
+    },
+    {
+        "token": "напомню",
+        "freq": 1
+    },
+    {
+        "token": "не",
+        "freq": 5
+    },
+    {
+        "token": "было",
+        "freq": 1
+    },
+    {
+        "token": "iPhone",
+        "freq": 1
+    },
+    {
+        "token": "Plus",
+        "freq": 1
+    },
+    {
+        "token": "поэтому",
+        "freq": 1
+    },
+    {
+        "token": "удовольствием",
+        "freq": 1
+    },
+    {
+        "token": "ходил",
+        "freq": 1
+    },
+    {
+        "token": "Потом",
+        "freq": 1
+    },
+    {
+        "token": "решили",
+        "freq": 1
+    },
+    {
+        "token": "сделать",
+        "freq": 1
+    },
+    {
+        "token": "бюджетную",
+        "freq": 1
+    },
+    {
+        "token": "версию",
+        "freq": 1
+    },
+    {
+        "token": "этого",
+        "freq": 1
+    },
+    {
+        "token": "устройства",
+        "freq": 2
+    },
+    {
+        "token": "потом",
+        "freq": 1
+    },
+    {
+        "token": "был",
+        "freq": 1
+    },
+    {
+        "token": "перерыв",
+        "freq": 1
+    },
+    {
+        "token": "фаблетами",
+        "freq": 1
+    },
+    {
+        "token": "сейчас",
+        "freq": 1
+    },
+    {
+        "token": "компании",
+        "freq": 1
+    },
+    {
+        "token": "вернулись",
+        "freq": 1
+    },
+    {
+        "token": "к",
+        "freq": 1
+    },
+    {
+        "token": "нам",
+        "freq": 1
+    },
+    {
+        "token": "Напомню",
+        "freq": 1
+    },
+    {
+        "token": "недорогой",
+        "freq": 1
+    },
+    {
+        "token": "обзор",
+        "freq": 1
+    },
+    {
+        "token": "есть",
+        "freq": 6
+    },
+    {
+        "token": "на",
+        "freq": 4
+    },
+    {
+        "token": "сайте",
+        "freq": 1
+    },
+    {
+        "token": "Ставка",
+        "freq": 1
+    },
+    {
+        "token": "прежде",
+        "freq": 1
+    },
+    {
+        "token": "всего",
+        "freq": 1
+    },
+    {
+        "token": "дизайн",
+        "freq": 1
+    },
+    {
+        "token": "F3112",
+        "freq": 1
+    },
+    {
+        "token": "В",
+        "freq": 2
+    },
+    {
+        "token": "отличие",
+        "freq": 1
+    },
+    {
+        "token": "от",
+        "freq": 1
+    },
+    {
+        "token": "младшего",
+        "freq": 1
+    },
+    {
+        "token": "брата",
+        "freq": 1
+    },
+    {
+        "token": "смотрится",
+        "freq": 1
+    },
+    {
+        "token": "столь",
+        "freq": 1
+    },
+    {
+        "token": "радикально",
+        "freq": 1
+    },
+    {
+        "token": "может",
+        "freq": 1
+    },
+    {
+        "token": "быть",
+        "freq": 2
+    },
+    {
+        "token": "за",
+        "freq": 3
+    },
+    {
+        "token": "счет",
+        "freq": 1
+    },
+    {
+        "token": "размера",
+        "freq": 1
+    },
+    {
+        "token": "Узнаваемые",
+        "freq": 1
+    },
+    {
+        "token": "детальки",
+        "freq": 1
+    },
+    {
+        "token": "кнопка",
+        "freq": 1
+    },
+    {
+        "token": "включения",
+        "freq": 1
+    },
+    {
+        "token": "правом",
+        "freq": 1
+    },
+    {
+        "token": "торце",
+        "freq": 2
+    },
+    {
+        "token": "характерно",
+        "freq": 1
+    },
+    {
+        "token": "оформленные",
+        "freq": 1
+    },
+    {
+        "token": "торцы",
+        "freq": 1
+    },
+    {
+        "token": "минималистичное",
+        "freq": 1
+    },
+    {
+        "token": "оформление",
+        "freq": 1
+    },
+    {
+        "token": "внутри",
+        "freq": 1
+    },
+    {
+        "token": "простые",
+        "freq": 1
+    },
+    {
+        "token": "обои",
+        "freq": 1
+    },
+    {
+        "token": "без",
+        "freq": 2
+    },
+    {
+        "token": "лишних",
+        "freq": 1
+    },
+    {
+        "token": "элементов",
+        "freq": 1
+    },
+    {
+        "token": "минимум",
+        "freq": 1
+    },
+    {
+        "token": "своих",
+        "freq": 1
+    },
+    {
+        "token": "дополнений",
+        "freq": 1
+    },
+    {
+        "token": "по",
+        "freq": 2
+    },
+    {
+        "token": "сути",
+        "freq": 1
+    },
+    {
+        "token": "голый",
+        "freq": 1
+    },
+    {
+        "token": "Слева",
+        "freq": 1
+    },
+    {
+        "token": "под",
+        "freq": 1
+    },
+    {
+        "token": "заглушкой",
+        "freq": 1
+    },
+    {
+        "token": "слот",
+        "freq": 2
+    },
+    {
+        "token": "двух",
+        "freq": 1
+    },
+    {
+        "token": "SIM-карт",
+        "freq": 1
+    },
+    {
+        "token": "у",
+        "freq": 2
+    },
+    {
+        "token": "версии",
+        "freq": 1
+    },
+    {
+        "token": "двумя",
+        "freq": 1
+    },
+    {
+        "token": "SIM",
+        "freq": 1
+    },
+    {
+        "token": "карты",
+        "freq": 2
+    },
+    {
+        "token": "памяти",
+        "freq": 2
+    },
+    {
+        "token": "microSD",
+        "freq": 1
+    },
+    {
+        "token": "Не",
+        "freq": 1
+    },
+    {
+        "token": "будет",
+        "freq": 1
+    },
+    {
+        "token": "лишним",
+        "freq": 1
+    },
+    {
+        "token": "похвалить",
+        "freq": 1
+    },
+    {
+        "token": "упорство",
+        "freq": 1
+    },
+    {
+        "token": "представить",
+        "freq": 1
+    },
+    {
+        "token": "получается",
+        "freq": 1
+    },
+    {
+        "token": "На",
+        "freq": 1
+    },
+    {
+        "token": "нижнем",
+        "freq": 1
+    },
+    {
+        "token": "разъем",
+        "freq": 2
+    },
+    {
+        "token": "microUSB",
+        "freq": 1
+    },
+    {
+        "token": "решетка",
+        "freq": 1
+    },
+    {
+        "token": "динамика",
+        "freq": 1
+    },
+    {
+        "token": "кстати",
+        "freq": 1
+    },
+    {
+        "token": "он",
+        "freq": 1
+    },
+    {
+        "token": "мог",
+        "freq": 1
+    },
+    {
+        "token": "бы",
+        "freq": 2
+    },
+    {
+        "token": "погромче",
+        "freq": 1
+    },
+    {
+        "token": "вверху",
+        "freq": 1
+    },
+    {
+        "token": "3,5",
+        "freq": 1
+    },
+    {
+        "token": "микрофон",
+        "freq": 1
+    },
+    {
+        "token": "Над",
+        "freq": 2
+    },
+    {
+        "token": "экраном",
+        "freq": 2
+    },
+    {
+        "token": "огромный",
+        "freq": 1
+    },
+    {
+        "token": "объектив",
+        "freq": 1
+    },
+    {
+        "token": "фронтальной",
+        "freq": 1
+    },
+    {
+        "token": "камеры",
+        "freq": 1
+    },
+    {
+        "token": "видимо",
+        "freq": 1
+    },
+    {
+        "token": "выделили",
+        "freq": 1
+    },
+    {
+        "token": "специально",
+        "freq": 1
+    },
+    {
+        "token": "чтобы",
+        "freq": 1
+    },
+    {
+        "token": "подчеркнуть",
+        "freq": 1
+    },
+    {
+        "token": "возможности",
+        "freq": 1
+    },
+    {
+        "token": "селфи",
+        "freq": 1
+    },
+    {
+        "token": "Мало",
+        "freq": 1
+    },
+    {
+        "token": "того",
+        "freq": 1
+    },
+    {
+        "token": "фронталки",
+        "freq": 1
+    },
+    {
+        "token": "даже",
+        "freq": 2
+    },
+    {
+        "token": "своя",
+        "freq": 1
+    },
+    {
+        "token": "Аппарат",
+        "freq": 1
+    },
+    {
+        "token": "выпускается",
+        "freq": 1
+    },
+    {
+        "token": "трех",
+        "freq": 1
+    },
+    {
+        "token": "цветах",
+        "freq": 1
+    },
+    {
+        "token": "белый",
+        "freq": 1
+    },
+    {
+        "token": "черный",
+        "freq": 1
+    },
+    {
+        "token": "золотой",
+        "freq": 1
+    },
+    {
+        "token": "Мне",
+        "freq": 1
+    },
+    {
+        "token": "очень",
+        "freq": 1
+    },
+    {
+        "token": "понравился",
+        "freq": 1
+    },
+    {
+        "token": "последний",
+        "freq": 1
+    },
+    {
+        "token": "Весит",
+        "freq": 1
+    },
+    {
+        "token": "немало",
+        "freq": 1
+    },
+    {
+        "token": "грамма",
+        "freq": 1
+    },
+    {
+        "token": "размеры",
+        "freq": 1
+    },
+    {
+        "token": "164",
+        "freq": 1
+    },
+    {
+        "token": "x",
+        "freq": 2
+    },
+    {
+        "token": "79",
+        "freq": 1
+    },
+    {
+        "token": "8,4",
+        "freq": 1
+    },
+    {
+        "token": "карман",
+        "freq": 1
+    },
+    {
+        "token": "брюк",
+        "freq": 1
+    },
+    {
+        "token": "оттягивает",
+        "freq": 1
+    },
+    {
+        "token": "Корпус",
+        "freq": 1
+    },
+    {
+        "token": "основном",
+        "freq": 1
+    },
+    {
+        "token": "из",
+        "freq": 3
+    },
+    {
+        "token": "пластика",
+        "freq": 1
+    },
+    {
+        "token": "рамка",
+        "freq": 1
+    },
+    {
+        "token": "металла",
+        "freq": 1
+    },
+    {
+        "token": "холодит",
+        "freq": 1
+    },
+    {
+        "token": "кожу",
+        "freq": 1
+    },
+    {
+        "token": "световой",
+        "freq": 1
+    },
+    {
+        "token": "индикатор",
+        "freq": 1
+    },
+    {
+        "token": "горит",
+        "freq": 1
+    },
+    {
+        "token": "во",
+        "freq": 1
+    },
+    {
+        "token": "зарядки",
+        "freq": 1
+    },
+    {
+        "token": "разных",
+        "freq": 1
+    },
+    {
+        "token": "событий",
+        "freq": 1
+    },
+    {
+        "token": "К",
+        "freq": 2
+    },
+    {
+        "token": "содержанию",
+        "freq": 2
+    },
+    {
+        "token": "Диагональ",
+        "freq": 1
+    },
+    {
+        "token": "дисплея",
+        "freq": 2
+    },
+    {
+        "token": "дюймов",
+        "freq": 1
+    },
+    {
+        "token": "разрешение",
+        "freq": 2
+    },
+    {
+        "token": "FullHD",
+        "freq": 1
+    },
+    {
+        "token": "конечно",
+        "freq": 1
+    },
+    {
+        "token": "такого",
+        "freq": 1
+    },
+    {
+        "token": "хотелось",
+        "freq": 1
+    },
+    {
+        "token": "побольше",
+        "freq": 1
+    },
+    {
+        "token": "но",
+        "freq": 1
+    },
+    {
+        "token": "давайте",
+        "freq": 1
+    },
+    {
+        "token": "будем",
+        "freq": 1
+    },
+    {
+        "token": "забывать",
+        "freq": 1
+    },
+    {
+        "token": "что",
+        "freq": 2
+    },
+    {
+        "token": "это",
+        "freq": 4
+    },
+    {
+        "token": "25",
+        "freq": 1
+    },
+    {
+        "token": "000",
+        "freq": 1
+    },
+    {
+        "token": "рублей",
+        "freq": 1
+    },
+    {
+        "token": "можно",
+        "freq": 2
+    },
+    {
+        "token": "сказать",
+        "freq": 1
+    },
+    {
+        "token": "начального",
+        "freq": 1
+    },
+    {
+        "token": "уровня",
+        "freq": 1
+    },
+    {
+        "token": "молодежи",
+        "freq": 1
+    },
+    {
+        "token": "Углы",
+        "freq": 1
+    },
+    {
+        "token": "обзора",
+        "freq": 1
+    },
+    {
+        "token": "неплохие",
+        "freq": 1
+    },
+    {
+        "token": "олеофобное",
+        "freq": 1
+    },
+    {
+        "token": "покрытие",
+        "freq": 1
+    },
+    {
+        "token": "просто",
+        "freq": 1
+    },
+    {
+        "token": "праздник",
+        "freq": 1
+    },
+    {
+        "token": "после",
+        "freq": 1
+    },
+    {
+        "token": "обычного",
+        "freq": 1
+    },
+    {
+        "token": "Есть",
+        "freq": 1
+    },
+    {
+        "token": "возможность",
+        "freq": 1
+    },
+    {
+        "token": "регулировки",
+        "freq": 1
+    },
+    {
+        "token": "баланса",
+        "freq": 1
+    },
+    {
+        "token": "белого",
+        "freq": 1
+    },
+    {
+        "token": "уменьшения",
+        "freq": 1
+    },
+    {
+        "token": "экрана",
+        "freq": 1
+    },
+    {
+        "token": "удобства",
+        "freq": 1
+    },
+    {
+        "token": "использования",
+        "freq": 1
+    },
+    {
+        "token": "некоторых",
+        "freq": 1
+    },
+    {
+        "token": "приложений",
+        "freq": 1
+    },
+    {
+        "token": "нужно",
+        "freq": 1
+    },
+    {
+        "token": "провести",
+        "freq": 1
+    },
+    {
+        "token": "пальцем",
+        "freq": 1
+    },
+    {
+        "token": "правого",
+        "freq": 1
+    },
+    {
+        "token": "нижнего",
+        "freq": 1
+    },
+    {
+        "token": "угла",
+        "freq": 1
+    },
+    {
+        "token": "вверх",
+        "freq": 1
+    },
+    {
+        "token": "рабочий",
+        "freq": 1
+    },
+    {
+        "token": "стол",
+        "freq": 1
+    },
+    {
+        "token": "уменьшается",
+        "freq": 1
+    },
+    {
+        "token": "удобно",
+        "freq": 1
+    },
+    {
+        "token": "машине",
+        "freq": 1
+    },
+    {
+        "token": "Используется",
+        "freq": 1
+    },
+    {
+        "token": "восемь",
+        "freq": 1
+    },
+    {
+        "token": "ARM",
+        "freq": 1
+    },
+    {
+        "token": "Cortex-A53",
+        "freq": 1
+    },
+    {
+        "token": "тактовая",
+        "freq": 1
+    },
+    {
+        "token": "частота",
+        "freq": 1
+    },
+    {
+        "token": "2.0",
+        "freq": 1
+    },
+    {
+        "token": "ГГц",
+        "freq": 1
+    },
+    {
+        "token": "графический",
+        "freq": 1
+    },
+    {
+        "token": "адаптер",
+        "freq": 1
+    },
+    {
+        "token": "Mali",
+        "freq": 4
+    },
+    {
+        "token": "T860",
+        "freq": 1
+    },
+    {
+        "token": "нет",
+        "freq": 1
+    },
+    {
+        "token": "поддержки",
+        "freq": 1
+    },
+    {
+        "token": "записи",
+        "freq": 1
+    },
+    {
+        "token": "видео",
+        "freq": 1
+    },
+    {
+        "token": "4К",
+        "freq": 1
+    },
+    {
+        "token": "зато",
+        "freq": 1
+    },
+    {
+        "token": "поддержка",
+        "freq": 1
+    },
+    {
+        "token": "мне",
+        "freq": 1
+    },
+    {
+        "token": "недорогого",
+        "freq": 1
+    },
+    {
+        "token": "важнее",
+        "freq": 1
+    },
+    {
+        "token": "У",
+        "freq": 1
+    },
+    {
+        "token": "аппарата",
+        "freq": 1
+    },
+    {
+        "token": "периодически",
+        "freq": 1
+    },
+    {
+        "token": "сильно",
+        "freq": 1
+    },
+    {
+        "token": "нагревался",
+        "freq": 1
+    },
+    {
+        "token": "правый",
+        "freq": 1
+    },
+    {
+        "token": "верхний",
+        "freq": 1
+    },
+    {
+        "token": "угол",
+        "freq": 1
+    },
+    {
+        "token": "там",
+        "freq": 1
+    },
+    {
+        "token": "где",
+        "freq": 1
+    },
+    {
+        "token": "камера",
+        "freq": 1
+    },
+    {
+        "token": "причем",
+        "freq": 1
+    },
+    {
+        "token": "наблюдалось",
+        "freq": 1
+    },
+    {
+        "token": "когда",
+        "freq": 1
+    },
+    {
+        "token": "съемка",
+        "freq": 1
+    },
+    {
+        "token": "производилась",
+        "freq": 1
+    },
+    {
+        "token": "остальном",
+        "freq": 1
+    },
+    {
+        "token": "нагрев",
+        "freq": 1
+    },
+    {
+        "token": "приемлемом",
+        "freq": 1
+    },
+    {
+        "token": "уровне",
+        "freq": 1
+    },
+    {
+        "token": "Этот",
+        "freq": 1
+    },
+    {
+        "token": "же",
+        "freq": 1
+    },
+    {
+        "token": "чип",
+        "freq": 1
+    },
+    {
+        "token": "называют",
+        "freq": 1
+    },
+    {
+        "token": "вот",
+        "freq": 1
+    },
+    {
+        "token": "здесь",
+        "freq": 1
+    },
+    {
+        "token": "посмотреть",
+        "freq": 1
+    },
+    {
+        "token": "подробности",
+        "freq": 1
+    },
+    {
+        "token": "Основная",
+        "freq": 1
+    },
+    {
+        "token": "линейка",
+        "freq": 1
+    },
+    {
+        "token": "2015",
+        "freq": 1
+    },
+    {
+        "token": "SoC",
+        "freq": 1
+    },
+    {
+        "token": "X20",
+        "freq": 1
+    },
+    {
+        "token": "MT6797",
+        "freq": 1
+    },
+    {
+        "token": "X10",
+        "freq": 1
+    },
+    {
+        "token": "MT6795",
+        "freq": 1
+    },
+    {
+        "token": "MT6752",
+        "freq": 1
+    },
+    {
+        "token": "CPU",
+        "freq": 1
+    },
+    {
+        "token": "4x",
+        "freq": 8
+    },
+    {
+        "token": "Cortex",
+        "freq": 9
+    },
+    {
+        "token": "A53",
+        "freq": 8
+    },
+    {
+        "token": "1.4GHz",
+        "freq": 1
+    },
+    {
+        "token": "2.0GHz",
+        "freq": 2
+    },
+    {
+        "token": "2x",
+        "freq": 4
+    },
+    {
+        "token": "A72",
+        "freq": 1
+    },
+    {
+        "token": "2.3-2.5GHz",
+        "freq": 1
+    },
+    {
+        "token": "2.2GHz",
+        "freq": 2
+    },
+    {
+        "token": "1.1GHz",
+        "freq": 1
+    },
+    {
+        "token": "1.7-2.0GHz",
+        "freq": 2
+    },
+    {
+        "token": "Memory",
+        "freq": 1
+    },
+    {
+        "token": "Controller",
+        "freq": 1
+    },
+    {
+        "token": "32-bit",
+        "freq": 4
+    },
+    {
+        "token": "933MHz",
+        "freq": 2
+    },
+    {
+        "token": "LPDDR3",
+        "freq": 4
+    },
+    {
+        "token": "14.9GB/s",
+        "freq": 2
+    },
+    {
+        "token": "b/w",
+        "freq": 4
+    },
+    {
+        "token": "800+MHz",
+        "freq": 1
+    },
+    {
+        "token": "12.8+GB/s",
+        "freq": 1
+    },
+    {
+        "token": "To",
+        "freq": 1
+    },
+    {
+        "token": "be",
+        "freq": 1
+    },
+    {
+        "token": "confirmed",
+        "freq": 1
+    },
+    {
+        "token": "1x",
+        "freq": 1
+    },
+    {
+        "token": "800MHz",
+        "freq": 1
+    },
+    {
+        "token": "6.4GB/s",
+        "freq": 1
+    },
+    {
+        "token": "GPU",
+        "freq": 1
+    },
+    {
+        "token": "T8",
+        "freq": 1
+    },
+    {
+        "token": "MP4",
+        "freq": 1
+    },
+    {
+        "token": "700MHz",
+        "freq": 3
+    },
+    {
+        "token": "PowerVR",
+        "freq": 1
+    },
+    {
+        "token": "G6200",
+        "freq": 1
+    },
+    {
+        "token": "T860MP2",
+        "freq": 1
+    },
+    {
+        "token": "T760MP2",
+        "freq": 1
+    },
+    {
+        "token": "728MHz",
+        "freq": 1
+    },
+    {
+        "token": "Encode/",
+        "freq": 1
+    },
+    {
+        "token": "Decode",
+        "freq": 1
+    },
+    {
+        "token": "2160p30",
+        "freq": 4
+    },
+    {
+        "token": "10-bit",
+        "freq": 2
+    },
+    {
+        "token": "H.264/HEVC/VP9",
+        "freq": 2
+    },
+    {
+        "token": "decode",
+        "freq": 4
+    },
+    {
+        "token": "HEVC",
+        "freq": 4
+    },
+    {
+        "token": "w/HDR",
+        "freq": 1
+    },
+    {
+        "token": "encode",
+        "freq": 4
+    },
+    {
+        "token": "1080p30",
+        "freq": 4
+    },
+    {
+        "token": "H.264",
+        "freq": 4
+    },
+    {
+        "token": "&",
+        "freq": 2
+    },
+    {
+        "token": "Camera/ISP",
+        "freq": 1
+    },
+    {
+        "token": "Dual",
+        "freq": 1
+    },
+    {
+        "token": "ISP",
+        "freq": 1
+    },
+    {
+        "token": "32MP",
+        "freq": 1
+    },
+    {
+        "token": "24fps",
+        "freq": 1
+    },
+    {
+        "token": "21MP",
+        "freq": 2
+    },
+    {
+        "token": "single",
+        "freq": 2
+    },
+    {
+        "token": "or",
+        "freq": 2
+    },
+    {
+        "token": "16MP",
+        "freq": 3
+    },
+    {
+        "token": "+",
+        "freq": 2
+    },
+    {
+        "token": "8MP",
+        "freq": 2
+    },
+    {
+        "token": "dual",
+        "freq": 2
+    },
+    {
+        "token": "Integrated",
+        "freq": 1
+    },
+    {
+        "token": "Modem",
+        "freq": 1
+    },
+    {
+        "token": "Cat",
+        "freq": 4
+    },
+    {
+        "token": "300Mbps",
+        "freq": 2
+    },
+    {
+        "token": "DL",
+        "freq": 6
+    },
+    {
+        "token": "50Mbps",
+        "freq": 4
+    },
+    {
+        "token": "UL",
+        "freq": 4
+    },
+    {
+        "token": "2x20MHz",
+        "freq": 2
+    },
+    {
+        "token": "C.A",
+        "freq": 2
+    },
+    {
+        "token": "150Mbps",
+        "freq": 2
+    }
+]
