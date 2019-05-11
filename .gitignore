@@ -2,8 +2,6 @@
 
 *.pri
 
-*.txt
-
 *.doc*
 
 *.jpeg
@@ -25,3 +23,4 @@
 *.csv
 
 *.xls*
+
