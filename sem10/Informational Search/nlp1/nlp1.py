@@ -7,7 +7,7 @@ import json
 articles_root_folder = "/home/mikhail/Documents/InformationSearch"
 root_folder_to_save_good_tokens = "../good_tokens"
 root_folder_to_save_bad_tokens = "../bad_tokens"
-bad_tokens = ["-", ",", "—", "«", "»", ".", "@", "!", "–", ";", "<", ">", "'", "?", ")", "("]
+bad_tokens = ["-", ",", "—", "«", "»", ".", "@", "!", "–", ";", "<", ">", "'", "?", ")", "(", ":", ]
 
 all_good_tokens_count = 0
 all_good_tokens_length = 0
