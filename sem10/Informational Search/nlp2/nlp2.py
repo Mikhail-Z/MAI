@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 tokens_root_folder = "../good_tokens"
 
-С = 4
+С = 3
 
 def read_tokens_counter_from_file(filename):
     with open(filename, "r") as f:
