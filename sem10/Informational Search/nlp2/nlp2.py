@@ -59,7 +59,7 @@ if __name__ == "__main__":
     line2, = plt.plot(xlog_points, zipf_ylog_points,
                       label="Соотношние ранга и частоты по закону Ципфа")
     plt.grid(True)
-    plt.title(u'Закон Ципфа на логорифмической шкале')
+    plt.title(u'Закон Ципфа на логарифмической шкале')
     plt.xlabel(u'Ранг')
     plt.ylabel(u'Частота')
 
@@ -69,7 +69,7 @@ if __name__ == "__main__":
     line2, = plt.plot(x_points, zipf_y_points,
                       label="Соотношние ранга и частоты по закону Ципфа")
     plt.grid(True)
-    plt.title(u'Закон Ципфа на линейной шкале шкале')
+    plt.title(u'Закон Ципфа на линейной шкале')
     plt.xlabel(u'Ранг')
     plt.ylabel(u'Частота')
     plt.show()

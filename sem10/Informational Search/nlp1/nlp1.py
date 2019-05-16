@@ -4,7 +4,7 @@ import time
 from collections import Counter
 import json
 
-articles_root_folder = "/home/mikhail/Documents/InformationSearch"
+articles_root_folder = "../Статьи"
 root_folder_to_save_good_tokens = "../good_tokens"
 root_folder_to_save_bad_tokens = "../bad_tokens"
 bad_tokens = ["-", ",", "—", "«", "»", ".", "@", "!", "–", ";", "<", ">", "'", "?", ")", "(", ":", ]
