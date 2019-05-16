@@ -1,0 +1,81 @@
+Ниже приведён список буквенных обозначений различных стандартов (международных, национальных и т. д.) и других нормативно-технических документов.
+
+AACP — NATO Allied Acquisition Practices Publications.
+AAP — NATO Allied Administrative Publications.
+AAR — стандарты AAR (Association of American Railroads, Ассоциация американских железных дорог).
+AASTP — NATO Allied Ammunition Storage and Transport Publications.
+ACI — стандарты ACI (American Concrete Institute, Американский институт бетона).
+AECTP — NATO Allied Environmental Conditions and Test Publications.
+AEDP — NATO Allied Engineering Documentation Publication.
+AEP — NATO Allied Engineering Publication.
+AFNOR — стандарты AFNOR (Association Francaise de Normalisation, Французская ассоциация стандартизации).
+AGMA — стандарты AGMA (American Gear Manufactures Association, Американская ассоциация производителей оборудования).
+AIA — стандарты AIA (The Aerospace Industries Association, Ассоциация авиакосмической промышленности).
+AJP — NATO Allied Joint Publications.
+ANSI — стандарты ANSI (American National Standards Institute, Национальный институт стандартизации США).
+AOAC — стандарты AOAC International (Association of Analytical Communities, Ассоциация аналитических сообществ).
+AOP — NATO Allied Ordnance Publications.
+API — стандарты API (American Petroleum Institute, Американский институт нефти).
+AQAP — NATO Allied Quality Assurance Publications.
+ARMP — NATO Allied Reliability and Maintainability Publication.
+ASCE — стандарты ASCE (American Society of Civil Engineers, Американское общество инженеров-строителей).
+ASHRAE — стандарты ASHRAE (American Society of Heating, Refrigerating, and Air-Conditioning Engineers, Aмериканское общество инженеров по нагреванию, охлаждению и кондиционированию воздуха).
+ASME — стандарты ASME (American Society of Mechanical Engineers, Американское общество инженеров-механиков).
+ASSE — стандарты ASSE (American Society of Safety Engineers, Американское общество инженеров по технике безопасности).
+ASTM — стандарты ASTM (American Society for Testing and Materials).
+ASQ — стандарты ASQ (The American Society for Quality, Американская организация по качеству).
+ATP — NATO Allied Tactical Publications.
+ADatP — NATO Allied Data Procedure.
+AWS — стандарты AWS (American Welding Society, Американское общество по сварке).
+AWWA — стандарты AWWA (American water works association, Американская ассоциация водоподготовки).
+BSI — стандарты BSI (British Standards Institute, Британский институт стандартов).
+CAC/GL — стандарты ФАО/ВОЗ, публикации CODEX ALIMENTARIUS.
+CEA — стандарты CEA (Consumer Electronics Association, Ассоциация потребителей электроники).
+DIN — стандарты Немецкого института стандартизации.
+EIA — стандарты EIA (Electronic Industries Alliance, Альянс электронной индустрии).
+EN — европейские стандарты, принятые CEN, CENELEC или ETSI, в т. ч. Eurocode.
+GEIA — стандарты GEIA (Government Electronics and Information Association, Правительственная организация по электронике и информации).
+GPC — стандарты GPC (Международная система добровольной сертификации Global Proficiency Certificate, Сертификат глобальной квалификации).
+IAS — стандарты IASC (International Accounting Standards Committee foundation, Комитет по Международным стандартам финансовой отчетности).
+ICC — стандарты ICC (International Code Council, Международный Совет по нормам и правилам).
+IEC (МЭК) — стандарты МЭК (Международная электротехническая комиссия).
+IEEE — стандарты IEEE (Institute of Electrical and Electronic Engineers, Институт инженеров по электротехнике и электронике).
+IFRS — стандарты IASB (International Accounting Standards Board, Совет по Международным стандартам финансовой отчётности).
+IPC — стандарты IPC (Association Connecting Electonics Industries, Ассоциация по разработке электронных коммуникаций).
+ISA — стандарты ISA (The Instrumentation, Systems, And Automation Society, Американское общество приборостроителей).
+ISO — стандарты ISO (International Organization for Standardization, Международная организация по стандартизации).
+ITU — стандарты ITU (International Telecommunication Union, Международный союз электросвязи).
+JIS (JSA JIS) — стандарты JIS (Japanese Industrial Standards Committee, Японская ассоциация стандартов).
+MIL — стандарты MIL, военные стандарты, утверждаемые Министерством обороны США.
+NACE — стандарты NACE International (National Association of Corrosion Engineers, Национальная ассоциация специалистов по коррозии).
+NEMA — стандарты NEMA (National Electrical Manufacturers Association, Национальная ассоциация производителей электроэнергии).
+NFPA — стандарты NFPA (National Fire Protection Association, Национальная Ассоциация Противопожарной безопасности).
+NIST — стандарты NIST (The National Institute for Standards and Technology, Национальный институт стандартов и технологий США).
+OENORM — стандарты OENORM (Austrian Standards Institute, Австрийский институт по стандартизации).
+RS — стандарты EIA (Electronic Industries Alliance, Альянс электронной индустрии).
+SAE — стандарты SAE (Society of Automotive Engineers International, Сообщество автомобильных инженеров).
+STANAG — NATO Standardization Agreements, стандартизационные соглашения НАТО.
+TCO — стандарты добровольной сертификации на эргономичность и безопасность дисплеев, разработанные комитетом TCO Development, который является частью Шведской конфедерации профсоюзов.
+TIA — стандарты TIA (Telecommunications Industry Associastion, Ассоциация промышленных телекоммуникаций).
+UL — стандарты UL (Underwriters Laboratories Inc., Лаборатория по технике безопасности (США)).
+UIC - cтандарты UIC (Union Internationale des Chemins de fer, Международный союз железных дорог)в России/СНГГОСТ — Межгосударственные стандарты (в странах — членах МГС), ранее Государственные стандарты СССР.
+ГОСТ Р — национальные стандарты РФ.
+ГОСТ РВ — Государственные стандарты РФ в области обороны и военной промышленности.
+ИСО — русское обозначение ISO.
+МСФО — русское обозначение IAS, IFRS.
+МЭК — русское обозначение IEC.
+ОСТ — стандарты отрасли.
+ПМГ — Правила межгосударственной стандартизации (в странах — членах МГС).
+РМГ — Рекомендации по межгосударственной стандартизации (в странах — членах МГС).
+СТБ — Государственные стандарты Республика Беларусь.
+СТП — стандарты предприятия. С 2004 года это обозначение не действует.
+СТО — стандарты научно-технических, инженерных, коммерческих и общественных организаций. Введено в действие с 2004 взамен СТП.
+ТУ — Технические условия
+
+См. также
+Стандартизация
+Международная стандартизация
+
+Ссылки
+Standardization Agreements / Accords de normalisation
+портал Standard.ru

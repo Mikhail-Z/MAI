@@ -1,0 +1,19 @@
+Progress — система управления базами данных, разрабатываемая компанией Progress Software.
+
+Поддерживаемые платформы
+Version 9.0A (доступна с декабря 1998):
+
+HP-UX 10.20, HP-UX 11.0, IBM AIX (32-разрядная), IBM AS/400, RISC
+Sun Solaris на SPARC (32-разрядная), Windows NT на Intel (client/server)
+Windows 32 Intel (client), Citrix MetaFrameVersion 9.0B (доступна с весны 1999):
+
+DG/UX Intel, Digital UNIX (64-разрядная), IBM AS/400 RISC, Sun Solaris IntelРодной язык программирования — Progress 4GL, язык четвертого поколения.
+
+Применение
+Среди предприятий СНГ, использующих приложения на базе СУБД Progress, есть как представительства международных гигантов (Coca-Cola, PepsiCo, InBev, Japan Tobacco, Daewoo, Gillette, Lucent), так и крупные отечественные компании («Информгаз» — ИТ-подразделение «Газпром», «Гута-банк», АРКО, «Ударница»). На платформе Progress построены также ERP-системы SyteLine компании Frontstep и MFG/PRO фирмы QAD.
+
+Примечания
+Ссылки
+Сайт разработчика (англ.)
+Progress Technologies
+Русский форум о СУБД Progres

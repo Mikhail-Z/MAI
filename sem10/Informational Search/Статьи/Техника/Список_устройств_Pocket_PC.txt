@@ -1,0 +1,358 @@
+== Acer ==
+f900c510
+c530
+c531
+Ferrari Racingn10
+n30
+n35 — n30 c GPS
+n50 — VGA
+n300
+n310
+n311
+
+ASUS
+MyPal A600
+MyPal A620 и MyPal A620BT
+MyPal A632
+MyPal A636
+MyPal A636N
+MyPal A632N
+MyPal A639
+MyPal A626
+MyPal A686
+MyPal A696
+MyPal A716
+MyPal A730 и A730WP505
+P525
+P526
+P527
+P535
+P550
+P735
+P750
+
+Audiovox (UTStarcom)
+Thera
+PPC-6600/6601 — HTC Harrier (CDMA)
+PPC-6700 — HTC Apache (CDMA)
+PPC4100 — GSM/GPRS Pocket PC Phone
+PPC-6800 — HTC Mogul (CDMA)
+PPC-6900 — HTC Touch (CDMA)
+
+Binatone
+X350
+X430
+
+Casio
+Pocket-Viever
+PV-100
+PV-200
+PV-170 / PV-270
+PV-250X / PV-450X / PV-200A / PV-400A
+PV-750 / PV-750 Plus
+PV-S250 / PV-S450 / PV-200e / PV-400e /PV-200Plus / PV-400Plus
+PV-S460 / PV-S660
+PV-S400Plus / PV-S600Plus
+PV-S1600
+
+Cassiopeia
+BE-300
+E-100
+E-115
+E-125
+EM-500
+A-10
+A-11
+
+Compaq
+PC Companion
+
+Cowon
+Cowon Q5W
+
+Dell
+Axim X3 и X3i
+Axim X30
+Axim X5
+Axim X50
+Axim X50v
+Axim X51
+Axim X51v
+
+Dopod
+Dopod C500
+Dopod C730
+Dopod HTC Touch
+Dopod D600
+Dopod M700
+Dopod C720
+Dopod 838 Pro
+Dopod 818Pro
+Dopod C800
+Dopod P800W
+Dopod D810
+Dopod U1000
+Dopod 595
+Dopod 300
+
+E-TEN
+P300
+P300 BT
+P700
+M500
+M600
+M600+
+G500
+G500+
+
+Glofiish
+Glofiish X500
+Glofiish M700
+Glofiish X500+
+Glofiish x800
+Glofiish M800
+Glofiish X600
+Glofiish X650
+Glofiish M750
+Glofiish V900
+Glofiish X900
+
+Fisher Scientific
+Accumet XL60
+Accumet XL50
+Accumet XL25
+Accumet XL20
+Accumet XL15
+
+Fujitsu
+Pencentra 130
+Pencentra 200
+
+Fujitsu-Siemens
+Pocket LOOX
+Pocket LOOX 600
+Pocket LOOX 610BT
+Pocket LOOX 610BT/WLAN
+Pocket LOOX 410
+Pocket LOOX 420
+Pocket LOOX 710
+Pocket LOOX 718
+Pocket LOOX 720
+Pocket LOOX N500
+Pocket LOOX N520
+Pocket LOOX N560
+Pocket LOOX C550
+Pocket LOOX N100
+Pocket LOOX N110
+Pocket LOOX T810
+Pocket LOOX T830
+
+Garmin
+iQue M5
+iQue M4
+iQue M3
+
+Hewlett Packard
+Jornada
+Jornada 420
+Jornada 430
+Jornada 520
+Jornada 540
+Jornada 560
+Jornada 928
+
+HTC
+HTC Advantage X7500/HTC Athena
+HTC Advantage X7501/HTC Athena
+HTC Advantage X7510
+HTC Alpine
+HTC Amadeus
+HTC Apache
+HTC Artemis/HTC P3300
+HTC Atlas/HTC P4351
+HTC Blue Angel
+HTC Breeze/HTC MTeoR
+HTC Canary
+HTC Cavalier/HTC S630
+HTC Census/HTC P6000
+HTC Charmer
+HTC Cheetah
+HTC Erato/HTC S420
+HTC Excalibur/HTC S620/HTC S621
+HTC Falcon
+HTC Faraday
+HTC Feeler
+HTC Foreseer
+HTC Galaxy
+HTC Gene/HTC P3400i/HTC P3400/HTC P3401
+HTC Gemini
+HTC Harrier
+HTC HD2/HTC Leo
+HTC Herald/HTC P3450
+HTC Hermes
+HTC Himalaya
+HTC Iris/HTC S640
+HTC Kii
+HTC Libra/HTC 5800/HTC S720
+HTC Love/HTC P3350
+HTC Melody/HTC Muse
+HTC Magician
+HTC Monet/HTC S320
+HTC Omni
+HTC Oxygen/HTC S310
+HTC Panda/HTC P6300
+HTC Pharos/HTC P3470
+HTC Prophet
+HTC Robbie
+HTC Rosella/iPAQ H3870/iPAQ H3875
+HTC Sedna/HTC P6500
+HTC Sirius/HTC P6550
+HTC Sonata
+HTC Startrek/HTC S411
+HTC Tanager
+HTC Titan/HTC P4000
+HTC Tornado/HTC Tornado Noble/HTC Tornado Tempo
+HTC Touch/HTC Elf/HTC Ted Baker Needle/HTC Vogue/HTC P3050/HTC P3450/HTC P3452
+HTC Touch Cruise/HTC Touch Find/HTC Polaris/HTC P3650
+HTC Touch Diamond/HTC Victor/HTC P3100/HTC P3700/HTC P3702
+HTC Touch Dual//HTC Nike/HTC P5500
+HTC Touch Find
+HTC Touch HD//HTC Blackstone/HTC T8282
+HTC Touch Pro/HTC Raphael
+HTC Trinity/HTC P3600
+HTC Typhoon
+HTC TyTN/HTC Hermes
+HTC TyTN II/HTC Kaiser
+HTC Vox/HTC S710/HTC S711
+HTC Universal
+HTC Voyager
+HTC Wallaby
+HTC Wave
+HTC Wings/HTC S730
+HTC Wizard/HTC Prodigy/HTC P4300HTC P3600i
+
+JVC
+MP-PV131
+
+Motorola
+Motorola ES400
+Motorola FR68
+Motorola MC17
+Motorola MC35
+Motorola MC50
+Motorola MC70
+Motorola MPx200
+Motorola MPx220
+Motorola MPx300
+Motorola i920/i930
+Motorola Vip 1200
+
+NEC
+MobilePro P300
+
+O2
+O2 XDA
+O2 XDA II
+O2 XDA IIi
+O2 XDA IIs
+O2 XDA EXEC
+O2 XDA Atom
+O2 XDA Atom Executive
+O2 XDA Atom Life
+O2 XDA Flame
+O2 XDA Orbit
+O2 XDA Stealth
+
+Opticon
+PHL 5200
+PHL 5400
+PHL 8112
+
+Palm, Inc.
+Treo 500v
+Treo 700w
+Treo 700wx
+Treo 750
+Treo 750v
+Treo 800w
+Treo Pro
+
+Philips
+Nino
+Velo
+
+Qtek
+Qtek 1010
+Qtek 2020
+Qtek 2020i
+
+Samsung
+Samsung I700
+Samsung I710
+Samsung I730
+Samsung I740
+Samsung I760
+Samsung I780
+Samsung I900
+
+Siemens AG
+Mobic T8
+SX56
+SX66
+P1
+Siemens Sirec D300
+
+Snap-on Tools
+MODIS
+Snap-on SOLUS
+
+Sophia Mobile
+nani
+
+Takara
+GPV1004
+GPV1007
+GPV1207
+GPV1208
+
+ThinCCo
+Tisio 90CE
+Tisio 95CE
+Tisio 96CE
+Tisio 300CE
+
+Toshiba
+e310
+e330/335
+e350/e355
+e740
+e750/e755
+e310
+e800/e805
+e830
+Portege G500
+Portege G710
+Portege G810
+Portege G900
+Portege G910
+
+Unitech
+MR650
+PA950
+PA962
+PA966
+
+UTStarcom
+PPC-6700 — HTC Apache
+PPC-6800 — HTC Mogul
+PPC-6900 — HTC Touch
+
+Viewsonic
+V35
+V36
+V37
+V38
+
+Yakumo
+deltaX 5 BT
+delta 400

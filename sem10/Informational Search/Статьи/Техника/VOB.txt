@@ -1,0 +1,24 @@
+VOB (DVD-Video Object или Versioned Object Base) — формат файлов, используемый для хранения DVD-Video. VOB — это мультимедийный контейнерный формат файла, основанный на MPEG-2, и способный содержать в себе несколько потоков видео/аудио, субтитры, а также меню фильма.
+
+Техническая информация
+Всего возможно не более 9 различных аудиопотоков и 32 потока субтитров.
+
+Программы для просмотра
+GOM Player
+Light Alloy
+The KMPlayer
+Media Player Classic
+MPlayer
+Totem
+Nero ShowTime
+RealPlayer
+VLC media player
+CyberLink PowerDVD
+Splash pro
+
+Программы для декодирования
+VobEdit
+Format Factory (недоступная ссылка)
+
+
+== См. также ==

@@ -1,0 +1,23 @@
+Embedded World — крупнейшая международная ежегодная выставка и конференция, посвященная техническим решениям для разнообразных отраслей промышленности на основе встраиваемых систем, а также промышленной электронике, микроэлектронике и микропроцессорной технике. Выставка организована NürnbergMesse GmbH и проводится в выставочном центре Нюрнберга  «Nürnberg Messezentrum» в феврале-марте каждого года. На стендах представляют свою продукцию фирмы Европы, Америки и Азии.
+На выставке вручают награду Embedded Award (EA) за наиболее интересные разработки.
+
+История выставки
+В 2010 выставочная площадь заняла 30 000 кв.м.
+
+Конференции и семинары
+Список фирм-участниц
+2006 год
+Intel,  Freescale, Analog Devices, Texas Instruments, Philips, Atmel, Fujitsu, Ineltek Gmbh, Glyn Jones GmbH & Co., Profichip GmbH, MAZeT GmbH, SiliCann Systems GmbH (Silicann Technologies GmbH), HILF! GmbH, Microchip en:IAR Systems, en:KEIL Software, Thesycon Systemsoftware & Consulting GmbH, en:RadiSys, en:Segger Microcontroller Systems, Embedded Office GmbH & Co. KG, National Instruments, MathWorks, 3S Smart Software Solution, en:Kontron, PHYTEC Technologie Holding AG, de:Rittal, en:Schroff GmbH, en:I-Logix, en:ENEA Embedded Technologies, Fastwel (Fastwel Inc), НТЦ «Модуль».
+EA получили NEC (за самый маленький микроконтроллер 78K0S/KY1+), QNX Software Systems (за поддержку многопроцессорности) и PLS Programmierbare Logik & Systeme GmbH (за программу, используемую при разработке микросхем).
+
+Партнёры
+Общество Фраунгофера
+
+Ссылки
+Официальный веб-сайт выставки «Embedded World»
+
+См.также
+Встраиваемая система
+
+
+== Примечания ==

@@ -1,0 +1,27 @@
+Египетская система счисления — непозиционная система счисления, которая употреблялась в Древнем Египте вплоть до начала X века н. э. В этой системе цифрами являлись иероглифические символы; они обозначали числа 1, 10, 100 и т. д. до миллиона.
+
+Символика и значения
+Числа, не являющиеся степенью 10, записывались путём повторения этих цифр. Каждая цифра могла повторяться от 1 до 9 раз. Например, число 4622 обозначалось следующим образом:
+
+Фиксированного направления записи чисел не существовало: они могли записываться справа налево или слева направо и даже вертикально.
+Например: иероглифическая запись
+,
+и обратная запись тех же иероглифов,
+
+обозначали одно и то же число — «12».
+
+Звучание египетских цифр
+См. также
+Математика в Древнем Египте
+Египетские дроби
+Египетский язык
+
+Литература
+Allen, James Paul. 2000. Middle Egyptian: An Introduction to the Language and Culture of Hieroglyphs. Cambridge: Cambridge University Press. Numerals discussed in §§ 9.1—9.6.
+Gardiner, Alan Henderson. 1957. Egyptian Grammar; Being an Introduction to the Study of Hieroglyphs. 3rd ed. Oxford: Griffith Institute. For numerals, see §§ 259—266.
+Goedicke, Hans. 1988. Old Hieratic Paleography. Baltimore: Halgo, Inc.
+Möller, Georg. 1927. Hieratische Paläographie: Die aegyptische Buchschrift in ihrer Entwicklung von der Fünften Dynastie bis zur römischen Kaiserzeit. 3 vols. 2nd ed. Leipzig: J. C. Hinrichs’schen Buchhandlungen. (Reprinted Osnabrück: Otto Zeller Verlag, 1965)
+
+Ссылки
+Египетская система счисления (англ.)
+Египетская нумерация и транслитерация (итал.)

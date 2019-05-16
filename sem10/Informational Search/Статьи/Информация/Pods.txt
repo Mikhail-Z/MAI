@@ -1,0 +1,12 @@
+PODS (Pipeline Open Data Standart) — стандарт для хранения данных о трубопроводах в информационных системах. Разрабатывается PODSA (PODS Association). Членом PODSA является российская компания Дата+.
+Одна из реализаций PODS в виде схемы базы данных — APDM (ArcGIS Pipeline Data Model).
+Также есть модель PPDM (Petroleum Public Data Model), приспособленная для хранения геопространственных данных нефтедобывающих компаний. Модель разрабатывает Petroleum Public Data Model Association.
+
+См. также
+APDM
+PPDM
+ArcGIS
+
+Ссылки
+- PODS Association
+- PPDM Association

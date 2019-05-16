@@ -1,0 +1,13 @@
+E — текстовый редактор, разработанный в Stanford AI Lab (Стэнфордский университет) в 1970-х годах для операционных систем Twenex и Tenex.
+E был одним из первых WYSIWYG-редакторов 1970-х. Ричард Столлман посетил Stanford Artificial Intelligence Lab в 1976 году и был весьма впечатлен его возможностями. Вернувшись в MIT, он реализовал подобный хак в текстовом редакторе TECO в дополнение к комбинированному режиму показа и редактирования под названием «Control-R»
+
+Библиография
+Free as in Freedom: Richard Stallman's Crusade for Free Software
+
+См. также
+Сравнение текстовых редакторов
+Список текстовых редакторов
+
+Примечания
+Ссылки
+«ESSENTIAL E by Arthur Samuel», Stanford Artificial Intelligence Laboratory, March 1980.

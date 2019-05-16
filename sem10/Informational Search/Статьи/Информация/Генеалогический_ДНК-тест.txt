@@ -1,0 +1,29 @@
+Генеалогический ДНК-тест исследует определенные части генома тестируемого человека. Результаты дают информацию о генеалогических связях и происхождении человека. Эти данные сравниваются с данными представителей современных или исторических этнических групп. Все полученные сведения не предназначены для медицинского применения, где используются иные типы генетического тестирования. Они не способны выявить какие-либо генетические заболевания и расстройства, так как несут только генеалогическую информацию.
+
+Процесс тестирования
+Для проведения генеалогического теста ДНК требуется предоставить образец ДНК. Как правило, это безболезненный процесс. Самый распространенный способ собрать образец ДНК — выскабливание щеки тампоном или щеточкой. Существуют и другие методы — сбор слюны в пробирку, использование жидкости для полоскания рта и жевательной резинки. После сбора необходимого количества генетического материала образец по почте отсылается в лабораторию.
+Некоторые лаборатории предлагают услугу хранения образцов ДНК для облегчения дальнейшего тестирования. Все лаборатории США обязаны уничтожить образец ДНК по просьбе заказчика, тем самым гарантируя, что образец не будет доступен для дальнейших анализов.
+
+Разновидности тестов
+Есть три типа генеалогических ДНК-тестов: аутосомный (atDNA), митохондриальный (мтДНК), и Y-хромосомный (Y-ДНК). Аутосомный тест позволяет получить данные по всем ветвям родословной. Y-ДНК-тест может быть проведен только для мужчины и исследует его прямую отцовскую линию (то есть отец, отец отца, отец отца отца и т. д.). мтДНК-тест позволяет исследовать по прямой материнскую линию (то есть мать, мать матери, мать матери матери и т. д.) мужчины или женщины.
+Любой из этих тестов, в некоторой степени, можно использовать для изучения родословной или этнического происхождения.
+
+Аутосомная ДНК (atDNA)
+Митохондриальная ДНК (mtDNA)
+Гаплогруппа
+Y-хромосома (Y-DNA)
+Гаплогруппа
+См. также
+Примечания
+Литература
+Anne Hart; Anne Hart M a (April 2004). How to Interpret Family History and Ancestry DNA Test Results for Beginners. iUniverse. ISBN 978-0-595-31684-7.
+Megan Smolenyak; Ann Turner (12 October 2004). Trace your roots with DNA: using genetic tests to explore your family tree. Rodale. ISBN 978-1-59486-006-5.
+Chris Pomery; Steve Jones (1 October 2004). DNA and family history: how genetic testing can advance your genealogical research. Dundurn Press Ltd. ISBN 978-1-55002-536-1.
+
+Ссылки
+TutorialsTutorial for Y-DNA STR tests (phrased as FAQs)
+Tutorial for Y-DNA SNP tests (also as FAQs)
+Tutorial for mtDNA tests (as FAQs)SocietiesInternational Society for Genetic GenealogyFoundations and research projectsThe National Geographic Genographic Project
+Sorenson Molecular Genealogy Foundation A wholly owned subsidiary of SorensonSTR convertersConversion Chart for Male Haplogroups (PDF)Information and Maps on Y-DNA haplogroupsY-haplogroups World Map
+Y-Haplogroups brief descriptions and regional origins
+Y-DNA Ethnographic and Genographic Atlas and Open-Source Data CompilationExternalA list of DNA testing companies

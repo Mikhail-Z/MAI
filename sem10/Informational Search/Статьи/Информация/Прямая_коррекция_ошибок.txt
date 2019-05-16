@@ -1,0 +1,32 @@
+Пряма́я корре́кция оши́бок (англ. Forward Error Correction, FEC, помехоустойчивое кодирование) — техника кодирования/декодирования, позволяющая исправлять ошибки методом упреждения. Применяется для исправления сбоев и ошибок при передаче данных путём передачи избыточной служебной информации, на основе которой может быть восстановлено первоначальное содержание посылки. На практике широко используется в компьютерных ЛВС, LAN и различных телекоммуникационных сетях. Коды, обеспечивающие прямую коррекцию ошибок, требуют введения большей избыточности в передаваемые данные, чем коды, которые только обнаруживают ошибки.
+В спутниковом телевидении при передаче цифрового сигнала, к примеру, с FEC 7/8, будет передаваться восемь бит информации: 7 бит полезной информации и 1 контрольный бит.
+На практике в DVB-S используется всего 5 видов:
+
+1/2
+2/3
+3/4 (наиболее популярен)
+5/6
+7/8При прочих равных условиях, можно утверждать, что чем ниже значение FEC, тем меньше пакетов допустимо потерять, и, следовательно, выше требуемое качество сигнала.
+
+См. также
+ECC
+Код Хемминга
+Код Рида-Соломона
+Циклический код
+Помехоустойчивое кодирование
+Избыточность информации
+
+Литература
+Clark, George C., Jr., and J. Bibb Cain. Error-Correction Coding for Digital Communications. New York: Plenum Press, 1981. ISBN 0-306-40615-2.
+Lin, Shu, and Daniel J. Costello, Jr. «Error Control Coding: Fundamentals and Applications». Englewood Cliffs, N.J.: Prentice-Hall, 1983. ISBN 0-13-283796-X.
+Mackenzie, Dana. «Communication speed nears terminal velocity». New Scientist 187.2507 (9 июля 2005): 38-41. ISSN 0262-4079.
+Wicker, Stephen B. Error Control Systems for Digital Communication and Storage. Englewood Cliffs, N.J.: Prentice-Hall, 1995. ISBN 0-13-200809-2.
+Wilson, Stephen G. Digital Modulation and Coding, Englewood Cliffs, N.J.: Prentice-Hall, 1996. ISBN 0-13-210071-1.
+United States Patent 6041001 «Method of increasing data reliability of a flash memory device without compromising compatibility»
+United States Patent 7187583 «Method for reducing data error when flash memory storage device using copy back command»
+
+Примечания
+Ссылки
+Forward Error-Correction Coding (неопр.). Статья в журнале Aerospace Corporation.  The Aerospace Corporation (Volume 3, Number 1 (Winter 2001/2002)). Дата обращения 24 мая 2009. Архивировано 25 февраля 2012 года.  (англ.)
+How Forward Error-Correcting Codes Work (неопр.). Еще одна статья в журнале Aerospace Corporation.  The Aerospace Corporation. Дата обращения 24 мая 2009. Архивировано 25 февраля 2012 года.  (англ.)
+Morelos-Zaragoza, Robert The Error Correcting Codes (ECC) Page (неопр.) (2004). Дата обращения 24 мая 2009. Архивировано 25 февраля 2012 года.  (англ.)

@@ -1,0 +1,96 @@
+Площадь в задачах визуализации графов — числовая характеристика качества графического представления графа.
+Определение характеристики зависит от избранного стиля визуализации. В технике, в которой вершины располагаются на целочисленной решётке, площадь представления может быть определена как площадь наименьшего расположенного параллельно осям ограничивающего прямоугольника для представления, то есть как произведение наибольшей разности координат 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   двух вершин на наибольшую разность координат 
+  
+    
+      
+        y
+      
+    
+    {\displaystyle y}
+   двух вершин. Для других стилей представления, в которых вершины располагаются более свободным образом, представление может быть приведено к масштабу, при котором пара самых близких вершин имеет единичное расстояние, после чего площадь представления может быть определена как наименьший ограничивающий прямоугольник рисунка. Альтернативно, площадь можно определить как площадь выпуклой оболочки представления, опять же, при подходящем масштабе.
+
+Полиномиальные границы
+Для нарисованного с прямыми рёбрами планарного графа с 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   вершинами оптимальной границей площади рисунка в худшем случае будет 
+  
+    
+      
+        Θ
+        (
+        
+          n
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle \Theta (n^{2})}
+  . Граф вложенных треугольников требует такую площадь независимо от того, как граф вложен, и известны некоторые методы, которые позволяют нарисовать планарные графы с максимум квадратичной площадью представления. Двоичные деревья и деревья ограниченной степени как более общий случай имеют представления с линейной или почти линейной площадью, зависящей от стиля рисунка. Любой внешнепланарный граф имеет внешнепланарное представление с прямыми отрезками в качестве рёбер и субквадратичной от числа вершин площадью, а если разрешены изломы или пересечения, то внешнепланарные графы имеют представления с почти линейной площадью. Однако представление параллельно-последовательных графов требует площадь, большую произведения 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   на суперполилогарифмическую величину, даже в случае разрешения рисовать рёбра в виде ломаных.
+
+Экспоненциальные границы
+Некоторые стили представления могут показать экспоненциальный рост площади, так что эти стили могут оказаться пригодными лишь для небольших графов. Примером служит восходящее планарное представление планарных направленных ациклических графов, площадь которых для представления графа с 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   вершинами может быть пропорциональна 
+  
+    
+      
+        
+          2
+          
+            n
+          
+        
+      
+    
+    {\displaystyle 2^{n}}
+   в худшем случае. Даже планарные деревья могут потребовать экспоненциальную площадь, если они нарисованы прямолинейными отрезками, которые сохраняют фиксированный циклический порядок вокруг каждой вершины и должны быть расположены с равными расстояниями вокруг вершины.
+
+Примечания
+Литература
+Giuseppe Di Battista, Peter Eades, Roberto Tamassia, Ioannis G. Tollis. Graph Drawing: Algorithms for the Visualization of Graphs. — Prentice Hall, 1998. — С. 14–15. — ISBN 0133016153.
+Danny Dolev, F. Thomson Leighton, Howard Trickey. Planar embedding of planar graphs // Advances in Computing Research. — 1984. — Т. 2. — С. 147–161.
+Hubert de Fraysseix, János Pach, Richard M. Pollack. Small sets supporting Fary embeddings of planar graphs // XX Annual ACM Symposium on Theory of Computing. — 1988. — С. 426–433. — ISBN 0-89791-264-0. — DOI:10.1145/62212.62254.
+Walter Schnyder. Embedding planar graphs on the grid // Proc. 1st ACM/SIAM Symposium on Discrete Algorithms (SODA). — 1990. — С. 138–148.
+Crescenzi P., Di Battista G., Piperno A. A note on optimal area algorithms for upward drawings of binary trees // Computational Geometry Theory & Applications. — 1992. — Т. 2, вып. 4. — С. 187–200. — DOI:10.1016/0925-7721(92)90021-J.
+Ashim Garg, Michael T. Goodrich, Roberto Tamassia. Planar upward tree drawings with optimal area // International Journal of Computational Geometry & Applications. — 1996. — Т. 6, вып. 3. — С. 333–356. — DOI:10.1142/S0218195996000228.
+Timothy M. Chan. A near-linear area bound for drawing binary trees // Algorithmica. — 2002. — Т. 34, вып. 1. — С. 1–13. — DOI:10.1007/s00453-002-0937-x.
+Timothy M. Chan, Michael T. Goodrich, S. Rao Kosaraju, Roberto Tamassia. Optimizing area and aspect ratio in straight-line orthogonal tree drawings // Computational Geometry Theory & Applications. — 2002. — Т. 23, вып. 2. — С. 153–162. — DOI:10.1016/S0925-7721(01)00066-9.
+Ashim Garg, Adrian Rusu. Straight-line drawings of binary trees with linear area and arbitrary aspect ratio // Journal of Graph Algorithms and Applications. — 2004. — Т. 8, вып. 2. — С. 135–160. — DOI:10.7155/jgaa.00086.
+Ashim Garg, Adrian Rusu. Area-efficient planar straight-line drawings of outerplanar graphs // Discrete Applied Mathematics. — 2007. — Т. 155, вып. 9. — С. 1116–1140. — DOI:10.1016/j.dam.2005.12.008.
+Giuseppe Di Battista, Fabrizio Frati. Small area drawings of outerplanar graphs // Algorithmica. — 2009. — Т. 54, вып. 1. — С. 25–53. — DOI:10.1007/s00453-007-9117-3.
+Therese Biedl. Drawing outer-planar graphs in O(n log n) area // Graph Drawing:10th International Symposium, GD 2002, Irvine, CA, USA, August 26–28, 2002, Revised Papers. — Springer, 2002. — Т. 2528. — С. 54–65. — (Lecture Notes in Computer Science). — DOI:10.1007/3-540-36151-0_6.
+Emilio Di Giacomo, Walter Didimo, Giuseppe Liotta, Fabrizio Montecchiani. Area requirement of graph drawings with few crossings per edge // Computational Geometry Theory & Applications. — 2013. — Т. 46, вып. 8. — С. 909–916. — DOI:10.1016/j.comgeo.2013.03.001.
+Fabrizio Frati. Improved lower bounds on the area requirements of series-parallel graphs // Graph Drawing: 18th International Symposium, GD 2010, Konstanz, Germany, September 21–24, 2010, Revised Selected Papers. — 2011. — Т. 6502. — С. 220–225. — (Lecture Notes in Computer Science). — DOI:10.1007/978-3-642-18469-7_20.
+Giuseppe Di Battista, Roberto Tamassia, Ioannis G. Tollis. Area requirement and symmetry display of planar upward drawings // Discrete and Computational Geometry. — 1992. — Т. 7, вып. 4. — С. 381–401. — DOI:10.1007/BF02187850.
+Christian A. Duncan, David Eppstein, Michael T. Goodrich, Stephen G. Kobourov, Martin Nöllenburg. Drawing trees with perfect angular resolution and polynomial area // Discrete and Computational Geometry. — 2013. — Т. 49, вып. 2. — С. 157–182. — DOI:10.1007/s00454-012-9472-y. — arXiv:1009.0581.

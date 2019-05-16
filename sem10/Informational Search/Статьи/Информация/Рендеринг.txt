@@ -1,0 +1,194 @@
+Ре́ндеринг или отрисовка (англ. rendering — «визуализация») — термин в компьютерной графике, обозначающий процесс получения изображения по модели с помощью компьютерной программы.
+Здесь модель — это описание любых объектов или явлений на строго определённом языке или в виде структуры данных. Такое описание может содержать геометрические данные, положение точки наблюдателя, информацию об освещении, степени наличия какого-то вещества, напряжённость физического поля и пр.
+Примером визуализации могут служить радарные космические снимки, представляющие в виде изображения данные, полученные посредством радиолокационного сканирования поверхности космического тела, в диапазоне электромагнитных волн, невидимых человеческим глазом.
+
+Часто в компьютерной графике (художественной и технической) под рендерингом (3D-рендерингом) понимают создание плоской картинки — цифрового растрового изображения — по разработанной 3D-сцене. Синонимом в данном контексте является визуализация.
+Визуализация — один из наиболее важных разделов в компьютерной графике, и на практике он тесным образом связан с остальными. Обычно программные пакеты трёхмерного моделирования и анимации включают в себя также и функцию рендеринга. Существуют отдельные программные продукты, выполняющие рендеринг.
+В зависимости от цели, различают пре-рендеринг, как достаточно медленный процесс визуализации, применяющийся в основном при создании видео, например в Vegas Pro, и рендеринг в режиме реального времени, например, в компьютерных играх. Последний часто использует 3D-ускорители.
+Компьютерная программа, производящая рендеринг, называется рендером (англ. render) или рендерером (англ. renderer).
+
+Методы рендеринга (визуализации)
+На текущий момент разработано множество алгоритмов визуализации. Существующее программное обеспечение может использовать несколько алгоритмов для получения конечного изображения.
+Трассирование каждого луча света в сцене непрактично и занимает неприемлемо долгое время. Даже трассирование малого количества лучей, достаточного, чтобы получить изображение, занимает чрезмерно много времени, если не применяется аппроксимация (семплирование).
+Вследствие этого, было разработано четыре группы методов, более эффективных, чем моделирование всех лучей света, освещающих сцену:
+
+Растеризация (англ. rasterization) совместно с методом сканирования строк (Scanline rendering). Визуализация производится проецированием объектов сцены на экран без рассмотрения эффекта перспективы относительно наблюдателя.
+Ray casting (рейкастинг) (англ. ray casting). Сцена рассматривается, как наблюдаемая из определённой точки. Из точки наблюдения на объекты сцены направляются лучи, с помощью которых определяется цвет пиксела на двумерном экране. При этом лучи прекращают своё распространение (в отличие от метода обратного трассирования), когда достигают любого объекта сцены либо её фона. Возможно использование каких-либо очень простых способов добавления оптических эффектов. Эффект перспективы получается естественным образом в случае, когда бросаемые лучи запускаются под углом, зависящим от положения пикселя на экране и максимального угла обзора камеры.
+Трассировка лучей (англ. ray tracing) похожа на метод бросания лучей. Из точки наблюдения на объекты сцены направляются лучи, с помощью которых определяется цвет пиксела на двумерном экране. Но при этом луч не прекращает своё распространение, а разделяется на три луча-компонента, каждый из которых вносит свой вклад в цвет пикселя на двумерном экране: отражённый, теневой и преломлённый. Количество таких компонентов определяет глубину трассировки и влияет на качество и фотореалистичность изображения. Благодаря своим концептуальным особенностям, метод позволяет получить очень фотореалистичные изображения, однако из-за большой ресурсоёмкости процесс визуализации занимает значительное время.
+Трассировка пути (англ. path tracing) использует похожий принцип трассировки распространения лучей, однако этот метод является наиболее приближённым к физическим законам распространения света. Также является самым ресурсоёмким.Передовое программное обеспечение обычно совмещает в себе несколько техник, чтобы получить достаточно качественное и фотореалистичное изображение за приемлемые затраты вычислительных ресурсов.
+
+Математическое обоснование
+Реализация механизма рендеринга всегда основывается на физической модели. Производимые вычисления относятся к той или иной физической или абстрактной модели.
+Основные идеи просты для понимания, но сложны для применения. Как правило, конечное элегантное решение или алгоритм более сложны и содержат в себе комбинацию разных техник.
+
+Основное уравнение
+Ключом к теоретическому обоснованию моделей рендеринга служит уравнение рендеринга. Оно является наиболее полным формальным описанием части рендеринга, не относящейся к восприятию конечного изображения. Все модели представляют собой какое-то приближённое решение этого уравнения.
+
+  
+    
+      
+        
+          L
+          
+            o
+          
+        
+        (
+        x
+        ,
+        
+          
+            
+              w
+              →
+            
+          
+        
+        )
+        =
+        
+          L
+          
+            e
+          
+        
+        (
+        x
+        ,
+        
+          
+            
+              w
+              →
+            
+          
+        
+        )
+        +
+        
+          ∫
+          
+            Ω
+          
+        
+        
+          f
+          
+            r
+          
+        
+        (
+        x
+        ,
+        
+          
+            
+              
+                w
+                →
+              
+            
+          
+          ′
+        
+        ,
+        
+          
+            
+              w
+              →
+            
+          
+        
+        )
+        
+          L
+          
+            i
+          
+        
+        (
+        x
+        ,
+        
+          
+            
+              
+                w
+                →
+              
+            
+          
+          ′
+        
+        )
+        (
+        
+          
+            
+              
+                w
+                →
+              
+            
+          
+          ′
+        
+        ⋅
+        
+          
+            
+              n
+              →
+            
+          
+        
+        )
+        d
+        
+          
+            
+              
+                w
+                →
+              
+            
+          
+          ′
+        
+      
+    
+    {\displaystyle L_{o}(x,{\vec {w}})=L_{e}(x,{\vec {w}})+\int \limits _{\Omega }f_{r}(x,{\vec {w}}',{\vec {w}})L_{i}(x,{\vec {w}}')({\vec {w}}'\cdot {\vec {n}})d{\vec {w}}'}
+  Неформальное толкование таково:
+Количество светового излучения (Lo), исходящего из определённой точки в определённом направлении есть собственное излучение и отражённое излучение. Отражённое излучение есть сумма по всем направлениям приходящего излучения (Li), умноженного на коэффициент отражения из данного угла.
+Объединяя в одном уравнении приходящий свет с исходящим в одной точке, это уравнение составляет описание всего светового потока в заданной системе.
+
+Таблица сравнения свойств рендереров
+Хронология важнейших публикаций
+1968 Ray casting (Appel, A. (1968). Some techniques for shading machine renderings of solids. Proceedings of the Spring Joint Computer Conference 32, 37—49.)
+1970 Scan-line algorithm (Bouknight, W. J. (1970). A procedure for generation of three-dimensional half-tone computer graphics presentations. Communications of the ACM)
+1971 Gouraud shading (Gouraud, H. (1971). Computer display of curved surfaces. IEEE Transactions on Computers 20 (6), 623—629.)
+1974 Texture mapping (Catmull, E. (1974). A subdivision algorithm for computer display of curved surfaces. PhD thesis, University of Utah.)
+1974 Z-buffer (Catmull, E. (1974). A subdivision algorithm for computer display of curved surfaces. PhD thesis)
+1975 Phong shading (Phong, B-T. (1975). Illumination for computer generated pictures. Communications of the ACM 18 (6), 311—316.)
+1976 Environment mapping (Blinn, J.F., Newell, M.E. (1976). Texture and reflection in computer generated images. Communications of the ACM 19, 542—546.)
+1977 Shadow volumes (Crow, F.C. (1977). Shadow algorithms for computer graphics. Computer Graphics (Proceedings of SIGGRAPH 1977) 11 (2), 242—248.)
+1978 Shadow buffer (Williams, L. (1978). Casting curved shadows on curved surfaces. Computer Graphics (Proceedings of SIGGRAPH 1978) 12 (3), 270—274.)
+1978 Bump mapping (Blinn, J.F. (1978). Simulation of wrinkled surfaces. Computer Graphics (Proceedings of SIGGRAPH 1978) 12 (3), 286—292.)
+1980 BSP trees (Fuchs, H. Kedem, Z.M. Naylor, B.F. (1980). On visible surface generation by a priori tree structures. Computer Graphics (Proceedings of SIGGRAPH 1980) 14 (3), 124—133.)
+1980 Ray tracing (Whitted, T. (1980). An improved illumination model for shaded display. Communications of the ACM 23 (6), 343—349.)
+1981 Cook shader (Cook, R.L. Torrance, K.E. (1981). A reflectance model for computer graphics. Computer Graphics (Proceedings of SIGGRAPH 1981) 15 (3), 307—316.)
+1983 Mipmaps (Williams, L. (1983). Pyramidal parametrics. Computer Graphics (Proceedings of SIGGRAPH 1983) 17 (3), 1—11.)
+1984 Octree ray tracing (Glassner, A.S. (1984). Space subdivision for fast ray tracing. IEEE Computer Graphics & Applications 4 (10), 15—22.)
+1984 Alpha compositing (Porter, T. Duff, T. (1984). Compositing digital images. Computer Graphics (Proceedings of SIGGRAPH 1984) 18 (3), 253—259.)
+1984 Distributed ray tracing (Cook, R.L. Porter, T. Carpenter, L. (1984). Distributed ray tracing. Computer Graphics (Proceedings of SIGGRAPH 1984) 18 (3), 137—145.)
+1984 Radiosity (Goral, C. Torrance, K.E. Greenberg, D.P. Battaile, B. (1984). Modelling the interaction of light between diffuse surfaces. Computer Graphics (Proceedings of SIGGRAPH 1984) 18 (3), 213—222.)
+1985 Hemi-cube radiosity (Cohen, M.F. Greenberg, D.P. (1985). The hemi-cube: a radiosity solution for complex environments. Computer Graphics (Proceedings of SIGGRAPH 1985) 19 (3), 31—40.)
+1986 Light source tracing (Arvo, J. (1986). Backward ray tracing. SIGGRAPH 1986 Developments in Ray Tracing course notes)
+1986 Rendering equation (Kajiya, J.T. (1986). The rendering equation. Computer Graphics (Proceedings of SIGGRAPH 1986) 20 (4), 143—150.)
+1987 Reyes algorithm (Cook, R.L. Carpenter, L. Catmull, E. (1987). The reyes image rendering architecture. Computer Graphics (Proceedings of SIGGRAPH 1987) 21 (4), 95—102.)
+1991 Hierarchical radiosity (Hanrahan, P. Salzman, D. Aupperle, L. (1991). A rapid hierarchical radiosity algorithm. Computer Graphics (Proceedings of SIGGRAPH 1991) 25 (4), 197—206.)
+1993 Tone mapping (Tumblin, J. Rushmeier, H.E. (1993). Tone reproduction for realistic computer generated images. IEEE Computer Graphics & Applications 13 (6), 42—48.)
+1993 Subsurface scattering (Hanrahan, P. Krueger, W. (1993). Reflection from layered surfaces due to subsurface scattering. Computer Graphics (Proceedings of SIGGRAPH 1993) 27 (), 165—174.)
+1995 Photon mapping (Jensen, H.J. Christensen, N.J. (1995). Photon maps in bidirectional monte carlo ray tracing of complex objects. Computers & Graphics 19 (2), 215—224.)
+1997 Metropolis light transport  (Veach, E. Guibas, L. (1997). Metropolis light transport. Computer Graphics (Proceedings of SIGGRAPH 1997) 16 65—76.)

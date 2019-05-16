@@ -1,0 +1,5 @@
+Microsoft Visual Programming Language или MVPL — язык визуального и поточного программирования, разработанный корпорацией Microsoft для своей Microsoft Robotics Developer Studio. Microsoft Visual Programming Language выделяется среди прочих языков программирования Microsoft, таких как например, Visual Basic и C#, тем, что он единственный является настоящим языком визуального программирования. Microsoft использует термин «Visual» («визуальный») в своих предыдущих программных продуктах чтобы подчеркнуть, что большая часть разработки на таких языках может быть выполнена путём переноса объектов мышкой по принципу «drag-and-drop».
+
+Ссылки
+Microsoft Visual Programming Language (англ.)
+Andreas Ulbrich demonstrates the Microsoft Visual Programming Language (англ.)

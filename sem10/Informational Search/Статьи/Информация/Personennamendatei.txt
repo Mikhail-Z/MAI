@@ -1,0 +1,16 @@
+Personennamendatei (PND) — немецкая система классификации и систематизации персоналий, предназначенная преимущественно для библиотек. PND создана в 1995—1998 годах и опубликована Немецкой национальной библиотекой. По каждой персоналии хранятся данные об имени, дате рождения и роде занятий, каждой персоналии присвоен идентификационный номер PND.
+PND включает в себя более двух миллионов записей и сравнима с «Library of Congress Name Authority File» (LCNAF).
+В апреле 2012 года в Германии запущена универсальная система классификации Gemeinsame Normdatei (GND), которая включила в себя записи четырёх систем: Personennamendatei (PND), Schlagwortnormdatei (SWD), Gemeinsame Körperschaftsdatei (GKD) и Einheitssachtitel-Datei des Deutschen Musikarchivs (DMA-EST).
+
+Литература
+Reinhard Rinn: Das Projekt Personennamendatei (PND-Projekt); in: Zeitschrift für Bibliothekswesen und Bibliographie 41 (1994), p. 543
+Reinhard Rinn: Die überregionale Normdatei für Personennamen (PND). Bericht zum Projektstand September 1995; in: Zeitschrift für Bibliothekswesen und Bibliographie 42 (1995), p. 617
+Claudia Fabian: Entwicklung und Aufbau der Personennamendatei in Deutschland. Bericht über Konzeption und Realisierung seit 1989; in: Zeitschrift für Bibliothekswesen und Bibliographie 42 (1995), p. 605
+Ronald Michael Schmidt: Die Anwendung der überregionalen Personennamendatei in Verbundsystemen; in: Zeitschrift für Bibliothekswesen und Bibliographie 44 (1997), p. 117
+Brigitte Wiechmann: Individualisierungstest in Der Deutschen Bibliothek; in: Zeitschrift für Bibliothekswesen und Bibliographie 46 (1999), Heft 3
+Katrin Teichmann: Anwendung der Normdaten Der Deutschen Bibliothek in der Museumsdokumentation. Am Beispiel der Porträtsammlung im Deutschen Buch- und Schriftmuseum der Deutschen Bücherei Leipzig; Hochschulschrift 2003
+Gabriele Meßmer: The German Name Authority File (PND) in the Union Catalogue: principles experiences and costs; in: Authority control. Definizione ed esperienze internazionali. Atti del convegno internazionale, Firenze, 10-12 febbraio 2003 [Authority Control: Reflections and Experiences. Florence Italy. 10-12 February 2003.]; ISBN 88-8453-110-1 Online-Version
+Christel Hengel: Normdaten und Metadaten. Die Idee eines Internationalen Authority File, in: Zeitschrift für Bibliothekswesen und Bibliographie, 50 (2003), pp. 210-214.
+
+
+== Ссылки ==

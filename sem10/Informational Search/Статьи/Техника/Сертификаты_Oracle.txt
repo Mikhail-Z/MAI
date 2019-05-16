@@ -1,0 +1,41 @@
+Сертификаты Oracle — Корпорация Oracle проводит международную сертификацию специалистов в различных областях, связанных с технологиями Oracle.
+
+Сертификация специалистов
+Oracle обновляет сертификационные экзамены при появлении новых версий программных продуктов. Для поддержания постоянного уровня своей квалификации специалист обязан отслеживать появление новых технологий и продуктов и сдавать тесты по этим обновлённым технологиям или версиям продуктов. 
+Программы сертификации включают:
+
+Oracle Certified Associate (OCA) — Сертифицированный специалист начального уровня по какому-либо направлению программных продуктов и/или технологий Oracle:
+Администратор баз данных — "Oracle Database Administrator Certified Associate", "Oracle Certified Associate, MySQL";
+Администратор серверов приложений — "Oracle Application Server Administrator: Certified Associate", "Oracle Certified Associate: Oracle WebLogic Server System Administrator";
+Системный администратор — "Oracle Certified Associate, Oracle Solaris System Administrator", "Oracle Linux Administrator Certified Associate";
+Разработчик программного обеспечения — "Oracle PL/SQL Developer Certified Associate", "Oracle Certified Associate, Java SE Programmer I".Oracle Certified Professional (OCP) — Сертифицированный специалист высокого уровня по какому-либо направлению программных продуктов и/или технологий Oracle:
+Администратор баз данных — "Oracle Database Administrator Certified Professional", "Oracle Certified Professional, MySQL  Database Administrator";
+Для получения статуса OCP DBA 8i необходимо было сдать 5 экзаменов (сертификация по Oracle Database 8i была прекращена):
+1Z0-001 Introduction to Oracle: SQL and PL/SQL (длительность подготовительного курса - 5 дней)
+1Z0-023 Oracle8i: Architecture and Administration (длительность подготовительного курса - 5 дней)
+1Z0-025 Oracle8i: Backup and Recovery (длительность подготовительного курса - 4 дня)
+1Z0-024 Oracle8i: Performance Tuning Workshop (длительность подготовительного курса - 4 дня)
+1Z0-026 Oracle8i: Network Administration (длительность подготовительного курса - 2 дня)
+Для получения статуса OCP DBA 9i необходимо сдать 4 экзамена (сертификация по Oracle Database 9i будет прекращена 31 июля 2013 года):
+1Z0-001 Introduction to Oracle: SQL and PL/SQL (длительность подготовительного курса - 5 дней) или 1Z0-007 Introduction to Oracle9i: SQL (длительность подготовительного курса - 3 дня)
+1Z0-031 Oracle9i Database: Fundamentals I (длительность подготовительного курса - 5 дней)
+1Z0-032 Oracle9i Database: Fundamentals II (длительность подготовительного курса - 5 дней)
+1Z0-033 Oracle9i Database: Performance Tuning (длительность подготовительного курса - 5 дней)
+или для апгрейда со статуса OCP DBA 8i до OCP DBA 9i необходимо сдать один экзамен 1Z0-030 Oracle9i: New Features for Administrators (длительность подготовительного курса - 5 дней)
+Администратор серверов приложений — "Oracle Application Server Administrator: Certified Professional", "Oracle Certified Associate: Oracle WebLogic Server System Administrator";
+Системный администратор — "Oracle Certified Professional, Oracle Solaris System Administrator";
+Разработчик программного обеспечения — "Oracle Advanced PL/SQL Developer Certified Professional", "Oracle Forms Developer Certified Professional", "Oracle Certified Professional, MySQL Developer";
+Разработчик программного обеспечения, основанного на Java-технологиях: "Oracle Certified Professional, Java SE Programmer II", "Oracle Certified Professional, Java EE Web Component Developer", "Oracle Certified Professional, Java EE Business Component Developer", "Oracle Certified Professional, Java EE Web Services Developer", "Oracle Certified Professional, Java ME Mobile Application Developer".Oracle Certified Master (OCM) — Наивысший статус для специалиста по технологиям Oracle:
+Администратор баз данных — "Oracle Database Administrator Certified Master";
+Разработчик программного обеспечения, основанного на Java-технологиях: "Oracle Certified Master, Java SE Developer", "Oracle Certified Master, Java EE Enterprise Architect";Oracle Certified Expert (OCE) — Специалист по конкретной технологии Oracle. Как правило, для получения данного статуса необходимо сдать один экзамен:
+"Oracle Database: SQL Certified Expert";
+"Oracle Application Express Developer Certified Expert";
+"Managing Oracle on Linux Certified Expert";
+"Oracle Database  Real Applications Clusters Administrator Certified Expert";
+"Oracle Certified Expert, MySQL Cluster Database Administrator";
+другие сертификаты.
+
+Ссылки
+Oracle Certification Program: Oracle Technology and Applications Certification
+Пройти подготовительные тесты по Java
+Подготовка к Oracle Java Сертификациям

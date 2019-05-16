@@ -1,0 +1,33 @@
+Экстремальная обработка транзакций (англ. eXtreme Transaction Processing или сокращенно XTP) — исключительно ресурсоемкая форма обработки транзакций. Данная форма предусматривает обработку от 10 000 одновременных попыток доступа (500 транзакций в секунду) и выше.
+
+Описание
+XTP-приложения проектируются, разрабатываются, используются и поддерживаются на компьютерных кластерах и/или распределенных грид-сетях, при этом используются технологии виртуализации памяти совместно с менеджером нагрузок. Сам термин был введён в оборот компанией Gartner для описания мультикомпьютерной архитектуры, обеспечивающей безопасные, масштабируемые и высокопроизводительные транзакции при обработке данных.
+
+Методология
+Реализации
+Программа Clearspace от Jive Software, например, построена на основе системы Coherence от Oracle Corporation, компоненте Oracle Fusion Middleware, которая поддерживает XTP, в попытке усовершенствовать обыкновенную обработку транзакций. Другим примером может послужить Управление цепочками потребностей в реальном времени от компании WareLites, основанное на WL-BOSS (программная платформа для XTP, управляемая грид-событиями). Еще примерами XTP может служить GigaSpaces XAP (eXtreme Application Platform) и IBM WebSphere eXtreme Scale.
+
+См. также
+Кластер (группа компьютеров)
+Комплексная обработка событий
+Распределённые вычисления
+Распределенная транзакция
+Грид
+Java Platform, Enterprise Edition
+.NET Framework
+Обработка транзакций
+Transaction Processing Performance Council
+
+Примечания
+Литература
+Guido Schmutz, Daniel Liebhart, Peter Welkenbach. Grid computing/Extreme Transaction Processing (XTP) // Service-oriented Architecture: An Integration Blueprint : a Real-world SOA Strategy for the Integration of Heterogeneous Enterprise Systems: Successfully Implement Your Own Enterprise Integration Architecture Using the Trivadis Integration Architecture Blueprint. — Packt Publishing Ltd, 2010. — С. 49-59. — 408 с. — ISBN 9781849681056.
+
+Ссылки
+VoltDB (экстремальная СУБД с поддержкой OLTP)
+IBM WebSphere eXtreme Scale
+Hiperware
+GigaSpaces eXtreme Application Platform
+Oracle’s Coherence Middleware
+WareLite’s WL-BOSS on MySQL
+XTP-приложения на основе WL-BOSS
+Atomikos XTP Software

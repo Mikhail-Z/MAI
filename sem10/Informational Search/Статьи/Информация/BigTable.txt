@@ -1,0 +1,35 @@
+BigTable — проприетарная высокопроизводительная база данных, построенная на основе Google File System (GFS), Chubby Lock Service и некоторых других продуктах Google. В настоящий момент не распространяется и не используется за пределами Google, хотя Google предлагает использовать её как часть Google App Engine.
+
+История создания
+Работа над BigTable была начата в 2004 году, и сейчас СУБД используется в различного рода приложениях Google, таких как MapReduce, которое часто используется для создания и модификации данных, хранящихся в BigTable, Google Maps, Google Book Search, Search_History, Google Earth, Blogger.com, Google Code hosting, Orkut и YouTube. Причины, побудившие Google к созданию собственной базы данных — масштабируемость и больший контроль над производительностью.
+
+Другие реализации
+Открытое ПО
+
+HBase — система написана на Java, добавляет функциональность, аналогичную BigTable, в ядро Hadoop.
+Hypertable — система предназначена для управления хранением данных и обработки информации в больших кластерах серверов.
+Cloudata — написанная на Java СУБД, разработанная корейским программистом Yk Kwon.
+Apache Accumulo — клон Bigtable созданный в Агентстве национальной безопасности США.
+Apache Cassandra — основанная на модели данных BigTable распределённая система хранения данных Facebook.
+Project Voldemort — распределённая система хранения данных используемая LinkedIn.
+Neptune (сайт больше не поддерживается) — система написана на Java, использует компоненты Hadoop: ZooKeeper и HDFS.
+KDI — клон BigTable созданный в Kosmix.Google Fusion Tables
+
+Google Fusion Tables была выпущена 9 июня 2009 года как экспериментальная система для управления данными в облаке.
+
+См. также
+MapReduce
+Hadoop
+Amazon SimpleDB
+Большие Данные
+BigQuery
+
+Ссылки
+Bigtable: A Distributed Storage System for Structured Data -(official paper; PDF)
+BigTable: A Distributed Structured Storage System
+Google’s BigTable -(notes on the official presentation)
+«How Google Works»
+Is the Relational Database Doomed ?
+
+
+== Примечания ==

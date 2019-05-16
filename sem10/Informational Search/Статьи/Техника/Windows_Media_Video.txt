@@ -1,0 +1,6 @@
+Windows Media Video — название системы видеокодирования, разработанной компанией Microsoft для хранения и трансляции видеоинформации в проприетарных форматах Microsoft. Использует расширение имени файла .wmv. Входит в мультимедийный пакет Windows Media.
+
+Версии
+Примечания
+Ссылки
+http://www.microsoft.com/windows/windowsmedia/forpros/codecs/video.aspx

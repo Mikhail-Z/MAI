@@ -1,0 +1,134 @@
+В этой статье в хронологическом порядке перечисляются чипсеты, выпущенные фирмой Intel, и указываются их характеристики. Ввиду того, что фирмой Intel выпускаются материнские платы собственного производства, имеется некоторое наложение (отличие) стандартов, применяемых для изготовления и маркировки чипсетов, выпускаемых «на сторону», и материнскими платами, которые выпускаются под брендом Intel.
+
+Ранние чипсеты
+Для процессоров i286/i386
+Для своих микропроцессоров Intel 80286 и Intel 80386SX Intel лицензировала чипсеты POACH фирмы ZyMOS.
+В списке ранних чипсетов Intel:
+
+82350 EISA
+82350DT EISA
+82310 MCA
+82340SX PC AT
+82340DX PC AT
+82320 MCA
+82360SL — чипсет для мобильных процессоров 80386SL и 80486SL. Включал в себя контроллеры DMA, PIC, COM- и LPT-порты и логику управления энергопотреблением.
+
+400 серии для процессоров 80486, P5 и P6
+Следующие поколения чипсетов можно условно объединить в 400-ю серию, по внутреннему и коммерческому именованию чипсетов серии.
+
+800 и 900 серии для процессоров P6 и NetBurst
+Следующие развитие чипсетов ознаменовалось внедрением «хабовой архитектуры» с использованием концепции северного и южного мостов. Эта серия под 800-ми номерами получила развитие в 1999 году.
+
+Для настольных компьютеров
+960, 3 и 4 серии для процессоров Core 2
+5 серия для процессоров Nehalem
+Во время разработки процессоров нового поколения согласно стратегии Тик-так, их микроархитектура потерпела кардинальные изменения и получила новый набор логики: контроллер памяти, встроенное видеоядро и контроллер графического интерфейса PCI-Express x16. В связи с этим производитель Intel решил отказаться от «северного» чипсета, а чипсеты, начиная с 5 серии, стали представлять собой некоторую модификацию «южного» и вместо традиционной аббревиатуры MCH/GMCH (I/O Controller Hub) получили название PCH — Platform Controller Hub. Чипсет топовой категории Х58 получил только контроллер графического интерфейса PCI-Express x16 и стал промежуточным IOH мостом.
+
+6 и 7 серии для процессоров Sandy Bridge и Ivy Bridge
+8 и 9 серии для процессоров Haswell и Broadwell
+С этой серии чипсетов производитель Intel решил лишить поддержки шину PCI как уже сильно устаревшую (за исключением буквально пары моделей; в отличие от новых чипсетов AMD), что вынудило производителей системных плат (в том числе и саму компанию Intel) использовать дополнительные мосты PCIe—PCI, поскольку спрос на «устаревший» стандарт все еще есть.
+
+100 и 200 серии для процессоров Skylake и Kaby Lake
+Чипсеты, начиная с 100 серии, полностью лишены шины FDI — интерфейса для вывода полностью отрисованной картинки экрана от процессора на устройство отображения (дисплей), и, соответственно, больше не поддерживают интерфейс VGA как уже сильно устаревший.
+
+300 серия для процессоров Coffee Lake
+Для мобильных компьютеров
+960 и 4 серии для процессоров Core 2
+5 серия для процессоров Nehalem
+Как и чипсеты для настольных компьютеров, также мобильные версии переняли на себя функции «южного» и стали  PCH мостом. По заявлению производителя Intel, сокращение двух чипсетов до одного позволило значительно упростить разводку платы и снизить общее энергопотребление, что очень важно для мобильных компьютеров для повышения их автономности.
+
+6 и 7 серии для процессоров Sandy Bridge и Ivy Bridge
+8 и 9 серии для процессоров Haswell и Broadwell
+1 Представляют собой систему на чипе (SoC), состоящую из процессора и чипсета, интегрированных на одной подложке.
+
+100 и 200 серии для процессоров Skylake и Kaby Lake
+1 Представляют собой систему на чипе (SoC), состоящую из процессора и чипсета, интегрированных на одной подложке.
+
+300 серия для процессоров Coffee Lake и Cannon Lake
+1 Представляют собой систему на чипе (SoC), состоящую из процессора и чипсета, интегрированных на одной подложке.
+
+Для Intel Atom
+900 серия для процессоров Diamondville
+Для процессоров Silverthorne
+Данные чипсеты являются SCH (System Controller Hub) мостами, который представляет собой объединение функционала «северного» и «южного» в одном кристалле.
+
+Для процессоров Pineview
+Для процессоров Lincroft
+Для процессоров Tunnel Creek и Stellarton
+Используется в компьютерах различного вида транспорта, потребительской электроники и встраиваемых систем.
+1 Чипсет EG20T в качестве шины-интерфейса использует протокол PCI-Express x1 для подключения плат сторонних фирм и расширения функциональных возможностей.
+
+Дальнейшая разработка Intel Atom
+Серия процессоров Cedarview была последней, которая использовала чипсет (тот же, что и у Pineview). Следующее поколение процессоров Intel Atom уже были полностью однокристальными (начиная с Penwell) и включали весь необходимый набор логики, поэтому необходимость в дополнительных чипсетах для них отпала.
+
+Для серверов и рабочих станций
+У всех серверных чипсетов отсутствует встроенное видеоядро по причине ненадобности. Для вывода изображения на монитор иногда пользуются дискретными видеокартами или непосредственно встроенными на материнской плате (процессоре).
+Значения индексов процессоров:
+UP/EN/W — однопроцессорные конфигурации, семейство чипсетов 3ххх/C2xx/C4xx
+DP/EP — двухпроцессорные конфигурации, семейство чипсетов 5ххх/C6xx
+MP/EX/SP — многопроцессорные конфигурации, семейство чипсетов 7ххх/C6xx
+
+Ранние чипсеты
+3000, 5000 и 7300 серии для процессоров Core 2
+3400, 5500 и 7500 серии для процессоров Nehalem
+C200 и C600 серии для процессоров Sandy Bridge и Ivy Bridge
+C220 и C610 серии для процессоров Haswell и Broadwell
+С230, C420 и C620 серии для процессоров Skylake и Kaby Lake
+С240 серии для процессоров Cascade Lake
+Чипсеты для Itanium
+i460GX
+i870 : Summit
+E8870
+
+Другие чипсеты
+? — Amador
+i815 + DDR. Отменен.
+ ? — Greendale
+Prescott + RDRAM. Отменен.
+ ? — Kyrene
+Brookdale + DDR2
+ ? — Tulloch
+Несостоявшийся наследник i850 — 4-way RDRAM
+ ? — Twin Castle/Twin Castle 4S
+4 CPU, 2xDDR2
+ ? — Cedarwood
+Наследник Alderwood. Отменен.
+ ? — Bayshore
+Наследник E8870. Отменен.
+
+Примечания
+Литература
+Intel® 965 Express Chipset Family Datasheet
+Intel® G31/P31 Express Chipset Datasheet
+Intel® G35 Express Chipset Datasheet
+Intel® 3 Series Express Chipset Family Datasheet
+Intel® X38 Express Chipset Datasheet
+Intel® 4 Series Express Chipset Family Datasheet
+Intel® X48 Express Chipset Datasheet
+Intel® X58 Express Chipset Datasheet
+Intel® 5 Series Chipset and Intel® 3400 Series Chipset Datasheet
+Intel® 6 Series Chipset and Intel® C200 Series Chipset Datasheet
+Intel® 7 Series / C216 Chipset Family Platform Controller Hub (PCH) Datasheet
+Intel® C600 Series Chipset and Intel® X79 Express Chipset Datasheet
+Intel® 8 Series/C220 Series Chipset Family Platform Controller Hub (PCH) Datasheet
+Intel® 9 Series Chipset Family Platform Controller Hub (PCH) Datasheet
+Intel® C610 Series Chipset and Intel® X99 Chipset Platform Controller Hub (PCH) Datasheet
+Intel® 100 Series Chipset and Intel® C230 Series Chipset Family Platform Controller Hub (PCH) Vol. 1 Datasheet
+Intel® 100 Series Chipset and Intel® C230 Series Chipset Family Platform Controller Hub (PCH) Vol. 2 Datasheet
+Intel® 200 Series (including X299) Chipset Family Platform Controller Hub (PCH) Vol. 1 Datasheet
+Intel® 200 Series (including X299) Chipset Family Platform Controller Hub (PCH) Vol. 2 Datasheet
+Mobile Intel® 965 Express Chipset Family Datasheet
+Mobile Intel® 4 Series Express Chipset Family Datasheet
+Intel® NM10 Express Chipset Datasheet
+Intel® System Controller Hub (SCH) Datasheet
+Intel® Platform Controller Hub EG20T Datasheet
+Intel® 3000 and 3010 Chipset Memory Controller Hub (MCH) Datasheet
+Intel® 3200 and 3210 Chipset Memory Controller Hub (MCH) Datasheet
+Intel® 5000P/5000V/5000Z Chipset Memory Controller Hub (MCH) Datasheet
+Intel® 5000X Chipset Memory Controller Hub (MCH) Datasheet
+Intel® 5100 Chipset Memory Controller Hub (MCH) Datasheet
+Intel® 5400 Chipset Memory Controller Hub (MCH) Datasheet
+Intel® 7300 Chipset Memory Controller Hub (MCH) Datasheet
+Intel® 5520 Chipset and Intel® 5500 Chipset Datasheet
+Intel® 7500 Chipset Datasheet
+Intel® C620 Series Chipset Platform Controller Hub (PCH) Datasheet

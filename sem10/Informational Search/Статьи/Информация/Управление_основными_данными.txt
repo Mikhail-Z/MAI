@@ -1,0 +1,18 @@
+Управление основными данными (управление мастер-данными, англ. Master Data Management, MDM) — совокупность процессов и инструментов для постоянного определения и управления основными данными компании (в том числе справочными). Можно встретить и другое название — управление справочными данными (англ. Reference Data Management, RDM), к этому варианту примыкает используемое на постсоветском пространстве фактически как синоним MDM понятие управления нормативно-справочной информацией (НСИ; хотя изначально в его рамках подразумевались только фиксированные, исходно наполняемые и изменяемые только в редких случаях справочники, что ближе по первоначальному смыслу к конфигурационным данным).
+Мастер-данные — это данные с важнейшей для ведения бизнеса информацией: о клиентах, продуктах, услугах, персонале, технологиях, материалах и так далее. Они относительно редко изменяются и не являются транзакционными.
+Цель управления основными данными — удостовериться в отсутствии повторяющихся, неполных, противоречивых данных в различных областях деятельности организации. Пример некачественного управления основными данными — это работа банка с клиентом, который уже использует кредитный продукт, однако по-прежнему получает предложения взять такой кредит. Причина неправильного поведения — отсутствие актуальных данных о клиенте в отделе по работе с клиентами.
+Подходом управления основными данными предусматриваются такие процессы как сбор, накопление, очистка данных, их сопоставление, консолидация, проверка качества и распространение данных в организации, обеспечение их последующей согласованности и контроль использования в различных операционных и аналитических приложениях.
+
+Примечания
+Литература
+Черняк, Л. Задачи управления мастер-данными // Открытые системы. — 2007. — № 05.
+Berson, A.; Dubov, L.: Master Data Management and Customer Data Integration for a Global Enterprise, McGraw-Hill, New York 2007
+Knut Hildebrand; Boris Otto; Anette Weisbecker (Hrsg.): Stammdatenmanagement, HMD 279, dpunkt.verlag, Heidelberg 2011, ISBN 978-3-89864-750-2
+Knapp, M.; Hasibether, F.; Scheibmayer, M.: Stammdatenmanagment senkt Risiko bei der ERP Einführung. UdZ — Unternehmen der Zukunft, Hrsg.: G. Schuh; V. Stich. FIR e. V. an der RWTH Aachen, Ausgabe 2/2012, 13.Jg., S.41f. ISSN 1439—2585, Kuper-Druck GmbH, Aachen 2012 ссылка на документ
+Helmut Krcmar: Informationsmanagement, 4. Aufl., Springer, Berlin 2005
+Legner, C.; Otto, B.: Stammdatenmanagement. Whitepaper, St. Gallen, 2007
+Mertens, P.: Integrierte Informationsverarbeitung 1: Operative Systeme in der Industrie, 14. Aufl., Gabler, Wiesbaden 2004
+Radcliffe J.; White, A.; Newman, D.: How to Choose the Right Architectural Style for Master Data Management, Gartner, Stamford 2006
+Scheibmayer, M.; Naß, E.; Birkmeier, M.: Stammdatenmanagement — White Paper, Hrsg.: G. Schuh; V. Stich. FIR e. V. an der RWTH Aachen, Aachen 2011 ссылка на загрузку
+Schemm, J.W.: Zwischenbetriebliches Stammdatenmanagement — Lösungen für die Datensynchronisation zwischen Handel und Konsumgüterindustrie, Springer Verlag, Berlin Heidelberg 2009, ISBN 978-3-540-89029-4
+White, A., Prior, D., Radcliffe, J., Wood, B., Holincheck, J.: Emergence of EIM Drives Semantic Reconciliation, Gartner, Stamford 2004

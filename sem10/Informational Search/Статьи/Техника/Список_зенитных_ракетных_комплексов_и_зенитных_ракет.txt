@@ -1,0 +1,181 @@
+Список содержит перечень зенитных ракетных комплексов. В скобках указаны ракеты, примененные на ЗРК.
+
+Комплексы
+ЗРК Сухопутных войск
+Индия
+Akash
+Trishul
+
+Италия
+Spada (Aspide Mk1, Aspide Mk2)
+
+Франция/ФРГ
+Roland-1
+Roland-2 (ЗУР от Roland-1)
+Roland-3 (ЗУР от Roland-1, VT-1, в перспективе Roland Mach 5 (RM-5 фирмы Matra) и HFK/KV)
+
+Франция
+Aspic (Mistral, Stinger)
+Crotale (R440)
+Crotale-NG - ЗУР VT-1(Vought-Thomson)
+Shanine (ЗРК) (ЗУР R460) - модернизация ЗРК Crotale для Саудовской Аравии
+
+ФРГ
+Прототипы ВМВ2
+Enzian
+Wasserfall
+Schmetterling
+Современные
+IDAS (ракета)
+Roland
+MEADS (IRIS-T SL/SLS, PAC-3)
+LeFlaSys(ASRAD)(Стингер)
+ЗРК по программе SysFla? LFK NG - должен прийти на смену ЗРК Роланд
+
+Швейцария
+ADATS
+комплексы на базе СУО Skyguard
+Skyguard-Sparrow - семейство ЗРК и ЗРАК с использованием ракет Sparrow и её клонов - Aspide, Sky Flash
+Skyguard-SAHV (SAHV-IR) совместно ЮАР
+ЗРАК Skyshield-ADATS
+
+ЗРК морского базирования
+Совместные разработки
+
+США/ФРГ - ASMD (RIM-116 RAM)
+Великобритания/Италия/Франция - SAAM (Aster-15)
+Великобритания/Италия/Франция - PAAMS (Aster-15, Aster-30)Великобритания
+
+Sea Wolf
+Sea Slug
+Sea Cat
+Sea DartИталия
+
+Albatros (Aspide)СССР/Россия
+
+Штиль
+Шторм
+Ураган
+Каштан (ЗРАК)
+Кинжал
+Гибка
+Оса
+С-300Ф
+Стрела-3США
+
+Talos
+Tartar (RIM-24 - SM-1?)
+Терьер (SM-1)
+Иджис (SM-1, SM-2, SM-3, SM-6)Франция
+
+Masurca
+Crotale Naval (R440N)
+
+Статьи, требующие переработки
+Crotale (ЗРК) — спутано все на свете. И Crotale Naval и Crotale NG. А название старого комплекса.
+
+ПЗРК
+Великобритания
+
+Javelin (ПЗРК)
+Dagger (переносной зенитный ракетный комплекс)
+
+Противоракетные комплексы
+Зенитные ракеты
+Великобритания/Италия/Франция
+Aster-15
+Aster-30
+
+Франция/ФРГ
+ЗУР комплекса Roland-1 (Roland-1, Roland-2, Roland-3)
+Masurca (ЗРК)
+
+Великобритания
+Bloodhound
+Blowpipe
+Javelin
+Rapier
+Sea Slug
+Sea Wolf
+Sea Cat/Tiger Cat
+Sea Dart
+Starburst
+Starstreak
+Thunderbird
+Common Anti-Air Modular Missile (CAMM) - проект
+
+Индия
+Akash
+Trishul
+
+Италия
+Aspide Mk1 (Albatros, Spada)
+Aspide Mk2 (Albatros, Spada)
+
+Франция
+R440 (Crotale)
+R440N (Crotale Naval)
+VT-1 (Vought-Thomson) - ЗРК(Crotale-NG)
+R460 (ЗРК Shanine) - модернизация R440 от ЗРК (Crotale)
+
+ФРГ
+Прототипы ВМВ2
+Enzian
+Wasserfall
+Schmetterling
+Современные
+IDAS (ракета)
+Roland - ЗУР одноименного ЗРК
+IRIS-T SL/SLS (разработка для ЗРК MEADS на базе ракеты В-В IRIS-T.
+LFK NG (разработка для ЗРК малой дальности SysFla)
+
+США
+RIM-2 Terrier
+MIM-3 Nike Ajax
+RIM-7 Sea Sparrow
+RIM-8 Talos
+MIM-14 Nike-Hercules
+MIM-23 Hawk
+RIM-24 Tartar
+FIM-43 Redeye
+MIM-46 Mauler (проект)
+LIM-49 Nike Zeus (проект)
+IM-99A Bomarc
+IM-99B Super Bomarc
+RIM-50 Typhon LR (проект)
+RIM-55 Typhon MR (проект)
+RIM-66 Standard Missile-1 и 2 MR
+RIM-67 Standard Missile-1 и 2 ER
+MIM-72 Chaparral
+RIM-85 (проект)
+FIM-92 Stinger
+M1097 Avenger
+RIM-101 (проект)
+MIM-104 Patriot
+RIM-113 (проект)
+MIM-115 Roland
+RIM-116 RAM
+MIM-146 ADATS
+RIM-156 Standard Missile-2ER Block IV
+RIM-161 Standard Missile-3
+RIM-162 ESSM
+RIM-174 ERAM(SM-6)
+LAV-AD
+
+Швеция
+RBS 23 Bamse
+RBS-70
+RBS-90
+
+ЮАР
+SAHV-IR (Skyguard-SAHV)
+
+Югославия
+R-25 Vulkan
+
+Япония
+Тип 03 Чусам
+Тип 81 Тансам
+
+
+== Примечания ==

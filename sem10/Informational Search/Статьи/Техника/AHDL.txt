@@ -1,0 +1,44 @@
+AHDL — проприетарный язык описания аппаратуры от Altera Corporation предназначенный для программирования выпускаемых ей ПЛИС. Язык имеет Ада-подобный синтаксис и схож с VHDL или Verilog. Он поддерживается компиляторами Quartus и Max+ от Altera.
+Недостаток AHDL в его проприетарности. Преимущество AHDL в том, что все конструкции языка синтезируемы. В сравнении с Verilog AHDL как язык ассемблера в сравнении с языком высокого уровня: в AHDL больше контроля, но меньше высокоуровневой поддержки.
+
+Структура проекта на AHDL
+Пример
+% a simple AHDL up counter, released to public domain 13 November 2006 %
+% [block quotations achieved with percent sign] %
+% like c, ahdl functions must be prototyped %
+
+% PROTOTYPE:
+ FUNCTION COUNTER (CLK)
+	RETURNS (CNTOUT[7..0]); %
+
+% function declaration, where inputs, outputs, and
+bidirectional pins are declared %
+% also like c, square brakets indicate an array %
+
+SUBDESIGN COUNTER
+(
+	CLK		:INPUT;
+	CNTOUT[7..0]	:OUTPUT;
+)
+
+% variables can be anything from flip-flops (as in this case),
+tri-state buffers, state machines, to user defined functions %
+
+VARIABLE
+	TIMER[7..0]: DFF;
+
+% as with all hardware description languages, think of this
+ less as an algorithm and more as wiring nodes together %
+
+BEGIN
+	DEFAULTS
+
+		TIMER[].prn = VCC; %  this takes care of d-ff resets %
+		TIMER[].clrn = VCC;
+	END DEFAULTS;
+
+	TIMER[].d = TIMER[].q + H"1";
+END;
+
+Ссылки
+Иосиф Каршенбойм, Михаил Косткин. Шпаргалка для перехода от AHDL к VHDL // Компоненты и технологии № 1 2003

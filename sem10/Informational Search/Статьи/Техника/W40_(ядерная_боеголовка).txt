@@ -1,0 +1,18 @@
+W40 — американская ядерная боеголовка, разработанная Лос-Аламосской национальной лабораторией и принятая на вооружение в конце 1950-х годов и находившаяся на вооружении в 1959—1972 годах. Боеголовка относилась к типу атомных зарядов с ускоренным делением (англ. boosted fission).
+Боеголовка W40 использовала ядерный заряд типа Python, также использовавшийся в атомной бомбе B28 и боеголовках W28 и W49.
+Боеголовка имела диаметр 457 мм, длину 0,81 м и весила около 175 кг. Мощность боеголовки составляла 10 кт.
+W40 оснащались ракеты класса «земля-земля» типа MGM-18 Lacrosse и беспилотные перехватчики CIM-10 Bomarc.
+
+См. также
+B28
+Список ядерного оружия США
+en:Python primary
+en:Tsetse primary
+en:Robin primary
+
+Примечания
+Литература
+Cochran, Thomas B. ; Arkin, William M. ; Hoenig, Milton M. Nuclear Weapons Databook, Vol. II: U.S. Nuclear Warhead Production.  (англ.) — Cambridge, Mass.: Ballinger Publishing Company, 1987. — 240 p. — ISBN 0-88730-125-8.
+
+Ссылки
+Allbombs.html list of all US nuclear weapons at nuclearweaponarchive.org

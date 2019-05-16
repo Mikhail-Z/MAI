@@ -1,0 +1,9 @@
+Ионно-молекулярное наслаивание — один из методов послойного синтеза на поверхности подложки нанослоев с использованием в качестве реагентов ионов (катионов или анионов) из растворов и молекул летучих веществ из газовой фазы. Метод предложен проф. В. П. Толстым и экспериментально обоснован в его работах с сотрудниками в лаборатории Санкт-Петербургского государственного университета. В англо-язычной литературе метод получил название Ionic Layer Gas Reaction (ILGAR) и находит применение для создания солнечных элементов, электродов химических источников тока и др.
+
+Литература
+Толстой В. П., Богданова Л. П. Способ фосфатирования поверхности стали. Патент РФ № 1475980, приоритет от 24.12.86.
+Алесковский В. Б., Богданова Л. П., Егорова Е. В., Толстой В. П. Способ получения монослоев оксидов металлов, Пат. РФ 1591534, приоритет от 20.06.1988.
+Гулина Л. Б., Толстой В. П. Синтез на поверхности кремнезема по методике «слой-за-слоем» нанослоев Ag2S. // Вестник СПбГУ. Физика. Химия. 1999. № 11. С. 88-91.
+Tolstoy V.P., Zhuchkov B.S., Murin I.V. Synthesis of ScF3, LaF3 nanolayers and nLaF3-mScF3 multinanolayers at the surface of silicon by successive ionic layer deposition method. // Solid State Ionics. 1997. V. 101—103. P. 165—170.
+Èller J. Mo, Fischer Ch.-H., Mufer H.-J., Ènenkamp R. K., Kaiser I., Kelch C., Lux-Steiner M. C. A novel deposition technique for compound semiconductors on highly porous substrates: ILGAR, Thin Solid Films, 2000, V. 361—362, P. 113—117.
+Gledhill S., Allison R., Allsop N., Fu Y., Kanaki E., Sáez-Araoz R., Lux-Steiner M., Fischer Ch.-H. The reaction mechanism of the spray Ion Layer Gas Reaction process to deposit In2S3 thin films, Thin Solid Films, 2011, V. 519, 19, 2011, P. 6413.

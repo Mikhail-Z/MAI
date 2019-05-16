@@ -1,0 +1,8 @@
+Open Database License (ODbL) — «Share Alike»-подобное лицензионное соглашение, предназначенное для того, чтобы пользователи могли свободно обмениваться, изменять и использовать базу данных, сохраняя эту же свободу для других.
+ODbL была опубликована Open Data Commons, являющейся частью Open Knowledge Foundation.
+Проект OpenStreetMap (OSM) в настоящее время сменил лицензию с Creative Commons на ODbL.
+
+Примечания
+Ссылки
+Open Data Commons, Open Database License
+Перевод текста лицензии на русский язык

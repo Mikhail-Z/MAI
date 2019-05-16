@@ -1,0 +1,12 @@
+Millipede — относительно новая технология запоминающих устройств, разрабатываемая компанией IBM. Для считывания и записи информации используется зонд сканирующего зондового микроскопа.
+
+Ссылки
+IBM Zurich Research
+Millipede project
+Probe Storage: IBM Zurich
+T-bit demonstration
+Millipede animation
+IBM Journal Res. Dev. paper
+AzoNano
+MEMS-based Storage Reliability
+MEMS-based Storage Architectures

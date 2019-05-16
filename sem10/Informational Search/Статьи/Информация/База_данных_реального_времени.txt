@@ -1,0 +1,22 @@
+База данных реального времени (БДРВ) — база данных, обработка данных в которой происходит по принципу реального времени.
+Применяется в системах промышленной автоматизации АСУ ТП. Должна обеспечивать синхронизацию, репликацию данных и обеспечивать резервирование для обеспечения отказоустойчивости в реальном масштабе времени.
+
+См. также
+Операционная система реального времени
+Распределённая система управления
+
+Литература
+Kam-yiu Lam and Tei-Wei Kuo, “Real-Time Database Systems: Architecture and Techniques”, Kluwer Academic Publishers, 2000  (англ.)
+
+Ссылки
+Статьи
+
+[1] Реляционные БД и БД реального времени
+[2] Раздел IV. Средства реального времени СУБД ЛИНТЕР
+ (недоступная ссылка с 17-09-2016 [969 дней])[3] (недоступная ссылка) БД реального времени
+ (недоступная ссылка с 17-09-2016 [969 дней])[4] MySQL Cluster 7.1Real Time Database Systems, Jan Lindstrom (IBM) (англ.)
+Real-Time Databases, Krithi Ramamritham, 1996  (англ.)
+Introduction to Real-Time Databases,  Tei-Wei Kuo, National Taiwan University
+AN OVERVIEW OF REAL-TIME DATABASE SYSTEMS, Ben Kao and Hector Garcia-MolinaПрограммные проекты
+
+Mnesia Reference Manual. Version 4.14, 2016 - Mnesia — СУБД реального времени, написанная посредством языка Erlang.

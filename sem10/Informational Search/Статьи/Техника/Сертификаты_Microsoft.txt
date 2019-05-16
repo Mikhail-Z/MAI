@@ -1,0 +1,44 @@
+Сертификаты Microsoft — Корпорация Microsoft проводит международную сертификацию специалистов в различных областях, связанных с информационными технологиями, а также сертификацию аппаратного и программного обеспечения на предмет совместимости с продуктами Microsoft. Существуют также сертификационные программы для компаний,
+являющихся бизнес-партнёрами Microsoft.
+
+Сертификация специалистов
+Microsoft постоянно обновляет сертификационные экзамены при появлении новых версий программных продуктов. Поэтому для поддержания постоянного уровня своей квалификации специалист обязан вовремя отслеживать появление новых технологий и продуктов и сдавать тесты по этим обновлённым технологиям или версиям продуктов.
+Программы сертификации включают:Сертификации по предыдущим версиям программного обеспечения (до 2012 года)
+
+Microsoft Certified Desktop Support Technician (MCDST) — Сертифицированный специалист технической поддержки Microsoft
+Microsoft Certified Systems Administrator (MCSA) — Сертифицированный системный администратор Microsoft
+Microsoft Certified Database Administrator (MCDBA) — Сертифицированный администратор баз данных Microsoft
+Microsoft Certified Systems Engineer (MCSE) — Сертифицированный системный инженер Microsoft
+Microsoft Certified Application Developer (MCAD) — Сертифицированный разработчик приложений на основе продуктов Microsoft
+Microsoft Certified Solution Developer (MCSD) — Сертифицированный разработчик программных решений на основе продуктов Microsoft
+Microsoft Certified IT Professional (MCITP) — Сертифицированный IT-профессионал Microsoft
+Microsoft Certified Master (MCM) — Сертифицированный мастер Microsoft (отменена с 31 декабря 2013 года)
+Microsoft Certified Architect (MCA) — Сертифицированный архитектор Microsoft (отменена с 31 декабря 2013 года)
+Microsoft Certified Solution Master (MCSM) — Сертифицированный мастер-эксперт конечных решений на основе продуктов Microsoft. (отменена с 31 декабря 2013 года)Сертификации по последним версиям программного обеспечения (введены в 2012 году)
+
+Microsoft Certified Professional (MCP) — Сертифицированный профессионал Microsoft
+Microsoft Certified Technology Specialist (MCTS) — Сертифицированный специалист по технологии Microsoft
+Microsoft Certified Solution Associate (MCSA) — Сертифицированный младший специалист по конечным решениям на основе продуктов Microsoft.
+Microsoft Certified Solution Expert (MCSE) — Сертифицированный эксперт по конечным решениям на основе продуктов Microsoft.
+Microsoft Certified Solution Developer (MCSD) — Сертифицированный разработчик конечных решений на основе продуктов Microsoft.
+Microsoft Certified Professional Developer (MCPD) — Сертифицированный разработчик программных решений на основе продуктов MicrosoftСертификации, связанные с преподаванием и обучением основам работы с программным обеспечением Microsoft
+
+Microsoft Certified Trainer (MCT) — Сертифицированный инструктор Microsoft
+Microsoft Technology Associate (MTA) — Начинающий специалист MicrosoftСертификации, связанные с офисными программными продуктами
+
+Microsoft Office Specialist (MOS) — Сертифицированный специалист Microsoft Office
+
+Сертификация аппаратного и программного обеспечения
+Предусмотрены процедуры для получения следующих сертификатов:
+
+Certified for Windows — сертификат для программного обеспечения, совместимого с операционными системами линейки Windows
+Сертификаты для портов программного обеспечения, таких, например, как кодеки WMA и WMV
+
+См. также
+Наиболее ценный профессионал
+WHQL
+
+Ссылки
+Сертификация IT специалистов: обзор
+Сертификация Microsoft: прошлое и будущее
+Программа сертификации Microsoft

@@ -1,0 +1,31 @@
+Экономика языка — область исследований на стыке экономики и социолингвистики.
+Экономика языка в известной мере пересекается с социолингвистикой ввиду общности исследуемых объектов. Но в отличие от социолингвистики, экономика языка рассматривает язык и сопряженные с ним явления и закономерности не как самостоятельные и самоценные, но как частные проявления более общих экономических понятий и закономерностей. Так, языковые компетенции с экономической точки зрения являются, наряду с иными навыками, элементом человеческого капитала, обеспечивающим своему носителю доступ к разнообразным рынкам — рынку труда, рынку благ (в том числе информационных), позволяющим с выгодой для себя взаимодействовать с иными людьми и организациями. Эта логика применима не только к анализу преимуществ от знания/использования того или иного языка индивидами, но и к использованию языков организациями и государствами, ведь все они как экономические агенты, заинтересованы в эффективном взаимодействии с другими экономическими агентами, в доступе к рынкам, а язык выступает в качестве одного из важных средств и условий такого взаимодействия / доступа.
+
+Тематика исследований
+Начав формироваться с 1960-х годов (одним из основоположников считается Я. Маршак, опубликовавший статью об экономике языка в 1965 г.), массив исследований в области экономики языка достаточно велик и продолжает расти. Среди основных тематических направлений анализа можно выделить следующие:
+
+Экономическая логика развития языка как такового (корпуса языка, словаря, произношения и т. д.);
+Связь языковых компетенций и благосостояния индивида (дохода, карьерного успеха и т. д.);
+Взаимосвязь языковой ситуации и экономики;
+Экономические предпосылки и последствия языковой политики.
+
+Примечания
+Литература
+Вебер Ш., Давыдов Д. (2017). Социально-экономические эффекты языкового разнообразия // Вопросы экономики, (11), 50-62.
+Кадочников Д. (2016). Теоретико-экономический взгляд на языковую политику // Вопросы экономики, (2), 128—140.
+Кадочников, Д.В. Цели и задачи языковой политики и проблемы социально-экономического развития России // Terra Economicus. 2019.  Том 17, №1. С. 96–111.
+Марусенко М. (2013). Внутренний языковой империализм США // США — Канада. Экономика, политика, культура, (10), 35-48.
+Марусенко М. (2014). Внешний языковой империализм США. США—Канада. Экономика, политика, культура, (6), 31—44.
+Одинг, Н.Ю., Юшков, А.О., Савулькин, Л.И. Использование национальных языков как государственных в республиках РФ: правовые и экономические аспекты // Terra Economicus. 2019. Том 17, №1. С.112–130.
+Gabszewicz J., Ginsburgh V., Weber S. (2011). Bilingualism and Communicative Benefits // Annals of Economics and Statistics, (101/102), 271—286.
+Gazzola, Michele & Wickström, Bengt-Arne (2016): The Economics of Language Policy. Cambridge: MIT Press.
+Ginsburgh V., Ortuño-Ortin I., Weber S. (2007). Learning foreign languages. Theoretical and empirical implications of the Selten and Pool model // Journal of Economic Behavior and Organization, 64, 337—347.
+Grin F. (1994). The Economics of Language: Match or Mismatch? // International Political Science Review / Revue Internationale de Science Politique, 15 (1), 25-42.
+Grin, F. (1996). Economic Approaches to Language and Language Planning: an Introduction // International Journal of the Sociology of Language, 121, 1-16
+John A. (2016). Dynamic Models of Language Evolution: The Economic Perspective. In: Ginsburgh, V., Weber, S. (Eds.). The Palgrave Handbook of Economics and Language. London: Palgrave Macmillan, 101—120.
+Kadochnikov D. (2016). Languages, Regional Conflicts and Economic Development: Russia. In: Ginsburgh, V., Weber, S. (Eds.). The Palgrave Handbook of Economics and Language. London: Palgrave Macmillan, 538—580.
+Laitin D. (1993). The Game Theory of Language Regimes // International Political Science Review / Revue Internationale de Science * Politique, 14 (3), 227—239.
+Marschak, J. (1965). The Economics of Language // Behavioral Science, 10, 135—140.
+Melitz, J. (2008). Language and Foreign Trade // European Economic Review, 52, 667—699
+Smith A. (2016). Dynamic Models of Language Evolution: The Linguistic Perspective. In: Ginsburgh, V., Weber, S. (Eds.). The Palgrave Handbook of Economics and Language. London: Palgrave Macmillan, 61-100.
+Wright S. (2016). Language Choices: Political and Economic Factors in Three European States. In: Ginsburgh, V., Weber, S. (Eds.). The Palgrave Handbook of Economics and Language. London: Palgrave Macmillan, 447—488.

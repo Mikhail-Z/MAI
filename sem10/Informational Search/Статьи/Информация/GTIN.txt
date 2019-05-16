@@ -1,0 +1,12 @@
+GTIN (англ. Global Trade Item Number) — международный код маркировки и учёта логистических единиц, разработанный и поддерживаемый GS1. Предложен для замены американского UPC и европейского EAN. GTIN-код имеет длину 8, 12, 13 или 14 цифр, каждая из схем построена по аналогу с предыдущими стандартами и включает в себя префикс компании, код товара и контрольную цифру. GTIN-8 кодируются в штрихкод EAN-8; GTIN-12 могут использовать штрихкод форматов UPC-A, ITF-14 или GS1-128. GTIN-13 кодируются как EAN-13, ITF-14 или GS1-128; а GTIN-14 кодируются в ITF-14 или GS1-128, в зависимости от назначения.
+
+См. также
+ISBN
+ISSN
+Amazon Standard Identification Number
+
+Примечания
+Ссылки
+https://www.gtin.info/
+https://www.gs1.org/1/gtinrules/ru
+http://www.entmerch.org/programsinitiatives/packaging-labeling-and-edi/gtin-implementation-guide.pdf

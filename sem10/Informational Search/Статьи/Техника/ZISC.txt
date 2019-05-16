@@ -1,0 +1,20 @@
+ZISC (англ. Zero Instruction Set Computer — компьютер с нулевым набором команд) — архитектура процессора, основанная на таких технологиях, как сопоставление с образцом. Архитектура характеризуется отсутствием микрокоманд в привычном для микропроцессоров понимании. Также акроним ZISC намекает на разработанную ранее технологию RISC.
+Концепция основана на идеях, позаимствованных из нейросетей. Для ZISC характерна аппаратная параллельная обработка данных, подобно тому, как это происходит в настоящих нейросетях. Эта концепция была разработана Гаем Палле (Guy Paillet), вдохновлённым во время совместной работы с командой Карло Руббиа по параллельной обработке, и с Леоном Купером в начале 1990-е над RCE (Restricted Coulomb Energy — модель нейросети, опубликованная Cooper в 1982). RCE было разработано и опубликовано в книге Bruce Batchelor (Cardiff University UK) «Practical Approach to Pattern Classification».
+
+См. также
+Ассоциативная память
+Complex instruction set computer (CISC)
+Reduced instruction set computer (RISC)
+Minimal instruction set computer (MISC)
+Ultimate RISC (URISC, OISC)
+One instruction set computer (NISC)
+Transport triggered architecture (TTA)
+
+Ссылки
+US Patent for ZISC hardware, issued to IBM/G.Paillet on April 15, 1997
+Image Processing Using RBF like Neural Networks: A ZISC-036 Based Fully Parallel Implementation Solving Real World and Real Complexity Industrial Problems by K. Madani, G. de Trémiolles, and P. Tannhof
+From CISC to RISC to ZISC by S. Liebman on lsmarketing.com
+Neural Networks on Silicon (недоступная ссылка) at aboutAI.net
+
+ZISC в каталоге ссылок Open Directory Project (dmoz)
+CogniMem Technologies Inc. Massively Parallel Hardware Acceleration for Pattern Recognition

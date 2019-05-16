@@ -1,0 +1,17 @@
+Resident set size (RSS) — размер страниц памяти, выделенных процессу операционной системой и в настоящее время находящихся в ОЗУ (RAM).
+Кроме ОЗУ страницы памяти процесса:
+
+могут находиться в файле или на разделе подкачки (англ. swap space);
+могут отображаться на файл.
+
+См. также
+Demand paging
+Виртуальная память
+Working set
+Working set size
+
+Примечания
+Ссылки
+Jonathan Corbet. «Simple resident set size limits»  (англ.) // LWN.net. 10 августа 2004 года.
+Jonathan Corbet. «ELC: How much memory are applications really using?»  (англ.) // LWN.net. 18 апреля 2007 года.
+Bhavin Turakhia. «Understanding and optimizing memory utilization»  (англ.) // Directi. 20 марта 2013 года.

@@ -1,0 +1,69 @@
+SPSS Statistics (аббревиатура англ. «Statistical Package for the Social Sciences» — «статистический пакет для общественных наук») — компьютерная программа для статистической обработки данных, один из лидеров рынка в области коммерческих статистических продуктов, предназначенных для проведения прикладных исследований в общественных науках.
+Между 2009 и 2010 название программного обеспечения SPSS было изменено на PASW (Predictive Analytics SoftWare) Statistics.
+28 июля 2009 компания объявила, что она была приобретена компанией IBM за 1,2 млрд долл. США. По состоянию на январь 2010 года компания стала называться «SPSS: An IBM Company».
+По мнению некоторых авторов, SPSS «занимает ведущее положение среди программ, предназначенных для статистической обработки информации».
+
+История
+Норман Най, Хедли Халл и Дейл Бент разработали первую версию системы в 1968 году, затем этот пакет развивался в рамках Чикагского университета. Первое пользовательское руководство вышло в 1970 году в издательстве McGraw-Hill, а с 1975 года проект выделился в отдельную компанию SPSS Inc. Первая версия пакета под Microsoft Windows вышла в 1992 году. На данный момент также существуют версии под Mac OS X и Linux.
+В 2009 году компания SPSS произвела ребрендинг своего статистического пакета, который теперь стал называться PASW Statistics (Predictive Analytics SoftWare). 29 июля 2009 года компания SPSS объявила о том, что она приобретается фирмой IBM.
+
+Возможности
+Ввод и хранение данных.
+Возможность использования переменных разных типов.
+Частотность признаков, таблицы, графики, таблицы сопряжённости, диаграммы.
+Первичная описательная статистика.
+Маркетинговые исследования
+Анализ данных маркетинговых исследований
+
+Модули
+IBM SPSS Statistics Base
+IBM SPSS Advanced Statistics
+IBM SPSS Bootstrapping
+IBM SPSS Categories
+IBM SPSS Complex Samples
+IBM SPSS Conjoint
+IBM SPSS Custom Tables
+IBM SPSS Data Preparation
+IBM SPSS Decision Trees
+IBM SPSS Direct Marketing
+IBM SPSS Exact Tests
+IBM SPSS Forecasting
+IBM SPSS Missing Values
+IBM SPSS Neural Networks
+IBM SPSS Regression
+
+История версий
+SPSS 15.0.1 — Ноябрь 2006 года
+SPSS 16.0.2 — Апрель 2008 года
+SPSS Statistics 17.0.1 — Декабрь 2008 года
+PASW Statistics 17.0.3 — Сентябрь 2009 года
+PASW Statistics 18.0 — Август 2009 года
+PASW Statistics 18.0.1 — Декабрь 2009 года
+PASW Statistics 18.0.2 — Апрель 2010 года
+IBM SPSS Statistics 19 — Август 2010 года
+IBM SPSS Statistics 20 — Август 2011 года
+IBM SPSS Statistics 21 — Сентябрь 2012 года
+IBM SPSS Statistics 22 — Сентябрь 2013 года
+
+Системные требования
+IBM SPSS Statistics 18 функционирует под управлением Windows XP, Windows Vista (32- или 64-разрядных редакций), Windows 7, Mac OS X 10.5, Mac OS X 10.6 и Linux для x86. Требует 800 Мбайт места на жёстком диске и 1 Гбайт оперативной памяти.
+
+Примечания
+Библиография
+А. Ю. Алексеева, О. Г. Ечевская, Г. Д. Ковалева, П. С. Ростовцев. Анализ социологических данных с применением пакета SPSS. Сборник практических заданий. — Новосибирск: Редакционно-издательский центр НГУ, 2003.
+Бююль Ахим, Цёфель Петр. SPSS: Искусство обработки информации. Анализ статистических данных и восстановление скрытых закономерностей: Пер. с нем. / Ахим Бююль, Петр Цёфель — Спб.: «ДиаСофтЮП», 2005—608 стр.
+Наследов А. Д. Математические методы психологического исследования: Анализ и интерпретация данных: Учебное пособие. — СПб.: Речь, 2004. — 392 с.
+Наследов А. Д. SPSS: Компьютерный анализ данных в психологии и социальных науках. 2-е изд. — СПб.: Питер, 2006 ISBN 978-5-91180-318-6
+Пациорковский В. В., Пациорковская В. В. SPSS для социологов. Учебное пособие. — М.: ИСЭПН РАН, 2005. — 433 с.
+Andy Field. Discovering Statistics Using SPSS, Second Edition. — 2005.
+Griffith A. SPSS for Dummies. — Hoboken: Wiley Publishing, 2007.
+Morgan, G. A., Leech, N. L., Gloeckner, G. W., & Barrett, K. C. (2004). SPSS for introductory statistics: Use and Interpretation. Mahwah, NJ: Lawrence Erlbaum Associates.
+Leech, N. A., Barett K.C., & Morgan, G.A.(2004). SPSS for intermediate statistics: Use and interpretation.
+Gustav Levine, Sanford L. Braver, David P. Mackinnon, Melanie C. Page, Gustav. Levine's Guide to SPSS for Analysis of Variance. — 2nd ed. — Lawrence Erlbaum Associates; 2nd edition, 2005. — 200 p. — ISBN 978-0805830958.
+Programming and Data Management for SPSS 16.0: A Guide for SPSS and SAS Users. — ISBN 978-1-56827-399-0
+SPSS. (2003). SPSS 12.0: Brief guide. Chicago: Author.
+Vijay Gupta. SPSS for Beginners. 1999.
+
+Ссылки
+ibm.com/spss — официальный сайт SPSS
+https://nafi.ru/academy/prepodavatelyam-spss/ — открытые учебные материалы по SPSS для преподавателей и студентов

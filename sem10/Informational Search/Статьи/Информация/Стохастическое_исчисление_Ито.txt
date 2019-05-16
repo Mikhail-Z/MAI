@@ -1,0 +1,971 @@
+Исчисление Ито — математическая теория, описывающая методы манипулирования со случайными процессами, такими как броуновское движение (или винеровский процесс). Названа в честь создателя, японского математика Киёси Ито. Часто применяется в финансовой математике и теории стохастических дифференциальных уравнений. Центральным понятием этой теории является интеграл Ито
+
+  
+    
+      
+        
+          Y
+          
+            t
+          
+        
+        =
+        
+          ∫
+          
+            0
+          
+          
+            t
+          
+        
+        
+          H
+          
+            s
+          
+        
+        
+        d
+        
+          X
+          
+            s
+          
+        
+        ,
+      
+    
+    {\displaystyle Y_{t}=\int \limits _{0}^{t}H_{s}\,dX_{s},}
+  записывающийся также в виде 
+  
+    
+      
+        Y
+        =
+        H
+        ⋅
+        X
+      
+    
+    {\displaystyle Y=H\cdot X}
+  , где 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+   — броуновское движение или, в более общей формулировке, полумартингал.
+Можно показать, что путь интегрирования для броуновского движения нельзя описать стандартными техниками интегрального исчисления. В частности, броуновское движение не является интегрируемой функцией в каждой точке пути и имеет бесконечную вариацию по любому временному интервалу. Таким образом, интеграл Ито не может быть определен в смысле интеграла Римана — Стилтьеса. Однако, интеграл Ито можно определить корректно, если заметить, что подынтегральная функция 
+  
+    
+      
+        H
+      
+    
+    {\displaystyle H}
+   есть адаптивный процесс; это означает, что зависимость от времени 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+   его среднего значения определяется поведением только до момента 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  .
+
+Обозначения
+∫
+          
+            0
+          
+          
+            t
+          
+        
+        H
+        
+        d
+        X
+        ≡
+        
+          ∫
+          
+            0
+          
+          
+            t
+          
+        
+        
+          H
+          
+            s
+          
+        
+        
+        d
+        
+          X
+          
+            s
+          
+        
+      
+    
+    {\displaystyle \int \limits _{0}^{t}H\,dX\equiv \int \limits _{0}^{t}H_{s}\,dX_{s}}
+
+Интегрирование броуновского движения
+∫
+          
+            0
+          
+          
+            t
+          
+        
+        H
+        
+        d
+        B
+        =
+        
+          lim
+          
+            n
+            →
+            ∞
+          
+        
+        
+          ∑
+          
+            
+              t
+              
+                i
+                −
+                1
+              
+            
+            ,
+            
+              t
+              
+                i
+              
+            
+            ∈
+            
+              π
+              
+                n
+              
+            
+          
+        
+        
+          H
+          
+            
+              t
+              
+                i
+                −
+                1
+              
+            
+          
+        
+        (
+        
+          B
+          
+            
+              t
+              
+                i
+              
+            
+          
+        
+        −
+        
+          B
+          
+            
+              t
+              
+                i
+                −
+                1
+              
+            
+          
+        
+        )
+        ,
+      
+    
+    {\displaystyle \int \limits _{0}^{t}H\,dB=\lim _{n\rightarrow \infty }\sum _{t_{i-1},t_{i}\in \pi _{n}}H_{t_{i-1}}(B_{t_{i}}-B_{t_{i-1}}),}
+
+Процесс Ито
+X
+          
+            t
+          
+        
+        =
+        
+          X
+          
+            0
+          
+        
+        +
+        
+          ∫
+          
+            0
+          
+          
+            t
+          
+        
+        
+          σ
+          
+            s
+          
+        
+        
+        d
+        
+          B
+          
+            s
+          
+        
+        +
+        
+          ∫
+          
+            0
+          
+          
+            t
+          
+        
+        
+          μ
+          
+            s
+          
+        
+        
+        d
+        s
+        .
+      
+    
+    {\displaystyle X_{t}=X_{0}+\int \limits _{0}^{t}\sigma _{s}\,dB_{s}+\int \limits _{0}^{t}\mu _{s}\,ds.}
+
+Семимартингалы, как интеграторы
+∫
+          
+            0
+          
+          
+            t
+          
+        
+        H
+        
+        d
+        X
+        =
+        
+          lim
+          
+            n
+            →
+            ∞
+          
+        
+        
+          ∑
+          
+            
+              t
+              
+                i
+                −
+                1
+              
+            
+            ,
+            
+              t
+              
+                i
+              
+            
+            ∈
+            
+              π
+              
+                n
+              
+            
+          
+        
+        
+          H
+          
+            
+              t
+              
+                i
+                −
+                1
+              
+            
+          
+        
+        (
+        
+          X
+          
+            
+              t
+              
+                i
+              
+            
+          
+        
+        −
+        
+          X
+          
+            
+              t
+              
+                i
+                −
+                1
+              
+            
+          
+        
+        )
+        ,
+      
+    
+    {\displaystyle \int \limits _{0}^{t}H\,dX=\lim _{n\rightarrow \infty }\sum _{t_{i-1},t_{i}\in \pi _{n}}H_{t_{i-1}}(X_{t_{i}}-X_{t_{i-1}}),}
+  где 
+  
+    
+      
+        0
+        =
+        
+          t
+          
+            0
+          
+        
+        <
+        
+          t
+          
+            1
+          
+        
+        <
+        .
+        .
+        .
+        <
+        
+          t
+          
+            n
+            −
+            1
+          
+        
+        <
+        
+          t
+          
+            n
+          
+        
+        =
+        t
+      
+    
+    {\displaystyle 0=t_{0}<t_{1}<...<t_{n-1}<t_{n}=t}
+  , 
+  
+    
+      
+        max
+        (
+        
+          t
+          
+            i
+          
+        
+        −
+        
+          t
+          
+            i
+            −
+            1
+          
+        
+        )
+        →
+        0
+      
+    
+    {\displaystyle \max(t_{i}-t_{i-1})\to 0}
+   - последовательность разбиений интервала [0, t] с длинной подынтервалов стремящейся к нулю.
+
+Свойства
+J
+        ⋅
+        (
+        K
+        ⋅
+        X
+        )
+        =
+        (
+        J
+        K
+        )
+        ⋅
+        X
+      
+    
+    {\displaystyle J\cdot (K\cdot X)=(JK)\cdot X}
+  
+  
+    
+      
+        [
+        H
+        ⋅
+        X
+        ]
+        =
+        
+          H
+          
+            2
+          
+        
+        ⋅
+        [
+        X
+        ]
+      
+    
+    {\displaystyle [H\cdot X]=H^{2}\cdot [X]}
+
+Интегрирование по частям
+X
+          
+            t
+          
+        
+        
+          Y
+          
+            t
+          
+        
+        =
+        
+          X
+          
+            0
+          
+        
+        
+          Y
+          
+            0
+          
+        
+        +
+        
+          ∫
+          
+            0
+          
+          
+            t
+          
+        
+        
+          X
+          
+            s
+            −
+          
+        
+        
+        d
+        
+          Y
+          
+            s
+          
+        
+        +
+        
+          ∫
+          
+            0
+          
+          
+            t
+          
+        
+        
+          Y
+          
+            s
+            −
+          
+        
+        
+        d
+        
+          X
+          
+            s
+          
+        
+        +
+        [
+        X
+        ,
+        Y
+        
+          ]
+          
+            t
+          
+        
+      
+    
+    {\displaystyle X_{t}Y_{t}=X_{0}Y_{0}+\int \limits _{0}^{t}X_{s-}\,dY_{s}+\int \limits _{0}^{t}Y_{s-}\,dX_{s}+[X,Y]_{t}}
+
+Лемма Ито
+d
+        f
+        (
+        
+          X
+          
+            t
+          
+        
+        )
+        =
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            d
+          
+        
+        
+          f
+          
+            ,
+            i
+          
+        
+        (
+        
+          X
+          
+            t
+          
+        
+        )
+        
+        d
+        
+          X
+          
+            t
+          
+          
+            i
+          
+        
+        +
+        
+          
+            1
+            2
+          
+        
+        
+          ∑
+          
+            i
+            ,
+            j
+            =
+            1
+          
+          
+            d
+          
+        
+        
+          f
+          
+            ,
+            i
+            j
+          
+        
+        (
+        
+          X
+          
+            t
+          
+        
+        )
+        
+        d
+        [
+        
+          X
+          
+            i
+          
+        
+        ,
+        
+          X
+          
+            j
+          
+        
+        
+          ]
+          
+            t
+          
+        
+        .
+      
+    
+    {\displaystyle df(X_{t})=\sum _{i=1}^{d}f_{,i}(X_{t})\,dX_{t}^{i}+{\frac {1}{2}}\sum _{i,j=1}^{d}f_{,ij}(X_{t})\,d[X^{i},X^{j}]_{t}.}
+
+Мартингалы-интеграторы
+Локальные мартингалы
+Квадратично интегрируемые мартингалы
+E
+        
+        
+          (
+          
+            (
+            H
+            ⋅
+            
+              M
+              
+                t
+              
+            
+            
+              )
+              
+                2
+              
+            
+          
+          )
+        
+        =
+        
+          E
+        
+        
+          (
+          
+            
+              ∫
+              
+                0
+              
+              
+                t
+              
+            
+            
+              H
+              
+                2
+              
+            
+            
+            d
+            [
+            M
+            ]
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle \mathbb {E} \left((H\cdot M_{t})^{2}\right)=\mathbb {E} \left(\int \limits _{0}^{t}H^{2}\,d[M]\right).}
+
+p-интегральные мартингалы
+Стохастическая производная
+D
+          
+          
+            
+              B
+              
+                t
+              
+            
+          
+        
+        
+          S
+          
+            t
+          
+        
+        =
+        
+          
+            
+              
+                d
+              
+              ⟨
+              S
+              ,
+              B
+              
+                ⟩
+                
+                  t
+                
+              
+            
+            
+              
+                d
+              
+              ⟨
+              B
+              ,
+              B
+              
+                ⟩
+                
+                  t
+                
+              
+            
+          
+        
+        =
+        
+          
+            
+              
+                d
+              
+              ⟨
+              S
+              ,
+              B
+              
+                ⟩
+                
+                  t
+                
+              
+            
+            
+              
+                d
+              
+              t
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \mathbb {D} _{B_{t}}S_{t}={\frac {\mathrm {d} \langle S,B\rangle _{t}}{\mathrm {d} \langle B,B\rangle _{t}}}={\frac {\mathrm {d} \langle S,B\rangle _{t}}{\mathrm {d} t}},}
+  
+  
+    
+      
+        
+          
+            D
+          
+          
+            
+              B
+              
+                t
+              
+            
+          
+        
+        
+          ∫
+          
+            0
+          
+          
+            t
+          
+        
+        
+          X
+          
+            s
+          
+        
+        
+          d
+        
+        
+          B
+          
+            s
+          
+        
+        =
+        
+          X
+          
+            t
+          
+        
+        ,
+      
+    
+    {\displaystyle \mathbb {D} _{B_{t}}\int \limits _{0}^{t}X_{s}\mathrm {d} B_{s}=X_{t},}
+       and     
+  
+    
+      
+        
+          ∫
+          
+            0
+          
+          
+            t
+          
+        
+        
+          
+            D
+          
+          
+            
+              B
+              
+                s
+              
+            
+          
+        
+        
+          S
+          
+            s
+          
+        
+        
+          d
+        
+        
+          B
+          
+            s
+          
+        
+        =
+        
+          S
+          
+            t
+          
+        
+        −
+        
+          S
+          
+            0
+          
+        
+        −
+        
+          V
+          
+            t
+          
+        
+        .
+      
+    
+    {\displaystyle \int \limits _{0}^{t}\mathbb {D} _{B_{s}}S_{s}\mathrm {d} B_{s}=S_{t}-S_{0}-V_{t}.}
+
+См. также
+Винеровский процесс
+Интеграл Стратоновича
+
+Ссылки
+Стохастический мир — простое введение в стохастические дифференциальные уравнения
+
+Литература
+Allouba, Hassan (2006). “A Differentiation Theory for Itô's Calculus”. Stochastic Analysis and Applications. 24: 367–380. DOI 10.1080/07362990500522411.
+Hagen Kleinert, Path Integrals in Quantum Mechanics, Statistics, Polymer Physics, and Financial Markets, 4th edition, World Scientific (Singapore), 2004, (ISBN 981-238-107-4). Пятое издание доступно в виде pdf.
+He Sheng-Wu, Wang Jia-Gang, Yan Jia-An, Semimartingale Theory and Stochastic Calculus, Science Press, CRC Press Inc., 1992 (ISBN 7-03-003066-4, 0-8493-7715-3)
+Ioannis Karatzas and Steven E. Shreve, Brownian Motion and Stochastic Calculus, Springer, 1991  г. (ISBN 0-387-97655-8)
+Philip E. Protter, Stochastic Integration and Differential Equations, Springer, 2001 (ISBN 3-540-00313-4)
+Bernt K. Øksendal, Stochastic Differential Equations: An Introduction with Applications, Springer, 2003 (ISBN 3-540-04758-1)
+Mathematical Finance Programming in TI-Basic, which implements Ito calculus for TI-calculators.

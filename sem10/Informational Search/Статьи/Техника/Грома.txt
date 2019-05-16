@@ -1,0 +1,20 @@
+Грома (лат. groma, gruma) — измерительный и геодезический инструмент древнеримских агрименсоров.
+
+Название
+Название, вероятно, происходит от искаженного в этрусском греческого слова γνώμων в значении «угольник». По-латински называлось также ferramentum (букв. «железное устройство», по материалу основной части),  tetrans и stella («звезда», по верхней части).
+
+Устройство и применение
+Состоит из длинного вертикального шеста, к вершине которого прикреплена поперечина (или крест) на поворотном механизме; она может перемещаться и горизонтально. К каждому концу поперечины (креста) прикреплен отвес. Установив грому в грунте, агрименсор фиксировал крест соответственно сторонам света, ориентируясь по положению солнца и по отвесам. Помощник отходил на сто шагов и клал груз, отмечающий направление, в соответствии с указаниями агрименсора. Так отмечались оси будущей разметки, соответствующие сторонам света.
+Грома первоначально использовалась в этрусском ритуале основания городов, затем землемерами в Риме, в частности, при размеривании земли под строительство города или римского лагеря. «Громой» называли также центр такого лагеря или форума в городе, пересечение кардо и декумануса, потому что прямой угол этого пересечения первоначально был начерчен агрименсором с помощью громы.
+
+Несколько гром обнаружено при раскопках, возможна детальная реконструкция их устройства.
+
+Библиография
+Cesare Polli, Marco Ceccarelli, Michela Cigola. The groma, the surveyor's cross and the chorobates. In-depht notes on the design of the old instruments and their use (La Groma, lo Squadro agrimensorio e il corobate. Note di approfondimento su progettazione e funzionalità di antiche strumentazioni) // Disegnare Idee Immagini. Anno XXII. n. 42/2011. Pp. 22-33.
+Jean Peyras. Le vocabulaire militaire des arpenteurs latins du Haut-Empire // Jean Peyras. Les vocabulaires techniques des arpenteurs romains // Actes du colloque international (Besançon, 19-21 septembre 2002). Vol. 993. Besançon, Institut des Sciences et Techniques de l'Antiquité. Coll. ISTA, 2006, chap. 1, pages 137—148.
+Klaus Grewe. Chorobat und Groma. Neue Gedanken zur Rekonstruktion und Handhabung der beiden wichtigsten Vermessungsgeräte antiker Ingenieure // Bonner Jahrbücher. Bd. 209, 2009. S. 109–128.
+Nikolaus Thurn. Die Geburt der Theorie aus dem Instrument. Über Bedienung und Bedeutung der antiken Instrumente Groma und Lyra. Fink, Paderborn u. a. 2008. ISBN 978-3-7705-4474-5.
+
+Ссылки
+Чертеж громы
+Описание и чертеж громы

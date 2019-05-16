@@ -1,0 +1,39 @@
+App Inventor — среда визуальной разработки android-приложений, требующая от пользователя минимальных знаний программирования. Первоначально разработана в Google Labs, после закрытия этой лаборатории была передана Массачусетскому технологическому институту.
+
+Особенности
+Для программирования в App Inventor используется графический интерфейс, визуальный язык программирования, очень похожий на язык Scratch и StarLogo TNG.
+
+Компилятор, переводящий визуальный блочный язык App Inventor в байт-код Android, основан на фреймворке GNU для реализации динамических языков Kawa, реализующего (в числе прочего) Scheme (диалект лиспа) для java платформы (и Android).
+Данный программный продукт разработан в компании Google с использованием Java библиотеки Open Blocks, разработанной в MIT. После решения о закрытии Google Labs компания объявила и о прекращении работы над проектом. Вместе с тем было объявлено о намерении сделать данное приложение открытым, с возможным последующим использованием его в образовании. Вслед за этим массачусетский технологический институт сообщил об открытии нового центра мобильного обучения на базе данного программного продукта, одним из профессоров которого станет создатель скретча Митчелл Резник.
+В начале марта 2011 года Массачусетский институт запустил публичную бета-версию проекта, доступную на сайте appinventor.mit.edu.
+
+Google Blockly
+На основе кода ранних версий AppInvertor в Google был разработан Google Blockly, встраиваемый в приложения компонент, позволяющий включать в них язык визуального программирования. Современные версии App Inventor также используют Blockly.
+
+Примечания
+Литература
+Burry Burd. Book VI: Alternative Android Development Techniques.  Chapter 1: Creating Code Quickly with App Inventor — Chapter 2: More App Inventor Magic // Android Application Development All-in-One For Dummies. — John Wiley & Sons, 2011. — P. 527—580. — 672 p. — ISBN 978-1-118-23595-9.
+Lucas Jordan, Pieter Greyling. Ch. 11. App Inventor // Practical Android Projects. — Apress, февр. 2011 г.. — P. 361—386. — 424 p. — ISBN 978-1-4302-3243-8.
+David Wolber, Hal Abelson, Ellen Spertus, Liz Looney. App Inventor for Android: Create Your Own Android Apps. — O’Reilly Media, May 2011. — ISBN 978-1-4493-9748-7.
+Ralph Roberts. Google App Inventor. — Packt Publishing Ltd,, окт. 2011. — 356 p. — ISBN 9781849692137.
+Eric Hamilton. Tech Empowerment: Android App Inventor. — Lulu.com, февр. 2011. — 222 p. — ISBN 9781458379795.
+Jason Tyler. App Inventor for Android: Build Your Own Apps - No Experience Required!. — John Wiley & Sons, апр. 2011. — 464 p. — ISBN 9781119991458.
+Thomas Duffy. Ch. 4. Google Android: App Inventor // Programming with Mobile Applications: AndroidTM, iOS, and Windows Phone 7. — Cengage Learning, февр. 2012. — P. 72—101. — 416 p. — ISBN 9781285414676.
+Jörg H. Kloss. Android Apps with App Inventor: The Fast and Easy Way to Build Android Apps. — Addison-Wesley, февр. 2012. — 600 p. — ISBN 9780132906562.
+Mike McGrath. Building Android Apps in easy steps. — In Easy Steps, 2012. — 192 p. — ISBN 9781840785289.
+Dr. Lakshmi Prayaga. Android App Inventor for the Absolute Beginner. — Cengage Learning, Июнь 2013. — 320 p. — ISBN 9781285733340.
+Tony Gaddis, Rebecca Halsey. Starting Out with App Inventor for Android. — Pearson Education, Limited, 2014. — 696 p. — ISBN 9780132955263.
+Paula Beer, Carl Simmons. Hello App Inventor!: Android Programming for Kids and the Rest of Us. — Manning Publications Company, окт. 2014 г.. — 360 p. — ISBN 978-1-61729-143-2.
+Derek Walter, Mark Sherman. Learning MIT App Inventor: A Hands-On Guide to Building Your Own Android Apps. — Addison-Wesley Professional, нояб. 2014. — 240 p. — ISBN 9780133799279.
+Mike McGrath. Building Android Apps in easy steps, 2nd edition: Covers App Inventor 2. — In Easy Steps, 2014. — 192 p.
+Jörg H. Kloss. Android App with App Inventor: Making Android App is Easy!. — Warung App, июнь 2014. — 115 p. — ISBN 978-0-321-81270-4.
+Edward Mitchell. App Inventor 2: Tutorial: The fast and easy way to create Android apps. — Edward Mitchell, май 2014. — 139 p.
+David Wolber, Hal Abelson, Ellen Spertus, Liz Looney. App Inventor 2. — O'Reilly Media, Inc., окт. 2014 г.. — 360 p. — ISBN 9781491907238.
+Hossein Amerkashi. Absolute App Inventor 2: Android Programming for All. — Amerkashi, 2015. — 100 p.
+
+Ссылки
+appinventor.mit.edu — официальный сайт App Inventor
+Tutorial, Tips, Sample Apps
+Статьи об App Inventor на 4PDA.ru
+app inventor (конструктор приложений android) // Вконтакте
+ai2.appinventor.mit.edu - официальный сайт App Inventor для разработки приложений

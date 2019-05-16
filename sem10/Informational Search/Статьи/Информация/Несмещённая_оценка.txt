@@ -1,0 +1,1579 @@
+Несмещённая оце́нка в математической статистике — это точечная оценка, математическое ожидание которой равно оцениваемому параметру.
+
+Определение
+Пусть 
+  
+    
+      
+        
+          
+            
+              x
+              →
+            
+          
+        
+        =
+        
+          (
+          
+            
+              x
+              
+                1
+              
+            
+            ,
+            …
+            ,
+            
+              x
+              
+                n
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle {\vec {x}}=\left(x_{1},\ldots ,x_{n}\right)}
+   — выборка из распределения, зависящего от параметра 
+  
+    
+      
+        θ
+        ∈
+        Θ
+      
+    
+    {\displaystyle \theta \in \Theta }
+  . Тогда оценка 
+  
+    
+      
+        
+          
+            
+              θ
+              ^
+            
+          
+        
+        ≡
+        
+          
+            
+              θ
+              ^
+            
+          
+        
+        
+          (
+          
+            
+              
+                x
+                →
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle {\hat {\theta }}\equiv {\hat {\theta }}\left({\vec {x}}\right)}
+   называется несмещённой, если
+
+  
+    
+      
+        
+          E
+        
+        
+          [
+          
+            
+              
+                θ
+                ^
+              
+            
+          
+          ]
+        
+        =
+        θ
+        ,
+        
+        ∀
+        θ
+        ∈
+        Θ
+      
+    
+    {\displaystyle \mathbb {E} \left[{\hat {\theta }}\right]=\theta ,\quad \forall \theta \in \Theta }
+  ,где
+
+  
+    
+      
+        
+          E
+        
+        
+          [
+          X
+          ]
+        
+      
+    
+    {\displaystyle \mathbb {E} \left[X\right]}
+   — математическое ожидание;
+
+  
+    
+      
+        ∀
+      
+    
+    {\displaystyle \forall }
+   — квантор всеобщности.В противном случае оценка называется смещённой, и случайная величина 
+  
+    
+      
+        
+          E
+        
+        
+          
+            
+              θ
+              ^
+            
+          
+        
+        −
+        θ
+      
+    
+    {\displaystyle \mathbb {E} {\hat {\theta }}-\theta }
+   называется её смеще́нием.
+
+Примеры
+Выборочное среднее 
+  
+    
+      
+        
+          
+            
+              X
+              ¯
+            
+          
+        
+        =
+        
+          
+            1
+            n
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          X
+          
+            i
+          
+        
+      
+    
+    {\displaystyle {\bar {X}}={\frac {1}{n}}\sum \limits _{i=1}^{n}X_{i}}
+   является несмещённой оценкой математического ожидания 
+  
+    
+      
+        
+          X
+          
+            i
+          
+        
+      
+    
+    {\displaystyle X_{i}}
+  , так как если 
+  
+    
+      
+        
+          E
+        
+        
+          X
+          
+            i
+          
+        
+        =
+        μ
+        <
+        ∞
+      
+    
+    {\displaystyle \mathbb {E} X_{i}=\mu <\infty }
+  , 
+  
+    
+      
+        ∀
+        i
+        ∈
+        
+          N
+        
+      
+    
+    {\displaystyle \forall i\in \mathbb {N} }
+  , то 
+  
+    
+      
+        
+          E
+        
+        
+          
+            
+              X
+              ¯
+            
+          
+        
+        =
+        μ
+      
+    
+    {\displaystyle \mathbb {E} {\bar {X}}=\mu }
+  .Пусть независимые случайные величины 
+  
+    
+      
+        
+          X
+          
+            i
+          
+        
+      
+    
+    {\displaystyle X_{i}}
+   имеют конечную дисперсию 
+  
+    
+      
+        
+          D
+        
+        
+          X
+          
+            i
+          
+        
+        =
+        
+          σ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \mathrm {D} X_{i}=\sigma ^{2}}
+  . Построим оценки
+  
+    
+      
+        
+          S
+          
+            n
+          
+          
+            2
+          
+        
+        =
+        
+          
+            1
+            n
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          
+            (
+            
+              
+                X
+                
+                  i
+                
+              
+              −
+              
+                
+                  
+                    X
+                    ¯
+                  
+                
+              
+            
+            )
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle S_{n}^{2}={\frac {1}{n}}\sum \limits _{i=1}^{n}\left(X_{i}-{\bar {X}}\right)^{2}}
+   — выборочная дисперсия,и
+
+  
+    
+      
+        
+          S
+          
+            2
+          
+        
+        =
+        
+          
+            1
+            
+              n
+              −
+              1
+            
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          
+            (
+            
+              
+                X
+                
+                  i
+                
+              
+              −
+              
+                
+                  
+                    X
+                    ¯
+                  
+                
+              
+            
+            )
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle S^{2}={\frac {1}{n-1}}\sum \limits _{i=1}^{n}\left(X_{i}-{\bar {X}}\right)^{2}}
+   — исправленная выборочная дисперсия.Тогда 
+  
+    
+      
+        
+          S
+          
+            n
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle S_{n}^{2}}
+   является смещённой, а 
+  
+    
+      
+        
+          S
+          
+            2
+          
+        
+      
+    
+    {\displaystyle S^{2}}
+   несмещённой оценками параметра 
+  
+    
+      
+        
+          σ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \sigma ^{2}}
+  . Смещённость 
+  
+    
+      
+        
+          S
+          
+            n
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle S_{n}^{2}}
+   можно доказать следующим образом.
+Пусть 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+   и 
+  
+    
+      
+        
+          
+            X
+            ¯
+          
+        
+      
+    
+    {\displaystyle {\overline {X}}}
+   — среднее и его оценка соответственно, тогда:
+
+  
+    
+      
+        E
+        ⁡
+        [
+        
+          S
+          
+            n
+          
+          
+            2
+          
+        
+        ]
+        =
+        E
+        ⁡
+        
+          
+            [
+          
+        
+        
+          
+            1
+            n
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        (
+        
+          X
+          
+            i
+          
+        
+        −
+        
+          
+            X
+            ¯
+          
+        
+        
+          )
+          
+            2
+          
+        
+        
+          
+            ]
+          
+        
+        .
+      
+    
+    {\displaystyle \operatorname {E} [S_{n}^{2}]=\operatorname {E} {\bigg [}{\frac {1}{n}}\sum _{i=1}^{n}(X_{i}-{\overline {X}})^{2}{\bigg ]}.}
+  Добавив и отняв 
+  
+    
+      
+        μ
+      
+    
+    {\displaystyle \mu }
+  , а затем сгрупировав слагаемые, получим:
+
+  
+    
+      
+        E
+        ⁡
+        [
+        
+          S
+          
+            n
+          
+          
+            2
+          
+        
+        ]
+        =
+        E
+        ⁡
+        
+          
+            [
+          
+        
+        
+          
+            1
+            n
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          
+            (
+          
+        
+        (
+        
+          X
+          
+            i
+          
+        
+        −
+        μ
+        )
+        −
+        (
+        
+          
+            X
+            ¯
+          
+        
+        −
+        μ
+        )
+        
+          
+            
+              )
+            
+          
+          
+            2
+          
+        
+        
+          
+            ]
+          
+        
+        .
+      
+    
+    {\displaystyle \operatorname {E} [S_{n}^{2}]=\operatorname {E} {\bigg [}{\frac {1}{n}}\sum _{i=1}^{n}{\big (}(X_{i}-\mu )-({\overline {X}}-\mu ){\big )}^{2}{\bigg ]}.}
+  Возведём в квадрат и получим:
+
+  
+    
+      
+        E
+        ⁡
+        [
+        
+          S
+          
+            n
+          
+          
+            2
+          
+        
+        ]
+        =
+        E
+        ⁡
+        
+          
+            [
+          
+        
+        
+          
+            1
+            n
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        (
+        
+          X
+          
+            i
+          
+        
+        −
+        μ
+        
+          )
+          
+            2
+          
+        
+        −
+        2
+        (
+        
+          
+            X
+            ¯
+          
+        
+        −
+        μ
+        )
+        
+          
+            1
+            n
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        (
+        
+          X
+          
+            i
+          
+        
+        −
+        μ
+        )
+        +
+        
+          
+            n
+            n
+          
+        
+        (
+        
+          
+            X
+            ¯
+          
+        
+        −
+        μ
+        
+          )
+          
+            2
+          
+        
+        
+          
+            ]
+          
+        
+        .
+      
+    
+    {\displaystyle \operatorname {E} [S_{n}^{2}]=\operatorname {E} {\bigg [}{\frac {1}{n}}\sum _{i=1}^{n}(X_{i}-\mu )^{2}-2({\overline {X}}-\mu ){\frac {1}{n}}\sum _{i=1}^{n}(X_{i}-\mu )+{\frac {n}{n}}({\overline {X}}-\mu )^{2}{\bigg ]}.}
+  Заметив, что 
+  
+    
+      
+        
+          
+            1
+            n
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        (
+        
+          X
+          
+            i
+          
+        
+        −
+        μ
+        )
+        =
+        
+          
+            X
+            ¯
+          
+        
+        −
+        
+          
+            1
+            n
+          
+        
+        (
+        n
+        μ
+        )
+      
+    
+    {\displaystyle {\frac {1}{n}}\sum _{i=1}^{n}(X_{i}-\mu )={\overline {X}}-{\frac {1}{n}}(n\mu )}
+  , получим:
+
+  
+    
+      
+        E
+        ⁡
+        [
+        
+          S
+          
+            n
+          
+          
+            2
+          
+        
+        ]
+        =
+        E
+        ⁡
+        
+          
+            [
+          
+        
+        
+          
+            1
+            n
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        (
+        
+          X
+          
+            i
+          
+        
+        −
+        μ
+        
+          )
+          
+            2
+          
+        
+        −
+        (
+        
+          
+            X
+            ¯
+          
+        
+        −
+        μ
+        
+          )
+          
+            2
+          
+        
+        
+          
+            ]
+          
+        
+        .
+      
+    
+    {\displaystyle \operatorname {E} [S_{n}^{2}]=\operatorname {E} {\bigg [}{\frac {1}{n}}\sum _{i=1}^{n}(X_{i}-\mu )^{2}-({\overline {X}}-\mu )^{2}{\bigg ]}.}
+  Учитывая, что
+
+  
+    
+      
+        E
+        ⁡
+        [
+        a
+        +
+        b
+        ]
+        =
+        E
+        ⁡
+        [
+        a
+        ]
+        +
+        E
+        ⁡
+        [
+        b
+        ]
+      
+    
+    {\displaystyle \operatorname {E} [a+b]=\operatorname {E} [a]+\operatorname {E} [b]}
+   (свойство математического ожидания);
+
+  
+    
+      
+        E
+        ⁡
+        
+          
+            [
+          
+        
+        
+          
+            1
+            n
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        (
+        
+          X
+          
+            i
+          
+        
+        −
+        μ
+        
+          )
+          
+            2
+          
+        
+        
+          
+            ]
+          
+        
+        =
+        
+          σ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \operatorname {E} {\bigg [}{\frac {1}{n}}\sum _{i=1}^{n}(X_{i}-\mu )^{2}{\bigg ]}=\sigma ^{2}}
+   — дисперсия;
+
+  
+    
+      
+        E
+        ⁡
+        
+          
+            [
+          
+        
+        (
+        
+          
+            X
+            ¯
+          
+        
+        −
+        μ
+        
+          )
+          
+            2
+          
+        
+        
+          
+            ]
+          
+        
+        =
+        
+          
+            1
+            n
+          
+        
+        
+          σ
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \operatorname {E} {\big [}({\overline {X}}-\mu )^{2}{\big ]}={\frac {1}{n}}\sigma ^{2}}
+  , т.к. 
+  
+    
+      
+        E
+        ⁡
+        
+          
+            [
+          
+        
+        (
+        
+          
+            X
+            ¯
+          
+        
+        −
+        μ
+        
+          )
+          
+            2
+          
+        
+        
+          
+            ]
+          
+        
+        =
+        E
+        ⁡
+        
+          
+            [
+          
+        
+        
+          
+            (
+          
+        
+        
+          
+            1
+            n
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        (
+        
+          X
+          
+            i
+          
+        
+        −
+        μ
+        )
+        
+          
+            
+              )
+            
+          
+          
+            2
+          
+        
+        
+          
+            ]
+          
+        
+        =
+        E
+        ⁡
+        
+          
+            [
+          
+        
+        
+          
+            1
+            
+              n
+              
+                2
+              
+            
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        (
+        
+          X
+          
+            i
+          
+        
+        −
+        μ
+        
+          )
+          
+            2
+          
+        
+        +
+        
+          
+            2
+            
+              n
+              
+                2
+              
+            
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+            ,
+            j
+            =
+            1
+            ,
+            i
+            <
+            j
+          
+          
+            n
+          
+        
+        (
+        
+          X
+          
+            i
+          
+        
+        −
+        μ
+        )
+        (
+        
+          X
+          
+            j
+          
+        
+        −
+        μ
+        )
+        
+          
+            ]
+          
+        
+      
+    
+    {\displaystyle \operatorname {E} {\big [}({\overline {X}}-\mu )^{2}{\big ]}=\operatorname {E} {\big [}{\big (}{\frac {1}{n}}\sum _{i=1}^{n}(X_{i}-\mu ){\big )}^{2}{\big ]}=\operatorname {E} {\big [}{\frac {1}{n^{2}}}\sum _{i=1}^{n}(X_{i}-\mu )^{2}+{\frac {2}{n^{2}}}\sum _{i=1,j=1,i<j}^{n}(X_{i}-\mu )(X_{j}-\mu ){\big ]}}
+  , учитывая, что 
+  
+    
+      
+        
+          X
+          
+            i
+          
+        
+      
+    
+    {\displaystyle X_{i}}
+   и 
+  
+    
+      
+        
+          X
+          
+            j
+          
+        
+      
+    
+    {\displaystyle X_{j}}
+   независимые и 
+  
+    
+      
+        E
+        ⁡
+        
+          
+            [
+          
+        
+        (
+        
+          X
+          
+            i
+          
+        
+        −
+        μ
+        )
+        
+          
+            ]
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \operatorname {E} {\big [}(X_{i}-\mu ){\big ]}=0}
+  , т.е. 
+  
+    
+      
+        E
+        ⁡
+        
+          
+            [
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+            ,
+            j
+            =
+            1
+            ,
+            i
+            <
+            j
+          
+          
+            n
+          
+        
+        (
+        
+          X
+          
+            i
+          
+        
+        −
+        μ
+        )
+        (
+        
+          X
+          
+            j
+          
+        
+        −
+        μ
+        )
+        
+          
+            ]
+          
+        
+        =
+        
+          ∑
+          
+            i
+            =
+            1
+            ,
+            j
+            =
+            1
+            ,
+            i
+            <
+            j
+          
+          
+            n
+          
+        
+        E
+        ⁡
+        
+          
+            [
+          
+        
+        (
+        
+          X
+          
+            i
+          
+        
+        −
+        μ
+        )
+        
+          
+            ]
+          
+        
+        E
+        ⁡
+        
+          
+            [
+          
+        
+        (
+        
+          X
+          
+            j
+          
+        
+        −
+        μ
+        )
+        
+          
+            ]
+          
+        
+        =
+        0
+      
+    
+    {\displaystyle \operatorname {E} {\big [}\sum _{i=1,j=1,i<j}^{n}(X_{i}-\mu )(X_{j}-\mu ){\big ]}=\sum _{i=1,j=1,i<j}^{n}\operatorname {E} {\big [}(X_{i}-\mu ){\big ]}\operatorname {E} {\big [}(X_{j}-\mu ){\big ]}=0}
+  ,получим:
+
+  
+    
+      
+        
+          
+            
+              
+                E
+                ⁡
+                [
+                
+                  S
+                  
+                    n
+                  
+                  
+                    2
+                  
+                
+                ]
+              
+              
+                
+                =
+                
+                  σ
+                  
+                    2
+                  
+                
+                −
+                E
+                ⁡
+                
+                  
+                    [
+                  
+                
+                (
+                
+                  
+                    X
+                    ¯
+                  
+                
+                −
+                μ
+                
+                  )
+                  
+                    2
+                  
+                
+                
+                  
+                    ]
+                  
+                
+                =
+              
+            
+            
+              
+              
+                
+                =
+                
+                  σ
+                  
+                    2
+                  
+                
+                −
+                
+                  
+                    1
+                    n
+                  
+                
+                
+                  σ
+                  
+                    2
+                  
+                
+                =
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    
+                      n
+                      −
+                      1
+                    
+                    n
+                  
+                
+                
+                  σ
+                  
+                    2
+                  
+                
+                <
+                
+                  σ
+                  
+                    2
+                  
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {E} [S_{n}^{2}]&=\sigma ^{2}-\operatorname {E} {\big [}({\overline {X}}-\mu )^{2}{\big ]}=\\&=\sigma ^{2}-{\frac {1}{n}}\sigma ^{2}=\\&={\frac {n-1}{n}}\sigma ^{2}<\sigma ^{2}.\end{aligned}}}
+
+Литература и некоторые ссылки
+M. G. Kendall. "The advanced theory of statistics (vol. I). Distribution theory (2nd edition)". Charles Griffin & Company Limited, 1945.
+M. G. Kendall and A. Stuart. "The advanced theory of statistics (vol. II). Inference and relationship (2nd edition)". Charles Griffin & Company Limited, 1967.
+A. Papoulis. Probability, random variables, and stochastic processes (3rd edition). McGrow-Hill Inc., 1991.
+G. Saporta. "Probabilités, analyse des données et statistiques". Éditions Technip, Paris, 1990.
+J. F. Kenney and E. S. Keeping. Mathematics of Statistics. Part I & II. D. Van Nostrand Company, Inc., 1961, 1959.
+I. V. Blagouchine and E. Moreau: "Unbiased Adaptive Estimations of the Fourth-Order Cumulant for Real Random Zero-Mean Signal", IEEE Transactions on Signal Processing, vol. 57, no. 9, pp. 3330–3346, September 2009.
+An Illuminating Counterexample

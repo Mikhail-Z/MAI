@@ -1,0 +1,53 @@
+Валерий Евгеньевич Корепанов (родился 1 июля 1943 года) — доктор технических наук, заместитель директора по научной работе Львовского центра Института космических исследований НАН Украины и Национального космического агентства Украины (ЛЦ ИКИ НАНУ НКАУ).
+
+Биография
+Окончил Львовский политехнический институт по специальности инженер-электрик в 1965 году.
+Получил звание кандидата технических наук по электромагнитным измерениям во Львовском политехническом институте в 1970 году.
+Защитил докторскую диссертацию по геофизике в Институте физики Земли (Москва) в 1991 году.
+В течение 30 лет проработал в Физико-механическом институте им. Г.В.Карпенко (ФМИ) (Львов, Украина). 
+Начиная с 1996 года — заместитель директора по научной работе ЛЦ ИКИ НАНУ НКАУ.
+
+Научная деятельность
+Разработка теоретических и методологических аспектов исследований электрического и магнитного полей в различных средах: космической плазме, морской воде и грунте. Проектирование и производство различных типов магнитометров, электрометров и средств их калибровки, создание нового прибора, волнового зонда, для измерения токов в космической плазме.
+
+Награды
+Знак отличия "За профессиональные достижения" Президиума национальной академии наук Украины (2013)
+Нагрудный знак "За заслуги" Аэрокосмического общества Украины (2013) 
+Медаль А.Л. Чижевского  за заслуги перед российской космонавтикой от Федерации космонавтики России (2012)
+Государственная премия Украины в области науки и техники (2008 год) за работу «Космические системы, приборы и методы диагностики электромагнитных полей в геокосмосе».
+Медаль Христиана Гюйгенса (2009 год) за существенные достижения в развитии датчиков и электрических и магнитных приборов для исследования Земли и Солнечной системы.
+Орден За заслуги III степени (15 мая 2003).
+Звание «Заслуженный деятель науки и техники Украины» (1997 г.)
+
+Публикации
+Общее количество публикаций: 450
+Ключевые публикации:
+
+Сопрунюк П.М., Климов С.И., Корепанов В.Е. Электрические поля в космической плазме. Киев: Наукова думка, 1994.
+Korepanov V., Berkman R., New approach to the exact design of low noise search-coil magnetometers, XIV IMEKO World Congress, V. IVA, 1997, Topic 4, pp. 97–102. 
+Korepanov V., Berkman R., Digital flux-gate magnetometer structural analysis, Meas. Sci. Technol., 10 (1999), pp. 734–737.
+F.Dudkin, V.Korepanov, G. Lizunov. Experiment VARIANT - first results from Wave Probe instrument. Advances in Space Research. Volume 43, Issue 12, 1904-1909 (2009). 
+В.Е.Корепанов, А. Н. Свенсон. Высокоточные неполяризующиеся электроды для наземной геофизической разведки. К. Наукова думка. 2007. 100 с.
+The new INTERMAGNET 1-second standard fluxgate magnetometer. V.Korepanov, A. Marusenkov (Lviv Center of Institute of Space Research, Lviv, Ukraine), J.Rasson (Royal Meteorological Institute, Dourbes, Belgium)
+
+Доклады на научных конференциях
+V.Korepanov, G. lizunov. Seismoionospheric coupling and earthquakes forecast probability (EGU, April, 13-18, 2008, Vienna, Austria) 
+В.Корепанов. Магнітометри та магнітотелуричні станції для прикладної геофізики (Наукова конференція «Геофізичні технології прогнозування й моніторингу геологічного середовища», 6-10 жовтня 2008, Львів, КВ ІГФ НАНУ)
+Klimov, S.I., V.E.Korepanov, D.I.Novikov, Cs. Ferencz, J. Lichtenberger, A. Marusenkov, L.Bodnar. Study of electromagnetic parameters of space weather. micro-satellite «CHIBIS- M». Digest of the 7th Int. Symposium of the Int. Academy of Astronautics «Small Satellites for Earth Observation». Berlin, May 4-8, 2009. P. 65-68.
+V. Korepanov, F. Dudkin, G. Lizunov. New instrument for wave activity study. Digest of the 7th Int. Symposium of the Int. Academy of Astronautics «Small Satellites for Earth Observation». Berlin, May 4-8, 2009. P. 187—190.
+S. Belyayev, F. Dudkin, V. Korepanov, О. Leontyeva. Possibility of IGRF model upgrade using microsatellite service magnetometer. Digest of the 7th Int. Symposium of the Int. Academy of Astronautics «Small Satellites for Earth Observation». Berlin, May 4-8, 2009. P. 565—568.
+
+Членство в научных обществах
+Международная академия астронавтики (IAA);
+Международная комитет по космическим исследованиям (COSPAR National board);
+Международная ассоциация геомагнетизма и аэрономии (IAGA WG 5-OBS on Geomagnetic Observatories);
+Европейский союз наук о Земле (EGU IWG Geophysical Instrumentation Vice‑Chairman);
+National Space Review and National Antarctic Bulletin editorial boards.
+
+Примечания
+Ссылки
+ (англ.) Curriculum Vitae. Сайт Львовского центра Института космических исследований
+ (англ.) EGU awards Christiaan Huygens Medal 2009 to Dr. Valery Korepanov
+ (укр.) Валерій Корепанов: На Львівщині продовжують досліджувати космос
+Валерий Евгеньевич Корепанов: «Перспективы мониторинга предвестников землетрясений из космоса»
+С.И. Климов, В.Е. Корепанов: «Электромагнитные исследования ИКИ РАН и ЛЦ ИКИ НАН и URF Украины в космической плазме»

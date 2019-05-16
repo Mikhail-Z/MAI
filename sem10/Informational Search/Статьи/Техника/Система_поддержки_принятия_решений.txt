@@ -1,0 +1,37 @@
+Систе́ма подде́ржки приня́тия реше́ний (СППР) (англ. Decision Support System, DSS) — компьютерная автоматизированная система, целью которой является помощь людям, принимающим решение в сложных условиях для полного и объективного анализа предметной деятельности. СППР возникли в результате слияния управленческих информационных систем и систем управления базами данных.
+Для анализа и выработок предложений в СППР используются разные методы. Это могут быть: информационный поиск, интеллектуальный анализ данных, поиск знаний в базах данных, рассуждение на основе прецедентов, имитационное моделирование, эволюционные вычисления и генетические алгоритмы, нейронные сети, ситуационный анализ, когнитивное моделирование и др. Некоторые из этих методов были разработаны в рамках искусственного интеллекта. Если в основе работы СППР лежат методы искусственного интеллекта, то говорят об интеллектуализированной СППР или ИСППР.
+Близкие к СППР классы систем — это экспертные системы и автоматизированные системы управления.
+
+См. также
+Теория принятия решений
+Оптимизация
+Исследование операций
+Программное обеспечение для принятия решений
+
+Литература
+Ларичев О. И., Петровский А. Б. Системы поддержки принятия решений. Современное состояние и перспективы их развития. // Итоги науки и техники. Сер. Техническая кибернетика. — Т.21. М.: ВИНИТИ, 1987, с. 131—164, http://www.raai.org/library/papers/Larichev/Larichev_Petrovsky_1987.pdf
+Сараев А. Д., Щербина О. А. Системный анализ и современные информационные технологии //Труды Крымской Академии наук. — Симферополь: СОНАТ, 2006. — С. 47-59, http://matmodelling.pbnet.ru/Statya_Saraev_Shcherbina.pdf
+Терелянский, П. В. Системы поддержки принятия решений. Опыт проектирования : монография / П. В. Терелянский ; ВолгГТУ. — Волгоград, 2009. — 127 с.
+Alter S. L. Decision support systems : current practice and continuing challenges. Reading, Mass.: Addison-Wesley Pub., 1980.
+Bonczek R.H., Holsapple C., Whinston A.B. Foundations of Decision Support Systems.- New York: Academic Press, , 1981.
+Davis G. Management Information Systems: Conceptual Foundations, Structure, and Development. — New York: McGraw-Hill, 1974.
+Druzdzel M. J., Flynn R. R. Decision Support Systems. Encyclopedia of Library and Information Science. — A. Kent, Marcel Dekker, Inc., 1999.
+Edwards J.S. Expert Systems in Management and Administration — Are they really different from Decision Support Systems? // European Journal of Operational Research, 1992. — Vol. 61. — pp. 114—121.
+Eom H., Lee S. Decision Support Systems Applications Research: A Bibliography (1971—1988) // European Journal of Operational Research, 1990. — N 46. — pp. 333—342.
+Finlay P. N. Introducing decision support systems. — Oxford, UK Cambridge, Mass., NCC Blackwell: Blackwell Publishers, 1994.
+Ginzberg M.I., Stohr E.A. Decision Support Systems: Issues and Perspectives // Processes and Tools for Decision Support / ed. by H.G. Sol.. — Amsterdam: North-Holland Pub.Co, 1983.
+Golden B., Hevner A., Power D.J. Decision Insight Systems: A Critical Evaluation // Computers and Operations Research, 1986. — v. 13. — N2/3. — p. 287—300.
+Haettenschwiler P. Neues anwenderfreundliches Konzept der Entscheidungs-unterstutzung. Gutes Entscheiden in Wirtschaft, Politik und Gesellschaft. Zurich: Hochschulverlag AG, 1999. — S. 189—208.
+Holsapple C.W., Whinston A.B. Decision Support Systems: A Knowledge-based Approach. — Minneapolis: West Publishing Co., 1996.
+Keen P.G.W. Decision support systems: a research perspective. Decision support systems : issues and challenges. G. Fick and R. H. Sprague. Oxford ; New York: Pergamon Press, 1980.
+Keen P.G.W. Decision Support Systems: The next decades // Decision Support Systems, 1987. — v. 3. — pp. 253—265.
+Keen P.G.W., Scott Morton M. S. Decision support systems : an organizational perspective. Reading, Mass.: Addison-Wesley Pub. Co., 1978.
+Little J.D.C. Models and Managers: The Concept of a Decision Calculus // Management Science, 1970. — v. 16. — N 8.
+Marakas G. M. Decision support systems in the twenty-first century. Upper Saddle River, N.J.: Prentice Hall, 1999.
+Power D. J. «What is a DSS?» // The On-Line Executive Journal for Data-Intensive Decision Support, 1997. — v. 1. — N3.
+Power D. J. Web-based and model-driven decision support systems: concepts and issues. Americas Conference on Information Systems, Long Beach, California, 2000.
+Power D.J. A Brief History of Decision Support Systems. DSSResources.COM, World Wide Web, http://DSSResources.COM/history/dsshistory.html, version 2.8, May 31, 2003.
+Scott Morton M. S. Management Decision Systems: Computer-based Support for Decision Making. — Boston: Harvard University, 1971.
+Sprague R. H., Carlson E. D. Building Effective Decision Support Systems. — Englewood Cliffs, NJ: Prentice-Hall, 1982.
+Sprague R.H. A Framework for the Development of Decision Support Systems // MIS Quarterly, 1980. — v. 4. — pp. 1-26.
+Thierauf R.J. Decision Support Systems for Effective Planing and Control. -Englewood Cliffs, N.J: Prentice Hall, Inc, 1982. — 536 p.

@@ -1,0 +1,106 @@
+Оши́бка игрока́ (англ. gambler’s fallacy) или ложный вывод Монте-Карло отражает распространённое ошибочное понимание случайности событий. Связана с тем, что, как правило, человек не осознаёт на интуитивном уровне того факта, что вероятность желаемого исхода не зависит от предыдущих исходов случайного события.
+Например, в случае с подбрасыванием монеты много раз подряд вполне может произойти такая ситуация, что выпадет 9 «решек» подряд. Если монета «нормальная», то для многих людей кажется очевидным, что при следующем броске вероятность выпадения орла будет больше: сложно поверить, что «решка» может выпасть десятый раз подряд. Тем не менее, такой вывод является ошибочным. Вероятность выпадения следующего орла или решки по-прежнему остаётся 1/2.
+Нужно, однако, разграничивать понятия: вероятность выпадения «орла» или «решки» в каждом конкретном случае и вероятность выпадения «решки» 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   раз подряд (например, два раза подряд или десять раз подряд). Последняя будет равна 
+  
+    
+      
+        (
+        1
+        
+          /
+        
+        2
+        
+          )
+          
+            n
+          
+        
+        =
+        1
+        
+          /
+        
+        
+          2
+          
+            n
+          
+        
+      
+    
+    {\displaystyle (1/2)^{n}=1/2^{n}}
+   (для случаев с двумя или десятью выпадениями подряд — соответственно 
+  
+    
+      
+        1
+        
+          /
+        
+        4
+      
+    
+    {\displaystyle 1/4}
+   или 
+  
+    
+      
+        1
+        
+          /
+        
+        1024
+      
+    
+    {\displaystyle 1/1024}
+  ). Впрочем, такой же будет вероятность выпадения и любой другой фиксированной последовательности из «орлов» и «решек» при 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   бросках монеты.
+
+См. также
+Парадокс Берксона
+Парадокс закономерности
+Задача о разорении игрока
+
+Примечания
+Литература
+Ayton, P. & Fischer, I. (2004), "The hot-hand fallacy and the gambler's fallacy: Two faces of subjective randomness?", Memory and Cognition  Т. 32:  1369–1378, DOI 10.3758/bf03206327 
+Barron, Greg & Leider, Stephen (2010), "The role of experience in the Gambler's Fallacy", Journal of Behavioral Decision Making  Т. 23 (1):  117–129, ISSN 0894-3257, DOI 10.1002/bdm.676 
+Beach, L. R. & Swensson, R. G. (1967), "Instructions about randomness and run dependency in two-choice learning", Journal of Experimental Psychology  Т. 75:  279–282, DOI 10.1037/h0024979 
+Burns, Bruce D. & Corpus, Bryan (2004), "Randomness and inductions from streaks: "Gambler’s fallacy" versus "hot hand"", Psychonomic Bulletin & Review  Т. 11 (1):  179–184, ISSN 1069-9384, DOI 10.3758/BF03206480 
+Chen, Daniel; Moskowitz, Tobias J. & Shue, Kelly (2016-03-24), "Decision-Making Under the Gambler's Fallacy: Evidence from Asylum Judges, Loan Officers, and Baseball Umpires*", The Quarterly Journal of Economics:  qjw017, ISSN 0033-5533, doi:10.1093/qje/qjw017, <http://qje.oxfordjournals.org/content/early/2016/03/23/qje.qjw017> 
+Darling, David. The Universal Book of Mathematics: From Abracadabra to Zeno's Paradoxes. — John Wiley & Sons, 2004. — ISBN 978-0-471-27047-8.
+Fischbein, E. & Schnarch, D. (1997), "The evolution with age of probabilistic, intuitively based misconceptions", Journal for Research in Mathematics Education  Т. 28:  96–105, DOI 10.2307/749665 
+Huber, J.; Kirchler, M. & Stockl, T. (2010), "The hot hand belief and the gambler's fallacy in investment decisions under risk", Theory and Decision  Т. 68:  445–462, DOI 10.1007/s11238-008-9106-2 
+Keren, Gideon & Lewis, Charles (1994), "The Two Fallacies of Gamblers: Type I and Type II", Organizational Behavior and Human Decision Processes  Т. 60 (1):  75–89, ISSN 0749-5978, DOI 10.1006/obhd.1994.1075 
+Lehrer, Jonah. How We Decide. — New York : Houghton Mifflin Harcourt, 2009. — ISBN 978-0-618-62011-1.
+O'Neill, B. & Puza, B.D. (2005), "In defence of the reverse gambler's belief", The Mathematical Scientist  Т. 30 (1):  13–16, ISSN 0312-3685 
+Oppenheimer, D. M. & Monin, B. (2009), "The retrospective gambler's fallacy: Unlikely events, constructing the past, and multiple universes", Judgment and Decision Making  Т. 4:  326–334 
+Rogers, Paul (1998), "The cognitive psychology of lottery gambling: A theoretical review", Journal of Gambling Studies  Т. 14 (2):  111–134, ISSN 1050-5350, DOI 10.1023/A:1023042708217 
+Roney, C. J. & Trick, L. M. (2003), "Grouping and gambling: A gestalt approach to understanding the gambler's fallacy", Canadian Journal of Experimental Psychology  Т. 57:  69–75, DOI 10.1037/h0087414 
+Suetens, Sigrid; Galbo-Jørgensen, Claus B. & Tyran, Jean-Robert (2016-06-01), "Predicting Lotto Numbers: A Natural Experiment on the Gambler's Fallacy and the Hot-Hand Fallacy", Journal of the European Economic Association  Т. 14 (3):  584–607, ISSN 1542-4774, doi:10.1111/jeea.12147, <http://onlinelibrary.wiley.com/doi/10.1111/jeea.12147/abstract> 
+Sundali, J. & Croson, R. (2006), "Biases in casino betting: The hot hand and the gambler's fallacy", Judgment and Decision Making  Т. 1:  1–12 
+Gilovich, Thomas (1991), How we know what isn't so, New York: The Free Press, с. 16–19, ISBN 0-02-911706-2 
+Tune, G. S. (1964), "Response preferences: A review of some relevant literature", Psychological Bulletin  Т. 61 (4):  286–302, PMID 14140335, DOI 10.1037/h0048618 
+Tversky, Amos & Daniel Kahneman (1971), "Belief in the law of small numbers", Psychological Bulletin  Т. 76 (2):  105–110, DOI 10.1037/h0031322 
+Tversky, Amos & Daniel Kahneman (1974), "Judgment under uncertainty: Heuristics and biases", Science  Т. 185 (4157):  1124–1131, PMID 17835457, DOI 10.1126/science.185.4157.1124 
+Xue, G.; Lu, Z.; Levin, I. P. & Bechara, A. (2011), "An fMRI study of risk-taking following wins and losses: Implications for the gambler's fallacy", Human Brain Mapping  Т. 32:  271–281, DOI 10.1002/hbm.21015
+
+Ссылки
+The gambler’s fallacy exposed
+The Gambler’s Fallacy

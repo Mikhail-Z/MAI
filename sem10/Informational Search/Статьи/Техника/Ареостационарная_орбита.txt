@@ -1,0 +1,11 @@
+Ареостационарная орбита — это круговая ареосинхронная орбита, лежащая в плоскости марсианского экватора на высоте 17 000 км от поверхности, на которой искусственный спутник обращается с тем же направлением и той же скоростью, что и поверхность Марса. Хотя сейчас нет искусственных спутников, которые обращались бы по таким высоким орбитам, ареостационарные орбиты представляют интерес, так как с их помощью можно организовать телекоммуникационную сеть для исследования Марса.
+
+См. также
+Список орбит
+Ареосинхронная орбита
+
+Примечания
+Ссылки
+MARS NETWORK: STRATEGIES FOR DEPLOYING ENABLING TELECOMMUNICATIONS CAPABILITIES IN SUPPORT OF MARS EXPLORATION / Concepts and Approaches for Mars Exploration - Пропускная способность ареостационарного спутника, стр 2, раздел Mars Areostationary Relay Satellites  (англ.)
+Emily Lakdawalla, Stationkeeping in Mars orbit / Planetary.org, 27-06-2013  (англ.)
+О работе Juan J. Silvaa, Pilar Romerob, Optimal longitudes determination for the station keeping of areostationary satellites / Planetary and Space Science Volume 87, October 2013, Pages 14–18 doi:10.1016/j.pss.2012.11.013  (англ.)

@@ -1,0 +1,26 @@
+Демосцена ZX Spectrum, по-видимому, начиналась с нескольких групп, возникших в 1986 году. Наиболее сильно она развивалась в конце 1980-х, особенно в Восточной Европе. С 1996 года платформа представлена на большинстве российских демопати (начиная с ENLiGHT 1996).
+Хотя существует ряд демо для Spectrum 48K, большинство из них требуют возможностей модели Spectrum 128K, то есть 128 КБ памяти и звуковой процессор AY-3-8912.
+Некоторые из демо:
+
+Lyra 2 Megademo — Ethanol Software Inc. (Торунь, Польша, 1991) [1]
+Shock Megademo — Ethanol Software Inc. (Торунь, Польша, 1992)
+Satisfaction Megademo — CodeBusters (Харьков, 1994)
+Insult Megademo — CodeBusters (Харьков, 1995)
+Vibrations — Dream Makers Software/RUSH ispa (Гомель, 1996)
+7th Reality — Digital Reality (Новгород, 1996)
+Shit4Brains — Progress (Москва, 1997)
+Refresh — Extreme (Москва-Владимир, 1998)
+Napalm — Eternity Industry (Ковров, 1999)
+Anamnesis — Real Masters (Петрозаводск, 1999)
+Condommed — E-mage (Гродно, 1999)
+Tryptomine Dream — Brainwave (Йошкар-Ола, 2000)
+Melange — 4D (Пермь, 2000)
+Stellar Contour — Brainwave (Йошкар-Ола, 2001)
+
+Ссылки
+raww.org  (англ.) — Новости демосцены
+SpeccyLive  (рус.) — Новости демосцены
+www.zxdemo.org  (англ.) — Архив демо, музыки, графики и работ с демопати
+zxaaa.net  (рус.) — Сайт, посвященный старой демосцене ZX Spectrum и людям, основавшим её
+Список Scene Demo на WorldOfSpectrum
+ZX-Art  (рус.) — Самый полный архив ZX-Spectrum графики с демопати

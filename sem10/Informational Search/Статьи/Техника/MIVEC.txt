@@ -1,0 +1,9 @@
+MIVEC (Mitsubishi Innovative Valve timing Electronic Control system) — система изменения фаз газораспределения с электронным управлением, разработанная Mitsubishi Motors. Впервые представлена в двигателе 4G92 (англ.), под названием Mitsubishi Innovative Valve timing and lift Electronic Control. Применение MIVEC позволило увеличить мощность двигателя со 145 л.с. (при 7000 об.) до 175 л.с. (при 7500 об.). Первым автомобилем с использованием этой системы стал Mitsubishi Mirage в кузове хэтчбек. В настоящее время широко применяется в двигателях Mitsubishi от компактных моделей и до Lancer Evolution и ASX.
+
+Примечания
+Ссылки
+Информация на официальном сайте Mitsubishi Motors
+
+См. также
+VTEC
+VVT-i

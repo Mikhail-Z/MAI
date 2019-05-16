@@ -1,0 +1,33 @@
+Гради Буч (англ. Grady Booch; 27 февраля 1955 года, Амарилло, Техас, США) — американский специалист в области программной инженерии, руководитель исследований в IBM Research, IBM Fellow с 2003 года. Гради Буч наиболее известен как создатель унифицированного языка моделирования UML, который он разработал совместно с Иваром Якобсоном и Джеймсом Рамбо.
+
+Биография
+Гради Буч родился в 1955 в городе Амарилло, штат Техас. Отец Гради был офицером ВВС США, а после отставки работал в службе правопорядка и стал шерифом Амарилло. Мать Гради работала директором офиса Американского Красного Креста. Также у него есть сестра, которая старше его на 6 лет.
+В 1977 Гради Буч закончил обучение в Академии ВВС США. Затем он проходил службу на базе ВВС в Ванденберге, где руководил разработкой целого ряда проектов, управляющих полетом ракет. В 1979 Гради Буч получил степень магистра Университета Калифорнии в Санта-Барбаре. После того, как срок его службы истек, он присоединился к своим друзьям по Академии Майку Девлину и Полу Леви, основав Rational Software.
+Известность Буч получил в 1980-х годах благодаря созданию метода разработки программного обеспечения, впоследствии названного методом Буча. Данный метод был изложен в книге «Объектно-ориентированный анализ и проектирование». Также Буч был автором одной из самых популярных в то время книг о программировании на языке Ada.
+В 1994 году Гради Буч и Джеймс Рамбо, работавшие в компании Rational Software, объединили свои усилия для создания нового языка объектно-ориентированного моделирования. За основу языка ими были взяты методы моделирования, разработанные Бучем (метод Буча) и Рамбо (Object-Modeling Technique — OMT). OMT был ориентирован на анализ, а метод Буча — на проектирование программных систем. Осенью 1995 года к ним присоединился Ивар Якобсон, автор метода Object-Oriented Software Engineering — OOSE, обеспечивавшего превосходные возможности для спецификации бизнес-процессов и анализа требований при помощи сценариев использования.
+Затем к идее создания нового языка моделирования подключились новые участники и основная роль в организации процесса разработки UML перешла к консорциуму OMG (Object Management Group). Группа разработчиков в OMG, в которую также входили Буч, Рамбо и Якобсон, выпустила спецификации UML версий 0.9 и 0.91 в июне и октябре 1996 года.
+На волне растущего интереса к UML к разработке новых версий языка в рамках консорциума UML Partners присоединились такие компании, как Digital Equipment Corporation, Hewlett-Packard, i-Logix, IntelliCorp, IBM, ICON Computing, MCI Systemhouse, Microsoft, Oracle Corporation, Rational Software, Texas Instruments и Unisys. Результатом совместной работы стала спецификация UML 1.0, вышедшая в январе 1997 года.
+С середины 1990-х Гради Буч занимал должность руководителя исследований компании Rational Software, где работал до 18 марта 2008 года (в 2003 г. корпорация IBM купила Rational Software). В настоящий момент Буч руководит исследованиями и проектами IBM Research.
+
+Награды
+Пионер компьютерной техники (2016)
+
+Публикации
+1983. Software Engineering with Ada. Benjamin/Cummings. ISBN 0-8053-0604-8.
+1995. Object Solutions: Managing the Object-Oriented Project. Pearson Education. ISBN 0-8053-0594-7.
+1999. The Unified Software Development Process. With Ivar Jacobson and James Rumbaugh. Prentice Hall. ISBN 978-0-201-57169-1.
+2000. The Complete UML Training Course. With James Rumbaugh and Ivar Jacobson. Prentice Hall. ISBN 0-13-087014-5.
+2004. The Unified Modeling Language Reference Manual, Second Edition. With James Rumbaugh and Ivar Jacobson. Addison-Wesley. ISBN 978-0-321-24562-5.
+2005. The Unified Modeling Language User Guide, Second Edition. With James Rumbaugh and Ivar Jacobson. Addison-Wesley. ISBN 978-0-321-26797-9.
+2007. Object-Oriented Analysis and Design with Applications. Addison-Wesley ISBN 0-201-89551-X.
+Гради Буч и др. Объектно-ориентированный анализ и проектирование с примерами приложений (UML 2). Третье издание = Object-Oriented Analysis and Design with Applications (3rd Edition). — М.: «Вильямс», 2008. — 720 с. — ISBN 978-5-8459-1401-9.
+
+Примечания
+Источники информации
+Гради Буч — о средствах разработки и их будущем
+Grady Booch’s blog  (недоступная ссылка с 14-03-2014 [1887 дней] — история, копия)
+Frontier Visionary Interview with Grady Booch on Frontier Journal (Part I)
+Frontier Visionary Interview with Grady Booch on Frontier Journal (Part II)  (недоступная ссылка с 14-03-2014 [1887 дней] — история, копия)
+A podcast interview with Grady Booch on Software Engineering Radio
+«The Promise, The Limits, The Beauty of Software» talk at Yahoo!
+There is joy in software. Podcast

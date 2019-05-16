@@ -1,0 +1,60 @@
+Т-скан III (англ. T-scan III) — компьютерная система для клинической диагностики и анализа окклюзионных контактов разработанная фирмой Tekscan (Boston, MA, 1987). Такой анализ позволяет определить последовательность, синхронность, площадь и силу каждого контакта. Данная система может измерять усилие с учетом времени для оценки динамической окклюзии непосредственно в полости рта пациента, что является более точным и быстрым методом в отличие от анализа окклюзии на моделях челюстей в артикуляторе.Технология T-Scan III применяется на всех этапах лечения зубов, связанных с диагностикой и коррекцией окклюзии, и является единственным количественным методом анализа окклюзии, применимым на практике.,,
+Сравнение контактов проводится в центральном соотношении и в максимальном межбугорковом положении, а также протрузии, правой и левой латеротрузии.
+Возможность отображения аналитических данных, таких как «Центр силы» и «Центр траектории силы», позволяет всесторонне оценивать общий баланс окклюзии, который является основным для планирования и контроля процесса лечения.
+С момента появления первой системы в 1987 году, использование компьютерного анализа окклюзии получило широкое распространение в имплантологии, ортодонтии, обучении пациентов, терапевтической стоматологии, а также в области диагностики и исправления патологий височно-нижнечелюстного сустава.
+
+Принцип работы
+Во время исследования пациент прикусывает индивидуальную пластинку — сенсор, который оценивает и отражает на мониторе компьютера все контакты между зубами, учитывая:
+
+последовательность и силу их возникновения;
+распределение нагрузки на каждый зуб и на определённый сегмент:
+смещение центра силы при движении нижней челюсти.Данные хранятся в электронном виде, что позволяет составить план лечения и контролировать его процесс.
+Окклюзионная диагностика состоит из записи нескольких фильмов, отображающих окклюзионные контакты, для уточнения данных и обнаружения погрешности. Запись проводится в нескольких положениях:
+
+центральном соотношении для отображения первых преждевременных контактов;
+максимальном межбугорковом смыкании для определения сил смыкания по всей дуге справа налево в процентном соотношении, дисбаланса окклюзии и времени окклюзии (времени *достижения максимального межбугоркового положения);
+экскурсионных движениях нижней челюсти (латеротрузия вправо, латеротрузия влево, протрузия) для определения рабочих и нерабочих препятствий и времени дизокклюзии;
+привычном смыкании для определения преждевременных контактов зубов, которые подвергаются перегрузке при жевательных движениях.
+
+Необходимость окклюзионного анализа
+Адекватная оценка и контроль окклюзии играет важную роль для достижения положительного результата и повышения срока службы любого стоматологического лечения. Неправильные окклюзионные контакты приводят к перегрузке зубов и так называемой травматической окклюзии, клиническим проявлением которой являются:
+
+миграция зубов;
+трещины эмали;
+потемнение зуба;
+подвижность зубов;
+атрофия тканей пародонта,
+рецессия десны (убыль десны);
+появление дефектов пломб, коронок (сколы керамики), сокращение срока их службы;
+нарушение остеоинтеграции имплантатов, а также сокращение сроков их службы;
+заболеваниям височно-нижнечелюстного сустава;
+мигрени.
+
+См. также
+Окклюзия (стоматология)
+
+Примечания
+Литература
+Сейфоллахі М. Підготовка бічних зубів під суцільнокерамічні вкладки / М.Сейфоллахі // Новини стоматології. — Львів:2008. — № 2. — с. 78-87.[4]
+Koos B, Godt A, Schille C, Göz G Precision of an instrumentation-based method of analyzing occlusion and its resulting distribution of forces in the dental arch J Orofac Orthop. 2010 Nov;71(6):403-10. Epub 2010 Nov 17. English, German.
+Ciavarella D, Parziale V, Mastrovincenzo M, Palazzo A, Sabatucci A, Suriano MM, Bossù M, Cazzolla AP, Lo Muzio L, Chimenti C. Condylar Position Indicator and T-Scan system II in clinical evaluation of temporomandibular intracapsular disease J Craniomaxillofac Surg. 2011 Aug 29.
+Mark W. Montgomery, DMD. T-Scan Dental Force Analysis for Routine Dental Examination. — Dentistry Today [5]
+Dr. Robert Kerstein, DMD. Healthy and Harmonised Function via Computer Guided Occlusion [6]
+T-scan III [7].
+A. Baldini, A. Beraldi, A. Nanussi. Importanza clinica della valutazione Analysis computerizzata dell’occlusione, Dental Cadmos, 2009 Aprile; 77(4) pp 47-
+Kerstein, R. B.; Current Applications of Computerized Occlusal Analysis in Dental Medicine, General Dentistry, Sept/Oct 2001, Vol. 49, No. 5, pp 521—530.
+Kerstein, R. B.; Healthy and Harmonised Function via Computer-Guided Occlusal Force Management. Cosmetic Dentistry, Issue 2/2011, Vol. 5, pp. 6-12
+Kerstein, R.B.: T-Scan II’s Computerized Occlusal Analysis Brings Your Practice Into the Future, Contemporary Esthetics, January 1999, pp 90-94.
+Kerstein, R. B., Grundset, Ken.: Obtaining Measurable Bilateral Simultaneous Occlusal Contacts with Computer-Analyzed and Guided Occlusal Adjustments, Quintessence International, January 2001, Vol. 32 No. 1, pp 7-18.
+Kerstein, R. B., Grundset, Ken: Obtención de contactos oclusales bilaterales simultáneos cuantificables mediante ajustes oclusales analizados y guiados por ordenador, Quintessence International (edición española), Vol 15, No. 5, 2002, pp * Krasteva, Krasmira. Determination and Analysis of Occlusal Contacts, Buldent News, 1999, No. 4, pp. 4-6. Please note this article is in Bulgarian.
+Lerman, Martin D: A Revised View of the Dynamics, Physiology, and Treatment of Occlusion: A New Paradigm, The Journal of Craniomandibular Practice, January 2004, Vol. 22, No. 1 pp 50-63.
+Maness, W.L., Podoloff, R.: Distribution of Occlusal Contacts in Maximum Intercuspation, The Journal of Prosthetic Dentistry, August 1989, Vol. 62, No. 2, pp 238—242.
+Mizui, M., Nabeshima, F., Tosa, J., Tanaka, M., Kawazoe, T.: Quantitative Analysis of Occlusal Balance in Intercuspal Position Using the T-Scan System, The International Journal of Prosthodontics, 1994 Vol. 7, No. 1, pp 62-71.
+Montgomery, Mark: T-Scan Dental Force Analysis for Routine Dental Examination. Dentistry Today, July 2011, Vol. 30, No. 7, pp 112—116
+Neff, Alvin. Using Computerized Occlusal Analysis. Inside Dentistry, January 2009 Vol. 5 --Number 1, pp 80-81.
+Sierpinska T, Golebiewska M, Lapuc M.: The Effect of Mastication on Occlusal Parameters in Healthy Volunteers. Advances in Medical Sciences , 2008, Vol. 53.
+Stevens, Chris: Force, Timing, and Balance, Aesthetic Dentistry, Vol. 2, No. 4, pp 9-10.
+Tarantola, Gregory: Defining Our Role As Dentists, Dentaltown, 2005, Vol. 6, No. 3, pp 42-50.
+
+Ссылки
+Сайт разработчика T-scan III

@@ -1,0 +1,24 @@
+Socket 478 или mPGA478B — процессорный разъём, предназначенный для установки процессоров Intel Pentium 4 и Celeron. Пришёл на смену Socket 423 весной 2002 года.
+Socket 478 использовали для всех процессоров с ядром Northwood (Pentium 4, Celeron), большинства Prescott (Pentium 4, Celeron D) и некоторых Willamette (Pentium 4, Celeron).
+
+Список поддерживаемых процессоров
+Celeron (1,7—1,8 ГГц) (Willamette)
+Celeron (1,6—2,8 ГГц) (Northwood-128)
+Celeron D (2,13—3,2 ГГц) (Prescott)
+Celeron M (1,6 ГГц) (Yonah)
+Celeron M (1,3—1,7 ГГц) (Dothan)
+Pentium 4 (1,4—2,0 ГГц) (Willamette)
+Pentium 4 (1,6—3,4 ГГц) (Northwood)
+Pentium 4 (2,26—3,4 ГГц) (Prescott)
+Pentium 4 Extreme (3,2—3,4 ГГц) (Gallatin)
+Pentium M (0,6—1,7 ГГц) (Banias)
+Pentium M (0,6—2,6 ГГц) (Dothan)
+
+См. также
+Socket 479
+
+Ссылки
+CPU Sockets Chart — Подробная справочная таблица по сокетам
+
+
+== Примечания ==

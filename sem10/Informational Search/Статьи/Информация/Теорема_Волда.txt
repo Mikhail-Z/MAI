@@ -1,0 +1,249 @@
+Теорема Волда — утверждение математической статистики, согласно которому каждый слабо стационарный временной ряд можно представить в виде скользящего среднего бесконечного порядка 
+  
+    
+      
+        
+          M
+          A
+        
+        (
+        ∞
+        )
+      
+    
+    {\displaystyle \mathrm {MA} (\infty )}
+  . Такое представление называют представлением скользящим средним для временных рядов.
+Установлена Херманом Волдом.
+Формально:
+
+  
+    
+      
+        
+          Y
+          
+            t
+          
+        
+        =
+        
+          ∑
+          
+            j
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          b
+          
+            j
+          
+        
+        
+          ε
+          
+            t
+            −
+            j
+          
+        
+        +
+        
+          η
+          
+            t
+          
+        
+      
+    
+    {\displaystyle Y_{t}=\sum _{j=0}^{\infty }b_{j}\varepsilon _{t-j}+\eta _{t}}
+  ,где:
+
+  
+    
+      
+        
+          Y
+          
+            t
+          
+        
+      
+    
+    {\displaystyle Y_{t}}
+   — рассматриваемый временной ряд,
+
+  
+    
+      
+        
+          ε
+          
+            t
+          
+        
+      
+    
+    {\displaystyle \varepsilon _{t}}
+   — белый шум на входе линейного фильтра 
+  
+    
+      
+        {
+        
+          b
+          
+            j
+          
+        
+        }
+      
+    
+    {\displaystyle \{b_{j}\}}
+  ; также применяется термин «инновация» (англ. innovation)
+
+  
+    
+      
+        
+          b
+          
+            j
+          
+        
+      
+    
+    {\displaystyle b_{j}}
+   — последовательность коэффициентов скользящего среднего (параметров или весов)
+
+  
+    
+      
+        
+          η
+          
+            t
+          
+        
+      
+    
+    {\displaystyle \eta _{t}}
+   — детерминированная компонента; равна нулю, если у 
+  
+    
+      
+        
+          Y
+          
+            t
+          
+        
+      
+    
+    {\displaystyle Y_{t}}
+   нет трендов.Коэффициенты 
+  
+    
+      
+        
+          b
+          
+            j
+          
+        
+      
+    
+    {\displaystyle b_{j}}
+   удовлетворяют следующим условиям:
+
+  
+    
+      
+        
+          b
+          
+            0
+          
+        
+        =
+        1
+      
+    
+    {\displaystyle b_{0}=1}
+  
+ряд 
+  
+    
+      
+        
+          b
+          
+            j
+          
+        
+      
+    
+    {\displaystyle b_{j}}
+   сходится абсолютно: 
+  
+    
+      
+        
+          ∑
+          
+            j
+            =
+            1
+          
+          
+            ∞
+          
+        
+        
+          |
+        
+        
+          b
+          
+            j
+          
+        
+        
+          |
+        
+        <
+        ∞
+      
+    
+    {\displaystyle \sum _{j=1}^{\infty }|b_{j}|<\infty }
+  
+отсутствуют члены с 
+  
+    
+      
+        j
+        <
+        0
+      
+    
+    {\displaystyle j<0}
+  
+постоянны (не зависят от 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  )
+
+Примечания
+Литература
+Anderson, T. W. (1971) The Statistical Analysis of Time Series. Wiley.
+Wold, H. (1954) A Study in the Analysis of Stationary Time Series, Second revised edition, with an Appendix on «Recent Developments in Time Series Analysis» by Peter Whittle. Almqvist and Wiksell Book Co., Uppsala.
+Scargle, J.D. (1981) Studies in astronomical time series analysis. I — Modeling random processes in the time domain,,' 1981, Astrophysical Journal Supplement Series, 45, pp. 1-71.

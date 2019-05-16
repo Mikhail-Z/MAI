@@ -1,0 +1,103 @@
+Никола́й Алексе́евич Кудряшо́в (род. 19 сентября 1945 года, с. Селище-Хвошня) — российский математик и физик-теоретик, доктор физико-математических наук, профессор. Заслуженный деятель науки Российской Федерации, лауреат Государственной премии СССР, лауреат премии Правительства Российской Федерации в области образования. Заведующий кафедрой прикладной математики Национального исследовательского ядерного университета «МИФИ».
+Наряду с основной научно-педагогической деятельностью занимается историческими исследованиями. Автор книг «Берия и советские учёные в атомном проекте», «Открытия в физике и создание атомного оружия», «Хроники ядерного университета МИФИ» (в соавторстве с М. Н. Стрихановым).
+Имеет более 300 публикаций, количество цитирований по базе данных Web of Science — более 3000, индекс Хирша — 26.
+
+Биография
+Родился 19 сентября 1945 года в селе Селище-Хвошня (Спировский район Тверской области).
+В 1964 году окончил среднюю школу поселка Калашниково с серебряной медалью. После окончания школы поступил на физико-математический факультет Калининского государственного педагогического института. В том же году был призван в Советскую армию. Служил в ракетных войсках стратегического назначения. В ноябре 1967 года был демобилизован из армии в должности «техник-старшина автономных систем управления». До июля 1968 года работал учителем физики и физкультуры в Селищенской восьмилетней школе.
+В 1968 году поступил на Факультет экспериментальной и теоретической физики МИФИ. В 1974 году окончил кафедру прикладной математической физики МИФИ, получив диплом с отличием по специальности «теоретическая ядерная физика». С 1974 по 1976 гг. работал в отраслевой лаборатории МИФИ при Министерстве среднего машиностроения, занимаясь изучением последствий действия сильных взрывов.
+В 1976 году поступил в аспирантуру МИФИ. В 1978 году досрочно защитил диссертацию на соискание ученой степени кандидата физико-математических наук. До ноября 1979 года работал младшим научным сотрудником. В декабре 1979 года вернулся на кафедру прикладной математической физики на должность ассистента.
+В 1982 году в составе коллектива авторов (В. М. Колобашкин, А. Н. Гудков, Г. А. Кауров, В. И. Некрасов, А. Г. Бондаренко, Ю. А. Сербулов, Н. П. Ушакова, С. К. Ачкасов, В. П. Новичков, Ю. А. Егоров, Ф. Я. Ровинский) стал лауреатом Государственной премии СССР за работу в области охраны природной среды.
+В 1983 году получил звание доцентa.
+1 марта 1984 года назначен исполняющим обязанности заведующего кафедрой прикладной математической физики.
+В 1985 году защитил диссертацию на соискание учёной степени доктора физико-математических наук. В 1988 году получил звание профессора.
+В ноябре 1986 года по конкурсу избран на должность заведующего кафедрой прикладной математической физики (в 1998 году переименована в кафедру прикладной математики), где работает и в настоящее время.
+В 1994 году получил звание «Соросовский профессор» с присуждением гранта Международной соросовской программы образования.
+В 2002 году Н. А. Кудряшову было присвоено почётное звание Заслуженного деятеля науки Российской Федерации.
+С 2007 года в ранге проректора возглавляет Совет по аттестации и подготовке научно-педагогических кадров НИЯУ МИФИ. Курирует работу отдела диссертационных советов, отдела аспирантуры и докторантуры.
+В ноябре 2013 года в составе коллектива авторов (В. Г. Никитаев, О. В. Нагорнов, А. Н. Проничев, К. С. Чистов, Н. Н. Петровичев, Д. Ю. Пушкарь, В. Ю. Сельчук) стал лауреатом премии Правительства Российской Федерации в области образования за научно-практическую разработку «Высокотехнологичные компьютерные учебно-диагностические системы по онкологии на основе экспертных знаний».
+В качестве профессора и заведующего кафедрой прикладной математики НИЯУ МИФИ читал лекции по курсам «Уравнения математической физики»; «Численные методы»; «Теория разностных схем»; «Математические модели механики сплошной среды»; «Нелинейные уравнения в частных производных».
+В настоящее время читает лекции по курсам:
+
+Нелинейные математические модели;
+Групповой анализ дифференциальных уравнений;
+Методы нелинейной математической физики.
+
+Научная деятельность
+Профессор Н. А. Кудряшов — автор более 300 научных работ, основная часть которых опубликована в ведущих отечественных и зарубежных журналах.
+До 1987 года научные интересы Н. А. Кудряшова были связаны с математическим моделированием сильных взрывов и исследованием последствий глобальных катастроф в природе. В период с 1974 по 1976 гг. им были сформулированы физико-математические модели радиоактивного загрязнения при подземных ядерных взрывах, которые легли в основу вычислительных программ, использовавшихся в ряде организаций Министерства обороны СССР. Начиная с 1987 года, научные интересы Н. А. Кудряшова направлены на исследования, связанные с аналитической теорией нелинейных дифференциальных уравнений и с разработкой методов нелинейной математической физики.
+Н. А. Кудряшов впервые применил метод Пенлеве для поиска аналитических решений нелинейных дифференциальных уравнений, неинтегрируемых методом обратной задачи рассеяния. Им и его учениками получен целый ряд новых точных решений нелинейных уравнений математической физики (уравнений Курамото-Сивашинского, Бюргерса-Хаксли, Брезертона, Свифта-Хохенберга, Кавахары, Олвера и др.).
+Н. А. Кудряшовым реализована идея поиска решений нелинейных дифференциальных уравнений, неинтегрируемых методом обратной задачи рассеяния, с использованием уравнений более низкого порядка, имеющих свойство Пенлеве (уравнение Риккати; уравнения для эллиптических функций и т. д.). В научной литературе этот метод стал известен под названием the Kudryashov method.
+Профессором Н. А. Кудряшовым решена проблема о расширении нелинейных обыкновенных дифференциальных уравнений, аналогичных уравнениям Пенлеве, сформулированная Мартином Д. Крускалом. Им предложены несколько новых иерархий нелинейных дифференциальных уравнений (Иерархия первого и второго уравнений Пенлеве, иерархия семейства уравнений К1 и К2) и изучены свойства уравнений этих иерархий. Показана существенно трансцендентная зависимость решений от постоянных интегрирования, доказано отсутствие полиномиальных законов сохранения, найдены бирациональные преобразования для решений уравнений, получены рациональные и специальные решения при некоторых ограничениях на параметры уравнений. Также показано, что все уравнения указанных семейств имеют свойства, аналогичные знаменитым уравнениям Пенлеве. Таким образом, Н. А. Кудряшовым впервые показано, что число уравнений, обладающих свойствами уравнений Пенлеве, не ограничивается лишь шестью уравнениями.
+Совместно с М. В. Деминой профессором Н. А. Кудряшовым опровергнута гипотеза Бурчналла-Чанди о том, что единственными решениями нелинейного уравнения Ткаченко, описывающего стационарную конфигурацию точечных вихрей на плоскости, являются корни полиномов Адлера-Мозера. Было показано, что новые нелинейные специальные полиномы, введенные авторами, также являются решениями уравнения Ткаченко, и их корни определят также стационарные состояния точечных вихрей на плоскости.
+Н. А. Кудряшовым совместно с Д. И. Синельщиковым получены обобщенные уравнения для описания волн в жидкости с пузырьками газа (the Kudryashov-Sinelshchikov equation) при учете влияния процессов вязкости жидкости и теплообмена и при учете поправок более высокого порядка малости.
+Ряд работ профессора Н. А. Кудряшова носят методический характер и направлены на исправление ошибок, возникающих при применении некоторых широко распространённых методов поиска точных решений нелинейных дифференциальных уравнений. Им проведена классификация распространенных ошибок в научной литературе по методам построения точных решений нелинейных дифференциальных уравнений. Принципиальная позиция профессора Н. А. Кудряшова за «чистоту математики» отмечена некоторыми блогерами.
+Руководитель ведущей научной школы по направлению «Математика и механика», коллектив которой в 2012 и 2014 годах одерживал победу в конкурсе по государственной поддержке ведущих научных школ.
+Профессор Н. А. Кудряшов — высокоцитируемый ученый: по данным на декабрь 2015 года число цитирований в базе данных Web of Science равно 2300, индекс Хирша — 23. По данным РИНЦ, входит в Топ-100 самых цитируемых и продуктивных российских учёных в области математики.
+Является членом редколлегий ряда научных журналов: Applied mathematics and Computation; Communications in Nonlinear Science and Numerical Simulations; Discontinuity, Nonlinearity and Complexity; Journal of Partial Differential Equations; Regular and Chaotic Dynamics; Нелинейная динамика; Ядерная физика и инжиниринг; Вестник Национального исследовательского ядерного университета «МИФИ» (заместитель главного редактора).
+Под руководством Н. А. Кудряшова 19 аспирантов, соискателей и докторантов успешно защитили диссертации на соискание ученых степеней кандидата и доктора физико-математических или технических наук.
+
+Награды
+Лауреат Государственной премии СССР (1982 год) — за работу в области охраны природной среды
+Заслуженный деятель науки Российской Федерации (2002 год)
+Ветеран атомной энергетики и промышленности (2002 год)
+Почётный работник высшего профессионального образования Российской Федерации (2007 год)
+Нагрудный знак «Академик И. В. Курчатов» (2010 год)
+Нагрудный знак «Е. П. Славский» (2012 год)
+Лауреат премии Правительства Российской Федерации в области образования (2013 год) — за научно-практическую разработку «Высокотехнологичные компьютерные учебно-диагностические системы по онкологии на основе экспертных знаний».
+
+Библиография
+Книги
+Кудряшов Н.А. Автомодельные задачи движения газа в пористой среде. — М.: МИФИ, 1984.
+Кудряшов Н.А. Аналитическая теория нелинейных дифференциальных уравнений. — г. Ижевск: Институт компьютерных исследований, 2004.
+Кудряшов Н.А. Методы нелинейной математической физики. — г. Долгопрудный: Интеллект, 2010.
+Кудряшов Н.А. Берия и советские ученые в атомном проекте. — М.: МИФИ, 2013.
+Кудряшов Н.А. Открытия в физике и создание атомного оружия. — М.: МИФИ, 2015.
+Кудряшов Н.А. Обыкновенная автобиография. — М.: МИФИ, 2016.
+Кудряшов Н.А. Берия и советские ученые в Атомном проекте. Судьба Лаврентия Берии. — М.: Ленанд, 2017.
+Кудряшов Н.А., Стриханов М.Н. Хроники ядерного университета МИФИ. — М.: URSS, 2017.
+
+Статьи
+N.A. Kudryashov. Exact solutions of the generalized Kuramoto-Sivashinsky equation (англ.) // Physics Letters A. — 1990. — Vol. 147, no. 5—6. — P. 287–291.
+Nicolai A. Kudryashov. The first and second Painlevé equations of higher order and some relations between them (англ.) // Physics Letters A. — 1997. — Vol. 224, no. 6. — P. 353–360.
+Nicolai A. Kudryashov. Method for deriving rational solutions of some nonlinear evolution equations (англ.) // Journal of Physics A: Mathematical and General. — 1997. — Vol. 30, no. 15. — P. 5445—5453.
+Nicolai A. Kudryashov, Mikhail B. Soukharev. Uniformization and transcendence of solutions for the first and second Painlevé hierarchies (англ.) // Physics Letters A. — 1998. — Vol. 237, no. 4—5. — P. 206–216.
+Nicolai A. Kudryashov. Transcendents defined by nonlinear fourth-order ordinary differential equations (англ.) // Journal of Physics A: Mathematical and General. — 1999. — Vol. 32, no. 6. — P. 999—1014.
+Nicolai A. Kudryashov. Two hierarchies of ordinary differential equations and their properties (англ.) // Physics Letters A. — 1999. — Vol. 252, no. 3—4. — P. 173–179.
+Nicolai A. Kudryashov. Double Bäcklund Transformations and Special Integrals of the K2 Hierarchy (англ.) // Physics Letters A. — 2000. — Vol. 273, no. 3. — P. 194–202.
+N. A. Kudryashov and M. B. Soukharev. Discrete equations corresponding to fourth-order differential equations of the P2 and K2 hierarchies (англ.) // The ANZIAM Journal. — 2002. — Vol. 44, no. 1. — P. 149—160.
+Nikolai A Kudryashov. One generalization of the second Painlevé hierarchy (англ.) // Journal of Physics A: Mathematical and General. — 2002. — Vol. 35, no. 1. — P. 93—99.
+Nikolai A Kudryashov. Fourth-order analogies to the Painlevé equations (англ.) // Journal of Physics A: Mathematical and General. — 2002. — Vol. 35, no. 21. — P. 4617–4632.
+Nikolai A Kudryashov. Amalgamations of the Painlevé equations (англ.) // Journal of Mathematical Physics. — 2003. — Vol. 44, no. 12. — P. 6160—6178.
+Nikolai A. Kudryashov, Maria V. Demina. Relations between zeros of special polynomials associated with the Painlevé equations (англ.) // Physics Letters A. — 2007. — Vol. 368, no. 3—4. — P. 227–234.
+Nikolai A. Kudryashov. Special polynomials associated with some hierarchies (англ.) // Physics Letters A. — 2008. — Vol. 372, no. 12. — P. 1945–1956.
+Nikolai A. Kudryashov, Maria V. Demina. The generalized Yablonskii–Vorob'ev polynomials and their properties (англ.) // Physics Letters A. — 2008. — Vol. 372, no. 29. — P. 4885–4890.
+Nikolai A. Kudryashov, Nadejda B. Loguinova. Extended simplest equation method for nonlinear differential equations (англ.) // Applied Mathematics and Computation. — 2008. — Vol. 205, no. 1. — P. 396–402.
+Nikolai A. Kudryashov. Special polynomials associated with rational solutions of some hierarchies (англ.) // Chaos, Solitons & Fractals. — 2009. — Vol. 39, no. 3. — P. 1447–1462.
+Nikolai A. Kudryashov, Nadejda B. Loguinova. Be careful with the Exp-function method (англ.) // Communications in Nonlinear Science and Numerical Simulation. — 2009. — Vol. 14, no. 5. — P. 1881–1890.
+Nikolai A. Kudryashov. Seven common errors in finding exact solutions of nonlinear differential equations (англ.) // Communications in Nonlinear Science and Numerical Simulation. — 2009. — Vol. 14, no. 9—10. — P. 3507–3529.
+Nikolai A. Kudryashov, Dmitry I. Sinelshchikov. Nonlinear waves in bubbly liquids with consideration for viscosity and heat transfer (англ.) // Physics Letters A. — 2010. — Vol. 374, no. 19—20. — P. 2011–2016.
+Maria V. Demina, Nikolai A. Kudryashov. Point vortices and polynomials of the Sawada-Kotera and Kaup-Kupershmidt equations (англ.) // Regular and Chaotic Dynamics. — 2011. — Vol. 16, no. 6. — P. 562—576.
+Nikolai A. Kudryashov, Dmitry I. Sinelshchikov, Maria V. Demina. Exact solutions of the generalized Bretherton equation (англ.) // Physics Letters A. — 2011. — Vol. 375, no. 7. — P. 1074–1079.
+Nikolai A. Kudryashov, Dmitry I. Sinelshchikov. Nonlinear evolution equation for describing waves in a viscoelastic tube (англ.) // Communications in Nonlinear Science and Numerical Simulation. — 2011. — Vol. 16, no. 6. — P. 2390–2396.
+Nikolay A. Kudryashov. Redundant exact solutions of nonlinear differential equations (англ.) // Communications in Nonlinear Science and Numerical Simulation. — 2011. — Vol. 16, no. 9. — P. 3451–3456.
+Nikolai A. Kudryashov, Dmitry I. Sinelshchikov. Exact solutions of the Swift–Hohenberg equation with dispersion (англ.) // Communications in Nonlinear Science and Numerical Simulation. — 2012. — Vol. 17, no. 1. — P. 26–34.
+Maria V Demina and Nikolai A Kudryashov. Vortices and polynomials: non-uniqueness of the Adler–Moser polynomials for the Tkachenko equation (англ.) // Journal of Physics A: Mathematical and Theoretical. — 2012. — Vol. 45, no. 19.
+Nikolay A. Kudryashov. One method for finding exact solutions of nonlinear differential equations (англ.) // Communications in Nonlinear Science and Numerical Simulation. — 2012. — Vol. 17, no. 6. — P. 2248–2253.
+Nikolay A. Kudryashov, Mark B. Kochanov. Quasi-exact solutions of nonlinear differential equations (англ.) // Applied Mathematics and Computation. — 2012. — Vol. 219, no. 4. — P. 1793–1804.
+Nikolai A. Kudryashov, Dmitry I. Sinelshchikov. An extended equation for the description of nonlinear waves in a liquid with gas bubbles (англ.) // Wave Motion. — 2013. — Vol. 50, no. 3. — P. 351–362.
+Nikolay A. Kudryashov. Quasi-exact solutions of the dissipative Kuramoto–Sivashinsky equation (англ.) // Applied Mathematics and Computation. — 2013. — Vol. 219, no. 17. — P. 9213–9218.
+Nikolay A. Kudryashov. Polynomials in logistic function and solitary waves of nonlinear differential equations (англ.) // Applied Mathematics and Computation. — 2013. — Vol. 219, no. 17. — P. 9245–9253.
+Maria V. Demina, Nikolay A. Kudryashov. Elliptic solutions in the Hénon–Heiles model (англ.) // Communications in Nonlinear Science and Numerical Simulation. — 2014. — Vol. 19, no. 3. — P. 471–482.
+Nikolai A. Kudryashov, Dmitry I. Sinelshchikov. Extended models of non-linear waves in liquid with gas bubbles (англ.) // International Journal of Non-Linear Mechanics. — 2014. — Vol. 63. — P. 31–38.
+Nikolai A. Kudryashov, Dmitry I. Sinelshchikov. Analytical solutions of the Rayleigh equation for empty and gas-filled bubble (англ.) // Journal of Physics A: Mathematical and Theoretical. — 2014. — Vol. 47, no. 40.
+Nikolai A. Kudryashov. Logistic function as solution of many nonlinear differential equations (англ.) // Applied Mathematical Modelling. — 2015. — Vol. 39, no. 18. — P. 5733–5742.
+Nikolai A. Kudryashov, Dmitry I. Sinelshchikov. Analytical solutions for problems of bubble dynamics (англ.) // Physics Letters, Section A: General, Atomic and Solid State Physics. — 2015. — Vol. 379, no. 8. — P. 798–802.
+Nikolai A. Kudryashov. Refinement of the Korteweg–de Vries equation from the Fermi–Pasta–Ulam model (англ.) // Physics Letters, Section A: General, Atomic and Solid State Physics. — 2015. — Vol. 379, no. 40–41. — P. 2610–2614.
+Nikolai A. Kudryashov, Dmitry I. Sinelshchikov. On the connection of the quadratic Lienard equation with an equation for the elliptic functions (англ.) // Regular and Chaotic Dynamics. — 2015. — Vol. 20, no. 4. — P. 486–496.
+
+Примечания
+Ссылки
+Проректор МИФИ Николай Кудряшов: «Ректором может быть только профессионал, имеющий вес в научной жизни». Интервью для журнала «Научное обозрение»
+«НИЯУ МИФИ — 70 лет!». Интервью Н. А. Кудряшова для журнала «Научное обозрение»
+Беркович Е. М. В поисках утраченных кавычек

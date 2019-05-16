@@ -1,0 +1,45 @@
+Rainbow Books (рус. «Радужные книги») — перечень проприетарных (лицензируемых) стандартов цифровых компакт дисков, определяющих их изготовление и использование. Название книги получили по цвету обложки,. Большая часть стандартов была создана компаниями Sony и Philips и лицензируются у Philips, стоимость одного стандарта составляет от 100 до 5000 долларов США. Некоторые спецификации легли в основу стандартов ISO, IEC, ECMA.
+Красная книга: System description CD Digital Audio, 1982
+CD-DA (IEC 60908)
+CD-Text — дополнение к CD-DA от 1996 года
+Зеленая книга, 1986, Philips
+CD-i — интерактивный
+Жёлтая книга: System description CD-ROM (8 and 12 cm), 1988
+CD-ROM (ECMA-130, ISO/IEC 10149)
+CD-ROM XA — дополнение к CD-ROM, 1991
+Оранжевая книга
+Часть 1: CD-MO, ноябрь 1990. Стандарт был отозван и недоступен для заказа.
+Часть 2: CD-R, CD-WO, CD-WORM (ECMA-394)Том 1: CD-R со скоростями 1x, 2x, 4x
+Том 2 «Multi-Speed»: скорости до 48x
+CD-RW, CD-E (ECMA-395)Том 1: CD-RW со скоростями 1x, 2x, 4x
+Том 2 «High Speed»: CD-RW со скоростями от 4x до 10x
+Том 3 «Ultra Speed»: CD-RW со скоростями от 8x до 32x
+Белая книга, 1993
+CD-Bridge
+Video CD
+Super Video CD (1999, IEC 62107)
+Синяя книга, 1995
+E-CD
+CD+
+CD+G
+Бежевая книга, 1992
+Photo CD
+Алая книга, 1999
+Super Audio CD
+Пурпурная (фиолетовая) книга, 2000
+DDCD
+
+См. также
+CD
+Оптический диск
+
+Примечания
+Литература
+Origins and Successors of the Compact Disc: Contributions of Philips to Optical Storage, Springer, 2009, ISBN 9781402095535, Chapter 4 «Compact Disc Standards And Formats»
+Optical Storage Technology. The Compact Disc
+Compact Disc and Drive Formats
+
+Ссылки
+The Great Books // The World of CDs and DVDs. ThinkQuest Library. (англ.)
+Encyclopedia Of Information Technology, 2007, ISBN 9788126907526, p74
+CD-ROM Standards Used (недоступная ссылка), Wayne Brissette // «The Information Alley», Apple Computer, Inc.

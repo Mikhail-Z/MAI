@@ -1,0 +1,15 @@
+POSTQUEL (англ. Postgres Query Language) – первичный язык запросов для СУБД Postgres, в настоящее время PostgreSQL. Этот язык был разработан в 1985 году в Калифорнийском университете Беркли командой разработчиков, работающих под руководством профессора Майкла Стоунбрейкера. POSTQUEL основывается на языке запросов QUEL, используется с конца 70-х годов в базе данных Ingres. В 1995 г. Эндрю Ю (Andrew Yu) и Джолли Чен (Jolly Chen) заменили в базе Postgres POSTQUEL язык запросов на SQL. Новый выпуск системы управления базами данных назвали Postgres95.
+
+Примеры запросов
+Получить размер заработной платы сотрудника Ковальски:
+
+retrieve (STUFF.pay) from STUFF where STUFF.name = "Kowalski" 
+
+Все сотрудники старше 40 лет:
+
+retrieve (P.name) from P in STUFF where P.age > 40
+
+Найти все департаменты, целиком занимающие один этаж:
+
+retrieve (DEPART.dname)
+where DEPART.floor NOT-IN {D.floor from D in DEPART where D.dname != DEPART.dname} |

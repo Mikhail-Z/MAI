@@ -1,0 +1,33 @@
+Minitab является пакетом программ для обработки статистических данных. Он был разработан в Университете штата Пенсильвания учёными Барбарой Райан, Томасом Райаном-младшим и Брайаном Джорнером в 1972 году. Minitab появился как облегчённая версия OMNITAB, программы статистического анализа, разработанной в Национальном институте стандартов и технологий.
+Minitab распространяется частной компанией Minitab Inc со штаб-квартирой в Стейт Колледж, Пенсильвания, с филиалами в Ковентри, Англия (Minitab Ltd), Париже (Minitab SARL) и Сиднее (Minitab Pty).
+Сегодня Minitab часто используется в сочетании с применением методик «Шесть сигма», CMMI и другими статистическими процедурами, основанными на методах развития.
+Последняя версия программного обеспечения Minitab 18 доступна на 7 языках: английском, французском, немецком, японском, корейском, упрощенном китайском и испанском.
+Компания Minitab Inc. производит два других программных продукта, которые дополняют Minitab 18. Quality Trainer — пакет электронного обучения, который помогает изучить статистические инструменты и концепции в контексте улучшения качества, который интегрируется с Minitab 18 и одновременно развивает статистические знания пользователя и возможность использования программного обеспечения Minitab. Quality Companion 3 — интегрированный инструмент для управления проектами Шесть сигма и Бережливое производство, что позволяет данным из Minitab сочетаться с управлением проектами, инструментами управления и документами.
+Использование Minitab:
+
+Управления данными и файлами — электронные таблицы для улучшения анализа данных
+Регрессионный анализ
+Мощность и размер выборки
+Таблицы и диаграммы
+Многомерный анализ, включающий факторный анализ, кластерный анализ, анализ соответствий и т.п.
+Непараметрический анализ — различные тесты, включая вокальный тест, критерий серий, тест Фридмана и др.
+Временные ряды и прогнозирование — инструменты, которые помогают выявить тенденции в данных, а также прогнозирование будущих значений. Диаграммы временных рядов, экспоненциальное сглаживание, анализ тенденций.
+Статистическое управление процессами
+Системный анализ измерений
+Дисперсионный анализ — определение различий между точками данных.
+
+См. также
+Unscrambler
+
+Примечания
+Ссылки
+minitab.com — официальный сайт Minitab
+Quality Companion by Minitab
+Quality Trainer by Minitab
+Minitab Answers Knowledgebase
+Roberts, Dennis Minitab resource website (неопр.).  Penn State. Архивировано 26 мая 2012 года.
+Collection of free Minitab tutorial videos
+Minitab 15 basics“Minitab Statistical Software Features - Minitab." Software for Statistics, Process Improvement, Six Sigma, Quality - Minitab. N.p., n.d. Web. 11 Apr. 2011. <https://web.archive.org/web/20140625005101/http://www.minitab.com/en-us/products/minitab/features/>.
+Groebner, David F., Mark L. Berenson, David M. Levine, Timothy C. Krehbiel, and Hang Lau. Applied management statistics. Custom ed. Boston, MA: Pearson Custom Publishing/Pearson/Prentice Hall, 2008. Print
+Brook, Quentin. Lean Six Sigma and Minitab: The Complete Toolbox Guide for All Lean Six Sigma Practitioners. — 3rd. — United Kingdom : OPEX Resources Ltd, 2010. — ISBN 978-0954681364.
+Meyer, Ruth K. A Minitab Guide to Statistics. — 3rd. — Upper Saddle River, NJ : Prentice-Hall Publishing, 2004. — ISBN 978-0131492721.

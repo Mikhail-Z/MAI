@@ -1,0 +1,6 @@
+Small Pressurized Rover — прототип лунного транспортного планетохода.
+Small Pressurized Rover представляет собой небольшой вездеход с 6 ведущими колёсными осями. Аппарат работает от аккумуляторов, позволяющих в условиях лунной гравитации и поверхности развивать ему скорость до 10 км/час. В герметичной кабине устроены места для двух астронавтов и небольшой отсек для грузов. Расчётная автономность: до 2 недель или 1000 км.
+
+Ссылки
+http://www.mignews.co.il/news/technology/world/251008_212210_18413.html
+http://www.nzz.ch/nachrichten/hintergrund/wissenschaft/ein_u-boot_fuer_das_weltall_1.10505449.html (NASA Space Exploration Vehicle (SEV))

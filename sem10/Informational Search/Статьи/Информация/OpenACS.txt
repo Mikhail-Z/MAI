@@ -1,0 +1,17 @@
+OpenACS — открытый веб-фреймворк, ориентированный на создание сайтов сообществ (и, в частности, на электронное обучение). Поставляется вместе с готовыми решениями, такими, как форум, новостной сайт, e-learning, интернет-магазин и т. д. Написан на Tcl с использованием объектно-ориентированного расширения XOTcl. Работает под управлением AOLServer (либо его форка — NaviServer), в качестве базы данных использует PostgreSQL или Oracle.
+OpenACS — форк не развивающегося с 2001 года фреймворка ArsDigita Community System (ACS). Данная система пошла по другому пути, и её последняя ветка 4.7.x была переписана с Tcl на Java. 
+На базе OpenACS также развивается проект project-open (точнее, ]project-open[) — открытая система управления проектами.
+
+Примечания
+Литература
+Neophytos Demetriou, Stefan Koch, Gustaf Neumann. Chapter X. The Development of the OpenACS Community // Miltiadis Lytras, Ambjörn Naeve Open Source for Knowledge And Learning Management. — Idea Group Publishing, 2006. — С. 298-318. — ISBN 1599041189.
+Rafael A. Calvo and Mark Aufflick. The OpenACS E-Commerce Solution (неопр.).  Dr. Dobb's (10 февраля 2003). Дата обращения 27 июня 2016.
+Reuven M. Lerner. Introducing AOLserver // Linux Journal. — 2002. — Сентябрь (№ 101).
+Reuven M. Lerner. OpenACS // Linux Journal. — 2002. — Октябрь (№ 102).
+Reuven M. Lerner. OpenACS Packages // Linux Journal. — 2002. — Ноябрь (№ 103).
+Reuven M. Lerner. Creating OpenACS Packages // Linux Journal. — 2002. — Декабрь (№ 104).
+Reuven M. Lerner. OpenACS Templates // Linux Journal. — 2003. — Январь (№ 105).
+
+Ссылки
+openacs.org — официальный сайт OpenACS
+OpenACS на wiki.tcl.tk

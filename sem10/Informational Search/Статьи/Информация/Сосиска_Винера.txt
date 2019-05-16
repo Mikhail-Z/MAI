@@ -1,0 +1,314 @@
+Сосиска Винера — это окрестность траектории броуновского движения на момент времени 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+  , задающаяся всеми точками, отстоящими от точек траектории не более, чем на заданное расстояние. Она может быть изображена как сосиска заданного радиуса, чья направляющая является траекторией броуновского движения. Сосиска Винера была названа в честь Норберта Винера учёными Монро Д. Донскером и С. Р. Сринаваса Варадханом (1975) из-за её связи с винеровским процессом.
+Сосиска Винера является одним из простейших не-марковских функционалов броуновского движения. Она применяется в случайных процессах, в том числе в теплопроводности.
+Впервые была описана Фрэнком Шпитцером (1964) и была использована Марком Кацом и Люттинегром (1973, 1974) для объяснения результатов экспериментов с Бозе-конденсатом (1975).
+
+Определения
+Сосиска Винера 
+  
+    
+      
+        
+          W
+          
+            δ
+          
+        
+        (
+        t
+        )
+      
+    
+    {\displaystyle W_{\delta }(t)}
+   радиуса 
+  
+    
+      
+        δ
+      
+    
+    {\displaystyle \delta }
+   и длины 
+  
+    
+      
+        t
+      
+    
+    {\displaystyle t}
+   — это множественнозначная случайная величина на броуновских траекториях b (в некотором евклидовом пространстве), определяемая как
+
+  
+    
+      
+        
+          W
+          
+            δ
+          
+        
+        (
+        t
+        )
+        (
+        
+          b
+        
+        )
+      
+    
+    {\displaystyle W_{\delta }(t)({b})}
+   — это множество точек, находящихся на расстоянии не больше 
+  
+    
+      
+        δ
+      
+    
+    {\displaystyle \delta }
+   от некоторой точки b(x) на траектории b с 
+  
+    
+      
+        0
+        ≤
+        x
+        ≤
+        t
+      
+    
+    {\displaystyle 0\leq x\leq t}
+  .
+
+Объём сосиски Винера
+На тему поведения объёма сосиски Винера (её меры Лебега) 
+  
+    
+      
+        
+          |
+        
+        
+          W
+          
+            δ
+          
+        
+        (
+        t
+        )
+        
+          |
+        
+      
+    
+    {\displaystyle |W_{\delta }(t)|}
+   при стремлении её радиуса к нулю (
+  
+    
+      
+        δ
+        →
+        0
+      
+    
+    {\displaystyle \delta \rightarrow 0}
+  ) было сделано много работ. Фактически, это эквивалентно бесконечному удлинению сосиски (
+  
+    
+      
+        t
+        →
+        ∞
+      
+    
+    {\displaystyle t\rightarrow \infty }
+  ).
+Спитцер показал, что в трёхмерном пространстве математическое ожидание объёма сосиски равно
+
+  
+    
+      
+        E
+        (
+        
+          |
+        
+        
+          W
+          
+            δ
+          
+        
+        (
+        t
+        )
+        
+          |
+        
+        )
+        =
+        2
+        π
+        δ
+        t
+        +
+        4
+        
+          δ
+          
+            2
+          
+        
+        
+          
+            2
+            π
+            t
+          
+        
+        +
+        4
+        π
+        
+          δ
+          
+            3
+          
+        
+        
+          /
+        
+        3.
+      
+    
+    {\displaystyle E(|W_{\delta }(t)|)=2\pi \delta t+4\delta ^{2}{\sqrt {2\pi t}}+4\pi \delta ^{3}/3.}
+  
+В 
+  
+    
+      
+        d
+      
+    
+    {\displaystyle d}
+  -мерном пространстве при 
+  
+    
+      
+        d
+        ≥
+        3
+      
+    
+    {\displaystyle d\geq 3}
+   асимптотика объёма сосиски Винера при 
+  
+    
+      
+        t
+        →
+        ∞
+      
+    
+    {\displaystyle t\rightarrow \infty }
+   равна
+
+  
+    
+      
+        
+          δ
+          
+            d
+            −
+            2
+          
+        
+        
+          π
+          
+            d
+            
+              /
+            
+            2
+          
+        
+        2
+        t
+        
+          /
+        
+        Γ
+        (
+        (
+        d
+        −
+        2
+        )
+        
+          /
+        
+        2
+        )
+      
+    
+    {\displaystyle \delta ^{d-2}\pi ^{d/2}2t/\Gamma ((d-2)/2)}
+  
+В одно- и двумерном пространствах формула заменяется на 
+  
+    
+      
+        
+          
+            8
+            t
+            
+              /
+            
+            π
+          
+        
+      
+    
+    {\displaystyle {\sqrt {8t/\pi }}}
+   и 
+  
+    
+      
+        2
+        
+          π
+        
+        t
+        
+          /
+        
+        log
+        ⁡
+        (
+        t
+        )
+      
+    
+    {\displaystyle 2{\pi }t/\log(t)}
+   соответственно. Уитман, ученик Спитцера, получил схожие результаты для обобщений сосисок Винера с сечениями, задаваемыми более общими компактами, чем шар.
+
+Литература
+Donsker, M. D. & Varadhan, S. R. S. (1975), "Asymptotics for the Wiener sausage", Communications in Pure and Applied Mathematics  Т. 28 (4):  525–565, DOI 10.1002/cpa.3160280406 
+F. den Hollander. Wiener sausage — Encyclopedia of Mathematics, ISBN 1402006098
+Kac, M. & Luttinger, J. M. (1973), "Bose-Einstein condensation in the presence of impurities", J. Mathematical Phys.  Т. 14 (11):  1626–1628, DOI 10.1063/1.1666234 
+Kac, M. & Luttinger, J. M. (1974), "Bose-Einstein condensation in the presence of impurities. II", J. Mathematical Phys.  Т. 15 (2):  183–186, DOI 10.1063/1.1666617 
+Simon, Barry (2005), Functional integration and quantum physics, Providence, RI: AMS Chelsea Publishing, ISBN 0-8218-3582-3  Especially chapter 22.
+Spitzer, F. (1964), "Electrostatic capacity, heat flow and Brownian motion", Probability Theory and Related Fields  Т. 3 (2):  110–121, DOI 10.1007/BF00535970 
+Spitzer, Frank (1976), Principles of random walks, vol. 34, Graduate Texts in Mathematics, New York-Heidelberg,: Springer-Verlag, с. 40  (Reprint of 1964 edition)
+Sznitman, Alain-Sol (1998), Brownian motion, obstacles and random media, Springer Monographs in Mathematics, Berlin: Springer-Verlag, ISBN 3-540-64554-3  An advanced monograph covering the Wiener sausage.
+Whitman, Walter William (1964), Some Strong Laws for Random Walks and Brownian Motion, PhD Thesis, Cornell U.

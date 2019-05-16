@@ -1,0 +1,10 @@
+Solaris Multiplexed I/O (MPxIO) ранее известное как Sun StorageTek Traffic Manager — программное обеспечение для реализации технологии Multipath I/O в Solaris OS. Оно поддерживает доступ к жёсткому диску через несколько контроллеров. Это решение гарантирует работоспособность диска при отказе одного из контроллеров.
+Данная архитектура повышает производительность ввода-вывода за счёт сбалансированного распределения нагрузки на несколько каналов.
+ПО Solaris Multiplexed I/O было включено в Solaris 8 в феврале 2000.
+В Solaris 10 настройка MPxIO была перенесена из файла /kernel/drv/scsi_vhci.conf в файлы /kernel/drv/fp.conf и /kernel/drv/mpt.conf.
+Управление MPxIO может осуществляться командой stmsboot.
+
+Ссылки
+Solaris SAN Configuration and Multipathing Guide
+Sun StorageTek Traffic Manager Software
+Stmsboot(1M) Man Page

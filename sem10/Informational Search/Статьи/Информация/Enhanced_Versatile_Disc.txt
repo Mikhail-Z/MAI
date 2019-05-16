@@ -1,0 +1,50 @@
+Enhanced Versatile Disc (EVD) — формат оптических дисков для хранения видеоинформации, продвигавшийся в 2003—2008 годах в Тайване, совместимый с китайским форматом AVD. В них используется красный лазер, однослойные диски имеют ёмкость 6 гигабайт, двухслойные — 11 гигабайт.  Широкого распространения эти форматы не получили.
+Форматы AVD и EVD не получили коммерческой популярности, что выяснилось к началу 2006 года, когда продажи составляли сотни тысяч устройств, вместо запланированных миллионов. К 2008 году три формата дисков, созданные в Китае, AVD-EVD, HDV и HVD, провалились на рынке.
+Заменой форматам EVD и AVD в Китае в 2009 году стал CBHD (практически полностью основанный формате Toshiba HD DVD), который, несмотря на свой начальный успех, вскоре уступил международному формату Blu-ray.
+
+История
+В 1999 году китайское правительство заявило о своём намерении произвести замену иностранных технологий собственными стандартами.
+В 2002 году на Тайване при поддержке правительства был образован консорциум Advanced Optical Storage Research Consortium (AOSRC), который объявил о своём намерении разработать и продвигать свой стандарт оптических носителей EVD. AOSRC мотивировал разработку собственного стандарта высокой ставкой лицензионных отчислений разработчикам DVD и компаниям MPEG LA и Dolby Laboratories, чьи технологии используются в DVD-дисководах. Общая сумма отчислений оценивалась в 15-20 долларов США за дисковод.
+В 2003 году состоялась официальная презентация стандарта EVD консорциумом Beijing E-world TechnologyВ 2004 году поставки EVD-плееров оценивались в 100 тыс.В феврале 2005 года Тайваньский технологический исследовательский институт объявил EVD национальным китайским стандартом оптических накопителей высокой плотности.
+В 2006 году было выпущено порядка 700 тыс. проигрывателей EVDВ ноябре 2006 один из руководителей AOSRC заявил, что к 2008 году 19 из 21 членов консорциума могли бы прекратить выпуск DVD-проигрывателей.
+В 2006 году Индийские киностудии высказали согласие на выпуск своих фильмов на дисках EVD.
+С 2008 года полностью прекращен выпуск оборудования, совместимого с EVD.
+
+Технология
+В приводах EVD используется лазер красного диапазона (635/650 нм). Ёмкость однослойного EVD составляет 6 Гб, а двухслойного — 11 Гб. Размер дисков EVD совпадает с размерами Компакт-дисков и DVD (120 мм).
+Для сжатия видео используются кодеки VP5 и VP6 американской компании On2 Technologies. Лицензионные отчисления за них составляют около 2 долларов за каждый проигрыватель.
+Цена EVD-проигрывателей предварительно оценивалась как находящаяся в диапазоне от 75 до 150 долларов США.
+Разрабатывался также многослойный вариант EVD под названием VMD.
+Спецификации (изданы MIIT в феврале 2005 года):
+
+SJ/T 11299.1-2005 — Specification for enhanced versatile disk system — Part 1: Physical specification for enhanced versatile disk
+SJ/T 11299.2-2005 — Specification for enhanced versatile disk system — Part 2: Specification for enhanced versatile disk file system
+SJ/T 11299.3-2005 — Specification for enhanced versatile disk system — Part 3: Specification for audio/video data of enhanced versatile disk
+SJ/T 11299.4-2005 — Specification for enhanced versatile disk system — Part 4: Specification for enhanced audio coding of multi-channel surround systemВ спецификациях описаны диски EVD-ROM (запись формируется при изготовлении), EVD-R (однократной записи), EVD-RW (с возможностью многократной перезаписи).
+
+Фильмы, изданные на EVD
+Black Mask 2: City of Masks (2002)
+Big Momma's House (2002)
+Hero (Director's Cut) (2002)
+House of Flying Daggers (2004)
+
+См. также
+China Blue High-definition Disc (развитие EVD на базе технологий HD-DVD)
+Audio Video Standard (формат аудио и видео, созданный для EVD)Технологии-конкуренты:
+
+Blu-ray Disc
+HD DVD (не поддерживается с 2008 года)
+FVD
+HVD
+
+Примечания
+Литература
+Michael Murphree and Dan Breznit, INNOVATION IN CHINA: FRAGMENTATION, STRUCTURED UNCERTAINTY, AND TECHNOLOGY STANDARDS // CARDOZO LAW REVIEW DE•NOVO 2013  (англ.) pages 208-210 "II. CONSTRAINED AND ENABLED: CHINA’S APPROACH TO DIGITAL OPTICAL STORAGE MEDIA STANDARDS: A. The Push for an Indigenous DVD Standard"
+
+Ссылки
+Petteri Pyyny, China released its EVD specs // 18 Nov 2003 (англ.)
+Mike Clendenin, China spec enters digital video fray // EE Times, 11/24/2003 (англ.)
+EVD @ LSI Logic   (англ.)
+Chinese firms to dump DVD standard: report. Leading Chinese makers are to stop making DVD players from 2008 // November 30, 2006 (англ.)
+China Readies DVD Rival Format Push // IDG News, Dec 15, 2006  (англ.)
+EVD — DVD нового поколения по-китайски // Компьютерра, 12 декабря 2006 года  (рус.)Zhen Wang, Xinke Dianzi Jituan Bei Tuoguo Chongzu: Guochan EVD de Yaozhe Shinko Electronics Group Manages Restructuring: The Collapse of EVD, DI YI CAIJING RIBAO (Dec. 29, 2011);  (кит.)

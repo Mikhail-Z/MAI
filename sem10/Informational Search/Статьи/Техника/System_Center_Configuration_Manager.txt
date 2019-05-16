@@ -1,0 +1,105 @@
+System Center Configuration Manager (ранее Systems Management Server, SMS) — продукт для управления ИТ-инфраструктурой на основе Microsoft Windows и смежных устройств. Configuration Manager предоставляет такие основные возможности: управление обновлениями, развёртывание ПО и операционных систем, интеграция с NAP, инвентаризация аппаратного и программного обеспечения, удалённое управление, управление виртуализированными и мобильными системами на базе Windows.
+В SCCM технологии и функциональные возможности, реализованные в прежних версиях SMS, подверглись значительной переработке.
+
+История версий
+1994 — Microsoft Systems Management Server 1.0
+1995 — Microsoft Systems Management Server 1.1
+1996 — Microsoft Systems Management Server 1.2
+1999 — Microsoft Systems Management Server 2.0
+2003 — Microsoft Systems Management Server 2003
+2007 — System Center Configuration Manager 2007 [Changed from: Microsoft Systems Management Server version 4]
+2007 — System Center Essential 2007 (комбинация  Microsoft SCOM и SMS серверов)
+2010 — System Center Essential 2010 (комбинация  Microsoft SCOM и SMS серверов)
+2012 — System Center 2012 Configuration Manager
+2017 — System Center Configuration Manager 2016
+
+System Center Configuration Manager
+Configuration Manager RTM
+
+Выпущен в сентябре 2007
+Значительное обновление SMS 2003
+Расширенный список возможностейService Pack 1
+
+Выпущен в апреле 2008
+Полная поддержка Windows Server 2008/Vista SP1
+Asset Intelligence 1.5
+Интеграция с Intel vProR2
+
+Выпущен в августе 2008
+Application Virtualization Management
+Интеграция с SQL Reporting Services
+Client Status Reporting
+Интеграция с Forefront Client Security
+Расширение возможностей развертывания ОСService Pack 2
+
+Выпущен в ноябре 2009
+Полная поддержка Windows Server 2008R2/Windows 7
+Поддержка Intel vPro 5й версии
+Обновлён Asset IntelligenceSystem Center Configuration Manager 2016
+
+По сути представляет собой новый релиз прежней версии. Устанавливается поверх System Center Configuration Manager 2012
+Выпущен в декабре 2016
+Полная поддержка Windows Server 2016 и Windows 10
+Удалена поддержка Windows Server 2003 и Windows XP
+Поддержка Office 365
+
+Функциональные возможности SCCM
+System Center Configuration Manager
+Инвентаризация аппаратных компонентов и программного обеспечения
+Автоматизированное развертывание ПО
+Управление обновлениями ПО
+Мониторинг использования ПО
+Мониторинг конфигураций
+Развертывание операционных систем Microsoft Windows
+Управление мобильными устройствами на базе Windows Mobile и Windows CE
+Удаленное управление
+Управление виртуализированным ПО
+
+Configuration Manager Service Pack 1
+Поддержка Windows Server 2008
+
+Поддержка планирования, развертывания и управления Windows Server 2008
+Поддержка в качестве системы сайта SCCMПоддержка Vista SP1
+
+Поддержка планирования, развертывания и управления Windows Vista Service Pack 1Asset Intelligence 1.5
+
+Значительно обновлён
+Изменения в консоли администратора
+Поддержка новых каталогов и лицензий
+Синхронизация с System Center OnlineИнтеграция с Intel AMT
+
+Функциональная интеграция с Intel vPro TechnologyИнфраструктура для поддержки R2
+
+Обновлённые компоненты Service Pack 1 содержат основу для развертывания R2Изменения по заявкам Заказчиков
+
+Некоторое количество изменений по заявкам ЗаказчиковНабор исправлений
+
+Набор исправлений (Hotfixes)Выпущено накопительное обновление 3 для System Center Configuration Manager SP1 Накопительное обновление 3 для System Center Configuration Manager 2012 SP1 теперь доступно для загрузки как KB2882125. Это обновление содержит обновлённую версию клиента Endpoint Protection, а также в него добавлена поддержка клиентов Windows 8.1.
+
+Configuration Manager R2
+Управление виртуализованными приложениями
+
+Интеграция с Microsoft Application VirtualizationНовые возможности OSD
+
+Поддержка Multicast и «неизвестных» компьютеровОтчётность о состоянии клиентов
+
+Сводка по ключевым показателям активности клиентовИнтеграция с SQL Reporting Services
+
+Миграция встроенных отчётов ConfigMgr на новую платформуИнтеграция с Forefront Client security
+
+Статус клиентов Forefront через DCM
+
+Архитектура System Center Configuration Manager
+С логической точки зрения все управляемые системы объединяются в сайты (площадки).
+Сайты содержат в себе: 
+
+серверы сайта;
+системы сайта, выполняющие определенные роли по управлению инфраструктурой;
+собственно управляемые клиенты.Каждый из серверов сайта должен иметь доступ к базе данных Microsoft SQL Server.
+Сайты могут подразделяться на административные (Administrative Site), основные (Primary Site) и дополнительные (Secondary Site), в SCCM 2012 все сайты имеют собственную базу данных.
+Сайты также образуют иерархию родительских (Parent Site) и дочерних (Child Site). Каждый дочерний сайт имеет только один родительский сайт. Дочерние сайты, в свою очередь, могут иметь свои дочерние сайты и так далее. Вторичные сайты не могут быть родительскими. 
+Начиная с версии SCCM 2012 поддерживается строго трехуровневая (центральный-основной-дополнительный) либо одноуровневая (одиночный родительский) архитектура иерархии.
+
+Ссылки
+Англоязычная страница Microsoft SCCM
+Русскоязычная страница Microsoft SCCM

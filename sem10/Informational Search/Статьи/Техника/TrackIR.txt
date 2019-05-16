@@ -1,0 +1,98 @@
+TrackIR — первая из систем отслеживания движений головы, вышедших на массовый рынок.
+Это устройство ввода, разрабатываемое компанией NaturalPoint, обеспечивает псевдо-виртуальную реальность на персональном компьютере. Оно может следить за движениями головы пользователя по координатам X, Y и Z. Полученные данные используются в программах (играх) для преобразования реальных поворотов головы в виртуальные. Например, в авиасимуляторе игрок может осматривать кабину. Чувствительность настраивается, чтоб предотвратить такие повороты, когда пользователь не может нормально смотреть на экран.
+
+Разработчик
+NaturalPoint, Inc. основана в 1997 для разработки высококачественных технологий слежения и уникальных компьютерных устройств. Находится в Корвалисе, Орегон.
+
+Критика
+Последние модели страдают некачественной сборкой. Также предполагается[кем?], что старые модели искусственно не поддерживают слежение по 6 степеням свободы.
+API TrackIR’а закрытый и реализован только под Windows. Чтобы избавиться от эмуляторов наподобие FreeTrack, компания NaturalPoint традиционно использовала законодательство о товарных знаках — для того, чтобы игра соединилась с драйвером, драйвер должен передать игре строку, содержащую имя компании. (Сами разработчики FreeTrack утверждают, что строка под закон не подпадает, так как является частью протокола, а не товарным знаком).
+В конце 2008 года программное обеспечение TrackIR перешло на шифрованный протокол связи; первой игрой, поддерживающей его, был Digital Combat Simulator: Чёрная акула. Позже компания Eagle Dynamics пошла на компромисс между общественностью и NaturalPoint, добавив поддержку старого нешифрованного протокола, но только по трём осям. К 2014 году протокол удалось расшифровать.
+
+Список игр
+Список игр, которые поддерживают данное устройство:
+
+3D Инструктор 2.2
+Aces High II
+Armed Assault
+ArmA 2
+ArmA 2: Operation Arrowhead
+Arma 3
+Rowan's Battle of Britain
+Battle of Britain II: Wings of Victory
+Battleground Europe: World War II Online
+Colin McRae Rally 2004
+Combat Flight Simulator 3
+Condor: The Competition Soaring Simulator
+Crashday
+Cross Racing Championship 2005
+Digital Combat Simulator
+Elite: Dangerous
+Enemy Engaged: RAH-66 Comanche vs. KA-52 Hokum
+F1 Challenge
+Falcon 4.0
+Falcon 4: Allied Force
+Flight Simulator 2002
+Flight Simulator 2004: A Century Of Flight
+Flight Simulator X
+Future Pinball
+GTR
+GT Legends
+Grand Prix Legends
+Ил-2 Штурмовик: Забытые сражения
+Insurgency
+Jane's F/A-18
+JetPakNG
+Jumpgate classic
+Ka-50: Black Shark
+Kerbal Space Program
+Live for Speed
+Lock On: Modern Air Combat
+Lock On 1.1: Flaming Cliffs
+LunarPilot
+MechWarrior Online
+Mediterranean Air War (MAW)
+Micro Flight
+MiG Alley
+NASCAR Racing 2003 Season
+NASCAR SimRacing
+netKar PRO
+Omsi
+Orbiter
+Over Flanders Field (OFF)
+Pacific Fighters
+Project CARS
+RealFlight G3
+rFactor
+Richard Burns Rally
+Rise: The Vieneo Province
+Ship Simulator 2006
+Shift 2: Unleashed (ранее Need for Speed: Shift 2 Unleashed) - Введена неофициальная поддержка с помощью программы Shift 2 Camera Control v1.3.1
+Silent Wings
+Star Wars Galaxies: Jump to Lightspeed
+Steel Beasts pro
+Strike Fighters: Project 1
+Test Drive Unlimited
+ToCA Race Driver 2
+Trainz Railroad Simulator 2006
+Virtual Sailor
+War Thunder
+Warbirds 2004
+Wings of War
+Wings Over Europe: Cold War Gone Hot
+Wings Over Vietnam
+WWI: Knights of the Sky
+X-Plane / X-Cockpit
+X3: Albion Prelude
+Война в небе — 1917
+Дальнобойщики 3: Покорение Америки — так и не получила поддержку технологии со стороны разработчиков игры (верно на 4.01.2010)
+Race Driver: GRID — добавлено в патче 1.2
+GRID 2
+Euro Truck Simulator 2
+DayZ
+
+Примечания
+Ссылки
+Официальный сайт TrackIR
+- пример работы TrackIR в игре Need for Speed: Shift
+- пример работы TrackIR в авиасимуляторе  Flight Simulator X

@@ -1,0 +1,20 @@
+HIG (от англ. Human Interface Guidelines) — документ, содержащий рекомендации для разработчиков программного обеспечения. Служит для создания наиболее интуитивных, легкоизучаемых и логичных интерфейсов взаимодействия с пользователями. Обычно унифицирует внешний вид приложений, а также указывает на необходимость использования технологий, позволяющих делать приложение доступным на разных языках и для людей с ограниченными физическими возможностями.
+
+Примеры HIG
+Index of UX guidelines for Windows Store apps
+Windows Vista User Experience Guidelines
+Mac OS X Human Interface Guidelines
+iOS Human Interface Guidelines
+Android User Interface Guidelines
+HIG, используемый известными свободными разработками:
+GNOME Human Interface Guidelines
+KDE Human Interface Guidelines
+OLPC Human Interface Guidelines OLPC
+Indie HIG
+Java Look and Feel Design Guidelines
+Java Look and Feel Design Guidelines: Advanced Topics
+Eclipse User Interface Guidelines
+
+См. также
+Интерфейс пользователя
+Юзабилити

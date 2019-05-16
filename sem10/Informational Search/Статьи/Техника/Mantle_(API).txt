@@ -1,0 +1,68 @@
+Mantle (рус. мантия) — спецификация низкоуровневого API, разработанная компанией AMD в качестве альтернативы DirectX и OpenGL. В настоящее время поддерживается лишь графическими процессорами AMD архитектуры GCN (Graphics Core Next, англ. следующее графическое ядро), хотя есть предположение, что другие производители GPU могли бы реализовать её в будущем.
+
+Преимущества
+AMD утверждает, что Mantle может обрабатывать до девяти раз больше запросов на отрисовку в секунду, чем сопоставимые API, за счет снижения нагрузки на процессор.
+Более точный контроль над аппаратными средствами.
+Все аппаратные возможности предоставляются через API.
+Возможны новые методы визуализации.
+Прямой доступ к памяти GPU.
+Совместимость с DirectX HLSL для упрощения портирования.
+Независимость разработчиков игр от существующих драйверов GPU AMD.
+Упрощение разработки кросс-платформенных игр для ПК и консолей (теоретически, все низкоуровневые запросы, написанные для ПК, будут понятны новым APU Playstation 4 и Xbox One).
+Прирост производительности по сравнению с более высокоуровневыми API, такими как DirectX и OpenGL.
+
+Использование
+Во время презентации «GPU 14 Tech Days» было объявлено, что Frostbite 3 будет иметь поддержку Mantle. Первой игрой, использующей Frostbite 3, стала Battlefield 4: патч, который активировал поддержку Mantle, игра получила 30 января 2014 года.
+Подразделение разработчиков EA DICE работает ещё над 15 новыми проектами (Need For Speed: Rivals, Dragon Age: Inquisition, Plants vs. Zombies: Garden Warfare, Mirror’s Edge, новой игры из серии Mass Effect и других) на движке Frostbite 3, которые «из коробки» будут поддерживать Mantle.
+На GDC 2014 Джеват Йерли анонсировал поддержку Mantle в CryEngine и заявил, что, благодаря Mantle, разработчики, использующие Cryengine, смогут достичь уровня CG-графики. Йерли считает, что, используя Mantle, CryEngine станет первым движком, который предложит визуальное качество CG. Кроме того, Crytek должны скоро представить результаты сотрудничества между AMD и CryEngine.
+В графических драйверах, начиная с версии 19.5.1 (от 14.05.219), всякая совместимость с Mantle полностью отсутствует. [1]
+
+Mantle на Linux и консоли Steam Machine
+Ричард Хадди (Richard Huddy) вернулся в AMD после трёх лет работы на графическое подразделение Intel. В беседе с ресурсом PC World он заявил о том, что низкоуровневый графический API Mantle появится и на платформе Linux: компания действительно собирается со временем направить свои ресурсы для переноса своего API на эту платформу. По его мнению, новый графический API может предоставить ряд преимуществ игровым системам Valve, работающим под управлением Steam OS (основана на Linux). Время планируемого появления Mantle для Linux пока не называется.
+
+Аппаратная поддержка
+В настоящее время поддерживаются следующие серии продуктов, основанные на архитектуре Graphics Core Next:
+
+AMD Radeon R7;
+AMD Radeon R9;
+AMD Radeon R9 Fury;
+AMD Radeon HD 7000;
+AMD Radeon HD 8000;
+гибридные центральные процессоры AMD (семейство «Kaveri»);
+AMD Radeon RX 400 Series;
+AMD Radeon RX 500 Series.
+
+Игровые движки с поддержкой Mantle
+Frostbite Engine (DICE)
+Unreal Engine (Epic Games)
+Asura (Rebellion)
+CryEngine (Crytek)
+Panta-Rhei (Capcom)
+
+Игры с поддержкой Mantle
+ВыпущенныеBattlefield 4
+Thief (2014)
+Sniper Elite 3
+Sid Meier’s Civilization: Beyond Earth
+Plants vs. Zombies: Garden Warfare
+Star Swarm (Benchmark)
+Dragon Age: Inquisition
+Battlefield Hardline
+Star Wars: Battlefront (2015)
+Mirror’s Edge: Catalyst
+Rise of the Tomb Raider
+Mass Effect: AndromedaНевыпущенные (Mantle подтверждена)Star Citizen
+Offworld Trading Company
+Star ControlНевыпущенные (Mantle не подтверждена)Kingdom Come: Deliverance
+Lichdom: BattleMage
+Sleeping Dogs: Triad Wars
+
+См. также
+Vulkan (API)
+Glide — другой низкоуровневый API
+
+Примечания
+Ссылки
+Обзор и тестирование AMD Mantle
+Mantle Programming Guide and API Reference
+https://github.com/tesla707/Mantle

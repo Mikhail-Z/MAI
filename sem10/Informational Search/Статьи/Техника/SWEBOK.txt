@@ -1,0 +1,71 @@
+SWEBOK (Software Engineering Body of Knowledge) — международный стандарт ISO/IEC TR 19759 от 2015 г., в котором описана общепринятая сумма знаний по программной инженериии.
+Документ был создан при сотрудничестве нескольких профессиональных организаций и предприятий и опубликован обществом IEEE Computer Society (IEEE). В 2005 году он был принят как стандарт ISO/IEC TR 19759:2005. 
+В конце 2013 года был одобрена и опубликована новая версия SWEBOK V3, которая стала стандартом ISO/IEC TR 19759:2015. 
+В 2016 году общество IEEE Computer Society создало комитет SWEBoK Evolution, который будет заниматься дальнейшим развитием документа.
+
+SWEBOK Version 3
+Текущая опубликованная версия SWEBOK V3 включает 15 областей знаний в сфере программной инженерии:
+
+software requirements — требования к ПО;
+software design — проектирование ПО;
+software construction — конструирование ПО;
+software testing — тестирование ПО;
+software maintenance — сопровождение ПО;
+software configuration management — управление конфигурацией;
+software engineering management — управление IT проектом;
+software engineering process — процесс программной инженерии;
+software engineering models and methods — модели и методы разработки;
+software quality — качество ПО;
+software engineering professional practice — описание критериев профессионализма и компетентности;
+software engineering economics — экономические аспекты разработки ПО;
+computing foundations — основы вычислительных технологий, применимых в разработке ПО;
+mathematical foundations — базовые математические концепции и понятия, применимые в разработке ПО;
+engineering foundations — основы инженерной деятельности.Кроме того она признает[что?], но не определяет следующие дисциплины:
+
+Computer engineering
+Systems engineering
+Project management
+Quality management
+General management
+Computer science
+Mathematics
+
+SWEBOK издание 2004 года
+В версии SWEBOK от 2004 года знания по программной инженерии делятся на 10 областей знаний (англ. knowledge areas):     
+
+software requirements — требования к ПО;
+software design — проектирование ПО;
+software construction — конструирование ПО;
+software testing — тестирование ПО;
+software maintenance — сопровождение ПО;
+software configuration management — управление конфигурацией;
+software engineering management — управление IT проектом;
+software engineering process — процесс программной инженерии;
+software engineering tools and methods — методы и инструменты;
+software quality — качество ПО.В дополнение SWEBOK определяет дициплины, имеющие отношение к программной инженерии:
+
+Computer engineering
+Computer science
+Management
+Mathematics
+Project management
+Quality management
+Software ergonomics (Cognitive ergonomics)
+Systems engineering
+
+Аналогичные инициативы
+Аналогичная попытка составить свод знаний по программной инженерии была предприята в 2004 г. в виде инициативы "Computing Curriculum Software Engineering (CCSE)", которая составила несколько документов с рекомендациям по составлению учебных планов для университетов по специальности программная инженерия. Документ SE2004: Curriculum Guidelines for Undergraduate Degree Programs in Software Engineering в основном перекликается с SWEBOK V2 2004 г., потому что SWEBOK послужил для него одним из источников, однако сам документ больше ориентирован на учебные заведения. В то время как SWEBOK описывает свод знаний, которыми должен обладать человек после 4 лет практики в сфере программной инженерии, SE2004 описывал свод знаний, которые должен получить студент в университете, обучаясь по специальности программная инженерия (включая знание математики, общих принципов инженерии и прочие сопутствующие навыки). 
+10 лет спустя SE2004 был пересмотрен и из-за растущего объема знаний по теме программной инженерии был разделен на несколько документов: Computer Engineering, Computer Science, Cybersecurity, Information Systems, Information Technology и собственно Software Engineering.
+
+См. также
+Project Management Body of Knowledge (PMBOK)
+Enterprise Architecture Body of Knowledge (EABOK)
+Business Analysis Body of Knowledge (BABOK)
+Automation Body of Knowledge (ABOK)
+Data Management Body of Knowledge (DMBOK)
+
+Примечания
+Ссылки
+swebok.org (англ.) - официальный сайт SWEBOK.
+swebok.sorlik.ru  Основы программной инженерии (по SWEBOK) (рус.) - перевод SWEBOK 2004 с замечаниями и комментариями, подготовленный Сергеем Орликом при участии Юрия Булуя.
+Знакомьтесь: SWEBOK (рус.) - статья Натальи Дубовой в журнале Computerworld 2006 г. выпуск №38.

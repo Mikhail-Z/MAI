@@ -1,0 +1,23 @@
+Анри Пито (фр. Henri Pitot; 3 мая 1695, Арамон, Окситания, Франция — 27 декабря 1771, там же) — французский инженер-гидротехник, изобретатель трубки Пито для измерения скорости в жидкости, доказал теорему Пито.
+
+Биография
+Анри Пито родился в окситанском городе Арамон (современный округ Ним департамента Гар). Изучал математику и астрономию. В 1723 году стал помощником физика Рене Антуана Реомюра. В 1724 году становится помощником инженера в Академии наук, в 1727 году — адъюнкт-инженер, в 1733 году — постоянный геометр (фр. pensionnaire géomètre). В 1740 году Пито стал членом Королевского общества. В 1742 году был назначен директором Нимского сенешальства и директором Королевского канала в Лангедоке. В 1748 году Пито приобрёл поместье в Лонэ. В 1751 году стал членом Братства Белых кающихся в Монпелье.Работая в Лангедок-Руссильоне Анри Пито руководил строительством многих сооружений, дорог, мостов, фонтанов и акведуков. В 1743—1747 года он руководил строительством моста через реку Гардон, который должен был дублировать Пон-дю-Гар, самый высокий сохранившийся древнеримский акведук, истинное произведение искусства, который на протяжении столетий использовался в качестве моста. Пито построил множество защитных дамб, в частности, на реке Видурль. Он также восстановил некоторые арки римского моста Тиберия через Видурль. Его последней известной работой стало строительство водовода святого Климента в Монпелье в 1753—1765, которое было завершено после его смерти в 1772 году.
+В 1725 году доказал теорему Пито (геометрия), в 1732 году изобрёл прибор для измерения полного напора текущей жидкости (суспензии) или газа.
+
+Трубка Пито
+В 1732 году Пито, измеряя скорость потока Сены, обнаружив, что многие из теорий того времени являются необоснованными. Он интуитивно открыл связь между статическим давлением и динамическим давлением движущейся жидкости, установив, что разница между ними пропорциональна квадрату скорости жидкости. После этого инженер и изобрёл прибор для измерения скорости жидкости, известный сегодня под названием трубка Пито. В 1858 году Анри Дарси усовершенствовал трубку Пито, которая до сих пор используется во многих областях, в том числе, в газоходах и вентиляционных системах в комплекте с дифференциальными манометрами, а также как составная часть трубки Прандтля в авиационных приёмниках воздушного давления для возможности одновременного определения скорости и высоты полёта.
+
+Работы
+Henri Pitot. La Théorie de la manœuvre des vaisseaux réduite en pratique, ou les Principes et les règles pour naviguer le plus avantageusement qu'il est possible. — Paris: Claude Jombert, 1731.  (фр.)
+Henri Pitot. Propriétés élémentaires des polygones circonscrits autour du cercle // Histoire de l'Académie royale des sciences avec les mémoires de mathématique et de physique tirés des registres de cette Académie. — Paris: Académie royale des sciences, 1725. — С. 45-47.
+Henri Pitot. Nouvelle méthode pour connaître et déterminer l'effort de toutes sortes de machines mues par un courant, ou une chute d'eau. Où l'on déduit de la loi des mécaniques des formules générales, par le moyen desquelles on peut faire les calculs de l'effet de ces machines // Histoire de l'Académie royale des sciences avec les mémoires de mathématique et de physique tirés des registres de cette Académie. — Paris: Académie royale des sciences, 1725. — С. 78-101.
+Henri Pitot. Description d'une machine pour mesurer la vitesse des eaux courantes et le sillage des vaisseaux // Histoire de l'Académie royale des sciences avec les mémoires de mathématique et de physique tirés des registres de cette Académie. — Paris: Académie royale des sciences, 1732. — С. 363-376.
+Henri Pitot. Théorie de la vis d'Archimède, avec le calcul de l'effet de cette machine // Histoire de l'Académie royale des sciences avec les mémoires de mathématique et de physique tirés des registres de cette Académie. — Paris: Académie royale des sciences, 1736. — С. 173-183.
+Henri Pitot. Résolution d'une question astronomique, utile à la navigation. Trouver l'heure du jour, la hauteur du pôle et l'azimuth  pour la variation de l'aiguille, en observant deux fois la hauteur du soleil ou d'un autre astre, avec le temps écoulé entre les deux observations // Histoire de l'Académie royale des sciences avec les mémoires de mathématique et de physique tirés des registres de cette Académie. — Paris: Académie royale des sciences, 1736. — С. 255-260.
+
+См. также
+Трубка Пито
+Теорема Пито
+
+
+== Примечания ==

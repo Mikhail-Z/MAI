@@ -1,0 +1,24 @@
+Нейроинженерия — это научная дисциплина, входящая в состав биомедицинской инженерии, использующая различные инженерные методы для изучения, восстановления, замены или укрепления нервной системы. Нейроинженерия решает различные уникальные задачи, связанные с проблемами совмещения живых нейронных структур и неживых конструкций.
+
+История
+Как самостоятельная научная дисциплина нейроинженерия существует сравнительно недавно, имеющаяся информация и исследования носят ограниченный характер. Хотя ситуация быстро меняется. Первые журналы специализированные на этом направлении (такие как The Journal of Neural Engineering и The Journal of NeuroEngineering and Rehabilitation) появились в 2004. Международные конференции при поддержке IEEE начали проходить с 2003 года, последняя проходила с 29 апреля по 2 мая 2009 в Анталии, Турция 4th Conference on Neural Engineering.
+
+См. также
+Нейрокомпьютерный интерфейс
+
+Список литературы
+Neuroengineering (2007) ISBN 978-0-8493-8174-4
+Neural Engineering (Bioelectric Engineering) (2005) ISBN 978-0-306-48609-8
+Operative Neuromodulation: Volume 1: Functional Neuroprosthetic Surgery. An Introduction (2007) ISBN 978-3-211-33078-4
+Deep Brain Stimulation for Parkinson’s Disease (2007) ISBN 978-0-8493-7019-9
+Handbook of Stereotactic and Functional Neurosurgery (2003) ISBN 978-0-8247-0720-0
+Neural Prostheses: Fundamental Studies (1990) ISBN 978-0-13-615444-0
+IEEE Handbook of Neural Engineering (2007) ISBN 978-0-470-05669-1
+Foundations on Cellular Neurophysiology (1995) ISBN 978-0-262-10053-3
+
+Примечания
+Журналы по теме
+IEEE Transactions on Neural Systems and Rehabilitation Engineering
+The Journal of Neural Engineering
+JNER Journal of NeuroEngineering and Rehabilitation
+Journal of Neurophysiology

@@ -1,0 +1,7 @@
+Universal Network Objects (UNO) — компонентная модель, основанная на интерфейсах, применяемая в OpenOffice.Org.
+UNO обеспечивает взаимодействие объектов, созданных с применением различных технологий (OLE/COM, CLI, Web) и языков программирования (Python, C, C++, Java, Basic), функционирующих на одном или разных компьютерах Internet- / Intranet-сети.
+
+См. также
+UNO вики  (англ.) на wiki.services.openoffice.org.
+COM
+CORBA

@@ -1,0 +1,73 @@
+snom technology AG (неопр.). Архивировано 28 января 2013 года., — компания-пионер IP-телефонии, занимается разработкой и поставкой абонентского оборудования VoIP, основанного на открытых стандартах протокола SIP.
+
+История
+Компания snom Technology AG, основана в 1996 году в Берлине, Германия. В 1999 году snom technology AG выпустила свою первую коммерческую линейку VoIP телефонов snom 100, которые уже поддерживали SIP Решение компании позволило продавать телефоны, которые взаимодействовали с платформами различных стандартов и различных вендоров. Это стало максимально доступным после официального утверждения Session Initiation Protocol (SIP).
+Будучи пионером в разработках VoIP, snom technology AG была создана раньше компании Polycom (была создана в 1998 году) на 2 года, и смогла объединить у себя команду высококвалифицированных сотрудников с громадным потенциалом в области разработок интернет телефонии.
+Руководят компанией Генеральный директор (СОО) — Dr. Michael Knieling (на должности с 2004 года) и Технический директор — Usman Tahir (вступил на пост в 2012 году). Члены правления: Stefan Friese, Dr. Christian Stredicke и Jack Meehan.
+
+Спецификации телефонов snom
+Все телефоны snom поддерживают последние разработки в области, и технологии, такие как — NAT, VPN, ENUM, системы защиты (SIPS, SRTP, RTCP, WPA), специальные разработки в области криптирования.
+
+Все телефоны snom поддерживают системы телефонии и их компоненты на стандарте SIP, включая открытые платформы (как Asterisk), так и платформы разработанные компаниями для коммерческого распространения (как Lync, Avaya Unified Communication, Cisco Call Manager, 3CX, Huawei и многие другие).
+
+Широкая линейка продуктов включает терминалы которые соответствуют всем UC стандартам для использования на любых платформах протокола SIP Session Initiation Protocol.
+Одним из основных направлений развития бизнеса в ip-телефонии является совместимость с платформами UC стандарта. Такими как Microsoft OCS, Lync; Avaya; Cisco; Asterisk, Huawei и др.
+
+Среди IP-телефонов линейки серий: D3хх, D7хх, Mxx:
+
+snom D3xx
+
+snom D305
+snom D315
+snom D345
+snom D375
+snom D385snom D7xx
+
+snom D712
+snom D715
+snom D725
+snom D735
+snom D745
+snom D765
+snom D785
+VoIP DECT-телефон:
+
+snom M25
+snom M65
+snom M85SIP Конференц-телефон:
+
+snom MeetingPoint UC edition support
+snom c520
+SIP Paging:
+
+snom PA1
+
+snom UC edition
+snom UC edition сочетает преимущества открытого стандарта SIP с интеграцией в Microsoft Server OCS/Lync решений. Телефоны snom были первыми и являются единственными в отрасли, которые объединили телефоны SIP с функционалом Microsoft OCS. Телефоны входят в четверку производителей с официально сертифицированными устройствами, что подтверждено компанией Microsoft.
+
+Представительства
+Штаб-квартира компании находится в Берлине. Представительства компании расположены в Европе (Великобритания, Франция, Италия) и США.
+Компания владеет несколькими заводами по производству терминалов. Производит телефоны под торговой маркой snom. Есть ряд контрактов по производству телефонов OEM для Hewlett-Packard, Telekonf.
+Основное распространение терминалы получили на территории США, Европы и ближнего Востока.
+В регионах СНГ есть ряд партнеров.
+
+Дистрибьютором телефонов snom на Украине является компания «Новелла» snom.com.ua (неопр.). Архивировано 28 января 2013 года.
+
+Дистрибьютором телефонов snom в России является компания «ДжиЭс Телеком» gstele.com/snom/ (неопр.).
+
+Награды
+Шаблон:Cleanup-list
+
+TMC Labs 2003 Innovation Awards
+Internet Telephony 2006 Excellence Award
+Internet Telephony’s 2006 Top 100 Voices in IP Communication- Dr. Christian Stredicke
+Pulver 100, 2007
+snom recognized by the «Deloitte Technology Fast 50» as One of the Fastest Growing Technology Enterprises
+snom receives the 2007 Product of the Year Award from Communications Solutions for the snom m3
+snom gets Deloitte Award for strong sales growth
+snom receives TMC product of the year award 2008
+snom OCS edition receives Unified Communications Magazine’s 2008 Product of the Year Award
+
+Примечания
+Ссылки
+snom.com — официальный сайт Snom technology AG

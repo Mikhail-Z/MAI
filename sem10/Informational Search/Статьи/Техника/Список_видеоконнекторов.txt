@@ -1,0 +1,12 @@
+Это список видеоразъёмов и соответствующих стандартов видеосигнала. Служат для подключения устройств, генерирующих Видеосигнал к устройствам отображения изображений, обычно мониторам (дисплеям).
+
+По стандарту сигнала
+Физические разъёмы
+Примечания
+Ссылки
+Monitor Ports
+PC Graphics standard overview
+Opløsning (billede) — Wikipedia, den frie encyklopædi
+Summary of Video Standards at MonitorWorld.com
+Standard and device-specific video interfaces pinouts
+List of computer video standards and connectors pinouts

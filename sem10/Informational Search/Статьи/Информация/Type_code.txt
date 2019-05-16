@@ -1,0 +1,11 @@
+Type code (англ. код типа) является единственным механизмом для определения формата файла, используемым в классических версиях Mac OS. Код типа состоит из четырёх байт (эту последовательность называют OSType или ResType). Например, кодом типа для исполняемого файла является последовательность APPL. Эта последовательность хранится на уровне файловой системы, в виде метаданных, а не в самом файле.
+Mac OS X сохранила коды типа, но также поддерживает и расширения имён файлов, получившие широкое распространение благодаря их использованию в системах PDP-11, CP/M, MS-DOS и более поздних, и со временем ставшие стандартом де-факто.
+Type code не предназначен для изменения пользователем, тем не менее, специализированные программы позволяют просматривать его и редактировать, в первую очередь — консольные утилиты GetFileInfo и SetFile, которые входят в инструменты разработчика (и располагаются по пути /Developer/Tools), а также утилита ResEdit (доступна только для классической Mac OS).
+Начиная с OS X v10.4 появилась поддержка Uniform Type Identifiers, призванных заменить и коды типа, и расширения файловых имён.
+
+Примечания
+Ссылки
+The Type/Creator Database (archive.org), <http://homepage.mac.com/tcdb/>. Проверено 14 октября 2016. .
+Signatures of Macintosh Files (неопр.).  Logiciels & Services Duhem..
+"GetFileInfo", Darwin reference, Apple, <https://developer.apple.com/documentation/Darwin/Reference/ManPages/man1/GetFileInfo.1.html> .
+"SetFile", Darwin reference, Apple, <https://developer.apple.com/documentation/Darwin/Reference/ManPages/man1/SetFile.1.html> .

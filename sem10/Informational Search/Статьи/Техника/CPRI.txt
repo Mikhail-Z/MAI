@@ -1,0 +1,9 @@
+CPRI (си-пи-ар-ай, англ. Common Public Radio Interface, общий открытый радиоинтерфейс) — стандарт, определяющий интерфейс между функциональными блоками базовой станции сотовой связи. В терминах самого стандарта CPRI — это интерфейс между контроллерами радиоаппаратуры (англ. REC, Radio Equipment Controllers) и встроенными или удаленными радиомодулями (англ. RE, Radio Equipment).
+В число компаний, работающих над принятием и развитием стандарта, входят Ericsson AB, Huawei Technologies Co. Ltd, NEC Corparation, Alcatel Lucent и Nokia Solutions and Networks (NSN) GmbH & Co. KG.
+
+См. также
+OBSAI
+Радиомодуль (сотовая связь)
+
+Ссылки
+Страница стандарта CPRI

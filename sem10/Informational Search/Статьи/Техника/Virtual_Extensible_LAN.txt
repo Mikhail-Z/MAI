@@ -1,0 +1,16 @@
+Virtual Extensible LAN (VXLAN)  является технологией сетевой виртуализации, созданной для решения проблем масштабируемости в больших системах облачных вычислений.  Она использует схожую с VLAN технику для MAC инкапсуляции Layer 2 Ethernet кадров в UDP-пакеты, порт 4789.VXLAN является развитием усилий по стандартизации на оверлейном протоколе инкапсуляции. Он увеличивает масштабируемость до 16 миллионов логических сетей и позволяет сетям 2 уровня одновременно сосуществовать по IP-сетям. При этом multicast или unicast (с Head-End Replication) используются для передачи широковещательного трафика (broadcast, multicast и Unicast flood).
+Спецификация VXLAN первоначально была создана VMware и Cisco. Также технология поддерживается ADVA, Arista Networks, Broadcom, Citrix, Cumulus Linux, Red Hat, Nuagenetworks и Huawei.
+
+Источники
+См. также
+NVGRE, похожая конкурирующая спецификация
+Generic Routing Encapsulation (GRE)
+Virtual LAN (VLAN)
+IEEE 802.1ad, стандарт для Ethernet сетей, также известный как Provider Bridging, Stacked VLANs, или QinQ.
+
+Ссылки
+Mahalingam, Mallik; Dutt, Dinesh G.; et al. (2013-05-08). VXLAN: A Framework for Overlaying Virtualized Layer 2 Networks over Layer 3 Networks. IETF. I-D draft-mahalingam-dutt-dcops-vxlan.  (англ.)
+VXLAN Deep Dive: Part 1 and Part 2, November 2012, by Joe Onisick (англ.)
+Сеть и виртуализация. Часть II /  Журнал сетевых решений/LAN 2013 № 04, Александр Барсков
+VXLAN (Virtual Extensible LAN) / whatis  (англ.)
+[https://www.cisco.com/assets/global/RU/events/cisco-connect/presentation/kon2/18/15_30_16_30_Congress2.pdf Оверлейные сети ЦОДТехнологии VXLAN и EVPN. Принципы работы, эволюция, применение], Алексей Горовой, Cisco 2015

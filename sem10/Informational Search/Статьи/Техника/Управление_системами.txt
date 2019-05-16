@@ -1,0 +1,40 @@
+Управление системами — это администрирование распределённых компьютерных систем масштаба предприятия. На развитие управления системами большое влияние оказали инициативы по управлению сетями связи в телекоммуникационной отрасли. К наиболее известным системам управления системами относятся LANDesk, IBM Tivoli, Microsoft Systems Management Server, HP OpenView, Novell ZENworks и CA Unicenter.
+
+Функции
+Функциональные группы приведены согласно стандарту ITU-T X.700.
+
+Управление конфигурацией
+Управление безопасностью
+Управление ошибками
+Управление производительностью
+Учёт работы
+
+Стандарты
+DMTF
+CIM, WBEM, DEN
+IETF
+SNMP
+ITU-T
+X.700, X.701 и т. д.
+
+Список систем управления системами
+Это список систем управления системами (в алфавитном порядке):
+
+Alitiris Management Suite
+BMC PATROL
+CA Unicenter
+HP Network Node Manager i (NNMi, ранее — HP OpenView)
+IBM Tivoli
+LANDesk Management Suite
+System Center Configuration Manager (ранее Microsoft Systems Management Server)
+Novell ZENworks
+Oracle Enterprise Manager
+Symphoniq TrueView
+Vector Networks PC-Duo
+
+См. также
+Управление сетями связи
+Системное администрирование
+
+Ссылки
+Standards for Automated Resource Management

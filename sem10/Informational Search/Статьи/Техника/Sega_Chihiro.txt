@@ -1,0 +1,18 @@
+Sega Chihiro — аркадный автомат, базирующийся на архитектуре Microsoft Xbox.
+
+Характеристики
+Процессор: Intel Pentium III 733 МГц (133 МГц FSB)
+Графика:
+nVidia XChip 200 МГц (основан на nVidia GeForce 3)
+Вывод полигонов: 125M в секунду (теоретический максимум)
+Скорость рендеринга: 4.0 гигапикселов/сек
+Звук:
+Cirrus Logic CS4630 Stream Processor
+nVidia nForce (Real time Dolby Digital 5.1 encoding)
+ОЗУ: Обновляемый модуль, от 64 до 512 МБ
+Носитель: Sega GD-ROM
+
+Ссылки
+http://segaretro.org/Sega_Chihiro
+http://www.system16.com/hardware.php?id=729
+http://wiki.arcadeotaku.com/w/Sega_Chihiro

@@ -1,0 +1,89 @@
+Институциональный репозитарий — электронный архив для длительного хранения, накопления и обеспечения долговременного и надежного открытого доступа к результатам научных исследований, проводимых в учреждении.
+Университетский институциональный репозитарий может содержать следующие материалы:
+
+Научные статьи;
+Аннотации и диссертации;
+Учебные материалы;
+Книги или разделы книг;
+Студенческие работы;
+Материалы конференций;
+Патенты;
+Изображения, аудио- и видео-файлы;
+Веб-страницы;
+компьютерные программы;
+Статистические материалы;
+Учебные объекты;
+Научные отчеты.Основные особенности институционального репозитория:
+
+Обеспечение свободного доступа к результатам научных исследований, которые проводятся в университете через самоархивирование;
+Доступ к научным исследованиям университета для мирового сообщества;
+Сосредоточения материалов в одном месте;
+Сохранение других электронных материалов, в том числе неопубликованных (т. н. серая литература), таких как диссертации и технические отчеты.
+
+Происхождение термина
+Понятие институциональный репозитарий имеет двойное происхождение:
+
+Институциональные репозитории частично связаны с вопросом цифровой интероперабельности, которая в свою очередь связана с инициативой открытых архивов (OAI) и её протоколом для сбора метаданных (OAI-PMH).
+Институциональные репозитории частично связаны с понятием электронной библиотеки — то есть функции сбора, хранения, классификации, каталогизации и обеспечение доступа к цифровому контента, аналогичны функциям обычных библиотек.
+
+Особенности и преимущества использования институционального репозитория
+Согласно данным DOAR большинство институциональных репозитариев основаны на свободном программном обеспечении.
+Преимущества и выгоды использования институциональных репозитариев для научных учреждений.
+Использование и развитие репозитария выгодно для:
+
+Ученого;
+Научного подразделения;
+Университета в целом.Для каждого ученого:
+
+Повышение индекса цитирования работ;
+Постоянное и длительное хранение;
+Сохранение авторских прав.Для научного подразделения:
+
+Распространение;
+Рост уровня цитируемости;
+Длительность и постоянство;
+Сохранение.Для университета:
+
+Поддержка научной деятельности;
+Повышение качества научной коммуникации;
+Повышение рейтинга;
+Свободный доступ к исследованиям.
+
+См. также
+Электронная библиотека
+Архив Интернета
+Свободный доступ
+DSpace
+
+Примечания
+Ссылки
+Suleyman Demirel University Open Archives Harvester
+Beyond Open Access: Open Discourse, the next great equalizer, Retrovirology 2006, 3:55
+DSpace (open source IR software)
+Directory of Open Access Repositories (OpenDOAR)
+EPrints (open source IR software)
+Fedora
+Institutional Repositories, Tout de Suite, a bibliography by Charles W. Bailey, Jr.
+IR+ (open source IR software)
+Making Institutional Repositories a Collaborative Learning Environment
+NARCIS: Gateway to Dutch Scientific Information 
+OAKList Database
+Open Access Archivangelism by Stevan Harnad
+Open Access Overview by Peter Suber
+Openarchives.eu — The European Guide to OAI-PMH Institutional Repositories in the World
+Open Repositories Conference website (events and conference proceedings)
+Open Repositories in Ukraine: A case study from the National University Kyiv Mohyla Academy
+Ranking Web of World Repositories
+Registry of Open Access Repositories (ROAR).
+Registry of Open Access Repository Material Archiving Policies (ROARMAP)
+Repository 66
+Selected Works on Institutional Repositories (non commercial site)
+SHERPA
+Respository Support Project — JISC funded project to help IRs in the UK
+Comparison of software
+What is Open Access?
+White Paper: Behind a Law School’s Decision to Implement an Institutional Repository by James M. Donovan and Carol A. Watson
+Інформаційні технології в Науковій бібліотеці НаУКМА
+Проекти Відкритого Доступу в Україні
+Роль інституційного репозитарію в науково-освітньому середовищі вищого навчального закладу
+Робота авторів у середовищі інституційного репозитарію ELARTU. Проблема самоархівування: Методичні вказівки / Костишин С. О., Дубик С. О. — Тернопіль: ТДТУ, 2009.

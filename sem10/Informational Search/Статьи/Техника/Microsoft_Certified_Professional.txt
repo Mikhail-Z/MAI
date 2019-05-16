@@ -1,0 +1,12 @@
+Сертифицированный профессионал Microsoft (англ. Microsoft Certified Professional, MCP) — квалификация сотрудника, подтверждённая корпорацией Майкрософт в виде сертификата и присваиваемая специалистам в области информационных технологий. Чтобы получить такую квалификацию, требуется успешно сдать один или несколько квалификационных экзаменов. Существуют различные типы сертификатов, различающихся как по уровню, так и по специализации.
+Также как программы сертификации Apple, Cisco, Oracle, Red Hat и Ubuntu, сертификации Microsoft в основном сосредоточены на соответствующих продуктах. Серия Microsoft Certified (MC) включает в себя Microsoft Certified IT Professional (MCITP), Microsoft Certified Master (MCM), Microsoft Certified Architect (MCA), Microsoft Certified Professional Developer (MCPD), Microsoft Certified Technology Specialist (MCTS), Microsoft Certified Desktop Support Technician (MCDST).
+В России существуют клубы сертифицированных специалистов Microsoft — MCP-клубы. Основное отличие MCP-клуба от других профессиональных форумов заключается в небольшом количестве «избранных». Его участники собираются в 33 городах России (данные на март 2010).
+
+См. также
+Арфа Карим — самый юный сертифицированный профессионал Microsoft в мире (с 2004 года по 2008).
+Аян Куреши — 5 летний мальчик сдал экзамен Microsoft Certified Professional (источник http://www.bbc.com/news/technology-30054140)
+
+Ссылки
+Информация о квалификационных требованиях для MCP
+Обзор различных сертификаций
+MCP-клубы

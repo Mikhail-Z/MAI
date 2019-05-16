@@ -1,0 +1,18 @@
+Gemeinsame Normdatei (GND) — немецкая система классификации и систематизации, предназначенная преимущественно для библиотек.
+
+История
+GND запущена в апреле 2012 года Немецкой национальной библиотекой в сотрудничестве с различными библиотечными сетями и включает в себя записи четырёх систем:
+
+Personennamendatei (PND);
+Schlagwortnormdatei (SWD);
+Gemeinsame Körperschaftsdatei (GKD);
+Einheitssachtitel-Datei des Deutschen Musikarchivs (DMA-EST).По состоянию на 5 апреля 2012 года в GND имелось 9 493 860 записей, включая 2 650 000 персоналий.
+
+Литература
+Christel Hengel-Dittrich. Das Projekt Gemeinsame Normdatei — GND. In: Dialog mit Bibliotheken. Jg. 22, H. 1, S. 36.
+Bereitstellung des ersten GND-Grundbestandes (неопр.) (19 апрель 2012). Архивировано 26 мая 2012 года.
+
+Ссылки
+Электронный каталог: OGND
+Электронный каталог: DNB-Portal
+Über das Projekt Gemeinsame Normdatei

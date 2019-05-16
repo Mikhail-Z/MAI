@@ -1,0 +1,20 @@
+Квартет Энскомба — четыре набора числовых данных, у которых простые статистические свойства идентичны, но их графики существенно отличаются. Каждый набор состоит из 11 пар чисел. Квартет был составлен в 1973 году английским математиком Ф. Дж. Энскомбом для иллюстрации важности применения графиков для статистического анализа, и влияния выбросов значений на свойства всего набора данных.
+Все наборы обладают такими свойствами:
+
+Сами последовательности приведены ниже. Значение 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   одинаковы для первых трёх последовательностей.
+
+Ссылки
+F.J. Anscombe, "Graphs in Statistical Analysis, " American Statistician, 27 (February 1973), 17-21.
+Tufte, Edward R. (2001). The Visual Display of Quantitative Information, 2nd Edition, Cheshire, CT: Graphics Press. ISBN 0961392142
+Sangit Chatterjee and Aykut Firat (2007). «Generating Data with Identical Statistics but Dissimilar Graphics: A Follow up to the Anscombe Dataset», American Statistician, 61(3), 248—254. doi:10.1198/000313007X220057
+
+См. также
+Научная визуализация

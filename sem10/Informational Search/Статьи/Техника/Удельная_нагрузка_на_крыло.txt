@@ -1,0 +1,10 @@
+Удельная нагрузка на крыло — отношение массы летательного аппарата к площади несущей поверхности. Выражается в кг/м². При использовании термин часто сокращается до «нагрузка на крыло».
+Величина нагрузки на крыло определяет взлетно-посадочную скорость летательного аппарата, его маневренность, максимальное расстояние полета и другие характеристики.
+Нагрузка на крыло у планера составляет примерно 30 кг/м², у пассажирских лайнеров может доходить до 700—800 кг/м².
+При определении нагрузки на крыло может учитываться площадь хвостового оперения а также фюзеляжа и других несущих плоскостей.
+
+Примечания
+Литература
+Meunier, K. Korrelation und Umkonstruktionen in den Größenbeziehungen zwischen Vogelflügel und Vogelkörper-Biologia Generalis 1951: p403-443. [Article in German]
+Thom, Trevor. The Air Pilot’s Manual 4-The Aeroplane-Technical. 1988. Shrewsbury, Shropshire, England. Airlife Publishing Ltd. ISBN 1-85310-017-X
+Spick, Mike. Jet Fighter Performance-Korea to Vietnam. 1986. Osceola, Wisconsin. Motorbooks International. ISBN 0-7110-1582-1

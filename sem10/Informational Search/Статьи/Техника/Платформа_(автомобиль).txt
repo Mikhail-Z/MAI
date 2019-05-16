@@ -1,0 +1,118 @@
+Платформа — совокупность основных компонентов, набор комплектующих, типовые конструктивные и технологические решения, применяемое оборудование в конструкции автомобиля. Платформы используются для унификации процесса производства и комплектующих. Даёт возможность снизить стоимость производства новых изделий, повысить серийность и уровень автоматизации производственных процессов. В рамках корпорации позволяет всем подразделениям использовать общую платформу, сокращая издержки и время на разработку новых моделей.
+Платформа — не фиксированный набор компонентов и требований, от платформы к платформе они могут отличаться. Всё то, что будет включено в платформу определяется её разработчиками. Также платформа не всегда определяет характеристики будущего автомобиля (созданные на базе одной платформы автомобили могут попасть в разные классы, иметь различные технические характеристики). Также возможны ситуации когда автомобили одной марки с разным кузовом или модификацией будут иметь разную платформу.
+
+Список автомобильных платформ
+Daimler Chrysler
+W/S/CL 203, C/A 209, R 171 (2000): (Mercedes-Benz C-класс (T-Modell, Sportcoupé), Mercedes-Benz CLK, Mercedes-Benz SLK-класс)
+W/S 211, C 219 (2002): (Mercedes-Benz E-класс (T-Modell), Mercedes-Benz CLS-класс)
+W/X 164, W/V 251 (2004) (Mercedes-Benz M-класс, Mercedes-Benz GL-класс, Mercedes-Benz R-класс)
+W/C 169, T 245 (2004): (Mercedes-Benz A-класс, Mercedes-Benz B-класс)
+W/V 221, C 216 (2005): (Mercedes-Benz S-класс, Mercedes-Benz CL-класс)
+W/S/C/X 204, C/A 207, R 172 (2007): (Mercedes-Benz C-класс, Mercedes-Benz GLK-класс, Mercedes-Benz E-Klasse Купе/Кабриолет, Mercedes-Benz SLK-класс)
+W/S 212, C/X 218 (2009): (Mercedes-Benz E-класс, Mercedes-Benz CLS-класс)
+DaimlerChrysler LX-Plattform: (Chrysler 300C, Dodge Magnum, Dodge Charger, Dodge Challenger)
+
+Fiat
+Fiat Mini platform (Fiat Panda II (2003), Fiat 500 (2007), Ford Ka II (2008), Fiat Novo Uno, Lancia Ypsilon III (2011), Fiat Panda III (2012))
+Fiat C-platform (Fiat Bravo (2007), Lancia Delta)
+Fiat Compact platform (Alfa Romeo Giulietta (2010), Dodge Dart (2013), Fiat Viaggio, Alfa Romeo Giulia (2014))
+Fiat Type Two platform (Tipo Due) (Fiat Bravo, Fiat Brava, Fiat Marea, Fiat Marea Weekend, Fiat Marengo, Fiat Coupé, Alfa Romeo 145, Alfa Romeo 146, Lancia Lybra, Fiat Multipla, Fiat Stilo, Alfa Romeo 156, Alfa Romeo 147)
+Fiat Type Three platform (Fiat Tipo, Fiat Tempra ZFA159, Fiat Tempra S.W., Lancia Delta, Lancia Dedra, Lancia Dedra SW, Alfa Romeo 155, Alfa Romeo Spider, Alfa Romeo GTV)
+
+GM/Fiat
+GM/Fiat Premium platform (Alfa Romeo Brera, Alfa Romeo Spider, Alfa Romeo 159)
+
+Ford
+Ford B3 platform
+Ford C1 platform
+Ford EUCD platform
+Ford CD3 platform
+Ford DEW platform
+Ford D2C platform (Ford Mustang)
+
+General Motors
+GM Gamma platform
+GM Delta platform
+GM Epsilon platform
+GM Sigma platform
+GM Theta platform
+GM Lambda platform
+GM Zeta platform
+
+Hyundai-Kia
+Hyundai Solaris (RB) platform (Hyundai Accent IV, Hyundai Solaris, Hyundai i20, Hyundai ix20, Hyundai Veloster, Kia Rio, Kia Venga, Hyundai Creta, Kia Soul)
+Hyundai-Kia J platform (J3/J4/J5) (Hyundai Elantra (i35), Kia Cerato, Kia Sportage, Kia Carens, Hyundai i30, Kia cee'd, Hyundai ix35 (Tucson))
+Hyundai-Kia MX platform Hyundai i10, Kia Picanto
+Hyundai-Kia Y platform (Y3/Y4) (Hyundai Sonata, Hyundai Santa Fe, Kia Optima/Magentis)
+
+Lancia/Saab
+Type Four platform (Typ Vier): (Alfa Romeo 164, Fiat Croma, Lancia Thema, Saab 9000)
+
+Mazda
+Mazda B platform (Автомобили C-класса: Mazda3/Mazda Familia/Mazda 323)
+Mazda C platform (Средний класс: Mazda Lantis)
+Mazda D platform (Субкомпактные автомобили: Mazda Demio)
+Mazda F platform (Спортивные автомобили: Mazda RX-7)
+Mazda G platform (Средний класс: Mazda6/Mazda Atenza/Mazda 626/Ford Probe)
+Mazda H platform (Полноразмерные автомобили: 929)
+Mazda J platform (Полноразмерные автомобили: Eunos Cosmo)
+Mazda L platform (Минивэны: Mazda MPV)
+Mazda M platform (Средний класс: Mazda Persona)
+Mazda N platform (Спортивные автомобили: Mazda MX-5)
+Mazda S platform (Спортивные автомобили: Mazda RX-8)
+
+Mitsubishi/Daimler Chrysler
+Mitsubishi GS platform ("Project Global" by Mitsubishi): (Mitsubishi Outlander, Mitsubishi Lancer, Mitsubishi Lancer Evolution X, Mitsubishi Delica, Mitsubishi ASX (aka Mitsubishi RVR (GA3W)/Outlander Sport). Dodge Caliber, Jeep Compass, Jeep Patriot, Dodge Avenger, Dodge Journey/Fiat Freemont, Chrysler Sebring III, Chrysler 200. Citroën C-Crosser/Peugeot 4007, Citroën C4 Aircross/Peugeot 4008. Proton Inspira)
+Mitsubishi PS platform (Mitsubishi Eclipse, Mitsubishi Endeavor, Mitsubishi Galant)
+Mitsubishi Z platform: (Smart Forfour, Mitsubishi Colt)
+
+Porsche
+987: (Porsche Boxster, Porsche Cayman)
+
+PSA
+106/Saxo/T1: (Peugeot 106, Peugeot 206, Citroën Saxo)
+N: (Citroën ZX, Peugeot 306, Citroën Xsara, Citroën Xsara Picasso)
+D/X/Z: (Peugeot 405, Peugeot 406, Peugeot 607, Citroën Xantia)
+PF1: (Peugeot 1007, Peugeot 207, Citroën C2, Citroën C3, Citroën C3 Pluriel)
+PF2: (Peugeot 307, Peugeot 308, Peugeot 3008, Peugeot Partner, Citroën C4)
+PF3: (Peugeot 407, Citroën C5, Citroën C6)
+EMP2: (второе поколение Peugeot 308, второе поколение Citroën C4 Picasso)
+
+PSA/Toyota
+B-0: (Peugeot 107, Citroën C1, Toyota Aygo)
+
+Renault-Nissan/Renault Samsung Motors
+Nissan B platform
+Nissan C platform
+Nissan D platform
+Nissan F-Alpha platform (Nissan Pathfinder, Nissan Armada, Nissan Titan  Infiniti QX56)
+Nissan FF-L platform (Nissan Murano I, Nissan Teana I)
+Nissan FM platform (Nissan Skyline/Infiniti G35  V35-series, Nissan Fuga/Infiniti M  Y50-series, Nissan 370Z Z34-series, Nissan 350Z  Z33-series, Infiniti FX Infiniti EX)
+Nissan MS platform (FF-S platform) (Nissan Almera, Nissan Primera P12, Nissan Wingroad I, Nissan X-Trail I, Renault Laguna II, Renault Espace IV, Renault Vel Satis)
+Nissan PM platform (Nissan GT-R (R35))
+Nissan S platform (Nissan Silvia, Nissan 240 SX)
+Nissan V platform
+
+Suzuki
+Suzuki K-car platform (Suzuki Alto, Suzuki Wagon R, Nissan Pixo)
+
+Toyota
+Список платформ Toyota (Англ.)
+
+Volkswagen AG
+Volkswagen Group A0 platform
+Volkswagen Group A platform
+Volkswagen Group B platform
+Volkswagen Group C platform
+Volkswagen Group D platform
+Volkswagen Group MQB platform (Audi A3, VW Golf 7 все модели имеют переднее поперечное расположение двигателя )
+Volkswagen Group MLB platform
+Volkswagen Group MSB platform (заднеприводная платформа предназначена для автомобилей с передним расположением двигателя)
+New Small Family (NSF) (Typ AA)
+
+Volkswagen, Audi, Porsche
+PL71: (VW Touareg I, Porsche Cayenne, Audi Q7)
+PL72: (VW Touareg II, Porsche Cayenne II)
+
+
+== Примечания ==

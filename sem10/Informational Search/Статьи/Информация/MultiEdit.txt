@@ -1,0 +1,9 @@
+Multi-Edit — текстовый редактор для программистов и простых пользователей. Поддерживает большое количество популярных языков программирования Delphi, FORTRAN-77, Python, Batch, SQL, Matlab, TCL, REBOL, ColdFusion, COBOL, DBase, Verilog, C#, ASP, Ada, Aspect, Progress, C/C++, Java, JavaScript, AutoLISP, Modula-2, PERL, HTMLScript, PERLScript, BASIC, VB, ASM, CSS, PL/SQL, CSV, DataFlex, HTML, VHDL, Scilab и прочие.
+
+Возможности
+встроенный множественный буфер обмена;
+встроенный ftp-клиент;
+поддерживает интеграцию с C++ Builder, Delphi, Microsoft Visual Studio, Oracle SQL, Macromedia ColdFusion и Watcom C/C++.
+
+Ссылки
+http://multiedit.com/

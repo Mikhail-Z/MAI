@@ -1,0 +1,236 @@
+Mixed-Mode CD (Смешанный режим CD) — это компакт-диск, в котором содержится несколько различных типов данных. Обычно первый трек — это data-трек (трек с данными), а остальные — звуковые дорожки. Наиболее общее использование Mixed Mode CD производить расширение компакт-дисков, в котором музыкальный компакт-диск сочетается с мультимедийным содержанием.
+У некоторых проигрывателей компакт-дисков с 1990-х годов могут возникнуть проблемы с Mixed Mode CD, потому что data-треки (до звуковых дорожек), могут быть проиграны, в результате чего может возникнуть «визг» который, в худшем случае, может привести к повреждению динамиков. (Это связано с тем, что проигрыватель не отличит data-файл от звуковой дорожки). Такие проигрыватели были разработаны до носителя информации типа CD-ROM, которые были общими, поэтому [пренебрегая прямую совместимость] всегда будут воспринимать информацию как звуковые дорожки. Все новые аудио проигрыватели компакт-дисков распознают тип данных. В дальнейшей разработке CD Plus (CD Extra) звуковые дорожки размещаются до треков с данными, избегая проблему для большинства аудио-проигрывателей.
+
+Список компакт-дисков смешанного режима (компьютерные игры)
+21-Two One-
+Age of Empires
+Age of Empires: The Rise of Rome
+Age of Empires II: The Age of Kings
+Age of Empires II: The Conquerors
+Air (игра)
+Battlezone
+Battlezone II: Combat Commander
+Bejeweled 2
+Bless Close Your Eyes, Open Your Mind
+Blood
+Call to Power II
+Carmageddon
+Carmageddon II: Carpocalypse Now
+Cherry Petals Fall Like Teardrops
+Civilization II
+Civilization: Call to Power
+Comic Party
+Command & Conquer Red Alert Expansion packs
+Commandos: Behind Enemy Lines
+Commandos: Beyond the Call of Duty
+Croc: Legend of the Gobbos
+Dark Colony
+Dark Reign 2
+Dark Sun: Wake of the Ravager
+Descent
+Descent II
+Disney's Tarzan
+Driver
+Dungeon Keeper
+Earthworm Jim
+EXTREME-G 2
+Extreme Assault
+Extreme Paintbrawl
+Fatal Racing
+Forsaken
+Fury3
+FX Fighter
+Grand Theft Auto
+Half-Life
+Half-Life: Blue Shift
+Half-Life: Opposing Force
+Heavy Gear II
+Hellbender
+Heroes of Might and Magic
+Heroes of Might and Magic II
+Hexen
+Hexen II
+Imperialism
+The Incredible Machine 3
+Incoming
+Incubation: Time Is Running Out
+Incubation: The Wilderness Missions
+Interstate '76
+Jedi Knight II: Jedi Outcast
+Kanon
+Kimi ga Nozomu Eien
+Kingpin: Life of Crime
+King's Quest Collector's Edition (disc 2)
+King's Quest VI: Heir Today, Gone Tomorrow
+Kizuato
+Knights and Merchants: The Shattered Kingdom
+Little Big Adventure (a.k.a. Relentless: Twinsen's Adventure)
+Little Big Adventure 2 (a.k.a. Twinsen's Odyssey)
+Lode Runner 2
+Loom
+Magical Antique
+MechWarrior 2: 31st Century Combat
+MechWarrior 2: Ghost Bear's Legacy
+MechWarrior 2: Mercenaries
+MechWarrior 3
+MechWarrior 3: Pirate's Moon
+Mortal Kombat (on the combined MK 1 and 2 CD release)
+Mortal Kombat 2
+Mortal Kombat 3
+Mortal Kombat 4
+Mortal Kombat Trilogy
+Moto Racer
+Moto Racer 2
+Motorhead
+Might and Magic VI: The Mandate of Heaven
+Mirage (disc 2 - Making of Mirage)
+One: Kagayaku Kisetsu e
+One Unit: Whole Blood
+The Operative: No One Lives Forever (disc 2)
+Outcast (disc 2)
+Outlaws (both discs)
+Outpost
+Pax Imperia: Eminent Domain
+POD - Planet of Death
+PowerSlave (Exhumed)
+Project I.G.I.: I'm Going In
+Protostar: War on the Frontier
+Prototype (1995)
+P.Y.S.T.
+Quake
+Quake II
+Quake II Mission Pack No. 1: The Reckoning
+Quake II Mission Pack No. 2: Ground Zero
+Quake Mission Pack 1: Scourge of Armagon
+Quake Mission Pack 2: Dissolution of Eternity
+Quarantine
+Railroad Tycoon II
+Take no prisoners
+Rainbow Six
+Rainbow Six: Rogue Spear
+Rayman
+Redneck Rampage
+Re-Volt
+Romance of the Three Kingdoms VII
+Sam & Max Hit the Road
+Sangokushi Koumeiden
+Screamer 2
+The Secret of Monkey Island
+Settlers III, The (as well as New Missions and Amazons expansions)
+Star Wars Jedi Knight: Dark Forces II (both Discs)
+Turok: Dinosaur Hunter
+Turok 2: Seeds of Evil
+Shadow Warrior
+Shattered Steel
+Shizuku
+Sled Storm
+Soldier of Fortune
+Sonic the Hedgehog CD
+Sonic R
+Star Fighter
+Star Wars: TIE Fighter (Collector's Series Edition only)
+Star Wars: X-Wing (Collector's Series Edition only)
+Star Wars: X-Wing vs. TIE Fighter
+Super Bubsy
+Tasogare
+Tempest 2000
+Test Drive 4
+Test Drive 5
+To Heart
+Tomb Raider
+Tomb Raider: Unfinished Business (Expansion)
+Tomb Raider II
+Tomb Raider II: Golden Mask (Expansion)
+Total Annihilation (both discs 1 and 2)
+Tsukihime
+Tye: The Demon Slayer
+Urban Assault
+Virtual On
+Warcraft: Orcs & Humans
+Warcraft II: Beyond the Dark Portal
+Warcraft II: Tides of Darkness
+WaterRace
+Welcome to Pia Carrot
+White Album (visual novel)
+Worms
+Worms 2
+Worms United
+
+Список игр для PlayStation, использовавших смешанный режим компакт-дисков
+Air Combat
+Alien Trilogy
+Animorphs
+Brave Fencer Musashi
+Bust-a-Move 2
+Castlevania: Symphony of the Night
+Cool Boarders 2
+Cyber Sled
+Dead or Alive
+Destruction Derby
+Destruction Derby Raw
+Die Hard Trilogy
+Eliminator
+Fantastic Four
+Formula 1 (video game)
+Forsaken
+Grand Theft Auto (video game)
+Hexen
+Hogs of War
+Jet Moto
+Jet Moto 2
+Jeremy McGrath SuperCross '98
+Jersey Devil
+MechWarrior 2: 31st Century Combat
+Namco Museum Vol. 1
+Namco Museum Vol. 2
+Namco Museum Vol. 3
+Need for Speed: Porsche Unleashed
+Ogre Battle: The March of the Black Queen
+Pepsiman
+Rage Racer
+Rayman
+Re-Volt
+Rhapsody: A Musical Adventure
+Ridge Racer
+Ridge Racer Revolution
+Rogue Trip: Vacation 2012
+Rollcage
+Rollcage Stage II
+Sailor Moon SuperS Shin Shuyaku Soudatsusen
+Streak: Hoverboard Racing
+Street Fighter Alpha
+Street Fighter The Movie
+Tactics Ogre: Let Us Cling Together
+Tekken
+Tekken 2
+Tekken 3
+Thrill Kill
+Time Crisis
+Tomb Raider
+Tomb Raider II
+Treasures of the Deep
+Turbo Prop Racing
+Twisted Metal
+Twisted Metal 2
+Twisted Metal III
+Twisted Metal 4
+Vanishing Point
+V-Rally
+Vib-Ribbon
+Vigilante 8
+Vigilante 8: 2nd Offense
+Wipeout
+Wipeout 2097
+Wipeout 3
+X-COM: UFO Defense
+
+Список компакт-дисков смешанного режима (другие игры, консоли)
+Ecco the Dolphin (Sega CD version)
+Ecco: The Tides of Time (Sega CD version)
+Jurassic Park (Sega CD)
+Sonic the Hedgehog CD (Sega CD version)
+Terminator (Sega CD version)
+
+Ссылки
+PCMAG.com Mixed Mode CD Definition
+MusicFan Enhanced CD Formats

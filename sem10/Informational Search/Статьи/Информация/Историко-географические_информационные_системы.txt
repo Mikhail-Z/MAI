@@ -1,0 +1,26 @@
+Историко-географические информационные системы (также пишется как исторические ГИС или ЕБМС) — это географические информационные системы, которые могут отображать, хранить и анализировать данные прошлых географических эпох и отслеживать изменения во времени. Используются в истории, палеобиологии и её подразделах, геологии, палеоклиматологии и палеоокеанологии, археологии, средствах массовой информации и в деле массового просвещения. Имеется много доступных в сети открытых исторических ГИС-проектов, имеется свободное программное обеспечение для создания таких проектов.
+
+Программное обеспечение или веб-сервисы, разработанные для исторических ГИС
+TimeMap — Java-программа с открытым исходным кодом (апплет) для просмотра пространственно-временных данных и ECAI наборов данных , разработанная на кафедре археологии Университета Сиднея.
+В версиях 4+ Google Планета Земля добавлена тайм-линии функция, которая позволяет осуществить простой временной просмотр пространственных данных
+
+Примечания
+Ссылки
+The Historical GIS Research Network
+Joachim Laczny: The late medieval ruler Frederick III (1440—1493) on the journey. The creation of the itinerary using a Historical Geographic Information System (Historical GIS)
+History-GIS Mailing List
+Historical Geographic Information Systems Online Forum on Google
+Geohistory — Historical GIS (in Polish)
+Atlas-Historical Cartography (in Portuguese) — Atlas-Historical Cartography (in English)
+Videos of presentations (January 16, 2013) — Historical GIS for reconstructing the past
+OldMapsOnline
+
+Литература
+Ian N. Gregory, Don Debats, Don Lafreniere eds.: The Routledge Companion to Spatial History. Routledge 2018 ISBN 9781138860148
+Joachim Laczny: Friedrich III. (1440—1493) auf Reisen. Die Erstellung des Itinerars eines spätmittelalterlichen Herrschers unter Anwendung eines Historical Geographic Information System (Historical GIS) In: Joachim Laczny, Jürgen Sarnowsky eds.: Perzeption und Rezeption. Wahrnehmung und Deutung im Mittelalter und in der Moderne (Nova Mediaevalia Quellen und Studien zum europäischen Mittelalter, 12), Göttingen: V&R unipress 2014, p. 33-65. ISBN 978-3-8471-0248-9, DOI:10.14220/9783737002486.33
+Ian N. Gregory, Paul Ell: Historical GIS: Technologies, Methodologies, and Scholarship (Cambridge Studies in Historical Geography) 2008 ISBN 978-0-521-67170-5
+Anne Kelly Knowles: Past Time, Past Place: GIS for history A collection of twelve case studies on the use of GIS in historical research and education. ESRI press 2002 ISBN 1-58948-032-5
+Anne Kelly Knowles, Amy Hillier eds.: Placing History: How Maps, Spatial Data, and GIS Are Changing Historical Scholarship 2008 ISBN 978-1-58948-013-1
+Ian N. Gregory: A place in History A short introduction to HGIS by the lead developers of GBHGIS ISSN 1463-5194
+Ott, T. and Swiaczny, F.: Time-integrative GIS. Management and analysis of spatio-temporal data, Berlin / Heidelberg / New York: Springer 2001 ISBN 3-540-41016-3
+Feature edition of Historical development GIS in the journal Social Science History 24 2000, Introduction by Anne Kelly Knowles.

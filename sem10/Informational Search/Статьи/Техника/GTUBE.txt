@@ -1,0 +1,13 @@
+GTUBE (Generic Test for Unsolicited Bulk Email) — почтовое сообщение, применяемое для тестирования антиспама. По умолчанию имеет оценку 1000 в SpamAssassin.
+Для проверки антиспама в теле письма должна содержаться следующая строчка:
+
+XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
+
+Эта строка копируется в тело (текст) письма, отправляемого стандартными способами.
+
+См. также
+EICAR-Test-File — безопасный имитатор компьютерного вируса, применяемый для тестирования работы антивирусов.
+
+Ссылки
+http://spamassassin.apache.org/gtube/
+https://books.google.ru/books?id=yzdjlam3VbQC&pg=PA168&lpg=PA168&dq=Generic+Test+for+Unsolicited+Bulk+Email

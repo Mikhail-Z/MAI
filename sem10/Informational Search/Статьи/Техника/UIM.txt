@@ -1,0 +1,43 @@
+uim ("Universal Input Method") многоязыковая система ввода, поддерживающая несколько методов ввода. Поддерживает xim (X Input Method) через мост uim-xim. Работает в GTK+ и Qt приложениях. Есть мост для консоли (uim-fep), Emacs (uim.el), и Mac (MacUIM).
+
+Поддерживаемые методы ввода
+Китайский: 
+
+New Pinyin (Simplified)
+Pinyin (Unicode)
+Pinyin (Traditional)
+WuBi 86
+ZhengMa
+Chewing (Traditional)(https://web.archive.org/web/20080705030925/http://uim.googlecode.com/svn/uim-chewing-trunk/)Японский: 
+
+Ajax IME
+Anthy
+Canna
+FreeWnn
+Mana
+Mozc (https://web.archive.org/web/20140811051946/http://macuim.googlecode.com/svn/trunk/Mozc/)
+PRIME
+SKK
+Social IME
+T-Code
+Try-Code
+TUT-Code
+Yahoo! Japan APIКорейский: 
+
+Byeoru
+Hangul (2-beol)
+Hangul (3-beol)
+Hangul (Romaja)другие: 
+
+ELatin (ввод латиницы в стиле Emacs)
+m17n (uim-m17n)
+
+См. также
+IME
+SCIM
+IBus
+Google Japanese InputAnthy
+
+Ссылки
+http://code.google.com/p/uim/
+http://code.google.com/p/macuim/

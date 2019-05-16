@@ -1,0 +1,42 @@
+Eternal 5D или Superman memory crystal — технология оптической записи информации с очень высокой плотностью и долговечностью, разработанная учёными Исследовательского центра оптоэлектроники (англ. Optoelectronics Research Centre) Саутгемптонского университета.
+Носитель информации представляет собой наноструктурированный прозрачный материал, запись производится с помощью фемтосекундного лазера, работающего в режиме синхронизации мод. Таким методом возможно записать до 360 терабайт информации на один кристалл; расчётный срок хранения информации составляет порядка миллиардов лет.
+
+Разработка технологии
+Основной принцип — оптическая запись информации на прозрачный материал, не обладающий особой светочувствительностью, но долговечный — например, кварцевое стекло. Первый эксперимент, показавший практическую возможность сделать это с помощью фемтосекундного лазера в режиме синхронизации мод, был поставлен в 1996 году. Первая успешная запись 300 килобайт данных была продемонстрирована в 2013 году.
+Для модуляции используются интенсивность, поляризация и длина волны лазерного излучения. Если в кварцевое стекло внедрить наночастицы серебра или золота, для повышения плотности записи информации можно использовать также плазмоны и самосборку нанорешётки под действием лазерных импульсов. Такие нанорешётки, включающие в себя слоистые структуры толщиной 20 нм, расположенные в толще материала, оказались устойчивыми при повышенных температурах. Физика процесса самосборки нанорешёток до сих пор не вполне исследована, хотя были попытки дать ему теоретическое объяснение.
+Записанные данные располагаются в трёхмерном объёме, расстояние между соседними точками составляет 3,7 мкм, между слоями 20 мкм. Самособранная наноструктура взаимодействует с оптическим излучением как одноосный кристалл с отрицательным двойным лучепреломлением. Каждая точка, сделанная лазером, помимо положения в трёхмерном пространстве обладает ещё своим направлением оптической оси (влияет на поляризацию излучения) и степенью непрозрачности (влияет на интенсивность излучения). Таким образом, к трём геометрическим пространственным измерениям добавляются ещё два «оптических измерения», и запись данных становится «пятимерной» — потому технология и была названа Eternal 5D.
+На практике удалось сделать до 18 слоёв записи, используя световые импульсы длительностью 600 фс и энергией 0,2 мкДж, с частотой следования импульсов 500 кГц. Проведённые по результатам тестов расчёты показали время разрушения нанорешётки при температуре 30 ⁰C порядка 3⋅1020±1 лет, при 189 ⁰C — около 13,8⋅109 лет, что сопоставимо с возрастом Вселенной.
+
+Применение
+В 2015 году на церемонии закрытия Международного года света в Мехико Исследовательский центр оптоэлектроники преподнёс в дар ЮНЕСКО Eternal 5D диск с записью Всеобщей декларации прав человека. На такие же опытные диски были записаны «Оптика» Исаака Ньютона, «Магна Карта» и Библия короля Якова.
+Разработчики технологии видят возможное практическое применение ей в организациях, которым требуется надёжное длительное хранение больших объёмов данных (библиотеки, архивы, музеи и другие), а в перспективе — для хранения информации за пределами Земли, в жёстких условиях других планет и открытого космоса. Внедрению этого изобретения в серийное коммерческое производство и массовое применение препятствует высокая стоимость записывающего оборудования (особенно фемтосекундных лазеров).
+
+Примечания
+Литература
+Glezer E. N., Milosavljevic M., Huang L., Finlay R. J., Her T.-H., Callan J. P., Mazur E. Three-dimensional optical storage inside transparent materials (англ.) // Opt. Lett. — 1996. — Iss. 21. — P. 2023—2025.
+Watanabe M., Juodkazis S., Sun H. B., Matsuo S., Misawa H., Miwa M., Kaneko R. Transmission and photoluminescence images of three-dimensional memory in vitreous silica (англ.) // Applied Physics Letters. — 1999. — Iss. 74. — P. 3957—3559.
+Zijlstra P., Chon J. W. M., Gu M. Five-dimensional optical recording mediated by surface plasmons in gold nanorods (англ.) // Nature. — 2009. — Iss. 459. — P. 410—413.
+Royon A., Bourhis K., Bellec M., Papon G., Bousquet B., Deshayes Y., Cardinal T., Canioni L. Silver clusters embedded in glass as a perennial high capacity optical recording medium (англ.) // Adv. Mater. — 2010. — Iss. 22. — P. 5282—5286.
+Podlipensky A., Abdolvand A., Seifert G., Graener H. Femtosecond laser assisted production of dichroitic 3D structures in composite glass containing Ag nanoparticles (англ.) // Appl. Phys. — 2005. — Iss. 80. — P. 1647—1652.
+Shimotsuma Y., Sakakura M., Kazansky P. G., Beresna M., Qiu J., Miura K., Hirao K. Ultrafast manipulation of self-assembled form birefringence in glass (англ.) // Adv. Mater. — 2010. — Iss. 22. — P. 4039—4043.
+Zhang J., Gecevičius M., Beresna M., Kazansky P. G. Seemingly unlimited lifetime data storage in nanostructured glass (англ.) // Phys. Rev. Lett. — 2014. — Iss. 112. — P. 033—901.
+Kazansky P. G., Inouye H., Mitsuyu T., Miura K., Qiu J., Hirao K., Starrost F. Anomalous anisotropic light scattering in Ge-doped silica glass (англ.) // Phys. Rev. Lett. — 1999. — Iss. 82. — P. 2199—2202.
+Shimotsuma Y., Kazansky P. G., Qiu J., Hirao K. Self-organized nanogratings in glass irradiated by ultrashort light pulses (англ.) // Phys. Rev. Lett. — 2003. — Iss. 91. — P. 247—705.
+Taylor R. S., Hnatovsky C., Simova E., Rajeev P. P., Rayner D. M., Corkum P. B. Femtosecond laser erasing and rewriting of self-organized planar nanocracks in fused silica glass (англ.) // Opt. Lett. — 2007. — Iss. 32. — P. 2888—2890.
+Bricchi E., Kazansky P. G. Extraordinary stability of anisotropic femtosecond direct-written structures embedded in silica glass (англ.) // Appl. Phys. Lett. — 2006. — Iss. 88. — P. 111—119.
+Richter S., Miese C., Döring S., Zimmermann F., Withford M. J., Tünnermann A., Nolte S. Laser induced nanogratings beyond fused silica—periodic nanostructures in borosilicate glasses and ULETM (англ.) // Opt. Mater. Express. — 2013. — Iss. 3. — P. 1161—1166.
+Lancry M., Poumellec B., Canning J., Cook K., Poulin J.-C., Brisset F. Ultrafast nanoporous silica formation driven by femtosecond laser irradiation (англ.) // Laser Photon. Rev. — 2013. — Iss. 7. — P. 953—962.
+Zhang J., Cerkauskaite A., Drevinskas R., Patel A., Beresna M., Kazansky P. Eternal 5D data storage by ultrafast laser writing in glass (англ.) // Proc. SPIE 9736, 97360U. — 2016. — DOI:10.1117/12.2220600.
+Official 5D Memory Crystal website
+
+Ссылки
+Kazansky, P. Eternal 5D data storage via ultrafast-laser writing in glass (англ.), SPIE Newsroom (11 March 2016). Дата обращения 11 августа 2017.
+Kazansky, Peter Nanostructures in glass will store data for billions of years (англ.).  SPIE Newsroom (11 March 2016).
+"Cristais de memória do Superman" armazenam até 360TB por 1 milhão de anos (порт.).  Terra (11 ноября 2013). Дата обращения 11 августа 2017.
+Eternal 5D data storage could record the history of humankind (англ.).  University of Southampton (18 February 2016). Дата обращения 11 августа 2017.
+Huebler, Kevin. Superman memory crystal lets you store 360TB worth of data (англ.), CNBC (21 February 2016). Дата обращения 11 августа 2017.
+Zhang, Jingyu. 5D nanostructured quartz glass optical memory could provide ‘unlimited’ data storage for a million years (англ.), Kurzweil Accelerating Intelligence (10 July 2013). Дата обращения 11 августа 2017.
+Borghino, Dario. "Superman memory crystal" could store hundreds of terabytes indefinitely (англ.), New Atlas (10 July 2013). Дата обращения 11 августа 2017.
+Mullen, Jethro. New 'Superman' crystals can store data for billions of years (англ.), CNN-Tech, CNN (17 February 2016). Дата обращения 11 августа 2017.
+5D ‘Superman memory’ crystal could lead to unlimited lifetime data storage (англ.).  University of Southampton (10 July 2013). Дата обращения 11 августа 2017.
+New nanostructured glass for imaging and recording developed (англ.). phys.org (15 August 2011). Дата обращения 11 августа 2017.

@@ -1,0 +1,86 @@
+Разъём центрального процессора (или сокет от англ. socket) — гнездовой или щелевой разъём (гнездо) в материнской плате, предназначенный для установки в него центрального процессора. Использование разъёма вместо непосредственного припаивания процессора на материнской плате упрощает замену процессора для модернизации или ремонта компьютера, а также значительно снижает стоимость материнской платы.
+Разъём может быть предназначен для установки собственно процессора или CPU-карты (например, в Pegasos). Каждый разъём допускает установку только определённого типа процессора или CPU-карты. На физическом уровне разъёмы отличаются количеством контактов, типом контактов, расстоянием креплений для процессорных кулеров, что делает практически все разъёмы несовместимыми.
+
+Список разъёмов и соответствующих им процессоров
+Старые разъёмы для процессоров x86 нумеровались в порядке выпуска, обычно одной цифрой. Более поздние разъёмы, как правило, обозначались номерами, соответствующими числу пинов (ножек) процессора.
+
+Ранние универсальные сокеты
+Socket 1 — Intel 80486
+Socket 2 — Intel 80486 и совместимые с ними процессоры других производителей
+Socket 3 — Intel 80486 и совместимые с ними процессоры других производителей
+Socket 4 — Pentium (ранние версии)
+Socket 5 — Pentium, AMD K5, IDT WinChip C6, WinChip 2, Cyrix/IBM/TI M1/6x86
+Socket 6 — 80486DX4, модифицированная версия Socket 3. В реальных платах не использовался.
+Socket 7 — Pentium, Pentium MMX, AMD K6, IDT WinChip, Cyrix/IBM/TI 6x86L, MII/6x86MX, Rise mP6
+
+Разъёмы процессоров Intel
+Сокеты
+Socket 8 — Pentium Pro
+Socket 370 — Pentium III (500 MHz — 1,4 ГГц), Celeron, Cyrix III, VIA C3
+Socket 423 — Pentium 4 и Celeron, ядро Willamette
+Socket 478 — Pentium 4 и Celeron, ядра Willamette, Northwood, Prescott
+Socket 603/604 — Xeon, ядра Willamette и Northwood
+PAC418 — Itanium
+PAC611 — Itanium 2, HP PA-RISC 8800 и 8900
+Socket J (LGA771) — Intel Xeon серий 50xx, 51xx (ядра Dempsey и Woodcrest), 53xx (ядро Clovertown), 54xx (ядро Harpertown)
+Socket T (LGA775) — Intel Pentium 4, Pentium D, Celeron D, Pentium EE, Core 2 Duo, Core 2 Extreme, Celeron, Xeon серии 3000, Core 2 Quad (ядра Northwood, Yorkfield, Prescott, Conroe, Kentsfield, Allendale и Cedar Mill)
+Socket LS (LGA1567) — Intel Xeon серий Xeon 6500 и Xeon 7500 (2010 год)
+Socket B (LGA1366) — Core i7 и Xeon (35xx, 36xx, 55xx, 56xx серии) с интегрированным трехканальным контроллером памяти и соединением QuickPath. Замена Socket T и Socket J (2008 год)
+Socket H (LGA1156) — Core i7/Core i5/Core i3 с интегрированным двуканальным контроллером памяти и без соединения QuickPath (2009 год)
+Socket H2 (LGA1155) — замена Socket H (LGA1156) (2011 год)
+Socket R (LGA2011) — Core i7 и Xeon с интегрированным четырёхканальным контроллером памяти и двумя соединениями QuickPath. Замена Socket B (LGA1366) (2011 год)
+Socket B2 (LGA1356) — Core i7 и Xeon с интегрированным трехканальным контроллером памяти и соединениям QuickPath. Замена Socket B (LGA1366) (2012 год)
+Socket H3 (LGA1150) — замена Socket H2 (LGA1155) (2013 год)
+Socket R3 (LGA2011-3) — модификация Socket R (LGA2011) (2014 год)
+Socket H4 (LGA 1151) — замена Socket H3 (LGA1150) (2015 год)
+Socket R4 (LGA 2066) — замена Socket R3 (2017 год)
+
+Щелевые разъёмы
+Slot 1 — Pentium II, первые Pentium III, Celeron (233 MHz — 1,13 GHz)
+Slot 2 — Pentium II Xeon, Pentium III Xeon
+
+Разъёмы процессоров AMD
+Десктопные сокеты
+Super Socket 7 (1998) — AMD K6-2, AMD K6-III, AMD K6-2+/K6-III+, Rise mP6, Cyrix MII/6x86MX; аналог Socket 7, но с поддержкой частоты шины 100 МГц
+Slot A (слотовый) (1999) — первые Athlon на ядре K7. Механически (но не электрически) совместим со Slot 1
+Socket 462/ Socket A (2000) — K7 (Athlon, Athlon XP, Sempron, Duron)
+Socket 754 (2003) — Athlon 64 нижнего уровня, Sempron; поддержка одноканального режима работы с памятью DDR
+Socket 939 (2004) — Athlon 64 и Athlon 64 FX; поддержка двухканального режима работы с памятью DDR
+Socket AM2 (2006) — 940 контактов, но не совместим с Socket 940; поддержка памяти DDR2
+Socket AM2+ (2007) — замена для Socket AM2, с поддержкой шины HyperTransport 3.0 (прямая и обратная совместимость с AM2 для всех планируемых материнских плат и процессоров)
+Socket AM3 (2009) — замена для Socket AM2+; поддержка памяти DDR3
+Socket AM3+ (2011) — замена для Socket AM3; поддержка процессоров AMD FX с кодовым именем «Zambezi» на микроархитектуре Bulldozer
+Socket FM1 (2011) — 905 контактный разъем, предназначенный для установки процессоров с микроархитектурой AMD Fusion
+Socket FM2 (2012) — Trinity и Richland, микроархитектура Piledriver
+Socket FM2+ (2014) — Kaveri и Godavari, микроархитектура Steamroller
+Socket AM1 (2014) — для процессоров семейства Kabini на микроархитектуре Jaguar
+Socket AM4 (2016) — для процессоров на новой микроархитектуре Zen; поддержка памяти DDR4
+Socket TR4 (2017) — для процессоров на новой микроархитектуре Zen
+
+Серверные сокеты
+Socket 940 — Opteron и ранние Athlon FX (от Socket 939 отличается одной «ногой», которая используется для контроля правильности прочитанных данных из памяти, ECC); поддержка двухканального режима работы с памятью DDR
+Socket F (Socket 1207) — серверные Opteron
+Socket F+ (Socket 1207+) — серверные Opteron с поддержкой шины HyperTransport 3.0
+Socket C32 — серверные Opteron для одно- и двухпроцессорных конфигураций
+Socket G34 — серверные Opteron для двух- и четырёхпроцессорных конфигураций
+Socket SP3 — серверные EPYC на основе микроархитектуры Zen
+
+Разъёмы мобильных процессоров
+Для мобильных процессоров используются низкопрофильные версии разъёмов.
+
+IntelSocket 495 — с 2000 года; для Intel Celeron mobile (FC-PGA2) Тип разъёма: PGA-ZIF
+Socket 479 (mPGA479M) — с 2001 года; 479 контактов (используются 478); для Pentium III-M, наиболее распространён для Pentium M и Celeron M 3xx, также версия совместима с Socket M (Intel Core Solo, Core Duo, Core 2 Duo и Celeron M 4xx/5xx)
+Socket M (mPGA478MT) — в 2006 году на смену Socket 479 для процессоров семейства Core/Core 2;
+Socket P (mPGA478MN) — с 9 мая 2007 года на смену Socket M; для процессоров семейства Core 2;
+Socket G1 (rPGA988A) — с 2009 года на смену Socket P, для процессоров семейства Core первого поколения
+Socket G2 (rPGA988B) — с 2011 года на смену Socket G1, для процессоров семейства Core второго поколения
+Socket G3 (rPGA946) — с 2013 года на смену Socket G2, для семейства процессоров Core третьего поколенияAMDSocket A (Socket 462)
+Socket 563 — мобильный Athlon XP-M с низким потреблением энергии
+Socket 754
+Socket S1 — мобильные Athlon 64, Turion 64 и Mobile Sempron
+Socket FS1
+Socket FP2, Socket FP3, Socket FP4
+Socket FT1, Socket FT3
+
+
+== Примечания ==

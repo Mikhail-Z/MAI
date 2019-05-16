@@ -1,0 +1,7 @@
+Словесные машины, или Литературные машины (англ. Literary machines) — это книга Теодора Нельсона, впервые опубликованная в 1980 году, а к 1993 году пережившая 9 переизданий. В ней представлен подробный разбор термина «гипертекст», введенного Нельсоном, а также его проект Проекта «Занаду». Книга также включает в себя другие теории Нельсона, в том числе "тумблеры («tumblers») для адресации битов файлов в прошлом и настоящем, «трансклюзию» («transclusion») как метод включения оригинальной работы в работу другого автора и «микроплатежи» («micropayments») для оплаты использования этих работ. Формат книги нелинейный, то есть её главы составлены так, что текст можно читать не в строгом порядке от начала до конца, а в любом другом.
+
+Ссылки
+Literary Machines: The report on, and of, Project Xanadu concerning word processing, electronic publishing, hypertext, thinkertoys, tomorrow’s intellectual revolution, and certain other topics including knowledge, education and freedom (1981), Mindful Press, Sausalito, California.
+Даты публикаций (приведены в издании 1993 г.): 1980, 1981, 1982, 1983, 1984, 1987, 1990, 1991, 1992, 1993.
+Reprint edition by Eastgate — ISBN 0-89347-062-7
+Stephen W. Smoliar, «Review of 'Literary machines' by Ted Nelson, 1983», ACM SIGSOFT Software Engineering Notes, October 1983, p. 34-36, webpage: Abstract of review (with link), read 2009-01-26.

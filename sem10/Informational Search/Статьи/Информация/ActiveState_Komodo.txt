@@ -1,0 +1,30 @@
+ActiveState Komodo — выпускаемая канадской компанией ActiveState программа для разработки программного обеспечения на динамических языках программирования. В 2007 разделилась на два продукта: коммерческую среду разработки программного обеспечения Komodo IDE и свободный текстовый редактор Komodo Edit.  Оба продукта выпускаются для трёх операционных систем: Linux, Mac OS X и  Windows.
+
+Возможности
+Мощный редактор, поддерживающий подсветку синтаксиса, автодополнения, работу с различными кодировками и концами строк.
+Поиск и замена как в текущем файле, так и в произвольных файлах.
+Проверка синтаксиса.
+Группировка файлов.
+Отладчик и профилировщик.
+Клиент для систем контроля версий.
+Возможность установки дополнений.
+Rx Toolkit — средство составления регулярных выражений.
+HTTP Inspector.
+
+Поддерживаемые языки
+Komodo Edit обеспечивает подсветку синтаксиса и сворачивание блоков для разнообразных языков, в том числе:
+
+программирования — Ada, bash, BASIC, C (в том числе C++, C#), Cobol, Erlang, Forth, Fortran, Haskell, Java, JavaScript (также ActionScript, CoffeeScript), Lua, Lisp, Pascal, Perl, PHP, Python, Ruby, Tcl,
+разметки — CSS (включая LESS и Sass/SCSS), HTML, LaTeX, XML (в том числе XSLT, XUL), JSON, YAML, вики-разметки (Markdown, reStructuredText, TracWiki), конфигурационных файлов Apache, ini-файлов,
+шаблонов — Embedded Perl, Mason, RHTML, Smarty, Template Toolkit.Komodo IDE также содержит отладчик и проверку синтаксиса для Perl, PHP, Python, Ruby, Tcl, JavaScript.
+
+См. также
+Komodo Edit
+
+Ссылки
+Официальная страница Komodo IDE
+Официальная страница Komodo Edit
+Официальный форум ActiveState Komodo
+Страница для загрузки последних версий Komodo Edit и Komodo IDE
+Страница проекта Open Komodo (недоступная ссылка)
+Erez Zukerman. Komodo Edit: Feature-Packed Free Programmers' Editor (неопр.).  PCWorld (Feb 5, 2012). Дата обращения 8 января 2014.

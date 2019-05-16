@@ -1,0 +1,23 @@
+Высокопродуктивные компьютерные системы (англ. High Productivity Computing Systems, сокр. HPCS) — проект агентства DARPA по созданию нового поколения экономически перспективных высокопродуктивных вычислительных систем для национальной безопасности и промышленности в период 2007—2010 гг.
+HPC Challenge Benchmark (или High-performance computers challenge) — набор нескольких тестов производительсти для определения пиковых характеристик — составная часть проекта. Целью HPCS является создание систем с производительностью в несколько петафлоп.
+Участники:
+
+Sun Microsystems (на этапах I и II) с технологией Proximity communication и разработками Silicon Photonics, Object-Based Storage, Fortress, интервальное исчисление
+IBM с PERCS (Productive, Easy-to-use, Reliable Computer System) на базе процессора POWER7, операционной системы IBM AIX и файловой системы General Parallel File System
+Cray с Chapel и Cascade, а также с файловой системой Lustre
+Hewlett-Packard (на этапе I)
+Silicon Graphics (на этапе I)
+Mitre Corporation (на этапе I)
+Лаборатория имени Линкольна Массачусетского технологического института (на этапах I и II)Также принимали участие (нынешний статус на официальном сайте не указан):
+
+Ливерморская национальная лаборатория
+Лос-Аламосская национальная лаборатория
+
+См. также
+Exascale computing
+
+Дополнительные источники
+Домашняя страница High Productivity Computing Systems
+HPC Challenge
+Раздел сайта DARPA, посвященный HPCS
+Статья о последнем этапе

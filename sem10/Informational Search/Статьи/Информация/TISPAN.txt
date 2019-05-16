@@ -1,0 +1,10 @@
+TISPAN (англ. Telecommunications and Internet converged Services and Protocols for Advanced Networking) — основное подразделение ETSI по стандартизации. Специализируется на выделенных сетях и конвергенции Интернета с другими сетями данных. Образовано в 2003 году после слияния других подразделений ETSI — TIPHON (Telecommunications and Internet Protocol Harmonization Over Networks) и SPAN (Services and Protocols for Advanced Networks).
+
+Основные направления работы — NGN и 3GPP.
+В 2012 г. TISPAN закрыт, дальнейшая работа ведется в подразделениях NTECH и CYBER.
+
+Внешние ссылки
+Официальный сайт TISPAN
+
+
+== Примечания ==

@@ -1,0 +1,9 @@
+V-список — структура данных, разработанная Филом Багвеллом в 2002 году. V-список объединяет в себе быстрый доступ к случайным элементам и быстрое расширение списка. V-список требует только log n дополнительной памяти для хранения указателей, где n — количество элементов в списке. V-список состоит из обычного списка массивов, размеры которых образуют геометрическую прогрессию. Для того, чтобы найти элемент в V-списке, надо знать всего лишь адрес массива, в котором находится искомый элемент и его индекс в этом массиве. В среднем поиск случайного элемента занимает O(1) операций и O(log n) — наихудший случай.
+
+Литература
+Bagwell, Phil (2002), Fast Functional Lists, Hash-Lists, Deques and Variable Length Arrays, EPFL, <http://infoscience.epfl.ch/record/64410/files/techlists.pdf>
+
+Ссылки
+C# implementation of VLists
+Scheme implementation of VLists and VList-based hash lists for GNU Guile
+Scheme (Typed Racket) implementation of VLists for Racket

@@ -1,0 +1,12 @@
+Socket C32 — разъём центрального процессора, разработанный компанией AMD для серверных процессоров Opteron серии 4000. C32 был представлен 23 июня 2010 года.
+
+Поддерживаемые процессоры
+Ссылки
+http://phx.corporate-ir.net/External.File?item=UGFyZW50SUQ9MjAzMzJ8Q2hpbGRJRD0tMXxUeXBlPTM=&t=1
+https://web.archive.org/web/20110728150926/http://www.amdzone.com/phpbb3/viewtopic.php?f=52&t=137051&st=0&sk=t&sd=a
+http://blogs.amd.com/work/2009/07/29/playing-20-questions-part-1/
+http://anandtech.com/cpuchipsets/showdoc.aspx?i=3673&p=5
+https://www.amd.com/us/Documents/48410A_Opteron4000_QRG_FINAL.pdf
+
+
+== Примечания ==

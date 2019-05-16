@@ -1,0 +1,4 @@
+CINR (англ. Carrier to Interference + Noise Ratio) — отношение уровня сигнала к уровню шума, существует синоним SINR (англ. Signal  Interference + Noise Ratio). Используется в телекоммуникациях для определения качества сигнала, и, как следствие, необходимости использования, если качество сигнала выше определённой для стандарта (например: GSM, CDMA, WiMAX) нормы.
+
+См. также
+RSSI — Received Signal Strength Indication

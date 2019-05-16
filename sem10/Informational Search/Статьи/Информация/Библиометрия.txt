@@ -1,0 +1,26 @@
+Библиоме́трия — применение математических и статистических методов к изучению книг, периодических изданий и прочих публикаций.
+
+История
+Впервые термин был введён английским учёным Аланом Причардом в 1967 году. Начиная с этого момента стали использоваться не только статистические показатели, но и библиометрические.
+
+Описание
+Наряду с наукометрией и вебометрикой является составляющей инфометрии.
+
+См. также
+Индекс цитирования научных статей
+
+Примечания
+Литература
+на русском языкеСвердлов Е. Д. Миражи цитируемости. Библиометрическая оценка значимости научных публикаций отдельных исследователей // Вестник Российской академии наук. 2006. Т. 76, № 12. С. 1073—1085.на других языкахDe Bellis, Nicola. Bibliometrics and citation analysis: from the Science citation index to cybermetrics. — Scarecrow Press, 2009. — P. 417. — ISBN 0-8108-6713-3.
+Derek J. de Solla Price (July 30, 1965). “Networks of Scientific Papers” (PDF). Science. 149 (3683): 510—515. DOI:10.1126/science.149.3683.510. PMID 14325149.
+Coughlin D., Campbell M., Jansen B. J. A Web Analytics Approach for Appraising Electronic Resources in Academic Libraries. // Journal of the Association for Information Science and Technology. 2016. 67(3). P. 518—534.
+Henderson, M., Shurville, S. and Fernstrom, K. (2009). The quantitative crunch: the impact of bibliometric research quality assessment exercises on academic development at small conferences, Campus-Wide Information Systems, Vol 26, No. 3, pp. 149—167
+Hoang, D.; Kaur, J. & Menczer, F. (2010), "Crowdsourcing Scholarly Data", Proceedings of the WebSci10: Extending the Frontiers of Society On-Line, April 26-27th, 2010, Raleigh, NC: US, <http://journal.webscience.org/321/>. Проверено 10 марта 2018.  Архивная копия от 17 апреля 2015 на Wayback Machine
+Hovden, R. (2013), "Bibliometrics for Internet media: Applying the h-index to YouTube", Journal of the American Society for Information Science and Technology  Т. 64 (11):  2326–2331, DOI 10.1002/asi.22936 
+Nicholas, David and Maureen Ritchie. Literature and Bibliometrics London: Clive Bingley: 1978. (28-29).
+Otlet, P. (1934), Traité De Documentation: Le Livre Sur Le Livre, Théorie Et Pratique, Editiones Mundaneum: Mons, Belgium 
+Rousseau, Ronald (2014), "Library Science: Forgotten Founder of Bibliometrics.", Nature  Т. 510:  218 
+Schaer, Philipp (2013). “Applied Informetrics for Digital Libraries: An Overview of Foundations, Problems and Current Approaches”. Historical Social Research. 38 (3): 267—281.
+
+Ссылки
+Свердлов Е. Д. «Статья может хорошо цитироваться потому, что она ошибочна» // Индикатор.ру, 07.02.2018

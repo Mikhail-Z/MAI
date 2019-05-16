@@ -1,0 +1,35 @@
+Михаэль Рот (нем. Michael Roth; род. 18 июня 1936 года) ― немецкий инженер, профессор. Специалист в областях автоматизации, микропроцессорной технологии, информатики и социологии, а также философии науки. Является одним из пионеров в области развития вычислительной техники в Германии.
+
+Биография
+Родился 18 июня 1936 года в деревне Ломничка района Стара-Любовня Прешовского края, Словакия. 
+В 1957 году поступил в Технический университет Ильменау. Специализировался на теории автоматического управления и был учеником Карла Райниша. Окончил институт в 1963 году, после чего устроился работать там же в качестве ассистента. В 1967 году был удостоен докторской степени. Диссертацию посвятил вычислительной технике, с акцентом на проектирование гибридных компьютеров. Этот труд впоследствии стал важной основой для его более поздних исследований. В 1967―1968 гг. проходил дополнительное обучение в Московском энергетическом институте.
+В 1970 году стал адбюнкт-профессором на кафедре технической и биомедицинской кибернетики Университета Ильменау. В сотрудничестве с экспертными комитетом Палаты технологии (Kammer der Technik: организация инженеров, техников и исследователей из ГДР) и комитетом электронной промышленности Тюрингии, Рот разработал технологию микрокомпьютеров, которую также вывел в качестве самостоятельной области кибернетики, посвятив этой теме несколько учебных пособий.
+Рот стимулировал развитие этой технологии не только на основе своих исследований и опытно-конструкторских работ, но также посредством организации процесса обучения новых специалистов и издания технической литературы. Как исследователь, он сосредоточил своё внимание на вопросах, касающихся развития компонентов и инструментов для интеллектуальной автоматизации систем.
+В 1978 году он был назначен профессором кафедры автоматизации и технической кибернетики в Университете Ильменау. Его лекции и учебники, направленные на расширенную подготовку инженеров по специальности микропроцессорных технологий в своё время были очень редким явлением в немецкоговорящих академических кругах.
+Его сотрудничество с другими учёными профессорами — как, к примеру, с Райнхольдом Шенефельдом, — привело к началу обширного отраслевого научного исследования в области микропроцессорной техники в Ильменау. Рот, таким образом, способствовал развёртыванию научных исследований и разработок в области микропроцессоров. Параллельно он также работал над трансфером технологий, сотрудничая с представителями компьютерного бизнеса.
+За время своей профессиональной деятельности, Рот разработал различные микроконтроллерные приложения. Благодаря этому он приобрёл опыт работы с языками программирования, использования сопутствующих средств разработки, а также аппаратных и программных компонентов. Системы для визуализации им были использованы для создания эффективного взаимодействия между человеком и машиной.
+Помимо прочего, Михаэль Рот ещё с юности был заинтересован в вопросах общего развития науки. В 1986 году он прошёл хабилитацию в Дрезденском техническом университее в области философии науки.
+
+Избранные сочинения
+Verwendung nichtlinearer Strukturen in steuerbaren Hochgeschwindigkeits-Operationsverstärkern. Dissertation, TH Ilmenau, Fakultät für naturwissenschaftlich-technische Grundlagen, Ilmenau 1967.
+Elektronische Bauelemente der technischen Kybernetik. In: Funktionseinheiten der technischen Kybernetik, 8. Lehrbrief (F 77/8), Lehrbriefe für das Hochschulfernstudium, hrsg. von der Zentralstelle für das Hochschulfernstudium des Ministeriums für Hoch- und Fachschulwesen 1974.
+Elektronische analoge und hybride Funktionseinheiten. In: Funktionseinheiten der technischen Kybernetik, 10. Lehrbrief (F 77/10), Lehrbriefe für das Hochschulfernstudium, hrsg. von der Zentralstelle für das Hochschulfernstudium des Ministeriums für Hoch- und Fachschulwesen 1974.
+mit Werner Kriesel: Elektronische digitale Funktionseinheiten. In: Funktionseinheiten der technischen Kybernetik, 11. Lehrbrief (F 77/11), Lehrbriefe für das Hochschulfernstudium, hrsg. von der Zentralstelle für das Hochschulfernstudium des Ministeriums für Hoch- und Fachschulwesen 1974.
+Mikroprozessoren. Wesen, Technologie, Weiterentwicklung, Aufbau, Programmierung, Anwendung. Wissenschaftliche Zeitschrift und Kammer der Technik-Hochschulsektion an der TH Ilmenau, Ilmenau 1977, 2. Und 3. Auflage 1978, 4. Auflage 1979, 5. Auflage, KDT-Bezirksverband, Suhl 1980.
+mit Todor Shergowski, Walter Krug: Speicherschaltkreise der Mikroprozessortechnik. Institut für Film, Bild und Ton, Berlin 1982.
+mit Todor Shergowski, Walter Krug: Funktionsblöcke ausgewählter Mikroprozessoren. Institut für Film, Bild und Ton, Berlin 1982.
+mit Todor Shergowski, Ilse Renner: Peripherie-Schaltkreise der Mikroprozessortechnik. Institut für Film, Bild und Ton, Berlin 1983.
+Evolution und Kooperation — Mensch und intelligenter Automat (Analysen und Hypothesen). Habilitation (Dissertation B), Technische Universität, Dresden 1986.
+Michael Roth (Hrsg.): Beiträge zur Mikrocomputertechnik. Verlag Technik, Berlin 1986, ISBN 3-341-00150-6.
+mit Helga Schwietzke: Mikroprozessor-Architekturen. Institut für Film, Bild und Ton, Berlin 1988.
+Die intelligente Maschine — der Computer als Experte. Urania-Verlag, Leipzig; Jena; Berlin 1988, ISBN 3-332-00219-8.
+mit Klaus Kaplick, Dieter Orlamünder, Heinz Bergmann: Computertechnik von A bis Z. Hrsg.: Jochen Horn. Fachbuchverlag, Leipzig 1990, ISBN 3-343-00563-0.
+Universitäten — Hochschulen: akademisch — technologisch? Verband Hochschule und Wissenschaft, VHW-Mitteilungen 1/1994.
+Grundlegende Merkmale der gesellschaftlichen Evolution zur Wissensgesellschaft. Verband Hochschule und Wissenschaft, VHW-Mitteilungen 10/1997.
+Postulate zum Wandel der High-Tech-Industriegesellschaft zur High-Org-Wissensgesellschaft. In: Christiane Floyd, Christian Fuchs, Wolfgang Hofkirchner (Hrsg.): Stufen zur Informationsgesellschaft. Festschrift zum 65. Geburtstag von Klaus Fuchs-Kittowski. Peter Lang — Europäischer Verlag der Wissenschaften, Frankfurt am Main; Berlin; Bern; Bruxelles; New York; Oxford; Wien 2002, ISBN 3-631-37642-1.
+Die Zukunft der «Universität in der Wissensgesellschaft». In: Klaus Fuchs-Kittowski; Rainer E. Zimmermann (Hrsg.): Kybernetik, Logik, Semiotik. Philosophische Sichtweisen. Tagung aus Anlass des 100. Geburtstages von Georg Klaus. trafo Wissenschaftsverlag, Berlin 2015 (Abhandlungen der Leibniz-Sozietät der Wissenschaften, Bd. 40), S. 425—440, ISBN 978-3-86464-095-7.
+Immunsysteme in der biologischen, informationstechnischen und sozialen Evolution. In: Frank Fuchs-Kittowski; Werner Kriesel (Hrsg.): Informatik und Gesellschaft. Festschrift zum 80. Geburtstag von Klaus Fuchs-Kittowski. Peter Lang Internationaler Verlag der Wissenschaften, PL Academic Research, Frankfurt a. M.; Bern; Bruxelles; New York; Oxford; Warszawa; Wien 2016, ISBN 978-3-631-66719-4 (Print), E-ISBN 978-3-653-06277-9 (E-Book).
+
+Примечания
+Ссылки
+Рот, Михаэль в Немецкой национальной библиотеке.

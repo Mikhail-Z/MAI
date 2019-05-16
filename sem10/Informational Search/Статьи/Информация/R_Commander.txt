@@ -1,0 +1,21 @@
+R Commander — графический интерфейс для языка программирования R. Распространяется под лицензией GNU GPL.
+Язык программирования R, оснащенный Rcmdr вместе со связанными с R Commander плагинами представляет свободную альтернативу коммерческому пакету SPSS. Приложение полезно для новичков, так как выполнение анализа сопровождается выводом кода R.
+Rcmdr может быть проинсталирован прямо из R, как пакет R. Интеграция с Microsoft Excel обеспечивается пакетом RExcel с графическим инсталлятором.
+Rcmdr версии 1.4-4 поддерживает следующие плагины: (Актуальный список можно посмотреть в CRAN.
+
+RcmdrPlugin.Export — графический экспорт объектов в LaTeX или HTML
+RcmdrPlugin.FactoMineR — графический пользовательский интерфейс для FactoMineR
+RcmdrPlugin.HH — поддержка для пакета HH
+RcmdrPlugin.IPSUR — введение в оценку и статистику с использованием R
+RcmdrPlugin.SurvivalT — Rcmdr Survival Plug-In
+RcmdrPlugin.TeachingDemos — Rcmdr Teaching Demos Plug-In
+RcmdrPlugin.epack — Rcmdr plugin for time series
+RcmdrPlugin.orloca — orloca Rcmdr Plug-in
+
+См. также
+RKWard
+
+Примечания
+Ссылки
+Сайт программы
+R Commander на CRAN  (недоступная ссылка с 13-05-2013 [2192 дня] — история)

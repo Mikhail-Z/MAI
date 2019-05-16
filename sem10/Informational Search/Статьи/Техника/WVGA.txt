@@ -1,0 +1,4 @@
+Wide VGA, WVGA (Wide Video Graphics Array) — разрешение дисплея, равное 800х480, 848×480 или 854×480 пикселей.
+
+Получил распространение в портативных устройствах, таких смартфонах как: Runbo x5, Sony Xperia M, Sony Xperia L, Sony Xperia LT, Sony Xperia SP, Sony Xperia U, HTC_HD2, Motorola MILESTONE (DROID), Defy, HTC MAX 4G, Samsung Galaxy S, Samsung Galaxy S II, Samsung Galaxy Win, Toshiba G900, LG GC900 VIEWTY SMART, LG Optimus 2X (P990), LG Optimus L5 ll (E450), ZTE Blade, Sigmarion и нетбуках, например, ASUS Eee PC 700 серии.
+Разрешение WVGA используется в камерах GoPro HD Hero 960 для съемки 60 fps, режим «r1», или 240fps в более поздних версиях камеры, а также в видеоочках Fatshark Dominator V3 Headset.

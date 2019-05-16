@@ -1,82 +1,71 @@
+import logging
+import wikipediaapi
+from datetime import datetime
+from urllib.parse import urlparse, unquote
 import os
-from bs4 import BeautifulSoup
-import requests
-import urllib.parse
 
-reviews_page_url = "http://mobile-review.com/review.shtml"
-
-default_folder = "/home/mikhail/Documents/InformationSearch"
-site = "http://mobile-review.com"
+logging.basicConfig(filename="sample.log", level=logging.INFO, filemode='w')
 
 
-def get_main_review_page():
-    return requests.get(reviews_page_url).text
-
-
-def get_page(url):
-    return requests.get(url).text
-
-
-def delete_script_tag_inside_text(soup):
-    [s.extract() for s in soup('script')]
-
-
-def get_review_text(page):
-    soup = BeautifulSoup(page, "html.parser")
-    delete_script_tag_inside_text(soup)
-    article = soup.find("div", "article")
-    text = article.getText()
-    title = article.find("h1").getText()
-    return title, text
-
-
-def get_reviews_urls(html_text):
-    soup = BeautifulSoup(html_text, "html.parser")
-    review_rubrics = get_reviews_rubrics(soup)
-    all_urls = []
-    for thematic_reviews_html_block in review_rubrics:
-        html_tags = thematic_reviews_html_block.find_all("a", href=True)
-        thematic_urls = []
-        for html_tag in html_tags:
-            thematic_urls.append(html_tag["href"])
-        all_urls.append((thematic_reviews_html_block.find("h1").getText(), thematic_urls))
-    return all_urls
-
-
-def get_full_url(relative_url):
-    return urllib.parse.urljoin(site, relative_url)
-
-
-def get_reviews_rubrics(soup):
-    return soup.find_all("div", "phonelist")
-
-
-def write_text_to_file(folder, filename, text):
-    with open(os.path.join(folder, filename), "w+") as f:
-        f.write(text)
-
-
-def remove_blank_lines(text):
-    return os.linesep.join([s for s in text.splitlines() if s])
-
-
-def main():
-    main_page = get_main_review_page()
-    reviews_urls = get_reviews_urls(main_page)
-    for reviews_category, urls in reviews_urls:
-        folder = os.path.join(default_folder, reviews_category)
-        if not os.path.exists(os.path.join(default_folder, reviews_category)):
-            os.makedirs(folder)
-
-        for url in urls:
-            try:
-                page = get_page(get_full_url(url))
-                title, text = get_review_text(page)
-                text = remove_blank_lines(text)
-                write_text_to_file(folder, title, text)
-            except:
-                pass
+def get_articles_list(category_members, level=0, max_level=2):
+    articles_list = []
+    for c in category_members.values():
+        if c.ns == wikipediaapi.Namespace.CATEGORY and level < max_level:
+            articles_list += get_articles_list(c.categorymembers, level=level + 1, max_level=max_level)
+        if c.ns == wikipediaapi.Namespace.MAIN:
+            articles_list.append(c.title)
+    return articles_list
 
 
 if __name__ == "__main__":
-    main()
+    wiki_wiki = wikipediaapi.Wikipedia(
+        language='ru',
+        extract_format=wikipediaapi.ExtractFormat.WIKI
+    )
+    cat = wiki_wiki.page("Категория:Техника")
+
+    logging.info("Downloading articles...")
+    t1 = datetime.now()
+
+    articles = get_articles_list(cat.categorymembers)
+
+    article_counter = 0
+
+    logging.info("Texts downloading...")
+    for name in articles:
+        article_counter += 1
+        try:
+            page = wiki_wiki.page(name)
+            filename = os.path.basename(urlparse(unquote(page.fullurl)).path)
+            with open("../Статьи/Техника/" + filename + '.txt', "w+", encoding='utf8') as f:
+                text = page.text
+                print(article_counter)
+                f.write(text)
+        except Exception as exc:
+            logging.info(exc)
+            continue
+
+    logging.info("Timet spending: %s" % str(datetime.now() - t1))
+
+    cat = wiki_wiki.page("Категория:Информация")
+
+    logging.info("Downloading articles...")
+    t1 = datetime.now()
+
+    articles = get_articles_list(cat.categorymembers)
+
+    article_counter = 0
+
+    logging.info("Texts downloading...")
+    for name in articles:
+        try:
+            page = wiki_wiki.page(name)
+            filename = os.path.basename(urlparse(unquote(page.fullurl)).path)
+            with open("../Статьи/Информация/" + filename + '.txt', "w+", encoding='utf8') as f:
+                text = page.text
+                f.write(text)
+        except Exception as exc:
+            logging.info(exc)
+            continue
+
+    logging.info("Timet spending: %s" % str(datetime.now() - t1))

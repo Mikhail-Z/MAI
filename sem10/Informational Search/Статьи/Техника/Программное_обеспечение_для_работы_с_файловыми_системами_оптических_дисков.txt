@@ -1,0 +1,41 @@
+Программное обеспечение для записи оптических дисков используется для записи информации пользователя на оптические диски. Используются свободные, проприетарные или встроенные в ОС средства для работы с оптическими дисками.
+
+Программы для записи оптических дисков
+AmoK CD/DVD Burning
+Ashampoo Burning Studio
+AVS Disc Creator
+Astroburn Free\Pro
+BurnAware Free\Home\Pro
+Burn4Free
+Brasero
+CDBurnerXP
+cdrtfe
+cdrtools
+CloneCD
+CopyToDVD
+DeepBurner Free\Pro
+dvd+rw-tools
+FinalBurner Free\Pro
+Express Burn
+gBurner
+InfraRecorder
+ImgBurn
+k3b
+Nero Burning ROM
+NTI Media Maker
+ONES (Optical new edge Storage)
+Oront Burning Kit
+Power2Go
+Roxio Easy Media Creator (Roxio Creator) (в Германии известна как Roxio WinOnCD)
+Small CD-Writer
+StarBurn
+UltraISO
+UsefulUtils Discs Studio
+JetBee Free\Pro и Complex Evolution (один разработчик)
+Roxio TOAST — для Mac OS X
+PowerLaserExpress 1.0
+
+См. также
+Оптический диск
+Образ оптического диска
+Эмулятор CD и DVD дисководов

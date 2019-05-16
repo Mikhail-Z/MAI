@@ -1,0 +1,34 @@
+DSpace — открытое, свободное (лицензия BSD) кроссплатформенное J2EE приложение, платформа для институционального репозитория (для долгосрочного хранения цифровых материалов, используемых в академических исследованиях).
+Для сборки и функционирования DSpace требуется J2EE контейнер. Для версии 1.8.х желательно использовать Oracle Java 6 (обычного JDK достаточно, J2EE использовать не обязательно). С работоспособностью под Oracle Java 7 имеются проблемы. Для версии 3.х возможно использование как Oracle Java 6, так и Oracle Java 7 (для сборки потребуется maven 2.2 и выше), версии 4.х и 5.х требуют Java 7.
+Для хранения метаданных и другой информации можно использовать Oracle, PostgreSQL.
+
+История
+Система DSpace разрабатывалась Hewlett-Packard в сотрудничестве с библиотеками Массачусетского технологического института и стала эксплуатироваться с 4 ноября 2002 года. Программное обеспечение было открыто под лицензией BSD.
+История версий:
+
+Архитектура
+Интероперабельность
+Требования к серверу
+Должны быть установлены:
+
+JDK (Java Development Kit)
+Apache Maven, Apache Ant
+Apache Tomcat
+СУБД PostgreSQL или Oracle
+Локальный SMTP сервер (желательно)
+
+См. также
+Система управления содержимым
+Институциональный репозиторий
+
+Примечания
+Литература
+Ian H. Witten; David Bainbridge; David M. Nichols. Chapter 7: Interoperability: Protocols and services, DSpace and Fedora // How to Build a Digital Library. — 2nd Edition. — Morgan Kaufmann, 2009. — 656 p. — ISBN 978-0-12-374857-7.
+Phillips, Scott and Green, Cody and Maslov, Alexey and Mikeal, Adam and Leggett, John. Manakin: A New Face for DSpace (англ.) // D-Lib Magazine. — 2007. — Vol. 13, no. 11/12. — ISSN 1082-9873.
+Кудим К. А., Проскудина Г. Ю., Резниченко В. А. Создание научных электронных библиотек с помощью системы Dspace // Проблеми програмування. — 2007. — № 3. — ISSN 1727-4907.
+
+Ссылки
+Ключевое слово: dspace
+Lesley L. Peterson, E-ternally yours: the case for the development of a reliable repository for the preservation of personal digital objects
+А. В. Черноносова. Системы построения электронных библиотек GREENSTONE, DSpace и EPrints: сравнительный анализ.
+ideafix.name - записи по тегу DSpace

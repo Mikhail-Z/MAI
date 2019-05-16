@@ -1,0 +1,13 @@
+OSS/J («OSS through Java™ Initiative», «Инициатива OSS посредством Java») — техническая программа международной организации TeleManagement Forum (TM Forum). Её основная цель — разработка открытых стандартов на интерфейсы (API) для интеграции BSS (Систем поддержки бизнеса) и OSS (Систем эксплуатационной поддержки) (OSS/BSS) в рамках подхода NGOSS.
+OSS/J API — это мультитехнология основанная на профилях интеграции XML, Java и веб-служб. Каждый профиль интеграции состоит из спецификации, реализации-образца, а также набора тестов на соответствие (CTK).
+OSS/J API разрабатывается по Open Source методологии Java Community Process(SM) и свободно доступна для скачивания(ссылка не работает).
+
+См. также
+Operations Support Systems
+OSS/BSS
+OSS — Operations Support Systems
+
+Примечания
+Ссылки
+About OSS through Java Initiative (англ.)
+W3C XML Schema Specifications Developed in the 'OSS Through Java Initiative'. (англ.)

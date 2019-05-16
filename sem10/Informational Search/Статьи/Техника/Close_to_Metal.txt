@@ -1,0 +1,17 @@
+Close To Metal (Сокращённо "CTM", оригинальное обозначение Close-to-the-Metal) — имя бета-версии низкоуровневого интерфейса прикладного программирования (API), разработанного ATI (сейчас AMD), применяемого в GPGPU вычислениях. CTM просуществовал недолго и уже первая версия продукта GPGPU от AMD была названа Stream SDK.
+
+Open Source
+Некоторые компоненты CTM и Stream SDK представлены как open source, такие как Brook+ C-подобный язык и компилятор.
+
+См. также
+GPGPU
+AMD FireStream
+Параллельные вычислительные системы
+
+Ссылки
+ATI official site
+AMD official website
+ATI DPVM SIGGRAPH 2006 sketch
+ATI DVPM SIGGRAPH 2006 Presentation
+CTM Guide - CTI Technical Reference Manual
+AMD Close-to-the-Metal (CTM) open source project site

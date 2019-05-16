@@ -1,0 +1,8 @@
+Нумерация Ариабхаты (хин.आर्यभट्ट की संख्यापद्धति) — безнулевая система нумерации с помощью алфавита деванагари, применявшаяся индийским астрономом и математиком Ариабхатой (476—550) и представленная в его труде «Ариабхатия». Число записывается буквами и читается справа налево (с конца слова).
+Пример:
+जल घिनि 	झुशु (Джа-Ла Гхи-Ни Джху-Шу) 8+50 400+2000 90000+700000 = 792 458
+
+Ссылки
+Kurt Elfering: Die Mathematik des Aryabhata I. Text, Übersetzung aus dem Sanskrit und Kommentar. Wilhelm Fink Verlag, München, 1975, ISBN 3-7705-1326-6
+Georges Ifrah: The Universal History of Numbers. From Prehistory to the Invention of the Computer. John Wiley & Sons, New York, 2000, ISBN 0-471-39340-1.
+B. L. van der Waerden: Erwachende Wissenschaft. Ägyptische, babylonische und griechische Mathematik. Birkhäuser-Verlag, Basel Stuttgart, 1966, ISBN 3-764-30399-9

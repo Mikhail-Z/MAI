@@ -1,0 +1,23 @@
+OpenMusic (OM) — это объектно-ориентированная визуальная среда программирования для композиции, которая основана на языке Common Lisp.
+Она может быть также использована как универсальный графические интерфейс для языка лисп.
+
+Композиторы, использующие OpenMusic
+Alain Bancquart
+Brian Ferneyhough
+Joshua Fineberg
+Karim Haddad
+Eres Holz
+Michael Jarrel
+Fabien Lévy
+Fang Man
+Philippe Manoury
+Tristan Murail
+Kaija Saariaho
+
+Ссылки
+OpenMusic : Un langage visuel pour la composition musicale assistée par ordinateur, Carlos Agon, PhD Thesis, IRCAM — Univ. Paris 6.
+The OM Composer’s Book 1, ed. Carlos Agon, Gérard Assayag and Jean Bresson, 2006, Editions Delatour/IRCAM; ISBN 2-7521-0027-2.
+The OM Composer’s Book 2, ed. Jean Bresson, Carlos Agon and Gérard Assayag, 2008, Editions Delatour/IRCAM.
+Fabio Selvafiorita’s Thesis in Italian, Selvafiorita, Fabio, http://www.fabioselvafiorita.com/research.htm.
+OpenMusic Homepage, with full OM class and function reference, tutorials and instructions on building OM from source.
+IRCAM

@@ -1,0 +1,12 @@
+Microsoft Windows SDK, Platform SDK, и .NET Framework SDK — комплекты разработки программного обеспечения от Microsoft, которые содержат файлы заголовков, библиотеки, примеры, документацию и инструменты, необходимые для разработки приложений для Microsoft Windows и .NET Framework.
+Разница между этими тремя SDK заключается в их области специализации: 
+
+Platform SDK специализируется на разработке приложений для Windows 2000, Windows XP и Windows Server 2003
+.NET Framework SDK занимается разработкой приложений для .NET Framework 1.1. и .NET Framework 2.0.
+Windows SDK является преемником двух предыдущих и поддерживает разработку приложений для Windows XP, Windows Vista, Windows 7, Windows Server 2008, .NET Framework 3.0, .NET Framework 3.5 и .NET Framework 4.0.Platform SDK также содержит ресурсы (инструменты, документацию, образцы и т.д.) и компиляторы, необходимые для разработки 64-битных приложений на платформах x86, x64 и Itanium (IA-64).
+
+Получение пакета SDK
+SDK для Windows доступны бесплатно на Microsoft Download Center Platform SDK февраля 2003 издание
+
+Ссылки
+Microsoft Windows SDK

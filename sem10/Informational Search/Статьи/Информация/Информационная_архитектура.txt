@@ -1,0 +1,21 @@
+Информационная архитектура (англ. Information architecture, часто сокращается до «ИА») — сочетание схем организации, предметизации и навигации, реализованных в информационной системе.
+
+Примеры
+структурирование информации, которая будет представлена на сайте;
+проектирование информационного пространства, способствующее выполнению задач и интуитивному доступу к содержимому.Практические результаты
+
+карты сайта
+списки навигации
+таксономия
+аудит контента
+путешествий пользователей
+
+Примечания
+Литература
+Wurman, Richard Saul. Information Architects. — 1st. — Graphis Inc., 1997. — ISBN 1-888-00138-0.
+Rosenfeld, Louis, Morville, Peter. Information architecture for the World Wide Web. — 3rd. — O'Reilly & Associates, 2006. — 528 p. — ISBN 0-596-52734-9.
+Brown, Peter. Information Architecture with XML. — John Wiley & Sons Ltd., 2003. — ISBN 0-471-48679-5.Wodtke, Christina. Information Architecture - Blueprints for the Web. — 2nd. — New Riders, 2009. — ISBN 0-321-60080-0.
+Resmini, Andrea, Rosati, Luca. Pervasive Information Architecture - Designing Cross-channel User Experiences. — 1st. — Morgan Kauffman, 2011. — ISBN 0-123-82094-4.
+
+Ссылки
+Статья «Парадоксы инфоарха» в теме номера «Застывшая музыка хайтека» (недоступная ссылка) журнала Компьютерра.

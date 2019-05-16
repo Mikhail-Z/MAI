@@ -1,0 +1,8 @@
+XACML (англ. eXtensible Access Control Markup Language — расширяемый язык разметки контроля доступа) — основанный на языке XML стандарт, разработанный OASIS, определяющий язык описания политик управления доступом, модель и способы их обработки.
+
+Литература
+Gertz, M. and Jajodia, S. 4.2 HACML // Handbook of Database Security: Applications and Trends. — Springer, 2007. — 591 p. — ISBN 9780387485331.
+Bertino, E. and Martino, L. and Paci, F. and Squicciarini, A. Security for Web Services and Service-Oriented Architectures. — Springer, 2009. — P. 67-75, 170. — 230 p. — ISBN 9783540877424.
+
+Ссылки
+Знакомство с XACML - стандартом для Attribute-Based Access Control

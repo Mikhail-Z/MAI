@@ -1,0 +1,25 @@
+Ангелика — музыкальный инструмент лютневого семейства в центральной Европе в конце XVII начале XVIII века. Ангелика была распространена в европейских странах, главным образом во Франции, Германии, Австро-Венгрии и Польше. Впервые этот инструмент упоминается Преториусом, утверждающим, что на ангелике играют так же, как на арфе, хотя до наших дней не дошло произведений для ангелики, где она используется подобным образом.
+Ангелика сочетала черты конструкции, присущие лютне, арфе и теорбе. Как и у лютни, у неё был грушевидный корпус и 15-17 струн длиной 54-70 см. С другой стороны, гриф ангелики (как и теорбы) имел дополнительную секцию, содержавшую 8-10 басовых струн.
+Ангелика настраивалась диатонически, как арфа: C — D — E — F — G — A — B — c — d — e — f — g — a — b — c’ — d’ — e’. Диапазон при этом получался тот же, что и у французской, или малой, теорбы, но строй последней чаще был другим: C — D — E — F — G — A — B — c — d — g — c' — e'- a — d'. Диатоническая настройка ограничивала диапазон ангелики, но позволяла получить чистый и сильный звук за счёт использования открытых струн. Иногда использовали частично диатонический строй: A — B — C — D — E — F — G — A — B — c — d — f — a- d — f'.
+Основываясь на неправильном истолковании названия «ангелика», некоторые авторы утверждали, что она изобретена в Англии (M. H. Fuhrmann, Musicalischer Trichter, Frankfurt/Spree 1706, p. 91). Джеймс Талбот предположил, что название происходит от французского «ангельская» и дано инструменту за красивый звук (ms. Oxford 532, 1685—1701).
+Музыка для ангелики записывается в виде французской табулатуры, причём басовые линии используются у разных авторов по-разному.
+От ангелики ведёт происхождение украинский торбан.
+
+Библиография
+Преториус, Theatrum instrumentorum
+L. Brugmans, Le séjour de Christian Huygens à Paris (Paris,1935), 151
+F. Lesure: ‘The angélique in 1653’, GSJ, vi (1953), 111-12
+F. Lesure: ‘Les luthistes parisiens à l’époque de Louis XIII’, Le luth et sa musique (Neuilly-sur-Seine, 1957), 222-3
+M. Prynne: ‘James Talbot’s Manuscript: IV: Plucked Strings — the Lute Family’, GSJ, xiv (1961), 52-68
+E. Pohlmann, Laute, Theorbe, Chitarrone: die Instrumente, ihre Musik und Literatur von 1500 bis zur Gegenwart (Bremen, 1968, 5/1982), 394-7
+E. Vogl: ‘Die Angelika und ihre Musik’, HV, xi (1974), 356-71
+G. Hellwig, Joachim Tielke: ein Hamburger Lauten- und Violenmacher der Barockzeit (Frankfurt, 1980), 304-5
+C. Meyer and M. Rollin, Oeuvres de Gumprecht (Paris, 1993), xvii
+
+Источники
+Jakob Kremberg, Musicalische Gemüths-Ergoetzung oder Arien … (Dresden: 1689), in Tabulature
+Adalbert Quadt (Hg.), Gitarrenmusik des 16-18. Jahrhunderts 2, nach Tabulaturen für Colascione, Mandora und Angelica, (Leipzig: 1971)
+Hans Radtke (Hg.), Ausgewählte Stücke aus einer Angelica- und Gitarrentabulatur, Musik Alter Meister Heft 17, (Graz: 1967)
+
+См. также
+Музыкальные инструменты эпохи барокко
