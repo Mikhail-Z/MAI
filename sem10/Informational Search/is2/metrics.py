@@ -10,21 +10,18 @@ def mult(elements):
 def err(query_scores, n):
     """
     Вычисляет метрику Err@n
-    :param query_scores:
+    :param query_scores: оценки выдачи на запрос
     :param n: кол-во рассматриваемых результатов поиска
     :return: значение метрики
     """
     max_score = max(query_scores[:n])
-    scores = (np.power(2, np.array(query_scores[:n])) - 1) / (np.power(2, max_score) - 1)
+    scores = (np.power(2, np.array(query_scores[:n])) - 1) / np.power(2, max_score)
     error = 0
     r = 1
-
-    for i, score in enumerate(scores):
-        try:
-            p = score * mult(list(map(lambda x: 1 - x, scores[:i])))
-        except TypeError:
-            p = score
+    p = 1
+    for score in scores:
         error += p * score / r
+        p = p * (1-score)
         r += 1
     return error
 

@@ -2,7 +2,7 @@ from core import *
 from metrics import *
 import csv
 import sys
-
+from statistics import mean
 
 def parse_csv_file(filename):
     scores = []
@@ -48,5 +48,18 @@ if __name__ == "__main__":
             "ndcg": calculate_metrics(query_scores, ndcg),
             "err": calculate_metrics(query_scores, err)
         })
+    print("P@1:", mean([metrics_result["p"][0] for metrics_result in metrics_results]))
+    print("P@3:", mean([metrics_result["p"][1] for metrics_result in metrics_results]))
+    print("P@5:", mean([metrics_result["p"][2] for metrics_result in metrics_results]))
+    print("DCG@1:", mean([metrics_result["dcg"][0] for metrics_result in metrics_results]))
+    print("DCG@3:", mean([metrics_result["dcg"][1] for metrics_result in metrics_results]))
+    print("DCG@5:", mean([metrics_result["dcg"][2] for metrics_result in metrics_results]))
+    print("NDCG@1:", mean([metrics_result["ndcg"][0] for metrics_result in metrics_results]))
+    print("NDCG@3:", mean([metrics_result["ndcg"][1] for metrics_result in metrics_results]))
+    print("NDCG@5:", mean([metrics_result["ndcg"][2] for metrics_result in metrics_results]))
+    print("ERR@1:", mean([metrics_result["err"][0] for metrics_result in metrics_results]))
+    print("ERR@3:", mean([metrics_result["err"][1] for metrics_result in metrics_results]))
+    print("ERR@5:", mean([metrics_result["err"][2] for metrics_result in metrics_results]))
+
 
     write_to_csv_file(metrics_results, out_filename)
